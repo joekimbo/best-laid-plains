@@ -7612,8 +7612,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-1-53-1-1-21-1.pw.toml"
-hash = "26c0d2868854e8f552bd010508f0b2f41f397cdcccfc7a7699a4cbd45faccdc9"
+file = "mods/plainolpatches-1-60-0-1-21-1.pw.toml"
+hash = "dd4762d1407a96b4828ad8802cb293f77103873b4deb9c2f28bef9c5911f6742"
 metafile = true
 
 [[files]]
