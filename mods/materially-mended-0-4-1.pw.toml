@@ -1,0 +1,8 @@
+name = "materially-mended-0.4.1"
+filename = "materially-mended-0.4.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/materially-mended-0.4.1.jar"
+hash-format = "sha512"
+hash = "f0990a56202f1c1725f738e3741752ca3426c3881507070314e4371629fd3496bda23caf0689039db0ece6d41e009e99d3a94fa6595f292ac12f3a9d64d23262"

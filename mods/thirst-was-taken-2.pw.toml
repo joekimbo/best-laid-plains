@@ -1,0 +1,13 @@
+name = "Thirst Was Taken 2"
+filename = "ThirstWasTaken2-1.8.0+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/juge6qKH/versions/JPbliOcf/ThirstWasTaken2-1.8.0%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "607a1e631363c540cd71eb98079fdea2368e632817349fe2c5bbb0a07ac492cc9858aa2f1fe39a5328ff164c564ef621bcbc7a7975948e78c87645c0cdca3fd0"
+
+[update]
+[update.modrinth]
+mod-id = "juge6qKH"
+version = "JPbliOcf"

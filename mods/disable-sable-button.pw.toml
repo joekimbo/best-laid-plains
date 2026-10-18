@@ -1,0 +1,13 @@
+name = "Disable Sable Button"
+filename = "disablesablebutton-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HWYuHIgR/versions/fXNTTHnD/disablesablebutton-1.0.1.jar"
+hash-format = "sha512"
+hash = "c76c27925580df3a796edcfe9a760ffdd29a8aee4b856317cec71e906c8c2151e9a901b70e2509637930ee47c4e29b0d7b09be5251d3288f501b79a6332f8aa0"
+
+[update]
+[update.modrinth]
+mod-id = "HWYuHIgR"
+version = "fXNTTHnD"

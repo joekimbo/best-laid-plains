@@ -1,0 +1,65 @@
+{
+  "config_version": "2.0.38",
+  "config_datetime": "2026-09-21_02-00-14",
+  "general": {},
+  "structure_namespaces": [
+    {
+      "name": "global",
+      "enable_biome_check": true,
+      "biome_check_blacklisted_biomes": [
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "name": "minecraft:pillager_outpost",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_desert",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_jungle",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_mountain",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_ocean",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:ruined_portal_swamp",
+      "is_disabled": true
+    },
+    {
+      "name": "minecraft:shipwreck",
+      "is_disabled": true
+    },
+    {
+      "name": "ae2:meteorite",
+      "step": "underground_structures"
+    },
+    {
+      "name": "supplementaries:galleon",
+      "is_disabled": true
+    },
+    {
+      "name": "supplementaries:road_sign",
+      "is_disabled": true
+    }
+  ],
+  "structure_sets": [],
+  "structure_template_pools": []
+}

@@ -1,0 +1,1131 @@
+#Starting fullness, walking and move costs. Fullness uses a 0-100 scale.
+[fullness]
+	#Lowest starting fullness for a Pokemon first entering player storage.
+	# Default: 40
+	# Range: 0 ~ 100
+	initialMinimum = 40
+	#Highest starting fullness. Reversed bounds are sorted.
+	# Default: 70
+	# Range: 0 ~ 100
+	initialMaximum = 70
+	#Friendship lost per fullness point a Pokemon cannot pay. Luxury Balls halve it.
+	# Default: 2.0
+	# Range: 0.0 ~ 255.0
+	shortfallFriendshipRatio = 2.0
+	#Fullness per 100 blocks walked, sprinted or sneaked. Default: 0.5 per 30 seconds of walking. Zero disables walking costs.
+	# Default: 0.38607057370087255
+	# Range: 0.0 ~ 100.0
+	walkingPer100Blocks = 0.38607057370087255
+	#Only released or shoulder-mounted party Pokemon pay walking and upkeep costs.
+	releasedOnly = false
+	#Fullness for using a move's whole PP pool; each use costs this divided by max PP. Struggle counts as 5 PP.
+	# Default: 25.0
+	# Range: 0.0 ~ 100.0
+	movePoolCost = 25.0
+	#Apply move costs and hunger penalties in battles with players on both sides.
+	inPvP = false
+	#Walking cost multiplier for dual types.
+	# Default: 1.15
+	# Range: 0.0 ~ 10.0
+	dualTypeMultiplier = 1.15
+	#Ghost dual types pay walking costs. Pure Ghosts never do.
+	ghostDualTypesDrain = true
+	#Extra walking multiplier for Ghost dual types.
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	ghostDualTypeMultiplier = 0.5
+	#Fullness per online minute for a party Pokemon out of its ball, released or on your shoulder. Zero disables.
+	# Default: 0.2
+	# Range: 0.0 ~ 100.0
+	upkeepPerMinute = 0.2
+	#Extra fullness per minute while it is the traveling companion with at least one unlocked benefit.
+	# Default: 0.2
+	# Range: 0.0 ~ 100.0
+	companionUpkeepPerMinute = 0.2
+	#Party Pokemon in their balls pay this fraction of walking and upkeep costs.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	inBallMultiplier = 0.5
+	#Apply move costs and hunger penalties in battles with Cobblemon Comes Alive villagers.
+	inVillagerBattles = true
+
+#Food nutrition, diet bonuses and feeding rewards. Diets themselves are item tags in datapacks.
+[feeding]
+	#Minimum time per Pokemon between feeding rewards. 6000 = 5 minutes.
+	# Default: 6000
+	# Range: > 0
+	friendshipRewardIntervalTicks = 6000
+	#Recent distinct foods that earn no reward. Poor food does not count.
+	# Default: 10
+	# Range: 1 ~ 128
+	recentFoodHistorySize = 10
+	#Fullness per nutrition unit (hunger + saturation) before preference and metabolism.
+	# Default: 0.39215686274509803
+	# Range: 0.0 ~ 100.0
+	foodScale = 0.39215686274509803
+	#Nutrition multiplier for preferred foods.
+	# Default: 1.5
+	# Range: 1.0 ~ 10.0
+	preferredMultiplier = 1.5
+	#Replaces the preferred multiplier for Poison types' own favorites, dubious food included.
+	# Default: 4.0
+	# Range: 1.0 ~ 10.0
+	poisonPreferredMultiplier = 4.0
+	#Normal types get this much more from ordinary player food (not Ghost/Normal, not berries).
+	# Default: 1.1
+	# Range: 1.0 ~ 10.0
+	normalFoodMultiplier = 1.1
+	#Poor food cannot raise fullness above this. Always below the well-fed threshold.
+	# Default: 40
+	# Range: 0 ~ 79
+	poorNutritionCeiling = 40
+	#Nutrition units for edible non-foods with no specific or derived value.
+	# Default: 6.0
+	# Range: 0.0 ~ 1000.0
+	defaultSyntheticFoodValue = 6.0
+	#Fire fuel nutrition = coefficient * log2(1 + burn ticks / tick scale).
+	# Default: 4.0
+	# Range: 0.0 ~ 100.0
+	fuelCoefficient = 4.0
+	#Burn-time divisor in the fuel formula.
+	# Default: 200.0
+	# Range: 1.0 ~ 100000.0
+	fuelTickScale = 200.0
+	#Non-food compost nutrition = this * compost chance.
+	# Default: 10.0
+	# Range: 0.0 ~ 1000.0
+	compostValueAtFullChance = 10.0
+	#Varied, nourishing food occasionally earns Friendship.
+	friendshipRewards = true
+	#A party Pokemon eats food it is holding (one with no battle effect) once it is hungry, or when the whole meal fits without waste. Off: it never does.
+	heldFood = true
+	#A released Pokemon of yours turns its head to watch you while you hold a food it loves (a preferred food), only within beggingRange blocks. It never moves, makes a sound or shows anything else.
+	begging = true
+	#How close, in blocks, a Pokemon must be to notice the food you hold.
+	# Default: 4
+	# Range: 1 ~ 16
+	beggingRange = 4
+	#Seconds before the same Pokemon watches you again.
+	# Default: 20
+	# Range: 0 ~ 3600
+	beggingCooldownSeconds = 20
+	#How long you must hold the food before a Pokemon notices. 20 = 1 second.
+	# Default: 20
+	# Range: 0 ~ 400
+	beggingHoldTicks = 20
+	#Nutrition multiplier for Dark types eating dubious food (their poor diet), which gives very little on its own.
+	# Default: 4.0
+	# Range: 1.0 ~ 10.0
+	darkDubiousMultiplier = 4.0
+
+	#Potion nutrition units, before food scale and metabolism. Diet permission is still required.
+	[feeding.potions]
+		#Plain water bottles, Water types only (poor nutrition).
+		# Default: 2.0
+		# Range: 0.0 ~ 1000.0
+		water = 2.0
+		#Awkward potions.
+		# Default: 0.25
+		# Range: 0.0 ~ 1000.0
+		awkward = 0.25
+		#Base effect potions and unrecognized effect potions.
+		# Default: 6.0
+		# Range: 0.0 ~ 1000.0
+		base = 6.0
+		#Redstone-extended potions.
+		# Default: 9.0
+		# Range: 0.0 ~ 1000.0
+		extended = 9.0
+		#Glowstone-amplified potions.
+		# Default: 12.0
+		# Range: 0.0 ~ 1000.0
+		amplified = 12.0
+
+	#Advanced: higher metabolism means a Pokemon needs more food. Depends on base stat total only.
+	[feeding.metabolism]
+		#Divisor for total base stats.
+		# Default: 450.0
+		# Range: 1.0 ~ 10000.0
+		bstScale = 450.0
+		#How strongly base stats change metabolism. 1 is proportional.
+		# Default: 1.0
+		# Range: 0.0 ~ 2.0
+		bstExponent = 1.0
+		#Highest metabolic factor.
+		# Default: 2.0
+		# Range: 0.01 ~ 10.0
+		maximum = 2.0
+		#Lowest metabolic factor.
+		# Default: 0.4
+		# Range: 0.01 ~ 10.0
+		minimum = 0.4
+		#Metabolic factor of a Pokemon whose base stat total equals the base stat scale.
+		# Default: 0.83
+		# Range: 0.01 ~ 10.0
+		scale = 0.83
+
+	#Released party Pokemon feed themselves from food in their own diet near their trainer.
+	[feeding.foraging]
+		#Released party Pokemon eat food they find near their trainer. Pastured Pokemon never do.
+		enabled = true
+		#How far from its trainer a Pokemon looks for food, in blocks.
+		# Default: 15.0
+		# Range: 1.0 ~ 64.0
+		radius = 15.0
+		#Preferred and ordinary food is foraged below this fullness.
+		# Default: 60
+		# Range: 0 ~ 100
+		goodFoodBelow = 60
+		#Poor food is foraged below this fullness.
+		# Default: 40
+		# Range: 0 ~ 100
+		poorFoodBelow = 40
+		#Food on the ground is fair game once it has lain there this long. 300 = 15 seconds.
+		# Default: 300
+		# Range: 0 ~ 6000
+		itemAgeTicks = 300
+		#Also pick ripe plants that stay planted (block tag cobblecare:forage: sweet and glow berries, tomatoes, tree fruit).
+		plants = true
+
+#Well-fed and hunger thresholds, their rewards and penalties.
+[thresholds]
+	#Fullness at or above this is well fed.
+	# Default: 80
+	# Range: 1 ~ 100
+	wellFed = 80
+	#Fullness at or below this is hungry. Always below well fed.
+	# Default: 20
+	# Range: 0 ~ 99
+	hungry = 20
+	#Severely hungry Pokemon suffer one random stat drop on entering battle.
+	severeHungerEnabled = true
+	#Fullness at or below this is severe hunger. Capped by the hungry threshold.
+	# Default: 10
+	# Range: 0 ~ 99
+	severeHunger = 10
+	#Earned XP multiplier while well fed.
+	# Default: 1.25
+	# Range: 1.0 ~ 10.0
+	wellFedXpMultiplier = 1.25
+	#Earned Friendship multiplier while well fed, randomly rounded.
+	# Default: 1.25
+	# Range: 1.0 ~ 10.0
+	wellFedFriendshipMultiplier = 1.25
+	#Friendship lost per online minute while hungry.
+	# Default: 1.0
+	# Range: 0.0 ~ 255.0
+	hungryFriendshipPerMinute = 1.0
+	#Hunger Friendship loss multiplier at or below the severe hunger threshold.
+	# Default: 1.5
+	# Range: 1.0 ~ 10.0
+	veryHungryFriendshipMultiplier = 1.5
+	#Hunger Friendship loss multiplier at zero fullness. Unpaid costs already take Friendship on top, so it needn't exceed very hungry.
+	# Default: 1.5
+	# Range: 1.0 ~ 10.0
+	starvingFriendshipMultiplier = 1.5
+	#A hungry Pokemon that is out of its ball puffs a few coloured particles every few seconds (every 5 s hungry, 4 s very hungry, 3 s starving).
+	hungerParticles = true
+
+#Move disobedience at zero fullness. Switching and bag items stay available.
+[disobedience]
+	#Chance per chosen move at zero fullness to disobey. Zero disables.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	chance = 0.25
+	#Chance a disobedient Pokemon loafs instead of using another move.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	loafChance = 0.5
+
+#Friendship XP scaling, battle affection and trades.
+[friendship]
+	#Apply Friendship effects (XP curve, affection, battle wins and forfeits) in PvP battles.
+	inPvP = false
+	#Traded Pokemon settle halfway between their Friendship and their species' base, e.g. 255 becomes 152 with base 50.
+	tradeHalving = true
+	#Friendship when you brush, milk, bottle, shear or bone-meal your own Pokemon. Zero disables.
+	# Default: 3
+	# Range: 0 ~ 10
+	interactionFriendship = 3
+	#Per Pokemon and per kind of interaction, the wait before it earns Friendship again.
+	# Default: 6000
+	# Range: 0 ~ 72000
+	interactionCooldownTicks = 6000
+	#Apply Friendship effects (XP curve, affection, battle wins and forfeits) in battles with Cobblemon Comes Alive villagers.
+	inVillagerBattles = true
+	#Friendship when a heal restores HP, status or PP to a Pokemon in your party or PC. Zero disables.
+	# Default: 1
+	# Range: 0 ~ 10
+	healFriendship = 1
+	#Per Pokemon, the wait before healing earns Friendship again. 1200 = 60 seconds.
+	# Default: 1200
+	# Range: 0 ~ 72000
+	healCooldownTicks = 1200
+	#Friendship for each Pokemon that faced an opponent when you win a battle.
+	# Default: 1
+	# Range: 0 ~ 10
+	battleWinFriendship = 1
+	#Friendship lost by each Pokemon that faced an opponent when you forfeit a battle. Luxury Balls halve it.
+	# Default: 2
+	# Range: 0 ~ 10
+	forfeitFriendship = 2
+
+	#Earned XP multipliers interpolated between Friendship 0, 128 and 255.
+	[friendship.experience]
+		#Scale earned XP with Friendship. The well-fed bonus is separate.
+		enabled = true
+		#XP multiplier at Friendship 0.
+		# Default: 0.36
+		# Range: 0.0 ~ 10.0
+		atZero = 0.36
+		#XP multiplier at Friendship 128.
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		at128 = 1.0
+		#XP multiplier at Friendship 255.
+		# Default: 1.64
+		# Range: 0.0 ~ 10.0
+		at255 = 1.64
+
+	#Affection-style battle effects for player Pokemon, scaling from the minimum Friendship to 255.
+	[friendship.battle]
+		#Status shrug-off, endure and critical-hit bonuses.
+		enabled = true
+		#Friendship where the effects begin; they reach full strength at 255.
+		# Default: 128
+		# Range: 0 ~ 255
+		minimumFriendship = 128
+		#End-of-turn chance at 255 Friendship to shrug off a non-volatile status.
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		statusCureChance = 0.2
+		#Chance at 255 Friendship to survive an otherwise fatal hit at 1 HP, once per battle.
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		endureChance = 0.15
+		#Chance at 255 Friendship for an attack to gain +1 critical-hit stage.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		critStageChance = 1.0
+
+#Online party HP, PP and faint recovery. Nothing banks while offline or in storage.
+[recovery]
+	#Use Cobblecare's recovery. Disabling restores Cobblemon's native HP and faint recovery.
+	enabled = true
+	#Fraction of max HP recovered per minute before modifiers. Zero disables.
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	hpFractionPerMinute = 0.01
+	#Added HP recovery multiplier at 255 Friendship.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	hpBonusAtMaxFriendship = 1.0
+	#HP recovery multiplier at zero fullness.
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	hpFactorAtZeroFullness = 0.5
+	#Well-fed seconds per PP restored to a depleted move. Zero disables.
+	# Default: 120
+	# Range: 0 ~ 86400
+	ppIntervalSeconds = 120
+	#Seconds to revive at 1 HP with zero Friendship. Zero disables.
+	# Default: 300
+	# Range: 0 ~ 86400
+	faintSeconds = 300
+	#Fraction of faint recovery time removed at 255 Friendship.
+	# Default: 0.5
+	# Range: 0.0 ~ 0.99
+	faintTimeReductionAtMaxFriendship = 0.5
+	#Added HP recovery multiplier at 100 fullness.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	hpFactorAddedAtFullFullness = 1.0
+
+#The first released party Pokemon (shoulder mounts included) is your traveling companion.
+[companion]
+	#Master switch for every traveling-companion effect.
+	fieldEffectsEnabled = true
+	#Advanced: interval for periodic effects.
+	# Default: 20
+	# Range: 1 ~ 1200
+	effectPulseTicks = 20
+	#Advanced: maximum interval between companion scans.
+	# Default: 20
+	# Range: 1 ~ 1200
+	refreshTicks = 20
+	#Strength of each effect for dual types.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	dualTypeFieldEffectMultiplier = 0.5
+
+	#Each effect has its own switch and Friendship requirement. Strength = Friendship / 255, scaled for dual types.
+	[companion.types]
+
+		#Electric
+		[companion.types.electric]
+
+			#A field that pulls drops you have room for toward you, faster as they get closer, over walls of air but not through blocks.
+			[companion.types.electric.magnetism]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Field radius in blocks at the minimum Friendship.
+				# Default: 4.0
+				# Range: 0.0 ~ 16.0
+				minimumRadius = 4.0
+				#Field radius in blocks at 255 Friendship.
+				# Default: 12.0
+				# Range: 0.0 ~ 16.0
+				maximumRadius = 12.0
+				#Pull at the edge of the field, in blocks per tick per tick. It grows with the inverse square of distance.
+				# Default: 0.015
+				# Range: 0.0 ~ 1.0
+				edgeAcceleration = 0.015
+				#Strongest pull, close to the trainer.
+				# Default: 0.12
+				# Range: 0.0 ~ 1.0
+				maximumAcceleration = 0.12
+				#Fastest an item is pulled, in blocks per tick.
+				# Default: 0.8
+				# Range: 0.01 ~ 2.0
+				maximumSpeed = 0.8
+
+		#Rock
+		[companion.types.rock]
+
+			#Less fall damage and knockback.
+			[companion.types.rock.stability]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Fall damage prevented at maximum strength.
+				# Default: 0.3
+				# Range: 0.0 ~ 1.0
+				maximumFallReduction = 0.3
+				#Knockback prevented at maximum strength.
+				# Default: 0.3
+				# Range: 0.0 ~ 1.0
+				maximumKnockbackReduction = 0.3
+
+			#Chance of one extra drop from any ore (the #c:ores tag: metals, coal, gems, redstone, lapis, quartz); needs a suitable tool, excludes Silk Touch.
+			[companion.types.rock.mineralYield]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Chance of one extra drop at maximum strength.
+				# Default: 0.1
+				# Range: 0.0 ~ 1.0
+				maximumExtraDropChance = 0.1
+
+		#Steel
+		[companion.types.steel]
+
+			#Faster mining with suitable tools; less equipment wear.
+			[companion.types.steel.equipment]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Faster mining with suitable tools at maximum strength.
+				# Default: 0.15
+				# Range: 0.0 ~ 2.0
+				maximumMiningBonus = 0.15
+				#Chance to prevent each point of equipment wear at maximum strength.
+				# Default: 0.2
+				# Range: 0.0 ~ 1.0
+				maximumDurabilityPreservation = 0.2
+
+		#Bug
+		[companion.types.bug]
+
+			#Drive creepers and spiders away outside a close engagement range.
+			[companion.types.bug.deterrence]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#How long a mob may fight back after you attack it.
+				# Default: 600
+				# Range: 0 ~ 24000
+				retaliationTicks = 600
+				#Navigation speed of retreating mobs.
+				# Default: 1.2
+				# Range: 0.1 ~ 3.0
+				fleeSpeedMultiplier = 1.2
+				#Deterrence radius at the minimum Friendship.
+				# Default: 16.0
+				# Range: 0.0 ~ 64.0
+				minimumRadius = 16.0
+				#Deterrence radius at 255 Friendship.
+				# Default: 48.0
+				# Range: 0.0 ~ 64.0
+				maximumRadius = 48.0
+				#Inside this range mobs may engage normally.
+				# Default: 3.0
+				# Range: 0.0 ~ 16.0
+				engagementRange = 3.0
+
+		#Poison
+		[companion.types.poison]
+
+			#Shorten harmful effects on you; periodically poison nearby hostiles.
+			[companion.types.poison.presence]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Fraction removed from new harmful effects on you at maximum strength.
+				# Default: 0.3
+				# Range: 0.0 ~ 1.0
+				maximumHarmfulDurationReduction = 0.3
+				#Reach of the poison aura, in blocks, to visible hostiles.
+				# Default: 6.0
+				# Range: 0.0 ~ 16.0
+				auraRadius = 6.0
+				#Hostiles poisoned per pulse. Zero disables the aura.
+				# Default: 3
+				# Range: 0 ~ 16
+				maximumTargets = 3
+				#0 = Poison I, 1 = Poison II.
+				# Default: 1
+				# Range: 0 ~ 4
+				poisonAmplifier = 1
+				#Poison duration per application.
+				# Default: 160
+				# Range: 1 ~ 1200
+				poisonDurationTicks = 160
+				#Ticks between pulses at the minimum Friendship.
+				# Default: 320
+				# Range: 20 ~ 24000
+				intervalAtMinimumFriendship = 320
+				#Ticks between pulses at 255 Friendship.
+				# Default: 160
+				# Range: 20 ~ 24000
+				intervalAtMaximumFriendship = 160
+
+		#Fighting
+		[companion.types.fighting]
+
+			#Hostile combat grants Rally: extra attack damage that stacks with Strength.
+			[companion.types.fighting.rally]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 128
+				# Range: 0 ~ 255
+				minimumFriendship = 128
+				#Cooldown per Pokemon after a successful use.
+				# Default: 1200
+				# Range: 0 ~ 72000
+				cooldownTicks = 1200
+				#Fullness spent on a successful use. Missing fullness costs Friendship.
+				# Default: 4.0
+				# Range: 0.0 ~ 100.0
+				fullnessCost = 4.0
+				#Rally duration at maximum strength.
+				# Default: 160
+				# Range: 1 ~ 12000
+				maximumDurationTicks = 160
+
+		#Flying
+		[companion.types.flying]
+
+			#Predict dangerous landings and apply Slow Falling.
+			[companion.types.flying.rescue]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 128
+				# Range: 0 ~ 255
+				minimumFriendship = 128
+				#Cooldown per Pokemon after a successful use.
+				# Default: 2400
+				# Range: 0 ~ 72000
+				cooldownTicks = 2400
+				#Fullness spent on a successful use. Missing fullness costs Friendship.
+				# Default: 12.0
+				# Range: 0.0 ~ 100.0
+				fullnessCost = 12.0
+				#How far ahead to predict a damaging landing.
+				# Default: 40
+				# Range: 1 ~ 100
+				lookaheadTicks = 40
+				#Downward speed in blocks per tick before predicting.
+				# Default: 0.5
+				# Range: 0.05 ~ 4.0
+				minimumFallSpeed = 0.5
+				#Slow Falling duration at maximum strength.
+				# Default: 400
+				# Range: 1 ~ 12000
+				maximumDurationTicks = 400
+
+		#Fairy
+		[companion.types.fairy]
+
+			#Regeneration when damage takes you below half health.
+			[companion.types.fairy.rescue]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 128
+				# Range: 0 ~ 255
+				minimumFriendship = 128
+				#Regeneration I duration at maximum strength.
+				# Default: 300
+				# Range: 1 ~ 12000
+				maximumDurationTicks = 300
+				#Cooldown at the minimum Friendship.
+				# Default: 6000
+				# Range: 0 ~ 72000
+				cooldownAtMinimumFriendship = 6000
+				#Cooldown at 255 Friendship.
+				# Default: 2400
+				# Range: 0 ~ 72000
+				cooldownAtMaximumFriendship = 2400
+				#Fullness spent on a successful rescue.
+				# Default: 8.0
+				# Range: 0.0 ~ 100.0
+				fullnessCost = 8.0
+
+			#Faster party HP recovery and occasional status cures.
+			[companion.types.fairy.care]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Extra passive party HP recovery at maximum strength.
+				# Default: 0.5
+				# Range: 0.0 ~ 10.0
+				maximumHealingBonus = 0.5
+				#Ticks between status cures at the minimum Friendship.
+				# Default: 6000
+				# Range: 20 ~ 72000
+				cureIntervalAtMinimumFriendship = 6000
+				#Ticks between status cures at 255 Friendship.
+				# Default: 2400
+				# Range: 20 ~ 72000
+				cureIntervalAtMaximumFriendship = 2400
+
+		#Water
+		[companion.types.water]
+
+			#Lava rescue: temporary water, or Fire Resistance where water cannot exist.
+			[companion.types.water.rescue]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 128
+				# Range: 0 ~ 255
+				minimumFriendship = 128
+				#Cooldown per Pokemon after a successful use.
+				# Default: 2400
+				# Range: 0 ~ 72000
+				cooldownTicks = 2400
+				#Fullness spent on a successful use. Missing fullness costs Friendship.
+				# Default: 10.0
+				# Range: 0.0 ~ 100.0
+				fullnessCost = 10.0
+				#Lifetime of the rescue water, or Fire Resistance, at maximum strength.
+				# Default: 300
+				# Range: 1 ~ 12000
+				maximumDurationTicks = 300
+
+			#Put out ordinary burning for free.
+			[companion.types.water.extinguish]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+
+			#Shorter waits for a bite, including Poke Rods.
+			[companion.types.water.fishing]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Fraction of the wait for a bite removed at maximum strength.
+				# Default: 0.4
+				# Range: 0.0 ~ 0.95
+				maximumBiteTimeReduction = 0.4
+
+		#Normal
+		[companion.types.normal]
+
+			#Better gift odds and quality, never extra gift rolls.
+			[companion.types.normal.partner]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Gift chance bonus at maximum strength. 0.5 = 50% more likely.
+				# Default: 0.5
+				# Range: 0.0 ~ 10.0
+				maximumGiftChanceBonus = 0.5
+				#Chance at maximum strength that a gift comes from the rare table.
+				# Default: 0.25
+				# Range: 0.0 ~ 1.0
+				maximumRareGiftChance = 0.25
+
+		#Fire
+		[companion.types.fire]
+
+			#Resist freezing; move faster in the Nether.
+			[companion.types.fire.warmth]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Fraction of freezing buildup prevented at maximum strength. 1 = immune.
+				# Default: 1.0
+				# Range: 0.0 ~ 1.0
+				maximumFreezeResistance = 1.0
+				#Movement speed bonus in the Nether at maximum strength.
+				# Default: 0.1
+				# Range: 0.0 ~ 1.0
+				netherSpeedBonus = 0.1
+
+			#The companion glows. Needs LambDynamicLights on the client; light fades from the level at its center to nothing at the radius.
+			[companion.types.fire.light]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Light level at the minimum Friendship.
+				# Default: 8
+				# Range: 0 ~ 15
+				minimumLevel = 8
+				#Light level at 255 Friendship.
+				# Default: 14
+				# Range: 0 ~ 15
+				maximumLevel = 14
+				#Light radius in blocks at the minimum Friendship.
+				# Default: 8.0
+				# Range: 0.0 ~ 32.0
+				minimumRadius = 8.0
+				#Light radius in blocks at 255 Friendship.
+				# Default: 12.0
+				# Range: 0.0 ~ 32.0
+				maximumRadius = 12.0
+
+		#Grass
+		[companion.types.grass]
+
+			#Chance of one extra drop from grown crops and berries you harvest.
+			[companion.types.grass.harvest]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Chance of one extra drop at maximum strength.
+				# Default: 0.25
+				# Range: 0.0 ~ 1.0
+				maximumExtraDropChance = 0.25
+
+		#Ice
+		[companion.types.ice]
+
+			#Resist freezing; move faster while it snows and on snow or ice.
+			[companion.types.ice.winter]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Fraction of freezing buildup prevented at maximum strength. 1 = immune.
+				# Default: 1.0
+				# Range: 0.0 ~ 1.0
+				maximumFreezeResistance = 1.0
+				#Movement speed bonus at maximum strength while it snows on you, and again on snow or ice; the two stack.
+				# Default: 0.1
+				# Range: 0.0 ~ 1.0
+				snowSpeedBonus = 0.1
+
+			#Walk on powder snow; sneak toward water to freeze a temporary path.
+			[companion.types.ice.frost]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 128
+				# Range: 0 ~ 255
+				minimumFriendship = 128
+				#Cooldown per Pokemon after a successful use.
+				# Default: 600
+				# Range: 0 ~ 72000
+				cooldownTicks = 600
+				#Fullness spent on a successful use. Missing fullness costs Friendship.
+				# Default: 2.0
+				# Range: 0.0 ~ 100.0
+				fullnessCost = 2.0
+				#How long a frost path keeps forming at maximum strength.
+				# Default: 200
+				# Range: 20 ~ 6000
+				durationTicks = 200
+
+		#Ground
+		[companion.types.ground]
+
+			#Notice nearby ore without waypoints or height information.
+			[companion.types.ground.prospecting]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Search radius at the minimum Friendship.
+				# Default: 6.0
+				# Range: 0.0 ~ 32.0
+				radiusAtMinimumFriendship = 6.0
+				#Search radius at 255 Friendship.
+				# Default: 24.0
+				# Range: 0.0 ~ 32.0
+				radiusAtMaximumFriendship = 24.0
+				#Ticks between searches at the minimum Friendship.
+				# Default: 600
+				# Range: 20 ~ 72000
+				intervalAtMinimumFriendship = 600
+				#Ticks between searches at 255 Friendship.
+				# Default: 200
+				# Range: 20 ~ 72000
+				intervalAtMaximumFriendship = 200
+				#How long the companion looks toward found ore.
+				# Default: 80
+				# Range: 1 ~ 1200
+				lookDurationTicks = 80
+				#Advanced: positions examined per server tick across all searches.
+				# Default: 4096
+				# Range: 1 ~ 65536
+				scanPositionsPerTick = 4096
+
+		#Psychic
+		[companion.types.psychic]
+
+			#Outline monsters you can't see, to you alone, including neutral ones such as Endermen.
+			[companion.types.psychic.detection]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Nearest monsters revealed at once.
+				# Default: 64
+				# Range: 0 ~ 128
+				maximumTargets = 64
+				#Detection range at the minimum Friendship.
+				# Default: 16.0
+				# Range: 0.0 ~ 128.0
+				minimumRadius = 16.0
+				#Detection range at 255 Friendship.
+				# Default: 64.0
+				# Range: 0.0 ~ 128.0
+				maximumRadius = 64.0
+				#How long an outline takes to appear once a monster is in range.
+				# Default: 20
+				# Range: 1 ~ 1200
+				fadeInTicks = 20
+				#How long an outline takes to fade once the monster leaves range (or comes into sight, with the client option psychicHiddenOnly).
+				# Default: 100
+				# Range: 1 ~ 1200
+				fadeOutTicks = 100
+
+		#Ghost
+		[companion.types.ghost]
+
+			#Faster sneaking and less Soul Sand slowdown.
+			[companion.types.ghost.movement]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Added fraction of walking speed while sneaking at maximum strength.
+				# Default: 0.2
+				# Range: 0.0 ~ 0.7
+				maximumSneakBonus = 0.2
+				#Fraction of Soul Sand slowdown removed at maximum strength.
+				# Default: 1.0
+				# Range: 0.0 ~ 1.0
+				maximumSoulSlowdownRelief = 1.0
+
+			#Sneak into a wall to phase through solid blocks.
+			[companion.types.ghost.phasing]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Sneak into a wall while looking at it for longer than this.
+				# Default: 20
+				# Range: 1 ~ 1200
+				activationTicks = 20
+				#Phasing buff length at minimum strength. While it lasts, sneak to pass through walls; no suffocation.
+				# Default: 90
+				# Range: 1 ~ 6000
+				minimumDurationTicks = 90
+				#Phasing buff length at maximum strength.
+				# Default: 300
+				# Range: 1 ~ 6000
+				maximumDurationTicks = 300
+				#Fullness spent on each activation. A new activation is refused while the buff lasts.
+				# Default: 16.0
+				# Range: 0.0 ~ 100.0
+				fullnessCost = 16.0
+
+			#Return a trapped trainer below half health to where phasing began, once per phase.
+			[companion.types.ghost.rescue]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Fullness spent on a rescue. No cooldown of its own: each phase allows one rescue.
+				# Default: 16.0
+				# Range: 0.0 ~ 100.0
+				fullnessCost = 16.0
+
+		#Dragon
+		[companion.types.dragon]
+
+			#Chance to promote your natural spawns by one rarity tier.
+			[companion.types.dragon.presence]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Chance at maximum strength to promote a natural spawn by one rarity tier.
+				# Default: 0.2
+				# Range: 0.0 ~ 1.0
+				maximumPromotionChance = 0.2
+
+		#Dark
+		[companion.types.dark]
+
+			#Virtual Looting on hostile mobs you kill.
+			[companion.types.dark.looting]
+				#Enable this effect. The companion master switch must also be on.
+				enabled = true
+				#Friendship required (0-255).
+				# Default: 64
+				# Range: 0 ~ 255
+				minimumFriendship = 64
+				#Virtual Looting at maximum strength; fractions sometimes act as the next level.
+				# Default: 2.0
+				# Range: 0.0 ~ 5.0
+				maximumVirtualLooting = 2.0
+				#Virtual Looting never exceeds this. It adds to real Looting.
+				# Default: 3
+				# Range: 0 ~ 10
+				lootingCap = 3
+
+#Type-specific walking discounts. Only the strongest applicable discount is used.
+[environment]
+
+	#Walking discount for fire types in this environment.
+	[environment.fire_nether]
+		#Apply this walking discount.
+		enabled = true
+		#Fraction of the normal walking cost. 0.5 = half cost.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		multiplier = 0.5
+
+	#Walking discount for water types in this environment.
+	[environment.water_submerged]
+		#Apply this walking discount.
+		enabled = true
+		#Fraction of the normal walking cost. 0.5 = half cost.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		multiplier = 0.5
+
+	#Walking discount for water types in this environment.
+	[environment.water_rain]
+		#Apply this walking discount.
+		enabled = true
+		#Fraction of the normal walking cost. 0.5 = half cost.
+		# Default: 0.75
+		# Range: 0.0 ~ 1.0
+		multiplier = 0.75
+
+	#Walking discount for ice types in this environment.
+	[environment.ice_snow]
+		#Apply this walking discount.
+		enabled = true
+		#Fraction of the normal walking cost. 0.5 = half cost.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		multiplier = 0.5
+
+	#Walking discount for grass types in this environment.
+	[environment.grass_day_sky]
+		#Apply this walking discount.
+		enabled = true
+		#Fraction of the normal walking cost. 0.5 = half cost.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		multiplier = 0.5
+
+	#Walking discount for electric types in this environment.
+	[environment.electric_thunder]
+		#Apply this walking discount.
+		enabled = true
+		#Fraction of the normal walking cost. 0.5 = half cost.
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		multiplier = 0.1
+
+	#Walking discount for dark types in this environment.
+	[environment.dark_night_sky]
+		#Apply this walking discount.
+		enabled = true
+		#Fraction of the normal walking cost. 0.5 = half cost.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		multiplier = 0.5
+
+	#Walking discount for rock types in this environment.
+	[environment.rock_underground]
+		#Apply this walking discount.
+		enabled = true
+		#Fraction of the normal walking cost. 0.5 = half cost.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		multiplier = 0.5
+
+	#Walking discount for psychic types in this environment.
+	[environment.psychic_end]
+		#Apply this walking discount.
+		enabled = true
+		#Fraction of the normal walking cost. 0.5 = half cost.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		multiplier = 0.5
+
+#Mounts spend fullness as they spend stamina. Friendship from 128 to 255 makes stamina last longer.
+[riding]
+	#Fullness spent when a land mount sprints through its whole stamina bar. Partial use costs proportionally.
+	# Default: 10.0
+	# Range: 0.0 ~ 100.0
+	landFullnessPerStaminaBar = 10.0
+	#Fullness spent when a swimming mount uses its whole stamina bar.
+	# Default: 5.0
+	# Range: 0.0 ~ 100.0
+	liquidFullnessPerStaminaBar = 5.0
+	#Fullness spent when a flying mount uses its whole stamina bar, before the flight-style multiplier. Birds drain stamina whenever they fly.
+	# Default: 5.0
+	# Range: 0.0 ~ 100.0
+	airFullnessPerStaminaBar = 5.0
+	#Exertion cost while a land mount travels without spending stamina.
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	landFullnessPer100Blocks = 0.5
+	#Exertion cost while a swimming mount travels without spending stamina.
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	liquidFullnessPer100Blocks = 0.5
+	#Exertion cost while a flying mount travels without spending stamina.
+	# Default: 0.75
+	# Range: 0.0 ~ 100.0
+	airFullnessPer100Blocks = 0.75
+	#Flight-style multiplier for jet mounts.
+	# Default: 1.5
+	# Range: 0.0 ~ 10.0
+	jetMultiplier = 1.5
+	#Flight-style multiplier for rocket mounts.
+	# Default: 1.25
+	# Range: 0.0 ~ 10.0
+	rocketMultiplier = 1.25
+	#Flight-style multiplier for bird mounts.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	birdMultiplier = 1.0
+	#Flight-style multiplier for hover, helicopter and glider mounts.
+	# Default: 0.75
+	# Range: 0.0 ~ 10.0
+	hoverMultiplier = 0.75
+	#Stamina saved at 255 Friendship on land, scaling from 128. 0.2 = 20% less stamina used.
+	# Default: 0.2
+	# Range: 0.0 ~ 0.9
+	landMaxEfficiency = 0.2
+	#Stamina saved at 255 Friendship while swimming.
+	# Default: 0.2
+	# Range: 0.0 ~ 0.9
+	liquidMaxEfficiency = 0.2
+	#Stamina saved at 255 Friendship while flying.
+	# Default: 0.2
+	# Range: 0.0 ~ 0.9
+	airMaxEfficiency = 0.2
+
+#EV mochi become battle-long training buffs instead of instant EVs. Fresh-Start Mochi is unchanged.
+[mochi]
+	#Replace native EV mochi with battle buffs. Disable to restore Cobblemon's instant +4 EVs.
+	enabled = true
+	#Fullness per mochi at metabolic factor 1, divided by the Pokemon's metabolism like all food (direct points, not food value). Counts as regular diet.
+	# Default: 4.0
+	# Range: 0.0 ~ 100.0
+	fullness = 4.0
+	#Battle EVs of the mochi's stat are multiplied by this. Other EVs convert to that stat unmultiplied.
+	# Default: 3
+	# Range: 1 ~ 10
+	matchingEvMultiplier = 3
+	#Battles each mochi lasts. More of the same mochi extend it; a different mochi replaces it.
+	# Default: 1
+	# Range: 1 ~ 100
+	battlesPerMochi = 1
+
+#Released party Pokemon with enough Friendship occasionally find gifts while you walk.
+[gifts]
+	#Enable gift finding.
+	enabled = true
+	#Walked blocks between gift checks. One check per interval no matter how many Pokemon are out.
+	# Default: 500
+	# Range: 10 ~ 100000
+	blocksPerCheck = 500
+	#A released party Pokemon needs this much Friendship to find gifts.
+	# Default: 128
+	# Range: 0 ~ 255
+	minimumFriendship = 128
+	#Gift chance per check at the minimum Friendship.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	chanceAtMinimumFriendship = 0.05
+	#Gift chance per check at 255 Friendship.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	chanceAtMaximumFriendship = 0.25

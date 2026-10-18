@@ -1,0 +1,75 @@
+[commands]
+	#Permission level required for every /prospecting subcommand (Spec §30).
+	# Default: 2
+	# Range: 0 ~ 4
+	permissionLevel = 2
+	#Maximum search radius in blocks for /prospecting locate.
+	# Default: 50000
+	# Range: 1000 ~ 1000000
+	locateMaxRadius = 50000
+	#Rate limit for /prospecting visualize: particle points per refresh.
+	# Default: 1200
+	# Range: 50 ~ 5000
+	visualizeMaxPoints = 1200
+	#Rate limit for /prospecting visualize: maximum distance to the deposit centre.
+	# Default: 600
+	# Range: 16 ~ 4096
+	visualizeMaxDistance = 600
+	#Rate limit for /prospecting visualize: duration in seconds.
+	# Default: 20
+	# Range: 1 ~ 120
+	visualizeSeconds = 20
+	#Time budget for /prospecting locate. The search runs off the server thread and stops after this
+	#many seconds, reporting how far it got and the nearest deposit seen so far.
+	# Default: 15
+	# Range: 1 ~ 600
+	locateTimeoutSeconds = 15
+
+[worldgen]
+	#Master switch for Prospecting's block placement (ore bodies). Off = plain terrain,
+	#useful for measuring Prospecting's cost against the same world without it.
+	enabled = true
+	#When the world's generator enables vanilla large ore veins (FreeTerraForged preset 'largeOreVeins'),
+	#suppress them and instead make every deposit 25% larger by volume at the same ore density.
+	#Changing this in an existing world changes new chunks (the world fingerprint will warn).
+	replaceLargeOreVeins = true
+	#Multiplies every deposit's terrain and climate preferences (terrain_affinity): how much more
+	#often iron forms in high country, diamond under wet ground, redstone under dry ground, and so on.
+	#0 = deposits ignore terrain and climate (depth, geology and realm still apply); 1 = as the definitions say;
+	#2 = twice as strong in log terms. Values much above 1.5 run into each definition's occurrence cap.
+	#Deposit counts shift somewhat with this setting. Changing it in an existing world changes new chunks
+	#(the world fingerprint will warn).
+	# Default: 1.0
+	# Range: 0.0 ~ 3.0
+	terrainPreferenceStrength = 1.0
+
+[samples]
+	#Place surface samples above deposits (Spec §19). Requires worldgen.enabled.
+	enabled = true
+	#Expected samples per chunk per unit of trace signal (before per-chunk caps).
+	#Signal is about 1 directly above a typical deposit near the surface.
+	# Default: 2.0
+	# Range: 0.0 ~ 16.0
+	rate = 2.0
+	#Samples are not placed where the ground rises more than this many blocks per block.
+	# Default: 1.25
+	# Range: 0.0 ~ 16.0
+	maxSlope = 1.25
+
+[nodes]
+	#Share of an ore pod's ore (the pod plus its halo pods' crushed ore, in ore-block equivalents)
+	#that the extraction node at its centre holds (Spec §28.3). A deposit definition's node.reserve_share overrides it.
+	#Applies to nodes generated after the change.
+	# Default: 0.5
+	# Range: 0.001 ~ 1.0
+	podReserveShare = 0.5
+	#Most extraction nodes one deposit gets. The richest ore pods are offered a node first, each
+	#taking it with the definition's node.chance, until this many have one. Applies to nodes generated after the change.
+	# Default: 10
+	# Range: 0 ~ 256
+	maxPerDeposit = 10
+
+[maps]
+	#When a surface sample is picked up or otherwise leaves the world, remove its mark from every
+	#Prospecting Map that marked it. Off: marks stay until the player unmarks them or rubs the map clean.
+	forgetClearedSamples = false

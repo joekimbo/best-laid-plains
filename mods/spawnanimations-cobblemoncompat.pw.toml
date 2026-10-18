@@ -1,0 +1,13 @@
+name = "Spawn Animations Cobblemon Compat"
+filename = "SpawnAnimsCobblemonCompat-1.0.3+poof_mod.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/49Qa4WIf/versions/R1BLFGcD/SpawnAnimsCobblemonCompat-1.0.3%2Bpoof_mod.jar"
+hash-format = "sha512"
+hash = "647781f85c544aa8a4c7b24d7a975382b177eb2734202f0da5a9360f47ddf94553bdbfc4ffbb79c27a2638610e2929ba073074bd5657c42489289accd74b9b8a"
+
+[update]
+[update.modrinth]
+mod-id = "49Qa4WIf"
+version = "R1BLFGcD"

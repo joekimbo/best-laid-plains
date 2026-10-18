@@ -1,0 +1,13 @@
+name = "Cobblemon TP-Pastures (No despawn for Pasture Block's)"
+filename = "cobblemon_tp_pastures-1.21.1-1.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sDSLYSX9/versions/so0hyqC2/cobblemon_tp_pastures-1.21.1-1.3.0.jar"
+hash-format = "sha512"
+hash = "ba3f1e2a25da70d0e6fab278bc17d4647824b9c389b0d83728907236eb204cb472ddfff0d2ce27d27de0cf6ca2a3341ae0f641a4b222d480f9295b3f78e173bd"
+
+[update]
+[update.modrinth]
+mod-id = "sDSLYSX9"
+version = "so0hyqC2"

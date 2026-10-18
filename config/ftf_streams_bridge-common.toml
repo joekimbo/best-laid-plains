@@ -1,0 +1,13 @@
+[terrain]
+	#Report FreeTerraForged lakes and wetlands to Streams Reflowing as river water, so streams can end in them.
+	lakesAreRivers = true
+
+[currents]
+	#Give still water in FreeTerraForged rivers a current along the river's flow direction.
+	#This is what turns Create water wheels placed in big rivers, and it gently carries swimmers, items and boats.
+	riverCurrents = true
+	#How far below the top of a column (trees and leaves count) water still feels the river current.
+	#Stops flooded caves under a river from getting a current.
+	# Default: 24
+	# Range: 1 ~ 128
+	currentDepth = 24

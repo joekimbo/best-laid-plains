@@ -1,0 +1,13 @@
+name = "Yeetus Narratus"
+filename = "YeetusNarratus-1.21.1-21.1.217-1.5.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "100287de52621b2946c0d3986461e3840a344d14"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7439991
+project-id = 1411987

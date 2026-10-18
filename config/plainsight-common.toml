@@ -1,0 +1,79 @@
+#Plainsight performance telemetry. Data goes to <game dir>/plainsight/ and, if a token is
+#configured in config/plainsight-secret.properties, to a GitHub repository.
+[general]
+	#Label for this machine, used in uploaded file paths
+	instanceLabel = "plains"
+
+[cadence]
+	#Seconds between memory/tick samples
+	# Default: 15
+	# Range: 5 ~ 3600
+	sampleIntervalSeconds = 15
+	#Seconds between world censuses (chunks, entities, block entities per mod)
+	# Default: 60
+	# Range: 15 ~ 3600
+	worldIntervalSeconds = 60
+	#Minutes between thread censuses; 0 disables
+	# Default: 5
+	# Range: 0 ~ 1440
+	threadCensusMinutes = 5
+	#Minutes between native-memory readings (needs -XX:NativeMemoryTracking=summary); 0 disables
+	# Default: 5
+	# Range: 0 ~ 1440
+	nativeMemoryMinutes = 5
+
+[histogram]
+	#Minutes between live class histograms (per-mod memory). Each forces a full GC,
+	#a 1-3 second hitch on a large heap. 0 disables.
+	# Default: 60
+	# Range: 0 ~ 1440
+	histogramMinutes = 60
+	#Take a live histogram when the last player logs out
+	histogramOnLastLogout = true
+	#Take a (no-GC) histogram when heap after GC exceeds this percent of max; 0 disables
+	# Default: 80
+	# Range: 0 ~ 100
+	histogramHeapTriggerPercent = 80
+	#Allow histograms on clients. Off by default: each one is a stop-the-world
+	#pause (a stutter mid-game), and players rarely need per-mod client memory.
+	clientHistograms = false
+
+[spikes]
+	#Capture the server thread's stack when one tick takes longer than this
+	# Default: 500
+	# Range: 100 ~ 60000
+	serverSpikeMs = 500
+	#Capture the render thread's stack when one frame takes longer than this
+	# Default: 1000
+	# Range: 100 ~ 60000
+	clientFreezeMs = 1000
+	# Default: 30
+	# Range: 0 ~ 1000
+	maxSpikesPerHour = 30
+	#Record GC pauses longer than this
+	# Default: 300
+	# Range: 10 ~ 60000
+	gcPauseEventMs = 300
+
+[heapdump]
+	#Write one heap dump per run when heap after GC stays above this percent of max; 0 disables
+	# Default: 92
+	# Range: 0 ~ 100
+	heapDumpPercent = 92
+	#Skip the heap dump unless this much disk is free
+	# Default: 12
+	# Range: 1 ~ 1000
+	heapDumpMinFreeGb = 12
+
+[upload]
+	#Minutes between uploads to GitHub
+	# Default: 30
+	# Range: 1 ~ 1440
+	uploadMinutes = 30
+	githubOwner = "joekimbo"
+	githubRepo = "plains-telemetry"
+	githubBranch = "main"
+	#Days of local data to keep
+	# Default: 14
+	# Range: 1 ~ 365
+	localRetentionDays = 14

@@ -1,0 +1,13 @@
+name = "Cobblemon Party Extras"
+filename = "cobblemon_party_extras-neoforge-1.8.15.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/x2wZP9kQ/versions/elQRsdSw/cobblemon_party_extras-neoforge-1.8.15.jar"
+hash-format = "sha512"
+hash = "ee7991d395f3dd95ad96b68c98ab2beaf241a07e734f9a22f686635f7b66001db1ad77a58ef538fa7ccbe4f7ee2878772293d3a2c3e8d3779bacb649c4eb71f0"
+
+[update]
+[update.modrinth]
+mod-id = "x2wZP9kQ"
+version = "elQRsdSw"

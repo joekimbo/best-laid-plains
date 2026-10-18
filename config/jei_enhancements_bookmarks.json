@@ -1,0 +1,33 @@
+{
+  "nextGroupId": 1,
+  "groups": {
+    "0": {
+      "expanded": true,
+      "craftingChain": false,
+      "linkedGroupId": -1
+    }
+  },
+  "items": [
+    {
+      "groupId": 0,
+      "itemKey": "minecraft:coarse_dirt",
+      "factor": 1,
+      "amount": 1,
+      "type": 0
+    },
+    {
+      "groupId": 0,
+      "itemKey": "minecraft:andesite",
+      "factor": 1,
+      "amount": 1,
+      "type": 0
+    },
+    {
+      "groupId": 0,
+      "itemKey": "minecraft:mangrove_button",
+      "factor": 1,
+      "amount": 1,
+      "type": 0
+    }
+  ]
+}

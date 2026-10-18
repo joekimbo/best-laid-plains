@@ -1,0 +1,2 @@
+#Show direction arrows while holding the tuner or previewing a connection.
+showDirectionGuides = true

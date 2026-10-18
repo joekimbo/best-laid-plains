@@ -1,0 +1,2 @@
+#Let a shouldered Pokemon with no ranged move hop off to defend you (server must allow it).
+meleeHopOff = true

@@ -1,0 +1,13 @@
+name = "Redstone Wire"
+filename = "redstone_wire-1.0.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ANr2a8H5/versions/Zh7WoQde/redstone_wire-1.0.8.jar"
+hash-format = "sha512"
+hash = "1d1f6eeb4b8d9f97a3468931668eb3138df6a47d308bb080a6a829ed86b4f98faefbcbf261be79f414611210d9f7a53f43a4f431d07f5d1b1bb460a0b538d6de"
+
+[update]
+[update.modrinth]
+mod-id = "ANr2a8H5"
+version = "Zh7WoQde"

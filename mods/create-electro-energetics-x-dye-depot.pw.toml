@@ -1,0 +1,13 @@
+name = "Create: Electro Energetics x Dye Depot"
+filename = "CEE-Dye-Depot-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qXNu3bRo/versions/T7B9IrUo/CEE-Dye-Depot-1.21.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "007c7dfd4fa1a52c354a3318b90a7abbb308de04729447af97b120f03d9dc962bcb624dfd279721254b15d788f3c059011cca985b14c3fd279f317e2a0ace3f5"
+
+[update]
+[update.modrinth]
+mod-id = "qXNu3bRo"
+version = "T7B9IrUo"

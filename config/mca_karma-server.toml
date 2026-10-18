@@ -1,0 +1,353 @@
+[hope]
+	#Hope produced per point of nutrition (hunger + saturation).
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	hopePerNutrition = 1.0
+	#Villager-clock ticks per point of fullness drained.
+	# Default: 2400
+	# Range: 20 ~ 1000000
+	fullnessDrainTicks = 2400
+	# Default: 200
+	# Range: 20 ~ 1000000
+	digestionIntervalTicks = 200
+	#Fraction of undigested nutrition converted each digestion interval.
+	# Default: 0.25
+	# Range: 0.001 ~ 1.0
+	digestionRate = 0.25
+	# Default: 600
+	# Range: 0 ~ 1000000
+	eatCooldownTicks = 600
+	#If false, Karma-participating villagers drop nothing on death (INV-011).
+	villagersDropItemsOnDeath = false
+	# Default: 400
+	# Range: 20 ~ 1000000
+	foodShareIntervalTicks = 400
+	# Default: 600
+	# Range: 20 ~ 1000000
+	processingIntervalTicks = 600
+	#Hope grows normally up to the prosperity tier's Hope cap S, then logarithmically: S + c * ln(1 + excess / c), with c = S * this scale. There is no hard cap.
+	# Default: 0.5
+	# Range: 0.01 ~ 100.0
+	hopeSoftCapScale = 0.5
+	#Hope a villager gains per in-game day on its own while its Hope is below passiveHopeCap (so emergency Prayers can fire).
+	# Default: 3.0
+	# Range: 0.0 ~ 1000.0
+	passiveHopePerDay = 3.0
+	# Default: 25.0
+	# Range: 0.0 ~ 100000.0
+	passiveHopeCap = 25.0
+
+[intents]
+	# Default: 1200
+	# Range: 20 ~ 1000000
+	intentRollCadence = 1200
+	#Villager-clock ticks an intent waits before rerolling (default 3 MC days).
+	# Default: 72000
+	# Range: 20 ~ 100000000
+	intentPatienceTicks = 72000
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	rerollDownshiftFactor = 0.5
+	#Default individual Prayer duration in loaded ticks (45 minutes).
+	# Default: 54000
+	# Range: 20 ~ 100000000
+	individualPrayerDuration = 54000
+	#Default collective Prayer duration per contribution (3 hours).
+	# Default: 216000
+	# Range: 20 ~ 100000000
+	collectivePrayerDuration = 216000
+	#Global weight multipliers per Prayer tag, as 'tag=multiplier'.
+	tagWeightMultipliers = []
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	housingPrayerOccupancyThreshold = 0.8
+	# Default: 3
+	# Range: 0 ~ 100
+	altarPathRetries = 3
+
+[discounts]
+	#Altar discount per tier (stone, iron, gold, diamond, netherite).
+	altarTierDiscounts = [0.05, 0.1, 0.15, 0.2, 0.25]
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	priestDiscount = 0.1
+	# Default: 0.3
+	# Range: 0.0 ~ 0.95
+	maxTotalDiscount = 0.3
+
+[prosperity]
+	# Default: 48000
+	# Range: 0 ~ 100000000
+	prosperityDowngradeGrace = 48000
+	#Loaded ticks before lost structures prompt replacement Prayers (2 MC days).
+	# Default: 48000
+	# Range: 0 ~ 100000000
+	renovationGracePeriod = 48000
+	# Default: 168000
+	# Range: 0 ~ 100000000
+	restorationWindow = 168000
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	restorationRewardMultiplier = 0.5
+	# Default: 600
+	# Range: 20 ~ 1000000
+	structureRefreshTicks = 600
+	#Lowest prosperity tier (0 frontier, 1 hamlet, 2 village, 3 town, 4 city) whose villagers may pray for enchanted tools; 5 or more turns those Prayers off.
+	# Default: 3
+	# Range: 0 ~ 100
+	enchantedToolMinProsperity = 3
+
+[emergency]
+	# Default: 48000
+	# Range: 20 ~ 100000000
+	emergencyNutritionTimeout = 48000
+	# Default: 10.0
+	# Range: 0.0 ~ 1000.0
+	emergencyFarmReward = 10.0
+	# Default: 72000
+	# Range: 0 ~ 100000000
+	emergencyCooldown = 72000
+
+[offerings]
+	# Default: 1200
+	# Range: 20 ~ 1000000
+	offeringEvaluationTicks = 1200
+	#Extra reward, as a fraction, for each harder-to-get equivalent item (tag mca_karma:premium) that answers a Prayer (§17.9).
+	# Default: 0.5
+	# Range: 0.0 ~ 5.0
+	premiumItemBonus = 0.5
+	#Offering altars may cover at most 1/N of a church's floor.
+	# Default: 8
+	# Range: 1 ~ 1024
+	offeringAltarFloorDivisor = 8
+
+[tithes]
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	titheFraction = 0.5
+	#Karma per emerald (emerald mode only; Numismatics pays 1 spur per Karma).
+	# Default: 150.0
+	# Range: 1.0 ~ 1000000.0
+	titheCurrencyRatio = 150.0
+	#Loaded village ticks between Tithes; -1 mirrors MCA's taxSeason.
+	# Default: 24000
+	# Range: -1 ~ 100000000
+	titheCadence = 24000
+	#Use Create: Numismatics coins instead of emeralds when installed.
+	useNumismatics = true
+	# Default: 8
+	# Range: 1 ~ 1000000
+	numismaticsSpursPerEmerald = 8
+
+[trade]
+	#Allowed Values: ALLOW, FILTER_NEARBY, CAP_REWARD
+	crossVillageArbitragePolicy = "ALLOW"
+	# Default: 512
+	# Range: 0 ~ 100000
+	arbitrageRadius = 512
+	# Default: 2400
+	# Range: 20 ~ 1000000
+	tradeCacheRefreshTicks = 2400
+	#Professions whose villagers may still buy from players (exempt from REQ-TRADE-001), such as a banker who mints currency from precious metals.
+	#Removing a profession replaces its villagers' buy-trades on their next update; adding one spares only trades generated afterwards.
+	buyTradeExemptProfessions = ["mca_banker:banker"]
+
+[reservations]
+	# Default: 2
+	# Range: 0 ~ 1000
+	starPerVillageCap = 2
+	# Default: 6
+	# Range: 0 ~ 10000
+	starGlobalCap = 6
+	#Allowed Values: KEEP_RESERVED, UNSTAR_ON_DISCONNECT
+	starOfflinePolicy = "KEEP_RESERVED"
+	#Whether a reservation lapses after maxMinutes of game time. Off by default; never applies to a player alone in single player.
+	expire = false
+	#How long a reservation lasts when expire is on, in minutes of game time.
+	# Default: 30
+	# Range: 1 ~ 1000000
+	maxMinutes = 30
+
+[safety]
+	# Default: 24000
+	# Range: 20 ~ 100000000
+	negativeMoodWindowTicks = 24000
+	#Most negative mood Karma may apply to one villager per window.
+	# Default: 6
+	# Range: 0 ~ 100
+	negativeMoodCapPerWindow = 6
+	#Karma never lowers a villager's mood below this value.
+	# Default: -8
+	# Range: -15 ~ 15
+	negativeMoodFloor = -8
+	#Maximum villager economy updates per server tick.
+	# Default: 64
+	# Range: 1 ~ 100000
+	villagerWorkBudget = 64
+	# Default: 7
+	# Range: 0 ~ 3650
+	orphanedLedgerRetentionDays = 7
+
+[cobblemon]
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	giftMinimumHopeFraction = 0.5
+	# Default: 24000
+	# Range: 0 ~ 100000000
+	giftCooldown = 24000
+	# Default: 10.0
+	# Range: 0.0 ~ 1000.0
+	battleHopeMultiplier = 10.0
+	#Minimum CCA fit score (0-1) for a villager to accept a Pokémon Offering (§29.8).
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	pokemonOfferingUsefulnessThreshold = 0.2
+	#Hope for a villager whose Pokémon evolves with an item (CCA 1.2+, §29.13).
+	# Default: 8.0
+	# Range: 0.0 ~ 1000.0
+	evolutionHope = 8.0
+	#Hope for a villager whose Pokémon learns a move from a TM (CCA 1.3+, §29.13).
+	# Default: 3.0
+	# Range: 0.0 ~ 1000.0
+	newMoveHope = 3.0
+
+[villageLife]
+	#Let MCA hand guards and archers free replacement gear for empty slots (§41.1). Off: one real starter kit instead.
+	mcaFallbackGear = false
+	#Adults with a tool and a village storehouse take up MCA chores on their own (§41.2).
+	selfAssignChores = true
+	selfAssignHunting = true
+	#Hope per durability point a villager's tool loses while working.
+	# Default: 0.1
+	# Range: 0.0 ~ 100.0
+	toolUseHope = 0.1
+	#Hope per item deposited in a storehouse (§41.3).
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	depositHope = 1.0
+	# Default: 6000
+	# Range: 0 ~ 1000000
+	choreCooldown = 6000
+	# Default: 2400
+	# Range: 200 ~ 1000000
+	choreShiftMin = 2400
+	# Default: 4800
+	# Range: 200 ~ 1000000
+	choreShiftMax = 4800
+	# Default: 18
+	# Range: 1 ~ 54
+	satchelSlots = 18
+	#MCA hearts a player needs for a villager to save rare finds for them.
+	# Default: 25
+	# Range: 0 ~ 1000
+	findHeartsMin = 25
+	# Default: 3.0
+	# Range: 0.0 ~ 100.0
+	furnishHope = 3.0
+	#Furnishings a home may ask for, by prosperity tier (Frontier..City) (§41.4).
+	furnishingLimits = [1, 2, 3, 4, 6]
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	readingHopePerMinute = 0.5
+	#Minutes between a child's throws, minimum and maximum (§41.6).
+	# Default: 10
+	# Range: 1 ~ 1440
+	childThrowIntervalMin = 10
+	# Default: 20
+	# Range: 1 ~ 1440
+	childThrowIntervalMax = 20
+	# Default: 6.0
+	# Range: 0.0 ~ 100.0
+	childHitHope = 6.0
+	# Default: 4.0
+	# Range: 0.0 ~ 100.0
+	lookoutHope = 4.0
+	# Default: 32
+	# Range: 4 ~ 256
+	lookoutMinDistance = 32
+	# Default: 0.25
+	# Range: 0.0 ~ 100.0
+	listeningHopePerMinute = 0.25
+
+[debug]
+	#Show each villager's Hope, fullness, intent and food work in their Karma menu. For diagnosing; leave off in normal play.
+	showHope = false
+
+[value]
+	#Karma = max(prayerRewardFloor, Tier * (1 + M) * R + task minutes), with task minutes = max(taskMinutesFloor, minutesMultiplier * (estimate * R + travelFraction * trip)) per task. The floor applies to every Prayer, quest and collective job.
+	# Default: 5.0
+	# Range: 0.0 ~ 1000000.0
+	prayerRewardFloor = 5.0
+	# Default: 2.0
+	# Range: 0.0 ~ 10000.0
+	taskMinutesFloor = 2.0
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	minutesMultiplier = 2.0
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	travelFraction = 0.5
+	#Smallest Karma an accepted Offering pays.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000000.0
+	offeringFloor = 1.0
+	#A Prayer's Hope cost = max(hopeCostMin, hopeCostA + hopeCostB * ln(Karma)).
+	# Default: 1.0
+	# Range: -1000.0 ~ 1000.0
+	hopeCostA = 1.0
+	# Default: 7.0
+	# Range: 0.0 ~ 1000.0
+	hopeCostB = 7.0
+	# Default: 2.0
+	# Range: 0.0 ~ 1000.0
+	hopeCostMin = 2.0
+	#The music festival (event/music) is posted only in villages of this prosperity tier or higher (3 = town), at most once per musicFestivalCooldownDays in-game days (30), at musicFestivalWeight of a normal draw.
+	# Default: 3
+	# Range: 0 ~ 100
+	musicFestivalMinTier = 3
+	# Default: 30
+	# Range: 0 ~ 100000
+	musicFestivalCooldownDays = 30
+	# Default: 0.33
+	# Range: 0.0 ~ 100.0
+	musicFestivalWeight = 0.33
+	#Most Karma one music festival pays in total, all contributors together; 0 = no cap.
+	# Default: 0.0
+	# Range: 0.0 ~ 1000000.0
+	musicFestivalMaxTotal = 0.0
+	#A collective Prayer pays the sum of its contributors' shares times min(cap, 1 + perExtra * (contributors - 1)).
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	collectiveBonusPerExtra = 0.5
+	# Default: 2.5
+	# Range: 1.0 ~ 100.0
+	collectiveBonusCap = 2.5
+	#The same for collective building (structure) Prayers, which are much more effort (KAR-28).
+	# Default: 0.25
+	# Range: 0.0 ~ 10.0
+	collectiveBonusPerExtraStructure = 0.25
+	#Building (structure) Prayers take much more effort (KAR-28): their Karma reward is the formula value times this. The Hope cost still follows the unmultiplied value.
+	# Default: 2.0
+	# Range: 0.1 ~ 100.0
+	structureRewardMultiplier = 2.0
+
+	[value.offeringFraction]
+		#An Offering pays fraction * (Tier + minutesMultiplier * estimated minutes) per item unit, at least offeringFloor.
+		# Default: 0.25
+		# Range: 0.0 ~ 10.0
+		default = 0.25
+		# Default: 0.5
+		# Range: 0.0 ~ 10.0
+		pokemon = 0.5
+		# Default: 0.25
+		# Range: 0.0 ~ 10.0
+		food = 0.25
+		# Default: 0.25
+		# Range: 0.0 ~ 10.0
+		tools = 0.25
+		# Default: 0.25
+		# Range: 0.0 ~ 10.0
+		decor = 0.25
+		# Default: 0.25
+		# Range: 0.0 ~ 10.0
+		healing = 0.25

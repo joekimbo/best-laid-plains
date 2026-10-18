@@ -1,0 +1,71 @@
+#Early window height
+earlyWindowHeight = 480
+#Enable NeoForge global version checking
+versionCheck = true
+#Should we control the window. Disabling this disables new GL features and can be bad for mods that rely on them.
+earlyWindowControl = true
+#Early window framebuffer scale
+earlyWindowFBScale = 1
+#Early window provider
+earlyWindowProvider = "fmlearlywindow"
+#Early window width
+earlyWindowWidth = 854
+#Early window starts maximized
+earlyWindowMaximized = false
+#Default config path for servers
+defaultConfigPath = "defaultconfigs"
+#Disables Optimized DFU client-side - already disabled on servers
+disableOptimizedDFU = true
+#Skip specific GL versions, may help with buggy graphics card drivers
+earlyWindowSkipGLVersions = []
+#Max threads for early initialization parallelism,  -1 is based on processor count
+maxThreads = -1
+#Squir?
+earlyWindowSquir = false
+#Disables File Watcher. Used to automatically update config if its file has been modified.
+disableConfigWatcher = false
+
+#Define dependency overrides below
+#Dependency overrides can be used to forcibly remove a dependency constraint from a mod or to force a mod to load AFTER another mod
+#Using dependency overrides can cause issues. Use at your own risk.
+#Example dependency override for the mod with the id 'targetMod': dependency constraints (incompatibility clauses or restrictive version ranges) against mod 'dep1' are removed, and the mod will now load after the mod 'dep2'
+#dependencyOverrides.targetMod = ["-dep1", "+dep2"]
+[dependencyOverrides]
+	# Cobblemon Integrations 1.1.8 declares minecraft [1.21,1.21.1) and neoforge [21.0,21.1) by mistake; it is published for 1.21.1.
+	cobblemonintegrations = ["-minecraft", "-neoforge"]
+	# TooManyRecipeViewers 0.9.0 provides "jei" as 19.27.0.343; these mods' optional JEI version floors are newer.
+	# Dropping the optional jei dependency only skips the version check; TMRV still runs their JEI plugins.
+	polymorph = ["-jei"]
+	sophisticatedcore = ["-jei"]
+	sophisticatedbackpackscreateintegration = ["-jei"]
+	sophisticatedstoragecreateintegration = ["-jei"]
+	# GEN-35: these Create addons declare create with ordering NONE, so FML constructs them in parallel with Create, and
+	# their constructors touch AllBlocks/AllItems/... . That runs Create's Registrate on two threads at once (its entry
+	# table is a plain HashMap), so some Create items are silently lost and Create's advancements crash at boot
+	# ("Trying to access unbound value: create:..."). "+create" makes each one construct after Create.
+	rechiseledcreate = ["+create"]
+	createdeco = ["+create"]
+	numismatics = ["+create"]
+	azimuth = ["+create"]
+	bobberdetector = ["+create"]
+	colorful_depot = ["+create"]
+	colorfulpipes = ["+create"]
+	copycats = ["+create"]
+	aeronautics = ["+create"]
+	offroad = ["+create"]
+	simulated = ["+create"]
+	create_new_age = ["+create"]
+	create_connected = ["+create"]
+	create_power_loader = ["+create"]
+	createaddition = ["+create"]
+	createbigcannons = ["+create"]
+	createdieselgenerators = ["+create"]
+	createrailgrinding = ["+create"]
+	createreautomated = ["+create"]
+	createstockbridge = ["+create"]
+	deployer = ["+create"]
+	dg_js = ["+create"]
+	electroenergetics = ["+create"]
+	fluidlogistics = ["+create"]
+	railways = ["+create"]
+	simulated_gauges = ["+create"]

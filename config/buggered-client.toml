@@ -1,0 +1,94 @@
+[reporter]
+	#Name or handle shown on your reports. Blank uses your player name.
+	#It is used only for the account it was saved for (reporter.account); on any other account the player name is used.
+	handle = ""
+	#Set by Buggered: the account (profile id) that reporter.handle belongs to. Leave it alone.
+	account = ""
+
+[ui]
+	#How long to hold Save Locally, Cancel and Discard draft, in milliseconds.
+	# Default: 600
+	# Range: 200 ~ 3000
+	hold_millis = 600
+	#Keep your attachment choices between reports. Off by default: every attachment starts unticked on every report.
+	#A crash or freeze report still pre-ticks its own crash files.
+	remember_attachment_choices = false
+
+[precapture]
+	#When the hotkey is pressed, capture the cheap, time-sensitive attachments (screenshot, target, player)
+	#into a temporary folder so they show the moment you saw. Nothing is sent or kept unless you tick it; cancelling deletes it.
+	cheap = true
+
+[screenshot]
+	#Hide the chat HUD for the one frame the screenshot is taken from.
+	hide_chat = true
+
+[privacy]
+	#Send log, crash and profile attachments WITHOUT redaction (only home paths are shortened).
+	#By default they are redacted: chat, your user and player names, UUIDs, tokens, server addresses and e-mail addresses are removed.
+	#Turn this on only if redaction hides something you need; the form then warns that the contents are sent as they are. Off by default.
+	allow_unredacted_attachments = false
+
+[latest_log]
+	#Most lines of latest.log to include.
+	# Default: 2000
+	# Range: 100 ~ 20000
+	max_lines = 2000
+	#Most KiB of latest.log to include.
+	# Default: 1024
+	# Range: 64 ~ 8192
+	max_kib = 1024
+
+[telemetry]
+	#Record a few seconds of structured play history (position, screens, targets, frame times) in memory,
+	#so a report can include what happened just before. Off by default. Never records chat or packets.
+	enabled = true
+	#How many seconds of history a report can include (10, 30 or 60).
+	# Default: 30
+	# Range: 10 ~ 60
+	window_seconds = 30
+	#Most entries kept in memory.
+	# Default: 4000
+	# Range: 200 ~ 20000
+	max_entries = 4000
+
+[nearby_entities]
+	#Radius in blocks for the nearby-entities attachment (the server may clamp it lower).
+	# Default: 16
+	# Range: 1 ~ 128
+	radius = 16
+
+[structure]
+	#Size of the structure-template box around your target (the server scales it down to its volume limit).
+	# Default: 32
+	# Range: 1 ~ 128
+	size_x = 32
+	# Default: 16
+	# Range: 1 ~ 128
+	size_y = 16
+	# Default: 32
+	# Range: 1 ~ 128
+	size_z = 32
+
+[crash]
+	#Catch a crash in the game loop and bring you to the report form instead of closing the game.
+	#ON since 0.9.0 (checked in a real client). If a recovery ever fails, vanilla's crash handling takes over unchanged; set false to always use vanilla.
+	#Needs Buggered's mixin to apply; ignored when Not Enough Crashes is installed.
+	catch_in_process = true
+
+[watchdog]
+	#Watch for the game freezing and write thread dumps to logs/issues/.freeze (one idle thread).
+	enabled = true
+	#How long without a drawn frame counts as a freeze.
+	# Default: 5
+	# Range: 2 ~ 120
+	freeze_seconds = 5
+
+[jfr]
+	#Keep a rolling Java Flight Recorder profile of the last minutes (about 1% CPU) so a performance
+	#report can include it. Off by default; the attachment itself is also behind privacy.allow_unredacted_attachments.
+	enabled = true
+	#Seconds of profile to keep. The recording is also capped at about 32 MiB, so on a busy game it holds less than this. A report takes its snapshot when you press the report key.
+	# Default: 120
+	# Range: 30 ~ 600
+	max_age_seconds = 120

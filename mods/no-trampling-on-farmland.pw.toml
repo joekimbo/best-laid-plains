@@ -1,0 +1,13 @@
+name = "No trampling on farmland"
+filename = "No trampling on farmland-1.21.1-NeoForge-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ACP8i9dt/versions/yYSicQl0/No%20trampling%20on%20farmland-1.21.1-NeoForge-1.0.jar"
+hash-format = "sha512"
+hash = "7919ad105d01de5bb257d5cdc976a59986276a1bf196e1bf93fa96488239d9a19b85a0dd0abf216516875c5d8fab18eef11a81d2a0dfcab8f953d11501890a4a"
+
+[update]
+[update.modrinth]
+mod-id = "ACP8i9dt"
+version = "yYSicQl0"

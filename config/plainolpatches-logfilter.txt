@@ -1,0 +1,93 @@
+# Plain Ol' Patches log filter.
+# One rule per line:  id | logger name contains | message contains [| errors]
+# Leave the logger field empty to match any logger. Matching lines are dropped from every log.
+# Only WARN/INFO/DEBUG lines are dropped, unless the rule ends with "| errors".
+# A summary of dropped lines is logged when loading finishes and when a server starts.
+# Put "enabled=false" on its own line to turn the whole filter off.
+
+# CBC: Going Ballistic loads mappings for addons that aren't installed, and says so for each one.
+cbc_optional_mappings | GoingBallistic | for optional addon compatibility
+# Dynamic Trees packs still use a property DT renamed; DT reads it anyway.
+dt_environment_factors | SpeciesResourceLoader | "environment_factors" property has been removed
+# Copycats' mixins add methods that another mixin already added; harmless duplicate.
+copycats_unique_discard | mixin | Discarding @Unique public method
+# Create Propulsion fuel overrides for fluids from mods that aren't installed.
+propulsion_fuel_override | ThrusterFuelManager | fluid is not registered
+# IC2 builds its item models in code after vanilla looks for model files; the items render fine.
+ic2_item_models | ModelBakery | Unable to load model: 'ic2:item/
+
+# Added by a newer Plain Ol' Patches; delete or comment out a line to turn its rule off.
+# Dye the World's mixins target mods that aren't installed, and its Fusion and atlas files name blocks of mods that aren't.
+dtw_mixin_targets | mixin | was not found dye_the_world.mixins.json
+dtw_fusion_modifier | fusion | Failed to parse block model modifier 'dye_the_world: | errors
+dtw_decorated_pot_atlas | SpriteSourceList | in pack mod/dye_the_world | errors
+# The Iris shader pack asks for a biome (pale garden) that 1.21.1 doesn't have.
+iris_pale_garden | Iris | Unknown variable: BIOME_PALE_GARDEN
+# Vanilla's integrated server logs this whenever the options are saved, e.g. when the music volume changes.
+view_distance_change | IntegratedServer | Changing view distance to
+
+# Added by a newer Plain Ol' Patches; delete or comment out a line to turn its rule off.
+# GEN-69: confirmed-harmless noise from the pack's mods (each only drops its own lines, never a crash or mixin failure).
+# Paxi warns that two pack entries may be duplicated in the Resource Packs screen.
+paxi_repo | paxi | Unable to find Paxi repository source | errors
+# CCL's highlight shader has a doubled path; Veil skips it.
+ccl_veil_shader | Veil | Couldn't load vanilla shader from ccl__cb_multipart | errors
+# A Create QoL data map names a fluid that isn't installed.
+datamap_createqol | DataMapLoader | Object with ID createqol: | errors
+# An addon dex entry names a sub-dex that doesn't exist; Cobblemon skips it.
+cobblemon_dex_addition | com.cobblemon.mod.common.Cobblemon | Unable to apply dex addition | errors
+# An MCA dialogue file from another mod isn't in MCA's format; MCA skips that dialogue.
+mca_dialogue | net.conczin.mca.MCA | is not properly formatted, not loading
+# TMRV: the JEI-only Polymorph plugin can't load (JEI is deliberately absent) and a boilerplate support notice.
+tmrv_polymorph_plugin | toomanyrecipeviewers | Failed to initialize JEI plugin com.illusivesoulworks.polymorph | errors
+tmrv_recipe_manager_notice | toomanyrecipeviewers | Do not report issues if there are bugs with this feature | errors
+tmrv_dup_category | toomanyrecipeviewers | already exists in EMI!
+# Terralith and Moonlight notices.
+fzzy_terralith_modproperties | fzzy_config | Mod terralith uses outdated modproperties format | errors
+moonlight_fabric_api | Moonlight | Fabric API detected! | errors
+# Sounds listed in sound events but not shipped (the event just plays fewer variants).
+design_decor_sounds | SoundManager | File design_decor:sounds/
+electroenergetics_sounds | SoundManager | File electroenergetics:sounds/
+# Animated textures with a frame index past their strip; the frame is clamped.
+bad_frame_end_remastered | SpriteContents | Invalid frame index on sprite end_remastered_promax:
+bad_frame_burnt_dt | SpriteContents | Invalid frame index on sprite burnt_dt:
+bad_frame_burnt_additions | SpriteContents | Invalid frame index on sprite burnt_additions:
+# Shader programs that don't use a uniform or sampler vanilla's loader looks for.
+shader_iviewrotmat | ShaderInstance | could not find uniform named IViewRotMat
+shader_colormodulator | ShaderInstance | could not find uniform named ColorModulator
+shader_fogdarker | ShaderInstance | could not find uniform named uFogDarkerColor
+shader_effect_insize | EffectInstance | could not find uniform named InSize
+shader_sampler_fdlib | ShaderInstance | Shader fdlib:noise could not find sampler
+shader_sampler_cobblemon | ShaderInstance | Shader cobblemon:particle_ could not find sampler
+shader_sampler_emissive | ShaderInstance | Shader rendertype_entity_translucent_emissive could not find sampler
+# The Iris shader pack references a biome and an end-flash variable this version doesn't have.
+iris_sulfur | Iris | Unknown variable: BIOME_SULFUR_CAVES
+iris_endflash | Iris | Unknown variable: endFlashIntensity
+# The recipe book can't group these recipes under their (client-unknown) categories; they still craft.
+recipebook_deco_storage | ClientRecipeBook | Unknown recipe category: deco_storage:
+recipebook_plushie_buddies | ClientRecipeBook | Unknown recipe category: plushie_buddies:
+# Amendments' candle-holder light sources use the old format or name items of mods that aren't installed; those items just don't glow.
+lamb_supplementaries | LambDynLights | Failed to load item light source "supplementaries:dynamiclights/item/ | errors
+lamb_simplyswords | LambDynLights | Failed to load item light source "simplyswords:dynamiclights/item/ | errors
+# Burnt ships example and Terrafirmacraft mappings for mods that aren't installed and skips them.
+burnt_example_mappings | burnt | burn_mapping 'burnt:example': unknown source block
+burnt_tfc_mappings | burnt | burn_mapping 'burnt:tfc': unknown source block
+# Cobblemon reports a missing ".old" backup as data loss when a player's file is created for the first time (nothing was lost).
+cobblemon_old_file | com.cobblemon.mod.common.Cobblemon | is corrupt or missing. Data is lost | errors
+# MCA Quests says its own 'relative' targets are allowed.
+mcaquests_relative_targets |  | relative. That is allowed
+
+# Added by a newer Plain Ol' Patches; delete or comment out a line to turn its rule off.
+# Batch 19 log noise (harmless, each rule drops only its own lines).
+# Cobblemon's peat bog / ice spike / meteor ruin structures have jigsaw blocks with an empty pool; Lithostitched skips that connection.
+lithostitched_empty_pool | lithostitched | Couldn't find template pool reference: minecraft:
+# Amendments' candle holder light sources use formats LambDynamicLights 4.8 can't read; those candle holders just don't emit light.
+lambdyn_candle_holders | LambDynamicLights | Failed to load item light source "supplementaries:dynamiclights/item/candle_holder
+# Old compass models (compass_00 ... compass_31) that a resource pack still names; the compass renders through its item properties.
+modelbakery_old_compass | ModelBakery | Unable to load model: 'minecraft:compass
+# Our own config/fml.toml puts the Create addons after Create.
+fml_create_addon_ordering | FMLConfig | adding explicit AFTER ordering against 'create'
+
+# Added by a newer Plain Ol' Patches; delete or comment out a line to turn its rule off.
+# Simply Swords' shadowmist light source names an item that doesn't exist in this version.
+lambdyn_simplyswords | LambDynamicLights | Failed to load item light source "simplyswords:dynamiclights/item/

@@ -1,0 +1,3 @@
+#false: Flight Control items show a short Create-style summary and the Ponder hint.
+#true: Flight Control's own long "hold Shift" tooltips are kept as they are.
+fullTooltips = false

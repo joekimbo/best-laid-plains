@@ -1,0 +1,13 @@
+name = "Farsighted Mobs"
+filename = "farsightedmobs-neoforge-1.21-3.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eEpWUjwq/versions/QvUiFhC6/farsightedmobs-neoforge-1.21-3.0.2.jar"
+hash-format = "sha512"
+hash = "c115f39bd773de66410e59fb3f37152fc97798c1fbc86fd418fa75ead456174dfb3d7596dd3b723d51d3362a914d21848d77978a6357df720b59a29f2e71e058"
+
+[update]
+[update.modrinth]
+mod-id = "eEpWUjwq"
+version = "QvUiFhC6"

@@ -1,0 +1,8 @@
+name = "create_renewables-1.1.0"
+filename = "create_renewables-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/create_renewables-1.1.0.jar"
+hash-format = "sha512"
+hash = "539191d9454095102d268954fc1d30cdccc7a0317323c832c3f6202fdf8f1b93b68e5f2380cc5d06dc5e5e689647999c6ad1cfb45203a1dba0234b3c649b8345"

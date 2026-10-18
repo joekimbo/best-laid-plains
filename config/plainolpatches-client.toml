@@ -1,0 +1,6 @@
+[tooltips]
+	#Item tooltips with at least this many lines show only their name and first line until Shift is held
+	#(durability and the mod name stay). Tooltips with fewer lines show in full. 0 = never trim.
+	# Default: 6
+	# Range: 0 ~ 100
+	trimFromLines = 6

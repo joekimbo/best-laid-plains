@@ -1,0 +1,4 @@
+#An empty-hand right-click on a wild Pokemon that is not in battle marks it (or unmarks it) instead of interacting. Off: only the mark key marks.
+rightClickMarks = true
+#Show a toast when a Lodge hunter turns down a target (shiny, legendary, or above the Lodge's rarity setting) and reports it.
+sightingToasts = true

@@ -1,0 +1,13 @@
+name = "Fakename"
+filename = "fakename-1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3c332b5ee555ed28a8edca1cad99ee11284114f4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6492655
+project-id = 256838

@@ -1,0 +1,151 @@
+[telemetry]
+	#Write hunt events to packtactics/telemetry/<date>.jsonl in the server directory.
+	telemetry = true
+
+[threat]
+	#Highest chance (0 to 1, per night) that a player's roll starts a hunt. Reached once the threat pool is at or above pool_high.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	max_chance = 0.5
+	#Threat pool (points) at or below which the chance is zero. The chance rises smoothly from here to pool_high. Spawn rules may override it.
+	# Default: 100
+	# Range: 0 ~ 1000000
+	pool_low = 100
+	#Threat pool (points) at or above which the chance is max_chance. Spawn rules may override it.
+	# Default: 300
+	# Range: 1 ~ 1000000
+	pool_high = 300
+	#Points that Bad Omen effectively adds to the threat pool when the chance is computed.
+	# Default: 50
+	# Range: 0 ~ 1000000
+	bad_omen_shift = 50
+	#Points taken from a player's threat pool for each mob that actually spawns in their party. Refunded if the hunt is called off before anyone is hurt.
+	# Default: 40
+	# Range: 1 ~ 100000
+	cost_per_mob = 40
+
+[rolls]
+	#Earliest moment of the night (fraction of the night's length, 0 = dusk, 1 = dawn) at which a player's roll can happen.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	roll_window_start = 0.1
+	#Latest moment of the night (fraction of the night's length) at which a roll can happen. No hunt starts after this point.
+	# Default: 0.7
+	# Range: 0.0 ~ 1.0
+	roll_window_end = 0.7
+	#Fallback start of the night, in ticks of the day (0 to 23999). Better Days, when installed, overrides this at runtime.
+	# Default: 13000
+	# Range: 0 ~ 23999
+	night_start = 13000
+	#Fallback end of the night, in ticks of the day (0 to 23999). Better Days, when installed, overrides this at runtime.
+	# Default: 23000
+	# Range: 0 ~ 23999
+	day_start = 23000
+
+[protection]
+	#No hunts within this many blocks (horizontal) of the player's respawn point, or the world spawn if they have none in this dimension.
+	# Default: 50
+	# Range: 0 ~ 10000
+	spawn_protection_radius = 50
+	#Distance in blocks from the respawn point at which the protection has fully faded; the chance scales up linearly from spawn_protection_radius to here.
+	# Default: 100
+	# Range: 1 ~ 10000
+	spawn_protection_fade = 100
+	#Distance in blocks from the respawn point at which the distance bonus reaches its full value.
+	# Default: 2000
+	# Range: 1 ~ 100000
+	distance_bonus_range = 2000
+	#Chance multiplier at distance_bonus_range and beyond (1 = no bonus). It grows linearly from 1 at spawn_protection_fade.
+	# Default: 1.5
+	# Range: 1.0 ~ 10.0
+	distance_bonus = 1.5
+	#Blocks around a player within which a placed ominous banner prevents hunts against them.
+	# Default: 32
+	# Range: 0 ~ 256
+	banner_radius = 32
+	#World days (24000 ticks each) a placed ominous banner protects for before it expires.
+	# Default: 7
+	# Range: 1 ~ 1000
+	banner_days = 7
+
+[parties]
+	#Blocks. Players within this distance of each other (chained) roll together and are hunted by one shared party.
+	# Default: 16
+	# Range: 0 ~ 128
+	group_radius = 16
+	#Most parties hunting at once. -1 uses the number of online players; 0 disables new hunts.
+	# Default: -1
+	# Range: -1 ~ 1000
+	party_cap = -1
+	#Most mobs in one party, counting all hunted players. When the players would ask for more, the slots are shared out in rounds.
+	# Default: 16
+	# Range: 1 ~ 128
+	max_party_size = 16
+	#Ticks (20 per second) a target can stay unreachable (no path) before the party stops hunting them.
+	# Default: 100
+	# Range: 40 ~ 1200
+	unreachable_ticks = 100
+
+[budgets]
+	#Most party members spawned per server tick, in total.
+	# Default: 1
+	# Range: 1 ~ 32
+	spawns_per_tick = 1
+	#Most candidate spawn positions tested per server tick, in total.
+	# Default: 4
+	# Range: 1 ~ 12
+	samples_per_tick = 4
+	#Most new path searches the tactical AI may start per server tick, in total. Mobs over the budget wait for a later tick.
+	# Default: 4
+	# Range: 1 ~ 128
+	paths_per_tick = 4
+
+[ai]
+	#Ticks (20 per second) an ordinary hostile mob remembers a target it can no longer see before giving up. Party mobs keep hunting regardless.
+	# Default: 200
+	# Range: 20 ~ 2400
+	memory_ticks = 200
+	#Replace the combat AI of ordinary (non-party) hostile mobs. Suspended automatically while Big Brain or Hostile Tactics is installed. Party mobs always use the tactical AI. The per-family and feature toggles below apply to ordinary mobs only.
+	smart_hostiles = true
+	#Use the tactical AI for zombies (including drowned and husks).
+	zombies = true
+	#Use the tactical AI for skeletons and other bow or crossbow users.
+	archers = true
+	#Use the tactical AI for creepers (fuse checks).
+	creepers = true
+	#Use the tactical AI for spiders (intercepting the target).
+	spiders = true
+	#Use the tactical AI for pillagers.
+	pillagers = true
+	#A mob that sees its target tells same-type allies within 16 blocks that can see it.
+	shared_targets = true
+	#Ranged mobs look for higher ground to shoot from.
+	high_ground = true
+	#Mobs open the fence gate in front of them, and close it behind.
+	fence_gates = true
+	#Some zombies hop up ledges (up to 3 blocks) to reach a higher target.
+	zombie_climbing = true
+	#Blinded mobs only see 3 blocks; mobs holding a spyglass see twice as far.
+	blindness_and_spyglass = true
+
+[witch_support]
+	#A witch in a hunting party throws splash potions at allies that are in combat, and never drinks Swiftness to close in on its target.
+	enabled = true
+	#Ticks (20 per second) between a witch's support throws.
+	# Default: 100
+	# Range: 20 ~ 12000
+	cooldown_ticks = 100
+	#Blocks within which a witch supports an ally. She stays at least 6 blocks from it, outside the potion's splash and cloud radius.
+	# Default: 8.0
+	# Range: 6.5 ~ 16.0
+	range = 8.0
+	#Chance that a potion for an undead ally is a lingering potion instead of a splash potion.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	undead_lingering_chance = 0.3
+	#Potion ids for living allies. A hurt ally is healed first (the first instant-health potion listed); otherwise one of the others the ally does not already have is thrown.
+	living_potions = ["minecraft:healing", "minecraft:regeneration", "minecraft:strength", "minecraft:swiftness"]
+	#Potion ids for hurt undead allies, which Harming heals (and Healing hurts). Unhurt undead allies get the buffs from living_potions.
+	undead_potions = ["minecraft:harming"]
+	#Log why a witch did not throw. Throws are always logged at INFO as witch support: <potion> -> <ally>.
+	debug_log = false

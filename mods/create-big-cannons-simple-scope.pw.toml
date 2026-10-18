@@ -1,0 +1,13 @@
+name = "Create Big Cannons:Simple Scope"
+filename = "cbcscope-2.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hw2GUVrm/versions/7Ky18bW0/cbcscope-2.2.1.jar"
+hash-format = "sha512"
+hash = "cce2e36dfcb3862e43b8e29fc6bfe4983fcbe5518c08f0f6ea8f3781fbe31af50b2df49bfd3bde64ad92b4e02250e29f7e9ac880dda36915cf11dcf9e525bde8"
+
+[update]
+[update.modrinth]
+mod-id = "hw2GUVrm"
+version = "7Ky18bW0"

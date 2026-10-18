@@ -1,0 +1,13 @@
+name = "End Remastered Expanded"
+filename = "endrem_additions-neoforge-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/z3QkIKOR/versions/fO0OPcla/endrem_additions-neoforge-1.2.0.jar"
+hash-format = "sha512"
+hash = "b927db91ebedfb626e5414397c5bbb5d61a654b145ae53ca392fb9ab43df7b2669460c3cb067a1286fc1a84a0ea0c6f3bd02b1974eac50bcffc4ca4099b86450"
+
+[update]
+[update.modrinth]
+mod-id = "z3QkIKOR"
+version = "fO0OPcla"

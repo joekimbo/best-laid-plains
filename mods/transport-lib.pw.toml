@@ -1,0 +1,13 @@
+name = "Transport-Lib"
+filename = "transport_lib-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cPWMitYy/versions/fPHcU2Jd/transport_lib-1.0.3.jar"
+hash-format = "sha512"
+hash = "9ac942ede1337715d43c0ef047b4e73f39022905dc906a2ab1fb7b81e06600f1f905c4e3f292400d861afc7c7b62d0cb7ef5d44672b61d4dfcacb033feb88dce"
+
+[update]
+[update.modrinth]
+mod-id = "cPWMitYy"
+version = "fPHcU2Jd"

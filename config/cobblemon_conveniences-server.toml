@@ -1,0 +1,248 @@
+[starter]
+	#Offer "Random of Type" on the starter selection screen.
+	enabled = true
+	#Species with the chosen type as either of two types count. Off: the chosen type must be the only type.
+	includeDualTypes = false
+
+[shoulder]
+	#Put a shouldered Pokemon back on its shoulder after the battle it was sent into.
+	enabled = true
+
+[mark]
+	#Allow marking wild Pokemon for capture.
+	enabled = true
+	#Minutes a marked Pokemon is kept from despawning.
+	# Default: 5
+	# Range: 1 ~ 120
+	markMinutes = 5
+	#Marks per player; a new mark beyond this replaces that player's oldest.
+	# Default: 3
+	# Range: 1 ~ 32
+	maxMarks = 3
+	#Every player sees the outline. Off: only the player who marked it.
+	markVisibleToOthers = true
+
+[sort]
+	#Allow the PC Sort button.
+	enabled = true
+
+[bees]
+	#Owned Pokemon that are not in the party (pastured) fill beehives like wild ones, and Vespiquen, Cutiefly and Ribombee behave like Combee.
+	pasturedFillHives = true
+
+[showdown]
+	#Run Cobblemon's battle simulation (Showdown, GraalJS) on its own thread instead of the server thread, so battle starts and turns don't stall the server. Affects every battle. Mods that call Showdown's JS context themselves must use cobblemon_conveniences' ShowdownJsApi.
+	offThread = true
+	#A few throw-away battles shortly after the server starts, so the first real battle doesn't pay for the simulation's warm-up.
+	warmup = true
+
+[lodge]
+	#The Lodge Block: tethered Pokemon hunting wild Pokemon. Off: Lodge Blocks do nothing.
+	enabled = true
+	#At most this many hunters stand around a Lodge at once; the rest roam.
+	# Default: 3
+	# Range: 0 ~ 16
+	idleCap = 3
+	#How often a roaming hunter looks for a target.
+	# Default: 5
+	# Range: 1 ~ 120
+	scanSeconds = 5
+	#How far from itself a hunter looks for targets, in blocks (also limited by the Pasture roaming area).
+	# Default: 40
+	# Range: 8 ~ 128
+	scanRadius = 40
+	#Wild Pokemon up to this many levels below the hunter may be hunted (never above it).
+	# Default: 10
+	# Range: 0 ~ 100
+	levelsBelow = 10
+	#Lodge battles running at once, over all Lodges.
+	# Default: 3
+	# Range: 1 ~ 32
+	maxBattles = 3
+	#A hunter rests this long at home between hunts.
+	# Default: 30
+	# Range: 0 ~ 3600
+	cooldownSeconds = 30
+	#How many battles each Lodge remembers for its Battles tab.
+	# Default: 10
+	# Range: 1 ~ 50
+	records = 10
+	#Share of the normal experience a hunter gets for a win.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	xpShare = 0.5
+	#Hunters battle shiny Pokemon. Off: they report them instead.
+	huntShinies = false
+	#Hunters battle legendary and mythical Pokemon. Off: they report them instead.
+	huntLegendaries = false
+	#A Lodge battle lasts at most this many turns, then the hunter forfeits.
+	# Default: 10
+	# Range: 1 ~ 100
+	maxTurns = 10
+	#With no player near, Lodge battles skip animations and waiting and resolve as fast as the simulation allows.
+	headless = true
+	#A Lodge battle that makes no progress for this many seconds is called off (the target counts as having got away) and the reason is logged.
+	# Default: 30
+	# Range: 5 ~ 600
+	stallSeconds = 30
+	#Server-thread time per tick that headless Lodge battles may use between them; the rest of their work waits for the next tick.
+	# Default: 8
+	# Range: 1 ~ 40
+	headlessBudgetMs = 8
+	#A Lodge battle is shown normally when a player is within this many blocks of the hunter.
+	# Default: 96
+	# Range: 16 ~ 512
+	headlessRange = 96
+	#A hunter goes out again once its health is at least this percent (and it has no major status and some PP left).
+	# Default: 80
+	# Range: 1 ~ 100
+	departHpPercent = 80
+	#How well hunters choose moves: 0 picks moves at random, 1 to 5 use Cobblemon's Strong battle AI at that skill. Wild Pokemon always pick at random.
+	# Default: 3
+	# Range: 0 ~ 5
+	hunterAiSkill = 3
+	#The Hunters list names a hunter's target only once the hunter is within this many blocks of it (or in the battle).
+	# Default: 8
+	# Range: 1 ~ 64
+	revealRadius = 8
+	#How long a fainted hunter without a Revive needs to wake up on its own. 0: Cobblemon's own faint timer.
+	# Default: 0
+	# Range: 0 ~ 3600
+	faintRecoverySeconds = 0
+	#A hunter resting at home loses a major status (poison, burn, ...) after this many seconds without a cure. 0: only cures remove it.
+	# Default: 120
+	# Range: 0 ~ 3600
+	statusRecoverySeconds = 120
+	#Lodges within this many blocks of each other (a chain counts) share their area, supplies and revives; hunters patrol between them.
+	# Default: 64
+	# Range: 8 ~ 256
+	linkRadius = 64
+	#With Via Romana: hunters patrol a road that has a node within this many blocks of the Lodge.
+	# Default: 48
+	# Range: 8 ~ 256
+	roadRange = 48
+	#With Via Romana: patrollers turn back to the Lodge once they are this far from it.
+	# Default: 96
+	# Range: 16 ~ 512
+	patrolRange = 96
+	#Linked Lodges: a patrol route is cut into waypoints this many blocks apart; walking between them is the Pokemon's own pathfinding.
+	# Default: 20
+	# Range: 4 ~ 48
+	routeSpacing = 20
+	#Linked Lodges: a Via Romana road is followed between two Lodges only if it stays within this many blocks of the straight line between them.
+	# Default: 16
+	# Range: 2 ~ 64
+	roadTolerance = 16
+	#Linked Lodges: between two route waypoints a patroller is steered along a smooth curve through points this many blocks apart.
+	# Default: 6
+	# Range: 2 ~ 24
+	steerSpacing = 6
+	#Linked Lodges: the wavelength of the sine a patroller walks on top of its curve, in blocks.
+	# Default: 30
+	# Range: 8 ~ 120
+	waveLength = 30
+	#A patroller that makes no progress toward its next steering point for this many seconds (or whose path fails three times) is recalled to its Lodge.
+	# Default: 20
+	# Range: 5 ~ 300
+	patrolStallSeconds = 20
+	#Linked Lodges whose path has been lost for this many seconds (and could not be found again) become unlinked: battles are forfeited and the hunters go back to their own Lodge.
+	# Default: 30
+	# Range: 5 ~ 600
+	linkLossSeconds = 30
+	#A cached patrol route is checked against the ground again this often, so a lost path (a cave-in, a new lake, a wall) is noticed even when nobody stalls on it.
+	# Default: 30
+	# Range: 5 ~ 3600
+	routeRecheckSeconds = 30
+
+		#Strict natures (Serious, Timid, Careful, Calm, Bashful, Docile, Adamant, Naive) keep to the road.
+		[lodge.patrol.strict]
+			#Linked Lodges: how far from the route a patroller is at a control point, at most, to the left or the right (random each time), in blocks.
+			# Default: 2
+			# Range: 0 ~ 32
+			drift = 2
+			#About how often it steps off the road, in seconds.
+			# Default: 60
+			# Range: 5 ~ 600
+			detourSeconds = 60
+			#Nearest a detour goes, in blocks.
+			# Default: 3
+			# Range: 1 ~ 64
+			detourMin = 3
+			#Furthest a detour goes, in blocks.
+			# Default: 5
+			# Range: 1 ~ 64
+			detourMax = 5
+			#How long it lingers at the end of a detour, in seconds.
+			# Default: 6
+			# Range: 0 ~ 120
+			lingerSeconds = 6
+			#How far from the road a target may be for it to go after it, in blocks.
+			# Default: 8
+			# Range: 1 ~ 128
+			targetReach = 8
+			#Linked Lodges: the largest amplitude of the sine on top of the curve, reached half way between two Lodges and zero at them, in blocks.
+			# Default: 1
+			# Range: 0 ~ 32
+			wave = 1
+
+		#Moderate natures (Relaxed, Gentle, Mild, Modest, Quiet, Quirky, Lonely, Hardy) follow it with some wandering.
+		[lodge.patrol.moderate]
+			#Linked Lodges: how far from the route a patroller is at a control point, at most, to the left or the right (random each time), in blocks.
+			# Default: 5
+			# Range: 0 ~ 32
+			drift = 5
+			#About how often it steps off the road, in seconds.
+			# Default: 30
+			# Range: 5 ~ 600
+			detourSeconds = 30
+			#Nearest a detour goes, in blocks.
+			# Default: 5
+			# Range: 1 ~ 64
+			detourMin = 5
+			#Furthest a detour goes, in blocks.
+			# Default: 10
+			# Range: 1 ~ 64
+			detourMax = 10
+			#How long it lingers at the end of a detour, in seconds.
+			# Default: 5
+			# Range: 0 ~ 120
+			lingerSeconds = 5
+			#How far from the road a target may be for it to go after it, in blocks.
+			# Default: 14
+			# Range: 1 ~ 128
+			targetReach = 14
+			#Linked Lodges: the largest amplitude of the sine on top of the curve, reached half way between two Lodges and zero at them, in blocks.
+			# Default: 3
+			# Range: 0 ~ 32
+			wave = 3
+
+		#Loose natures (Brave, Impish, Hasty, Jolly, Naughty, Rash, Lax, Bold, Sassy) treat it as a guideline.
+		[lodge.patrol.loose]
+			#Linked Lodges: how far from the route a patroller is at a control point, at most, to the left or the right (random each time), in blocks.
+			# Default: 10
+			# Range: 0 ~ 32
+			drift = 10
+			#About how often it steps off the road, in seconds.
+			# Default: 15
+			# Range: 5 ~ 600
+			detourSeconds = 15
+			#Nearest a detour goes, in blocks.
+			# Default: 8
+			# Range: 1 ~ 64
+			detourMin = 8
+			#Furthest a detour goes, in blocks.
+			# Default: 16
+			# Range: 1 ~ 64
+			detourMax = 16
+			#How long it lingers at the end of a detour, in seconds.
+			# Default: 3
+			# Range: 0 ~ 120
+			lingerSeconds = 3
+			#How far from the road a target may be for it to go after it, in blocks.
+			# Default: 24
+			# Range: 1 ~ 128
+			targetReach = 24
+			#Linked Lodges: the largest amplitude of the sine on top of the curve, reached half way between two Lodges and zero at them, in blocks.
+			# Default: 6
+			# Range: 0 ~ 32
+			wave = 6

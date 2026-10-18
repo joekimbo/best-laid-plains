@@ -1,0 +1,12 @@
+#Highest allowed block Y of an underwater meteor (absolute coordinate, not distance).
+#Clamped per dimension to [minimum build height + 20, sea level - 1].
+#Ocean-floor sites too shallow for this limit are skipped. Default 63 allows normal oceans.
+# Default: 63
+# Range: -2032 ~ 2031
+underwaterMaxY = 63
+#Highest allowed block Y of a land meteor (absolute coordinate, not distance).
+#Clamped per dimension to [minimum build height + 20, maximum build height - 1].
+#Land meteors are lowered to meet this limit. Default 319 keeps near-surface burial.
+# Default: 319
+# Range: -2032 ~ 2031
+landMaxY = 319

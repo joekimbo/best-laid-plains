@@ -1,0 +1,14 @@
+# Default: 72000
+# Range: 200 ~ 24000000
+questCompletionTicks = 72000
+# Default: 5
+# Range: 1 ~ 20
+restrictedAvailabilityMultiplier = 5
+# Default: 1200
+# Range: 0 ~ 24000
+titheAccelerationPerDifficulty = 1200
+#Share of eligible intent rolls offered to the whole imported catalogue, not each quest.
+# Default: 0.35
+# Range: 0.0 ~ 1.0
+importedIntentShare = 0.35
+villagerProcessingAndFurnishing = true

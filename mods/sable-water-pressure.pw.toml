@@ -1,0 +1,13 @@
+name = "Sable: Water Pressure"
+filename = "waterpressure-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Da7zRnYm/versions/sqjz0BcW/waterpressure-1.0.0.jar"
+hash-format = "sha512"
+hash = "4f314571c1bbfcd716469dcc0e701f0434a9af177c004442d675e3c1824a421619af72521f5c415998394802e44bcb44e82cebceb84355b2dc6dd9016f46b4d0"
+
+[update]
+[update.modrinth]
+mod-id = "Da7zRnYm"
+version = "sqjz0BcW"

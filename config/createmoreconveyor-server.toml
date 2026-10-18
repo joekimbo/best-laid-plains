@@ -1,0 +1,57 @@
+[connectors]
+	#Maximum Chain connector distance in blocks (still clamped by Create's own limit).
+	# Default: 32
+	# Range: 1 ~ 128
+	maxChainLength = 32
+	#Maximum Iron Cable connector distance in blocks.
+	# Default: 64
+	# Range: 1 ~ 128
+	maxIronLength = 64
+	#Maximum Gold Cable connector distance in blocks.
+	# Default: 96
+	# Range: 1 ~ 128
+	maxGoldLength = 96
+	#Maximum Copper Cable connector distance in blocks.
+	# Default: 48
+	# Range: 1 ~ 128
+	maxCopperLength = 48
+	#Maximum Brass Cable connector distance in blocks.
+	# Default: 80
+	# Range: 1 ~ 128
+	maxBrassLength = 80
+	#Maximum Zinc Cable connector distance in blocks.
+	# Default: 56
+	# Range: 1 ~ 128
+	maxZincLength = 56
+	#Maximum Rope connector distance in blocks.
+	# Default: 32
+	# Range: 1 ~ 128
+	maxRopeLength = 32
+	#Multiplier applied to chain cost when using vanilla chains.
+	# Default: 1.0
+	# Range: 0.1 ~ 8.0
+	chainCostMultiplier = 1.0
+	#Multiplier applied to chain cost when using iron cables.
+	# Default: 1.0
+	# Range: 0.1 ~ 8.0
+	ironCostMultiplier = 1.0
+	#Multiplier applied to chain cost when using gold cables.
+	# Default: 1.5
+	# Range: 0.1 ~ 8.0
+	goldCostMultiplier = 1.5
+	#Multiplier applied to chain cost when using copper cables.
+	# Default: 0.9
+	# Range: 0.1 ~ 8.0
+	copperCostMultiplier = 0.9
+	#Multiplier applied to chain cost when using brass cables.
+	# Default: 1.25
+	# Range: 0.1 ~ 8.0
+	brassCostMultiplier = 1.25
+	#Multiplier applied to chain cost when using zinc cables.
+	# Default: 1.05
+	# Range: 0.1 ~ 8.0
+	zincCostMultiplier = 1.05
+	#Multiplier applied when using ropes.
+	# Default: 0.75
+	# Range: 0.1 ~ 8.0
+	ropeCostMultiplier = 0.75

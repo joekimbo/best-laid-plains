@@ -1,0 +1,94 @@
+{
+  "values": {
+    "cbc_at:cluster_cartridge": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.0,
+      "velocity_multiplier": 1.08
+    },
+    "cbc_at:cluster_caseless": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.5,
+      "case_mass": 0.0
+    },
+    "cbc_at:solid_shot_cartridge": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.0,
+      "velocity_multiplier": 1.08
+    },
+    "cbc_at:solid_shot_caseless": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.5,
+      "case_mass": 0.0
+    },
+    "cbc_at:armor_piercing_cartridge": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.0,
+      "velocity_multiplier": 1.08
+    },
+    "cbc_at:armor_piercing_caseless": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.5,
+      "case_mass": 0.0
+    },
+    "cbc_at:armor_piercing_shell_cartridge": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.0,
+      "velocity_multiplier": 1.08
+    },
+    "cbc_at:armor_piercing_shell_caseless": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.5,
+      "case_mass": 0.0
+    },
+    "cbc_at:grapeshot_cartridge": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.0,
+      "velocity_multiplier": 1.08
+    },
+    "cbc_at:grapeshot_caseless": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.5,
+      "case_mass": 0.0
+    },
+    "cbc_at:high_explosive_cartridge": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.0,
+      "velocity_multiplier": 1.08
+    },
+    "cbc_at:high_explosive_caseless": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.5,
+      "case_mass": 0.0
+    },
+    "cbc_at:shrapnel_cartridge": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.0,
+      "velocity_multiplier": 1.08
+    },
+    "cbc_at:shrapnel_caseless": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.5,
+      "case_mass": 0.0
+    },
+    "cbc_at:fluid_shell_cartridge": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.0,
+      "velocity_multiplier": 1.08
+    },
+    "cbc_at:fluid_shell_caseless": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.5,
+      "case_mass": 0.0
+    },
+    "cbc_at:smoke_cartridge": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.0,
+      "velocity_multiplier": 1.08
+    },
+    "cbc_at:smoke_caseless": {
+      "type": "powder_charge",
+      "charge_equivalents": 1.5,
+      "case_mass": 0.0
+    }
+  }
+}

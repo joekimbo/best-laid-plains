@@ -1,0 +1,13 @@
+name = "Burnt-Fighters"
+filename = "burnt-fighters-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/o26bk3Mz/versions/CQwEBJhS/burnt-fighters-1.0.0.jar"
+hash-format = "sha512"
+hash = "9ae3fc5d5710e8792624a2b45c77c7669e0c3eb896ee87ce31bdabe65fbc150fcd881940caaab5a280010e47abea95f524116a14ea54d8345ae8d65120e0294e"
+
+[update]
+[update.modrinth]
+mod-id = "o26bk3Mz"
+version = "CQwEBJhS"

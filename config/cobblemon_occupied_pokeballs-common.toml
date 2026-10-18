@@ -1,0 +1,4 @@
+#Show the Pokémon's name (and ✦ if shiny) as a floating label above placed Pokéball Displays.
+showFloatingName = true
+#Drop all party Pokémon as ball items on death. Skipped if the keepInventory gamerule is on.
+dropPartyOnDeath = false

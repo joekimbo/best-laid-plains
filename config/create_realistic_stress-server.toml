@@ -1,0 +1,78 @@
+#How much stress a moving contraption puts on the block that moves it.
+#  load   = suPerBlock x blocks + suPerWorkingActor x workingActors
+#  stress = load ^ sizeExponent x RPM ^ speedExponent
+#With both exponents at 1, a 20-block contraption at 16 RPM costs 320 SU.
+#Actors whose block is in the tag #create_realistic_stress:passive_actors (seats, bells,
+#controls, tanks...) count as plain blocks, not working actors.
+[load]
+	#SU per RPM for every block in the contraption
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	suPerBlock = 1.0
+	#Extra SU per RPM for every working actor (drills, saws, harvesters, ploughs, deployers...)
+	# Default: 8.0
+	# Range: 0.0 ~ 1000.0
+	suPerWorkingActor = 8.0
+	#Exponent on the load. Above 1, big contraptions get disproportionately expensive
+	# Default: 1.0
+	# Range: 0.1 ~ 3.0
+	sizeExponent = 1.0
+	#Exponent on the input RPM. Above 1, fast contraptions get disproportionately expensive
+	# Default: 1.0
+	# Range: 0.1 ~ 3.0
+	speedExponent = 1.0
+
+#Which contraption anchors carry the load
+[anchors]
+	mechanicalBearings = true
+	#Both hands of a clockwork bearing count
+	clockworkBearings = true
+	#The load sits on the gantry shaft under the gantry carriage
+	gantryShafts = true
+
+#Minecart contraptions are wind-up toys. A rotating Cart Assembler holds a passing (or stopped)
+#contraption cart, winds it up, and lets it go when full. Charge is measured in blocks of range.
+[wind_up_carts]
+	#Master switch for everything in this section
+	enabled = true
+	#If true, a contraption cart with no charge coasts to a stop and powered rails can't speed it up.
+	#If false, uncharged carts roll like vanilla carts and charge only adds self-propulsion.
+	requireCharge = true
+	#Blocks of travel a full charge gives (unfueled)
+	# Default: 256.0
+	# Range: 1.0 ~ 100000.0
+	maxRange = 256.0
+	#Blocks of range added per tick per RPM of the assembler. At the default, 32 RPM fills a cart in 5 seconds
+	# Default: 0.08
+	# Range: 1.0E-4 ~ 100.0
+	chargePerRpmPerTick = 0.08
+	#While winding, the assembler's stress impact is the cart's load times this
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	chargingStressMultiplier = 1.0
+	#Cart motion (blocks per tick) a charged cart drives itself up to. Vanilla moves a cart that carries
+	#something at 3/4 of its motion, so 0.2 travels 0.15 blocks per tick (3 m/s)
+	# Default: 0.2
+	# Range: 0.0 ~ 2.0
+	driveSpeed = 0.2
+	#Speed added per tick while below driveSpeed
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	driveAcceleration = 0.02
+	#Speed an uncharged cart loses per tick while coasting (with requireCharge), like a car in
+	#neutral. At 0.002, a cart that runs out at driveSpeed coasts about 7 blocks over 5 seconds
+	# Default: 0.002
+	# Range: 0.0 ~ 1.0
+	coastDeceleration = 0.002
+	#driveSpeed multiplier while burning fuel
+	# Default: 1.75
+	# Range: 1.0 ~ 10.0
+	fuelSpeedMultiplier = 1.75
+	#Charge used per block while burning fuel (0.5 = twice the range)
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	fuelDrainMultiplier = 0.5
+	#Ticks of boosted driving per tick of furnace burn time (coal = 1600)
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	fuelBurnTimeMultiplier = 1.0

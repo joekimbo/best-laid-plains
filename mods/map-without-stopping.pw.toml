@@ -1,0 +1,13 @@
+name = "Map Without Stopping"
+filename = "map_without_stopping-1.1.0+1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/OkC5C9zl/versions/30m61Kwu/map_without_stopping-1.1.0%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "819168fda399e4c8a691f5faca99f24779f18417efb01d5c0e5908dbae8e33acaae7d6e52bff60126b04aed93640d4c3a39625d42d5389b2ed8a747492dd842c"
+
+[update]
+[update.modrinth]
+mod-id = "OkC5C9zl"
+version = "30m61Kwu"

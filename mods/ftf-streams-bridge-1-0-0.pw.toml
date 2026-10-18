@@ -1,0 +1,8 @@
+name = "ftf_streams_bridge-1.0.0"
+filename = "ftf_streams_bridge-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/ftf_streams_bridge-1.0.0.jar"
+hash-format = "sha512"
+hash = "989e7bfc9d2eedd8c3c01d958ac5355bd5c9e92f47d37f28a386ed7fcf85e397a980201fd3440468dbb6d2d39744e3a0ad97a39ea0fa41c3c0128991168c3cb0"

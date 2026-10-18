@@ -1,0 +1,6 @@
+#Create Renewables - client config
+[highlight]
+	#Outline the fluid blocks that feed a turning water wheel while you look at it.
+	highlightContributingWater = true
+	#Only show the outline while wearing Engineer's Goggles.
+	requireGoggles = true

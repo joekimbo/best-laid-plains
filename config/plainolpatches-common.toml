@@ -1,0 +1,625 @@
+[gc]
+	#Warn (log, and a toast on the title screen) when the game is not running generational ZGC.
+	#Best Laid Plains needs -XX:+UseZGC -XX:+ZGenerational in the JVM arguments to avoid long GC stutters.
+	warnIfNotGenerationalZgc = true
+	#Only warn when the heap ceiling (-Xmx) is above this many GB. G1 on a small heap is the intended setup for
+	#weak laptops (the lite single-player profile: G1, 7 GB), so no warning there. 0 = warn at any heap size.
+	# Default: 8
+	# Range: 0 ~ 1024
+	warnOnlyAboveHeapGb = 8
+
+[freeterraforged]
+	#FreeTerraForged: how many terrain tiles to keep cached (each is about 3.8 MB).
+	#Defaults to FreeTerraForged's own value. Measured 2026-10-03: 64 made generation 47% slower for 0.4 GB saved.
+	# Default: 256
+	# Range: 8 ~ 4096
+	tileCacheSize = 256
+	#FreeTerraForged: seconds an unused terrain tile stays cached. FreeTerraForged's own value is 60.
+	# Default: 60
+	# Range: 5 ~ 600
+	tileExpirySeconds = 60
+	#FreeTerraForged: how many spent tile arrays to keep for reuse. These are never freed.
+	#FreeTerraForged's own value is 100.
+	# Default: 100
+	# Range: 0 ~ 1000
+	tilePoolSize = 100
+	#FreeTerraForged: threads that generate terrain tiles. FreeTerraForged's own value is one per logical CPU (0 = keep it).
+	#Fewer threads leave cores free so the JVM can pause quickly for GC; too many cause whole-game freezes
+	#while new terrain generates. Measured 2026-10-04: 8 removed freezes over 100 ms for 4% slower generation. Needs a restart.
+	# Default: 8
+	# Range: 0 ~ 64
+	worldgenThreads = 8
+
+[structures]
+	#Structures that never generate. Ids ("minecraft:shipwreck") or structure tags ("#minecraft:village").
+	#Applies to newly generated chunks only.
+	disabled = ["minecraft:pillager_outpost", "minecraft:ruined_portal", "minecraft:ruined_portal_desert", "minecraft:ruined_portal_jungle", "minecraft:ruined_portal_mountain", "minecraft:ruined_portal_ocean", "minecraft:ruined_portal_swamp", "minecraft:shipwreck", "minecraft:shipwreck_beached"]
+
+	[structures.biomeCheck]
+		#Reject a structure if any of its main pieces would sit in a blacklisted biome that isn't one of the structure's own biomes.
+		#Keeps villages and similar structures from straddling rivers and coasts. Replaces Structurify's global biome check.
+		enabled = true
+		#Biomes (ids or "#tags") a structure may not overlap.
+		blacklistedBiomes = ["#minecraft:is_river", "#c:is_river", "#minecraft:is_ocean", "#c:is_ocean"]
+		#Structures (ids or "#tags") the biome check never rejects.
+		exemptStructures = []
+
+	[structures.search]
+		#Structure searches (/locate, explorer maps, dolphins, eyes of ender) give up after this many seconds. 0 = no limit.
+		# Default: 30
+		# Range: 0 ~ 3600
+		timeLimitSeconds = 30
+		#Structure searches ignore candidates farther than this many blocks from where the search started. 0 = no limit.
+		# Default: 10000
+		# Range: 0 ~ 1000000
+		maxRadiusBlocks = 10000
+
+	[structures.spacing]
+		#The same structure doesn't generate when fewer than this many chunks separate it from one that already generated
+		#(measured between the structures' chunk bounding boxes, so big structures keep their own radius on top). 0 = off.
+		#Only structures generated after installing count; the first start in an area wins.
+		# Default: 16
+		# Range: 0 ~ 256
+		chunks = 16
+		#Structures (ids or #tags) that ignore the spacing rule. Strongholds sit on fixed rings and mineshafts are meant to be common.
+		exempt = ["minecraft:stronghold", "minecraft:mineshaft", "minecraft:mineshaft_mesa", "#minecraft:mineshaft"]
+
+[effortlessBuilding]
+	#Effortless Building: with its 'survival: only break placed blocks' rule on, also allow breaking blocks
+	#inside structure pieces (houses, corridors, rooms), so players can clear structures they find.
+	allowBreakingInStructures = true
+	#Blocks of extra margin around each structure piece that also count as inside it.
+	# Default: 1
+	# Range: 0 ~ 8
+	structureMargin = 1
+	#Structures (ids or "#tags") whose pieces don't count, e.g. "#minecraft:mineshaft" if mineshafts feel too generous.
+	excludedStructures = []
+	#Effortless Building + Inventory Tweaks Refoxed: when a build-mode placement uses up the stack in your hand,
+	#Inventory Tweaks' auto-refill puts the next matching stack there, as after normal placement (its own setting applies).
+	refillHandAfterPlacing = true
+
+[journeymap]
+	#JourneyMap (client only): mobs whose entity type id contains any of these strings show a Poke Ball icon on the
+	#minimap, fullscreen map and web map (in the icon display modes) instead of JourneyMap's own icon, or the dot it
+	#falls back to when it has none. Default: every Cobblemon entity
+	#("cobblemon" also matches addon ids such as "cobblemon_battle_tower:..."). Use "cobblemon:pokemon" for Pokemon only.
+	#Empty list = off. Icons another mod sets through JourneyMap's API are left alone.
+	pokeBallIconEntities = ["cobblemon"]
+
+[cobblemon]
+	#Cobblemon (client only): keep ambient sounds (rivers, shore waves, wind) playing during battles.
+	#Cobblemon's battle music otherwise pauses and blocks the ambient category along with music and records.
+	keepAmbientInBattles = true
+	#Cobblemon (client only): volume of ambient sounds while battle music plays, as a fraction of their normal volume.
+	#Not applied when the Music slider is at 0. 1.0 = unchanged.
+	# Default: 0.7
+	# Range: 0.0 ~ 1.0
+	battleAmbientVolume = 0.7
+	#Cobblemon: wild Pokemon take no fall damage for this many seconds after they spawn or load. 0 = off.
+	#Pokemon can spawn on tree canopies (Dynamic Trees leaves count as solid ground for spawning) and drop off.
+	# Default: 15
+	# Range: 0 ~ 600
+	spawnFallProtectionSeconds = 15
+	#Cobblemon: a wild Pokemon that spawns with nothing under it is moved straight down to the ground (at most 24 blocks).
+	dropMidairSpawnsToGround = true
+	#Cobblemon: wild Pokemon take fall damage after the spawn protection above runs out. Off by default: Pokemon that
+	#spawn in tree canopies (several species do, on purpose) wander off the edge minutes later, and the hurt sound
+	#of a fall nobody saw is unsettling. Owned Pokemon still take fall damage.
+	wildPokemonFallDamage = false
+	#Cobblemon: Pokemon (and Cobblemon NPCs) don't path into or onto blocks that hurt them: fire, lava, lit campfires,
+	#magma blocks, sweet berry bushes, cactus, wither roses and powder snow. Fire-immune Pokemon still cross fire,
+	#lava edges, campfires and magma; Pokemon that can't freeze still cross powder snow.
+	avoidDamagingBlocks = true
+	#Cobblemon healing machines that generate in structures (villages) hold at most this much charge, so they don't
+	#outcompete Mechanical Healing Machines. 1.0 = enough to heal one Pokemon fully (Cobblemon's own cap is 6);
+	#0 = off. Machines already generated keep their cap until they are replaced.
+	# Default: 1.0
+	# Range: 0.0 ~ 6.0
+	villageHealerMaxCharge = 1.0
+	#Cobblemon: captured Pokemon go straight to the PC for players who haven't chosen with /capturetopc.
+	captureToPcDefault = false
+	#Client only, with Cobblemon: move the chat this many GUI pixels to the right so it isn't drawn behind the party
+	#overlay's sixth slot. 0 = off. Raise it if the party overlay is scaled up in Cobblemon's client config.
+	# Default: 66
+	# Range: 0 ~ 400
+	chatOffsetForPartyOverlay = 66
+	#Client only, Cobblemon: remember whether a resource exists until the next resource reload, instead of asking the resource
+	#manager every call (its party overlay did so every frame).
+	cacheResourceExists = true
+
+	[cobblemon.wildCries]
+		#Cobblemon (client only): now and then a wild Pokemon within earshot but out of its ambient-sound range plays its
+		#species' cry, quietly, as ambience. Never during a battle or while a screen is open.
+		enabled = true
+		#Average minutes between two cries (the wait is random, never under one minute).
+		# Default: 15
+		# Range: 1 ~ 1440
+		meanMinutes = 15
+		#Blocks: Pokemon closer than this don't cry (Cobblemon's own ambient sounds already cover about 16).
+		# Default: 10
+		# Range: 0 ~ 256
+		minDistance = 10
+		#Blocks: Pokemon farther than this don't cry. Also capped by what the volume carries (16 blocks per 1.0).
+		# Default: 32
+		# Range: 1 ~ 256
+		maxDistance = 32
+		#Volume of a cry at its source (the Friendly Creatures slider still applies). Sound fades out linearly over 16 blocks per 1.0.
+		# Default: 2.0
+		# Range: 0.0 ~ 8.0
+		volume = 2.0
+		#Species that never cry as ambience, by showdown id ("mewtwo"). Read when the game starts.
+		excludedSpecies = []
+
+[createIronworks]
+	#Create: Ironworks (client only): hide the flavour lines on its tools and armour ("Cheap and disposable tools.").
+	hideItemDescriptions = true
+
+[thirst]
+	#Thirst Was Taken (client only): show its thirst and quench droplets at the bottom of food tooltips, beside
+	#AppleSkin's hunger and saturation rows, instead of under the item name.
+	tooltipBesideHunger = true
+	#Thirst Was Taken: seconds a water bottle, bowl, bucket, waterskin, canteen or iron flask takes on a
+	#campfire (placed on it like food) to become Clean. Thirst 1.7 dropped its own campfire recipes; its furnace boiling also stops at Clean.
+	# Default: 30
+	# Range: 1 ~ 600
+	campfirePurifySeconds = 30
+	#Thirst Was Taken (client only): while holding a drink or food that restores thirst, show the droplets and
+	#quenched overlay it would add, pulsing over the thirst bar like AppleSkin's hunger preview. Follows AppleSkin's own
+	#'show food values overlay', off-hand and flash opacity settings.
+	heldItemPreview = true
+
+	[thirst.canteens]
+		#Thirst Was Taken: servings each metal canteen added by this mod holds, as "metal=servings" (waterskin 4, copper canteen 4,
+		#iron flask 6; Thirst's own limit 64). Read when the game starts.
+		capacities = ["tin=4", "zinc=5", "bronze=5", "brass=6"]
+		#Seconds one serving takes to boil in hand (Thirst's boil-in-hand setting), as "metal=seconds" (copper canteen 2, iron flask 3).
+		boilSeconds = ["tin=2", "zinc=2", "bronze=3", "brass=3"]
+
+[worldgen]
+	#Ores generated in tuff within this many blocks of the ground surface use their stone variant instead of the deepslate one.
+	#FreeTerraForged covers steep slopes with a band of tuff, which counts as deepslate for ore generation. 0 = off. New chunks only.
+	# Default: 8
+	# Range: 0 ~ 64
+	stoneOresInSurfaceTuffDepth = 8
+
+[gamerules]
+	#Value of the announceAdvancements game rule (advancements posted in chat) in newly created worlds.
+	#Existing worlds keep theirs: use /gamerule announceAdvancements false.
+	announceAdvancementsInNewWorlds = false
+
+[sable]
+	#Sable (Create: Simulated / Aeronautics physics contraptions): dimensions where new physics contraptions can be
+	#assembled. Elsewhere the physics assembler and swivel bearing refuse with an error. Contraptions that already exist
+	#keep working. Empty list = everywhere.
+	allowedDimensions = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+	#Sable: in dimensions not listed in sable.allowedDimensions, don't run a physics engine, tick, track chunks or save
+	#sub-level files until something there actually needs physics. Dimensions that already have saved sub-levels stay
+	#active. Applies when a world loads.
+	dormantOutsideAllowedDimensions = true
+
+[seasons]
+	#Ecliptic Seasons' Serene Seasons API bridge: report wet/dry (tropical) seasons to mods using the Serene Seasons API
+	#(SeasonHUD, Thirst Was Taken, Burnt, Dynamic Trees) in seasons.tropicalBiomes, following Ecliptic's monsoon calendar
+	#(dry from Beginning of Winter to Grain Rain, wet from Beginning of Summer to First Frost). Off = the bridge's own
+	#behaviour (no biome is tropical).
+	tropicalSeasons = true
+	#Biomes (ids or "#tags") with wet/dry seasons. Default: Ecliptic's monsoonal biomes (savannas). Jungles are left
+	#out on purpose: Ecliptic keeps them rainy all year, so they have no dry season.
+	tropicalBiomes = ["#eclipticseasons:rain/monsoonal"]
+	#Ecliptic Seasons: crop growth follows a smooth curve over the 24 solar terms instead of its per-term table (zero outside a
+	#crop's window). Peak k times faster, trough k times slower (k 2 for one fertile season, 1.5 two adjacent, 1.25 for the rest);
+	#a crop never stops. Needs Ecliptic's EnableSeasonalCrop on. Off = Ecliptic's own numbers.
+	fertilityCurve = true
+	#Ecliptic Seasons: humidity growth multiplier K^g over the crop's tolerated range (geometric mean 1 over the five levels),
+	#rolled independently of the season step. Needs Ecliptic's EnableCropHumidityControl on. Off = Ecliptic's own numbers.
+	humidityCurve = true
+	#Keep Ecliptic's climate death rolls (crops turning into dead bushes on a failed tick) while the curves are on. Default off:
+	#with the curve a crop slows down but never stops, so cold-killing would contradict it.
+	keepEclipticCropDeath = false
+	#Per-crop season profile overrides, "block id=n,c,k": n peaks per year (1 or 2), c the first peak's centre in solar terms
+	#(0 = Beginning of Spring, a season's middle is 2.5, 8.5, 14.5, 20.5), k the peak multiplier (trough 1/k). Wheat is two peaks
+	#of 1.25 whatever Ecliptic lists.
+	cropProfiles = ["minecraft:wheat=2,2.5,1.25"]
+	#Client only, Ecliptic Seasons: how the game names the 24 solar terms. "adapted" (default): Start of Spring, Early Spring,
+	#Mid-Spring, Spring Equinox, Late Spring, End of Spring, and the same pattern for the other seasons, in all of Ecliptic's UI and
+	#in our Jade line. "traditional": Ecliptic's own names (Beginning of Spring, Rain Water, ...). Applies after the resource packs
+	#reload (F3+T) or a restart.
+	termNames = "adapted"
+
+[surfaceMonsters]
+	#Monsters never spawn naturally at the surface (including the dark ground under tree canopies) in
+	#surfaceMonsters.dimensions. Surface = at or above the highest non-leaf block of the column. Caves and anything
+	#under rock still spawn monsters; open pits and ravines count as surface. Spawners, structures, raids and patrols
+	#are not affected.
+	enabled = true
+	#Dimensions where surfaceMonsters applies.
+	dimensions = ["minecraft:overworld"]
+	#Monsters (entity ids) that still spawn at the surface. Slimes keep spawning in swamps and slime chunks.
+	exemptEntities = ["minecraft:slime"]
+	#Also block spawns up to this many blocks below the surface (0 = only at the surface and above).
+	# Default: 0
+	# Range: 0 ~ 64
+	depthBelowSurface = 0
+
+[patrols]
+	#Illager Invasion: chance that each pillager in a pillager patrol is replaced by a mob from patrols.replacements. 0 = off.
+	#Illager Invasion itself already turns half of all patrol members (leaders too) into marauders; this applies to the rest.
+	# Default: 0.3
+	# Range: 0.0 ~ 1.0
+	replacementChance = 0.3
+	#Mobs that can join pillager patrols, as "id=weight". Only patrolling mobs (illagers) work; others are skipped.
+	replacements = ["illagerinvasion:basher=4", "illagerinvasion:provoker=3", "illagerinvasion:sorcerer=2", "illagerinvasion:inquisitor=1"]
+	#Also allow a pillager patrol leader (the banner carrier) to be replaced.
+	replaceLeader = false
+
+[illagerInvasion]
+	#Illager Invasion: only place a labyrinth where all of its halls and rooms are underground. Its basement sits 40
+	#blocks below the ground at the entrance and spreads up to 80 blocks; where the ground drops further than that,
+	#the halls hung in the air or in water. New chunks only.
+	labyrinthMustBeBuried = true
+
+[simplySwords]
+	#Simply Swords (client only): drop the "Implicit" heading above a weapon's rolled type bonus in its tooltip
+	#(e.g. "12% chance to inflict Bleed"). The bonus line itself stays.
+	hideImplicitHeader = true
+
+[emi]
+	#EMI (client only): a small tab next to the top of a GUI (e.g. Sophisticated Storage's settings tab) narrows
+	#EMI's side panel instead of pushing the whole panel below it or hiding it.
+	panelBesideSmallTabs = true
+	#Client only, EMI with TooManyRecipeViewers: build every recipe's outputs a few milliseconds per frame after joining a world, and keep
+	#them, so REMI's workstation sidebar does not stall (about 0.65 s) the first time a cooking pot or similar opens.
+	prewarmRecipeOutputs = true
+	#Client only, EMI recipe output pre-warm: milliseconds of work per frame.
+	# Default: 3
+	# Range: 1 ~ 50
+	prewarmBudgetMs = 3
+	#Client only, EMI recipe output pre-warm: seconds to wait after EMI has loaded in a world.
+	# Default: 3
+	# Range: 0 ~ 120
+	prewarmDelaySeconds = 3
+
+[rechiseled]
+	#Rechiseled (client only): centre the item in the chisel screen's large input slot.
+	centerChiselSlot = true
+
+[performance]
+	#/data get entity <e> Pos[0..2] and /data modify ... from entity <e> Pos read only the position instead of
+	#saving the whole entity first (for players: inventory, ender chest, recipe book). Spawn Animations does this
+	#for players every tick. Same result; riding entities still get the full save.
+	cheapPositionDataCommands = true
+
+[colorwheel]
+	#Colorwheel (client only, with Iris shaders): compile the Flywheel shader programs used recently with the current
+	#shader pack as soon as the pack's pipeline first renders (world join, shader toggle, resource reload), instead of
+	#on first sight of each block type (a 0.5-2 s freeze, e.g. the first water wheel). Used programs are listed in
+	#config/plainolpatches/colorwheel-keys.txt (per shader pack; entries unused for 30 days are dropped).
+	prewarmPrograms = true
+	#Colorwheel: how programs are compiled ahead. "background": the shader pack's sources are patched on a
+	#background thread right away, and the programs are compiled a few at a time on the render thread, starting
+	#colorwheel.prewarmDelaySeconds after the pipeline first renders, within colorwheel.prewarmBudgetMs per frame.
+	#"immediate": all at once when the pipeline first renders (one longer stall at world join or shader load).
+	prewarmMode = "background"
+	#Colorwheel, background mode: render-thread time per frame for compiling programs ahead. One program can't be
+	#split (each takes roughly 20-300 ms, more on integrated graphics), so a frame runs at least one; after a frame
+	#that went over, as many frames are skipped as the overrun is worth in budgets (at most 1 s), so the average
+	#stays at about this much per frame.
+	# Default: 4
+	# Range: 1 ~ 1000
+	prewarmBudgetMs = 4
+	#Colorwheel, background mode: seconds after a shader pipeline first renders (world join, shader toggle,
+	#resource reload) before compiling programs starts. Anything drawn earlier is compiled by Colorwheel as usual.
+	# Default: 5
+	# Range: 0 ~ 300
+	prewarmDelaySeconds = 5
+	#Colorwheel: at most this many programs are compiled ahead (most recently used first). Each takes roughly
+	#0.1-0.3 s of render-thread time in total (immediate mode: added to the world join or shader load).
+	# Default: 64
+	# Range: 0 ~ 1024
+	prewarmMaxPrograms = 64
+	#Colorwheel: when a shader pipeline is first used (joining a world, or Iris reloading shaders), compile ahead for up to
+	#this many milliseconds right on that first frame, while the loading screen (or Iris's reload screen) is still the picture
+	#on show. Whatever is left continues in the background (colorwheel.prewarmBudgetMs per frame). 0 = background only.
+	# Default: 3000
+	# Range: 0 ~ 60000
+	prewarmLoadingBudgetMs = 3000
+	#Colorwheel: besides the programs recorded as used with the shader pack, up to this many more are compiled ahead:
+	#every Flywheel instance type (Create's first) with the default block material, solid, main and shadow pass, cutout
+	#off and one-tenth. A type never drawn before (the first belt) would otherwise compile in the middle of a frame.
+	#0 = only recorded programs. Total is colorwheel.prewarmMaxPrograms plus this.
+	# Default: 96
+	# Range: 0 ~ 1024
+	prewarmSeedPrograms = 96
+
+[food]
+	#Raise the hunger, saturation and Thirst Was Taken values of foods whose recipes put in more than the food gives
+	#back (Stuffed Cod, sandwiches, slices, ...). Only ever raises. The list and the reasons are in the mod jar,
+	#plainolpatches/food_values.json. Needs a restart.
+	raiseToIngredientValue = true
+
+[servercore]
+	#ServerCore + C2ME: a chunk section could stop sending block and block-entity updates to players (Create
+	#depots showing old items, presses not animating) until a block in another section of that chunk changed.
+	#Re-queues the chunk on every change, and once a second for chunks still holding unsent changes.
+	#Only applies with ServerCore installed; the mixin part needs a restart.
+	fixStaleSectionSync = true
+
+[wanderingTrader]
+	#Create Numismatics: wandering traders sell coins for emeralds as their first trade (10 uses) and every trade
+	#priced in emeralds alone also gets a twin priced in coins at the trader's own rate. Added the first time a player
+	#interacts with a trader.
+	coinTrades = true
+	#Wandering traders' spurs per emerald is drawn from a normal distribution with this mean, once per trader
+	#(from its UUID). 64 spurs = one cog = the emerald's normal value. There is no upper cap: lucky deals are intended.
+	# Default: 64
+	# Range: 1 ~ 100000
+	meanSpursPerEmerald = 64
+	#Standard deviation of the spurs per emerald a wandering trader rolls. About two thirds of traders land within
+	#this many spurs of the mean; 0 = every trader pays exactly the mean.
+	# Default: 24
+	# Range: 0 ~ 100000
+	stdDevSpursPerEmerald = 24
+	#Floor for the spurs per emerald a wandering trader rolls (the normal distribution is clamped here).
+	# Default: 1
+	# Range: 1 ~ 100000
+	floorSpursPerEmerald = 1
+
+[recipes]
+	#Farmer's Delight: its canvas works in every recipe that takes leather, except recipes that make armour.
+	#Applied to the recipe JSON as data packs load, so it covers every mod's recipes.
+	canvasAsLeather = true
+	#Create: drop the duplicate crushing and milling recipes. Create's stone recycling recipes (ochrum, tuff, ...) also
+	#matched the base stone itself, which then had two crushing recipes; and a few add-ons ship identical copies.
+	dedupeCreateCrushing = true
+	#Sophisticated Storage: the copper, iron and gold tier upgrades and tiered chests, barrels and shulker boxes also take
+	#the pack's other metals (see data/plainolpatches/tags/item/storage_tier_metals). A metal between two tiers counts as the lower one.
+	sophisticatedStorageMetals = true
+	#Create Diesel Generators' plant oil is the pack's seed oil: Create Electro Energistics' and Create Crafts & Additions'
+	#seeds-to-oil recipes are dropped (every consumer takes #c:plantoil, so all three still work as fuel and ingredient).
+	#Needs a world reload (data packs) to apply.
+	mergeSeedOils = true
+	#Create: Ironworks alloys: mixing needs heat in every case; crushed ores give the bonus (chance nuggets and experience),
+	#ingots give the plain yield: brass from ingots is only Create's own 2-ingot recipe, steel from ingots keeps its ingot and
+	#guaranteed nuggets without the chance outputs. Needs a world reload (data packs) to apply.
+	brassByInput = true
+	#Cobblemon medicines: Tomtaru's Farmer's Delight cooking pot recipes give 1 per cook like Cobblemon's campfire pot
+	#(they gave 3), and Create mixing recipes that duplicate each other (same ingredients, heat and result) keep only the
+	#highest-yield one. Needs a world reload (data packs) to apply.
+	cobblemonBrewing = true
+	#Create: Ironworks: bronze mixing (copper + tin) needs a heated mixer. Crushed raw copper + tin keeps the bonus nuggets
+	#and experience; copper + tin ingots give 2 plain bronze ingots. Needs a world reload (data packs) to apply.
+	bronzeHeated = true
+	#Create and its addons: wherever a recipe takes dried kelp (belts, funnels, tunnels, spouts, hose pulleys, pumps ...),
+	#leather (c:leathers) and Farmer's Delight's canvas are accepted too. Dried kelp blocks are unchanged.
+	#Needs a world reload (data packs) to apply.
+	kelpAlternatives = true
+
+[shovel]
+	#Right-clicking dirt or grass with a shovel to make a path breaks the grass or plant on top first
+	#(drops as usual), instead of doing nothing.
+	pathClearsPlants = true
+
+[flightControl]
+	#Create: Flight Control (client only): hide the "Compatible with Create: Flight Control / Link to a Flight Control Computer"
+	#tooltip it adds to other mods' components (encased fan, propellers, bearings). An item in an inventory is never linked.
+	hideCompatTooltips = true
+
+[fightOrFlight]
+	#Cobblemon Fight or Flight (client only): don't draw its move-slot type icons while the player is in bed.
+	hideMoveSlotsWhileSleeping = true
+
+[jade]
+	#Cobblemon Integrations (client only): Jade's nature line also shows the stats the nature raises and lowers.
+	natureShowsStats = true
+
+[sound]
+	#Client only: in single player, the sounds of the categories below keep playing while the game is paused
+	#(pause screen, or the window losing focus), instead of everything going silent. Looping sounds continue; the paused
+	#world makes no new ones.
+	keepPlayingWhilePaused = true
+	#Sound categories that keep playing while paused: master, music, record, weather, block, hostile, neutral, player, ambient, voice.
+	keepPlayingCategories = ["ambient", "weather"]
+
+[viaRomana]
+	#Via Romana: travelling between signs costs hunger and thirst, growing with the logarithm of the distance up to a cap.
+	#Creative and spectator players pay nothing. Thirst needs Thirst Was Taken. Neither goes below empty.
+	travelCosts = true
+	#Hunger points (2 per drumstick) a trip of viaRomana.capDistanceBlocks or more costs; shorter trips cost a share of it.
+	#Saturation is taken first.
+	# Default: 6
+	# Range: 0 ~ 20
+	hungerAtCap = 6
+	#Thirst points (2 per droplet) a trip of viaRomana.capDistanceBlocks or more costs.
+	# Default: 6
+	# Range: 0 ~ 20
+	thirstAtCap = 6
+	#Horizontal distance in blocks from which a trip costs the full amount.
+	# Default: 2000
+	# Range: 1 ~ 1000000
+	capDistanceBlocks = 2000
+	#Curve softness in blocks: cost = cap * ln(1 + d / scale) / ln(1 + capDistance / scale). Smaller = short trips cost more.
+	#With 64 and a 2000-block cap, 100 blocks costs 27% of the cap, 500 blocks 63%, 1000 blocks 80%.
+	# Default: 64
+	# Range: 1 ~ 100000
+	scaleBlocks = 64
+
+[monsterCap]
+	#Soft cap on natural monster spawns per chunk per monsterCap.windowMinutes: once a chunk has had this many, further
+	#natural monster spawns there fail until the window ends. Stops a big dark cave refilling as fast as you clear it.
+	#Spawners, structures, raids, patrols and party spawns are not counted. 0 = no cap. Counts reset on server restart.
+	# Default: 8
+	# Range: 0 ~ 1000
+	perChunk = 8
+	#Length in minutes of the monsterCap window, counted from the chunk's first spawn.
+	# Default: 60
+	# Range: 1 ~ 1440
+	windowMinutes = 60
+	#Monsters (entity ids) that are neither counted nor blocked by monsterCap.
+	exemptEntities = ["minecraft:slime"]
+
+[submarine]
+	#Client only, Create Submarine: its "Max Depth" tooltip line (shown with goggles) appears only on blocks from the
+	#namespaces in submarine.depthTooltipNamespaces, not on every block in the game.
+	limitMaxDepthTooltip = true
+	#Namespaces whose blocks keep Create Submarine's "Max Depth" tooltip (the Create Deep Seas hull blocks).
+	depthTooltipNamespaces = ["create_submarine", "create_abyss"]
+
+[trmt]
+	#The Roads More Traveled: sugar cane on its eroded blocks (grass, dirt, coarse dirt, sand) follows the vanilla rule: water of any
+	#kind (flowing water of a stream too) or frosted ice beside the block under the cane. TRMT alone counted only source water, so
+	#cane beside a stream broke when the dirt eroded, and eroded sand took cane with no water at all. Off = TRMT's own rule.
+	caneFollowsVanillaWaterRule = true
+
+[armor]
+	#Silver armour: each worn silver piece reflects this much damage (hearts x 2) at an undead monster that hits its
+	#wearer in melee, Thorns-style. 4 pieces = 4x. 0 = off.
+	# Default: 1.0
+	# Range: 0.0 ~ 20.0
+	silverReflectPerPiece = 1.0
+
+[shields]
+	#Gold shield: ticks it stays unusable after an axe hit (vanilla shields: 100). The other metal shields keep 100.
+	# Default: 40
+	# Range: 1 ~ 1200
+	goldDisableTicks = 40
+
+[battleExtras]
+	#Client only, Cobblemon Battle Extras: cache its per-frame reflection lookups, the Pokemon it builds for each tile, its Mega
+	#and base-stat answers (half a second to two seconds), and normalise Pokemon names without a regex. Cuts the battle HUD's frame
+	#cost and garbage. Off = Battle Extras' own per-frame work.
+	cacheLookups = true
+	#Client only, Cobblemon Battle Extras: its nameplate text outline is drawn as four copies instead of vanilla's eight (Iris
+	#pays for every vertex). Looks nearly the same at nameplate size. Off = the eight-copy outline.
+	cheapNameplateOutline = true
+	#Client only, Cobblemon Battle Extras: draw its ability and move tooltips above the hotbar, hearts and food.
+	tooltipsAboveHud = true
+
+[newage]
+	#Create: New Age connector networks: the path search between a source and each consumer remembers visited connectors in a
+	#hash set instead of a list (same paths, far less time on big wire meshes).
+	fastPathfinding = true
+	#Create: New Age connector networks: one search tree per source answers the path lookups of all consumers (the search
+	#never depended on the consumer or on the remaining capacity of the wires), instead of a fresh search per consumer. Same
+	#paths. Rebuilt whenever a wire is added or removed. Off = the original per-consumer search (still with the hash set).
+	cachePathTrees = true
+	#Create: New Age connector networks: a consumer whose storage is full is skipped before searching for a path to it
+	#(it could not take any power anyway).
+	skipFullConsumers = true
+	#Create: New Age connector networks: the per-tick reset of every wire's remaining capacity only runs when power was
+	#actually sent over the wires since the last reset.
+	lazyConductivityReset = true
+
+[mca]
+	#Minecraft Comes Alive: players can't hurt MCA villagers (melee, arrows, TNT, tamed animals, Pokemon and their
+	#projectiles). Damage from mobs is unchanged, so partners still defend villagers; zombie villagers stay hittable.
+	protectVillagersFromPlayers = true
+	#Permission level needed for /plainolpatches mca goaway (send a villager away; asks for confirmation first).
+	#0 = every player, but only villagers who know them (they have talked to or traded with the villager); ops (2+) may
+	#send away any villager, also by name or selector. 4 effectively limits it to the console.
+	# Default: 0
+	# Range: 0 ~ 4
+	goAwayPermission = 0
+
+[chat]
+	#Client only: system chat messages that match chat.joinMessageFilter and arrive within 60 seconds of joining a world
+	#are dropped (mods' unconditional welcome messages). Player chat and command feedback are never touched.
+	filterJoinMessages = true
+	#Java regular expressions (matched against the whole message text) for chat.filterJoinMessages.
+	#Defaults: Effortless Building's welcome and the empty line after it; Create: Extra Casing's greeting.
+	joinMessageFilter = ["(?s)Thank you for using Effortless Building!.*", " *", "(?s)Hello! Thanks for downloading.*"]
+
+[loot]
+	#Illager Invasion + Create: Propulsion: illagers drop 2 Propulsion platinum nuggets (same chance and looting rules)
+	#instead of Illager Invasion's platinum chunk. 4 chunks made a platinum sheet, so 2 nuggets is about the same
+	#value; a platinum ingot also crafts into Illager Invasion's platinum sheet (recipe plainolpatches:illager_platinum_sheet_from_ingot).
+	illagerPlatinum = true
+
+[cobbreeding]
+	#Cobbreeding: its Pokemon eggs (326 items, one per type pair) count as ordinary eggs in recipes, as ONE entry: only
+	#cobbreeding:pokemon_egg is in the c:eggs / forge:eggs tags, every other egg item matches an ingredient that takes it,
+	#and the extra egg items are hidden from creative tabs and EMI's index. Hatching is unchanged (the Pokemon lives in the
+	#egg's data). Off = the variants no longer match egg ingredients (the tag stays at one entry; it is data) and show again.
+	eggsAsEggs = true
+
+[toasts]
+	#Client only, toasts: mod ids whose toasts are blocked, e.g. ["buggered", "mca", "cobblemon_conveniences"]. A toast belongs to
+	#the mod whose jar holds its class, or, for toasts shown the vanilla way (SystemToast), to the mod named by the first part of its
+	#translation key (toast.buggered.saved is Buggered's). Every toast seen is listed in config/plainolpatches/toasts-seen.txt.
+	blockedMods = ["buggered"]
+	#Client only, toasts: block every toast. Blocked toasts are dropped before they are queued.
+	blockAll = false
+	#Client only, toasts: block every vanilla toast (advancement, recipe, tutorial, system and the rest of Minecraft's).
+	blockVanilla = false
+	#Client only, toasts: block every toast that doesn't come from Minecraft itself.
+	blockModded = false
+	#Client only, toasts: block advancement toasts.
+	blockAdvancements = true
+	#Client only, toasts: block recipe unlock toasts.
+	blockRecipes = true
+	#Client only, toasts: block tutorial toasts.
+	blockTutorial = true
+	#Client only, toasts: block system toasts (narrator, world backup, pack and file errors, ...), and with them all toasts
+	#that mods show the vanilla way, e.g. Buggered's. Use toasts.blockedCategories to pick single sources instead.
+	blockSystem = false
+	#Client only, toasts: fully qualified toast class names to block (exact class). Turn on toasts.printClasses to find them.
+	blockedClasses = []
+	#Client only, toasts: categories to block (a finer choice than toasts.blockedMods; the categories seen so far are listed in
+	#config/plainolpatches/toasts-seen.txt). A toast's category is the first translation key in its text (title), without a leading
+	#"toast.": toast.buggered.saved is buggered.saved, cobblemon_conveniences.sighting.title is that whole key. An entry blocks
+	#the category and everything below it: "buggered" blocks all Buggered toasts, "cobblemon_conveniences.sighting" only the
+	#Lodge sightings, "plainolpatches.gc_warning" the GC warning.
+	#MCA's own toasts are mca.mail, mca.destiny_not_set and mca.player_not_customized ("mca" blocks all three; MCA Quests
+	#toasts are the mod mcaquests). Mods can adopt toast.<modid>.<name> keys to be listed here.
+	blockedCategories = []
+	#Client only, toasts: log each toast as it is added (class, kind, mod, translation key, verdict) to help find what to block.
+	printClasses = false
+	#Client only, toasts: how many toasts fit on screen at once (vanilla 5).
+	# Default: 3
+	# Range: 1 ~ 7
+	visibleCount = 3
+	#Client only, toasts: minimum time on screen in ticks (20 per second). 0 = each toast's own time.
+	# Default: 0
+	# Range: 0 ~ 4000
+	forceTimeTicks = 0
+	#Client only, toasts: draw toast backgrounds translucent.
+	translucent = true
+	#Client only, toasts: draw toast backgrounds fully transparent (overrides translucent); text and icons stay.
+	transparent = false
+	#Client only, toasts: move toasts sideways by this many pixels.
+	# Default: 0
+	# Range: -8192 ~ 8192
+	xOffset = 0
+	#Client only, toasts: move toasts down by this many pixels.
+	# Default: 0
+	# Range: -8192 ~ 8192
+	yOffset = 0
+	#Client only, toasts: toasts appear and disappear without sliding.
+	noSlide = false
+	#Client only, toasts: show toasts on the left of the screen.
+	startLeft = false
+	#Client only, toasts: toasts come in from the top of the screen instead of the side.
+	topDown = false
+
+[remi]
+	#Client only, REMI: screen classes whose workstation sidebar (what the workstation can craft) is left empty. Empty by default;
+	#emi.prewarmRecipeOutputs removes the stall this used to be the workaround for.
+	skipWorkstationSidebar = []
+
+[dynamictrees]
+	#Dynamic Trees: partial-height root blocks (radius below 8) can be walked over by pathfinding instead of counting as walls,
+	#so villagers and mobs are not stopped by the ring of roots around a wide-based trunk.
+	walkableRoots = true
+
+[spawn]
+	#When the world spawn, or a new player's spawn, would be in water (large oceans, FreeTerraForged), move it to the nearest dry land,
+	#searched in eight directions at 16, 32, 64, ... blocks up to spawn.rescueMaxDistance.
+	rescueFromWater = true
+	#Spawn rescue: the farthest ring searched, in blocks.
+	# Default: 2048
+	# Range: 64 ~ 16384
+	rescueMaxDistance = 2048
+
+[partyExtras]
+	#Client only, Cobblemon Party Extras: hide its party type icons whenever Cobblemon's party overlay is not drawn (in bed, in menus)
+	#or the HUD is hidden, instead of leaving them on screen without their slots.
+	hideTypeIconsWithOverlay = true

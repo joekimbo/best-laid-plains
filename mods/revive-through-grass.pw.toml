@@ -1,0 +1,13 @@
+name = "Revive Through Grass! [PlayerRevive add-on]"
+filename = "revive_through_grass-0.1.1+1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qcTIyQYM/versions/OPmHiywy/revive_through_grass-0.1.1%2B1.21.1-NeoForge.jar"
+hash-format = "sha512"
+hash = "67702479a409421f80f6b31603d7148b28f2695bc1ce09b11ada502fb1c20edda87f35cef857782bfed8c3f4a669025d9a457b5e492ecf3d61182633594d5c91"
+
+[update]
+[update.modrinth]
+mod-id = "qcTIyQYM"
+version = "OPmHiywy"

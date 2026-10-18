@@ -1,0 +1,21 @@
+[showdown]
+	#graal: Cobblemon's own Showdown inside the JVM (default). node: Showdown in a Node.js child process (needs Node 20+; mods that use Cobblemon's Graal context directly stop working).
+	backend = "graal"
+	#The Node.js executable for the node backend.
+	nodePath = "node"
+
+[passive]
+	#Stop passive mobs spawning (natural, world generation, structures). They stay in the game's data and existing animals are left alone; the hidden advancements below are removed too. Off by default.
+	removePassiveMobs = true
+	#With removePassiveMobs: also stop spawner blocks from spawning them.
+	blockSpawners = true
+	#With removePassiveMobs: also stop spawn eggs from spawning them.
+	blockSpawnEggs = false
+	#Entity types that stop spawning.
+	struckMobs = ["minecraft:cow", "minecraft:mooshroom", "minecraft:sheep", "minecraft:pig", "minecraft:chicken", "minecraft:rabbit", "minecraft:horse", "minecraft:donkey", "minecraft:mule", "minecraft:cat", "minecraft:ocelot", "minecraft:parrot", "minecraft:turtle", "minecraft:sniffer", "minecraft:armadillo", "minecraft:camel", "minecraft:frog", "minecraft:tadpole", "minecraft:axolotl", "minecraft:strider", "minecraft:bat", "minecraft:allay", "minecraft:squid", "minecraft:glow_squid", "minecraft:cod", "minecraft:salmon", "minecraft:tropical_fish", "minecraft:pufferfish", "minecraft:dolphin", "minecraft:fox", "minecraft:panda", "minecraft:goat", "minecraft:llama", "minecraft:trader_llama", "minecraft:wolf", "minecraft:polar_bear", "minecraft:bee", "mowziesmobs:lantern", "mowziesmobs:grottol", "create_abyss:amphistium"]
+	#Animals that structure templates place (village pens and stables, huts) become these wild Pokemon instead, as entity=species,species. A struck mob with no entry is not placed. The Pokemon do not despawn.
+	structureReplacements = ["minecraft:cow=miltank,tauros,bouffalant", "minecraft:mooshroom=shroomish,foongus,paras", "minecraft:pig=lechonk,spoink,tepig,swinub", "minecraft:sheep=wooloo,mareep,cottonee", "minecraft:chicken=torchic,pidove,fletchling,rookidee", "minecraft:horse=ponyta,mudbray,blitzle", "minecraft:donkey=mudbray,phanpy", "minecraft:mule=mudbray,ponyta,blitzle", "minecraft:llama=wooloo,mareep", "minecraft:trader_llama=wooloo,mareep", "minecraft:rabbit=buneary,bunnelby,scorbunny", "minecraft:cat=meowth,skitty,glameow,purrloin,litten,espurr,sprigatito", "minecraft:ocelot=purrloin,litten", "minecraft:goat=skiddo", "minecraft:bee=combee,cutiefly,volbeat,illumise", "minecraft:fox=vulpix,fennekin,nickit,zorua", "minecraft:wolf=lillipup,rockruff,poochyena,growlithe,houndour", "minecraft:panda=pancham,teddiursa,stufful", "minecraft:polar_bear=cubchoo,bergmite,snom", "minecraft:parrot=chatot,squawkabilly", "minecraft:turtle=turtwig,squirtle,tirtouga,shuckle", "minecraft:frog=croagunk,froakie,poliwag,tadbulb", "minecraft:armadillo=sandshrew,dwebble,shieldon,rolycoly", "minecraft:camel=numel,trapinch,cacnea", "minecraft:sniffer=diglett,drilbur,tyrunt,sandile"]
+	#How likely a replacement candidate is, by the spawn bucket it has in Cobblemon (its most common one), as bucket=weight. Cobblemon's own world bucket weights by default. A species with no spawn counts as ultra-rare.
+	rarityWeights = ["common=94", "uncommon=5", "rare=0.5", "ultra-rare=0.2"]
+	#Advancements removed at data load (their children move up to the parent) because they can no longer be earned.
+	hiddenAdvancements = ["minecraft:husbandry/breed_an_animal", "minecraft:husbandry/bred_all_animals", "minecraft:husbandry/tame_an_animal", "minecraft:husbandry/complete_catalogue", "minecraft:husbandry/whole_pack", "minecraft:husbandry/feed_snifflet", "minecraft:husbandry/leash_all_frog_variants", "minecraft:husbandry/tactical_fishing"]

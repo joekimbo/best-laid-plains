@@ -1,0 +1,8 @@
+name = "cobblemon-occupied-pokeballs-neoforge-1.2.2"
+filename = "cobblemon-occupied-pokeballs-neoforge-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/cobblemon-occupied-pokeballs-neoforge-1.2.2.jar"
+hash-format = "sha512"
+hash = "18add4f8bcb9d9074d02400c930008b15ffe45a9880bea87025bd887b6ce193123af0e9af3f4ca281d1d19b040ba5ee4939069b651691fba4eadddc2179bd840"

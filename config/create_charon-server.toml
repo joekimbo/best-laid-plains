@@ -1,0 +1,80 @@
+#Grave base cost, frozen when the grave is registered.
+#cost = baseCostSpurs if distance <= baseRadius, else ceil(baseCostSpurs * (distance / baseRadius) ^ growthExponent)
+[gravePricing]
+	#Distance from Overworld spawn (horizontal, dimension-scaled) within which the base cost applies.
+	# Default: 625.0
+	# Range: 1.0 ~ 1.0E9
+	baseRadius = 625.0
+	#Cost in spurs of a grave within baseRadius.
+	# Default: 1
+	# Range: 0 ~ 9223372036854775807
+	baseCostSpurs = 1
+	#Exponent of the distance curve. 3.0 makes 10,000 blocks cost 4,096 spurs (one Sun) at the defaults.
+	# Default: 3.0
+	# Range: 0.0 ~ 16.0
+	growthExponent = 3.0
+
+#Toll surcharge, calculated at quote time from the Toll's own position.
+#multiplier = min(1 + multiplierPerStep * floor((tollDistance - freeRadius) / distanceStep), maximumMultiplier)
+[tollPricing]
+	#Tolls within this distance of Overworld spawn add no surcharge.
+	# Default: 500.0
+	# Range: 0.0 ~ 1.0E9
+	freeRadius = 500.0
+	#Distance per surcharge step.
+	# Default: 100.0
+	# Range: 0.001 ~ 1.0E9
+	distanceStep = 100.0
+	#Multiplier added per full step beyond freeRadius.
+	# Default: 0.05
+	# Range: 0.0 ~ 1000000.0
+	multiplierPerStep = 0.05
+	#Cap on the total Toll multiplier.
+	# Default: 4.0
+	# Range: 1.0 ~ 1000000.0
+	maximumMultiplier = 4.0
+
+#Coordinate scales applied before measuring distance to Overworld spawn.
+[dimensions]
+	# Default: 1.0
+	# Range: 0.0 ~ 1000000.0
+	overworldScale = 1.0
+	#Deliberately above vanilla's 8:1 travel ratio; the extra is an intentional Nether surcharge.
+	# Default: 10.0
+	# Range: 0.0 ~ 1000000.0
+	netherScale = 10.0
+	# Default: 2.0
+	# Range: 0.0 ~ 1000000.0
+	endScale = 2.0
+	#Used for every dimension other than the three vanilla ones.
+	# Default: 2.0
+	# Range: 0.0 ~ 1000000.0
+	unknownDimensionScale = 2.0
+
+[recovery]
+	#If true, recoveries must be confirmed at a Charon's Toll. If false, no Toll is needed and there is no surcharge.
+	tollRequired = true
+	#Seconds a quote remains valid.
+	# Default: 30
+	# Range: 1 ~ 3600
+	confirmationTimeoutSeconds = 30
+	#Per-player cooldown on /charon recover and /charon confirm.
+	# Default: 2
+	# Range: 0 ~ 3600
+	commandCooldownSeconds = 2
+	#Remove the GraveStone obituary for the recovered death from the player's inventory.
+	removeObituary = true
+	#Maximum distance (blocks) from the quoted Toll when confirming. Toll prices only change every distanceStep blocks, so a few blocks of reach never changes a price; the limit just keeps a quote tied to the Toll it came from.
+	# Default: 16.0
+	# Range: 0.5 ~ 64.0
+	tollReach = 16.0
+
+[display]
+	#Show grave coordinates in the chat list.
+	showCoordinates = true
+	#Show effective distance in the chat list.
+	showDistance = true
+	#Graves shown per /charon list page.
+	# Default: 10
+	# Range: 1 ~ 100
+	gravesPerPage = 10

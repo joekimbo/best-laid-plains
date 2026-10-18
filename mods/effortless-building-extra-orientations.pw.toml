@@ -1,0 +1,13 @@
+name = "Effortless Building: Extra Orientations"
+filename = "effortlessbuilding-extra-orientations-neoforge-1.21.1-1.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9222b55dd29b10e2a13e4e2f3984ee3759ebff6d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8448754
+project-id = 1613406

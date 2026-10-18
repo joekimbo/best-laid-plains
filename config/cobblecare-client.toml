@@ -1,0 +1,8 @@
+#Decimal places shown for fullness in feeding messages, e.g. 2 shows 83.24/100. 0 shows the whole-number meter.
+# Default: 0
+# Range: 0 ~ 4
+fullnessDecimals = 2
+#Psychic companions outline only monsters you can't see. Off: every monster in range is outlined.
+psychicHiddenOnly = false
+#Show a small coloured mark beside a hungry Pokemon's portrait on the party HUD.
+hungerMark = true

@@ -1,0 +1,7 @@
+[user_pref]
+	#Pinned book ids.
+	pinnedBooks = []
+	#Whether the books pane is collapsed on the inventory screen.
+	booksPaneCollapsed = false
+	#If true, hides all Guide Shelf elements on the inventory screen.
+	hideMod = false

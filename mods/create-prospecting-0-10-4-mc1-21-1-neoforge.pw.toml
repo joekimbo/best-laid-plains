@@ -1,0 +1,8 @@
+name = "create_prospecting-0.10.4-mc1.21.1-neoforge"
+filename = "create_prospecting-0.10.4-mc1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/create_prospecting-0.10.4-mc1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "e824f6c068c03ff7c0008d9894cac2d08ca0c030ce977f0332497eeda6169d243f64c239a63645bf88a181be5723c8cba75fc85bd873f886ffe0feb1057b8adf"

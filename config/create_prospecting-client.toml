@@ -1,0 +1,60 @@
+#How Prospecting Maps are drawn. Changes apply as soon as this file is saved.
+[prospectingMap]
+	#Play the spyglass sound when zooming a map.
+	zoomSound = true
+
+	[prospectingMap.contours]
+		#Blocks of height between contour lines when the whole map is in view (zoom ×1).
+		# Default: 20
+		# Range: 1 ~ 256
+		interval = 20
+		#Divide the interval by the zoom factor, so each zoom step shows finer steps of height
+		#(20 at ×1 becomes 10 at ×2, 5 at ×4…).
+		followZoom = true
+		#The finest interval zooming can reach, in blocks.
+		# Default: 2
+		# Range: 1 ~ 64
+		minInterval = 2
+		#Lines are never packed closer than this many map pixels on a 45° slope; the interval grows to
+		#keep them apart on wide views of big maps.
+		# Default: 2.5
+		# Range: 1.0 ~ 16.0
+		minLineSpacingPixels = 2.5
+		#Every Nth contour is an index contour, drawn heavier. 0 = none.
+		# Default: 5
+		# Range: 0 ~ 20
+		indexEvery = 5
+		#Opacity of ordinary contour lines, 0–1.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		lineStrength = 0.5
+		#Opacity of index contour lines, 0–1.
+		# Default: 0.8
+		# Range: 0.0 ~ 1.0
+		indexLineStrength = 0.8
+		#Illuminated (Tanaka) contours: lines on slopes facing the north-west light are drawn pale,
+		#lines on slopes facing away are drawn dark, so the lines themselves show which way the land falls.
+		illuminated = true
+
+	[prospectingMap.bands]
+		#How strongly the whole band colour darkens with height. 0 = every band the same parchment.
+		# Default: 1.0
+		# Range: 0.0 ~ 2.0
+		heightTint = 1.0
+		#Strength of the shading inside each band, from its lower contour to its upper one. 0 = flat bands.
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		gradient = 0.5
+		#Which end of a band is darker. DARKER_UPHILL darkens toward the upper contour,
+		#so each step reads like a terrace's shadowed riser; LIGHTER_UPHILL brightens toward it.
+		#Allowed Values: DARKER_UPHILL, LIGHTER_UPHILL
+		direction = "DARKER_UPHILL"
+		#Number of distinct shades inside a band (pixel-art palette steps).
+		# Default: 4
+		# Range: 2 ~ 16
+		steps = 4
+		#Blend between the shades with an ordered (Bayer) dither, as in Create: Simulated's diagrams;
+		#false = hard steps.
+		dither = true
+		#Stipple sand and whiten snow and ice.
+		groundCover = true

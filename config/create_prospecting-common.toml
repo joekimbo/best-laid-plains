@@ -1,0 +1,4 @@
+[nodes]
+	#Allow crafting Create ReAutomated's Stabilizer, which lets a player pick up ReAutomated's own nodes.
+	#Off by default: nodes are meant to stay where they formed. Deposit nodes can't be moved either way.
+	allowStabilizer = false

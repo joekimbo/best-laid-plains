@@ -1,0 +1,14 @@
+[bankers]
+	#Only a Bank Terminal that is part of a registered MCA Bank building can employ a Banker.
+	#Bankers whose terminal is not in a Bank give it up (inexperienced ones go back to being jobless).
+	requireBankBuilding = true
+	#How many times per Minecraft day a Banker can restock at their Bank Terminal.
+	#Restocks are at least 2 minutes apart. 0 means a Banker never restocks.
+	#Daily limit per trade = max_uses x restocksPerDay (plus whatever stock was left from the day before).
+	# Default: 2
+	# Range: 0 ~ 16
+	restocksPerDay = 2
+	#MCA clothing pool Bankers wear, as a profession id (e.g. minecraft:librarian, minecraft:cartographer).
+	#Empty = MCA's default (jobless) clothes. An entry for mca_banker:banker in MCA's own
+	#professionConversionsMap (config/mca.json) takes priority over this setting.
+	clothingProfession = "minecraft:librarian"

@@ -1,0 +1,13 @@
+
+[General]
+	#Maximum amount of beds to save and convert to waypoints
+	#Set to -1 for unlimited.
+	#Range: > -1
+	MaxBeds = -1
+
+	[General."Ways of Saving Beds"]
+		#Save beds that the player has slept in.
+		SaveBedsSleptIn = false
+		#Save beds that the player has placed.
+		SaveBedsPlaced = true
+

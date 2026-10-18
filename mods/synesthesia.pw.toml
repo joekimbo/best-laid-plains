@@ -1,0 +1,13 @@
+name = "Synesthesia: Sound Visualizer"
+filename = "synesthesia-1.21.1-NeoForge-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RgspBTE9/versions/ViRpaCdV/synesthesia-1.21.1-NeoForge-1.0.0.jar"
+hash-format = "sha512"
+hash = "bb3094e012ad895fbe5209fccc9f095481abf1f81a0e1b06963af764e1679164d089219ebf3622215f4132cd6ee91256f989d6e520271c464f6a1693f5b0b15c"
+
+[update]
+[update.modrinth]
+mod-id = "RgspBTE9"
+version = "ViRpaCdV"

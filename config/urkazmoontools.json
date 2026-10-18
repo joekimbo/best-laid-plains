@@ -1,0 +1,14 @@
+{
+  "sensorOnlyNight": true,
+  "emitExtraRedstoneOnLunarEvent": false,
+  "waningGibbous": 1,
+  "thirdQuarter": 2,
+  "waningCrescent": 3,
+  "newMoon": 4,
+  "waxingCrescent": 5,
+  "firstQuarter": 6,
+  "waxingGibbous": 7,
+  "fullMoon": 8,
+  "duringEvents": 9,
+  "disableRightClick": false
+}

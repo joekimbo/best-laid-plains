@@ -1,0 +1,8 @@
+name = "soothebellfix-1.0.0"
+filename = "soothebellfix-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/soothebellfix-1.0.0.jar"
+hash-format = "sha512"
+hash = "74318f4d8a86743a0709958c3f366507ca8104c17ad1840d491aaba29bd23ded710a415238670f65db7bd7ff64ef06a1f8770ab4eb7671a75ff594ae3b71e59a"

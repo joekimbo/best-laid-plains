@@ -1,0 +1,8 @@
+name = "plainolpregen-0.6.1"
+filename = "plainolpregen-0.6.1.jar"
+side = "server"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/plainolpregen-0.6.1.jar"
+hash-format = "sha512"
+hash = "97e2f4e9987476dffc4cc064180d8194e714eb6f0f87abd9433993593e168beacf42567da3fb96f99cdabdf0c54579adfe2bce96e3761ddfe95bd99245036154"

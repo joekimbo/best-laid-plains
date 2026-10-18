@@ -1,0 +1,105 @@
+#Create Renewables - server config
+#Water wheels and windmill bearings provide stress capacity based on their surroundings.
+#Look at one while wearing Engineer's Goggles to see a breakdown of its output.
+[general]
+	#How often, in ticks, windmills re-scan their surroundings and water wheels search
+	#their water again, pushing any change in capacity to their kinetic network.
+	#20 ticks = 1 second. Water wheels back off from this when nothing changes (see maxBackoff).
+	# Default: 100
+	# Range: 5 ~ 1200
+	recalculationInterval = 40
+	#Each time a row of water wheels finds exactly the same water as last time, the wait
+	#before its next search doubles, up to this many ticks. Fluid changing in the water a
+	#row draws on, or its wheels starting, stopping or changing, resets the wait at once.
+	# Default: 1200
+	# Range: 5 ~ 72000
+	maxBackoff = 1200
+	#Most fluid blocks a world searches for water wheels per tick, across all wheels.
+	#A search that doesn't fit finishes over the next ticks. Lower is lighter on the
+	#server; higher makes big builds react faster. Climbing a waterfall costs about
+	#a third of a block per block of height.
+	# Default: 256
+	# Range: 16 ~ 100000
+	scanBudget = 256
+	#While a water wheel or windmill is producing, its total capacity is rounded UP to a
+	#multiple of this, like every Create generator's default output. 1 turns rounding off.
+	# Default: 8
+	# Range: 1 ~ 256
+	roundCapacityTo = 8
+
+#Water wheels capture energy from the fluid upstream of them. Starting at the fluid
+#pushing the wheel, the search follows the stream against the current and up waterfalls,
+#never downstream, so a lake or ocean below the wheel does not count.
+#Each fluid block is worth  (fluid level / 8) * (1 + heightBonus * blocks above the wheel's
+#stream): full blocks and high water count most, thin trickles least.
+#Wheels share water: a block reached by k wheels yields 1 - (1 - efficiency)^k of its
+#value, split evenly between them, so more wheels capture more, with diminishing returns.
+#  capacity = min(maxCapacity, suPerBlock * sum of shared block values),
+#  rounded up to general.roundCapacityTo
+[water_wheels]
+	#Most fluid blocks a search counts per turning wheel, nearest first. A row of wheels
+	#on one shaft searches together, with this times the number of wheels. Falling water
+	#doesn't count towards it. Once reached, water further upstream has no effect.
+	# Default: 2048
+	# Range: 1 ~ 100000
+	searchLimit = 2048
+	#Fraction of a fluid block's energy one wheel captures. Several wheels reaching the
+	#same block capture 1 - (1 - efficiency)^k of it between them, shared evenly.
+	#1.0 means a single wheel takes everything and extra wheels only split it.
+	# Default: 0.5
+	# Range: 0.01 ~ 1.0
+	efficiency = 0.5
+	#Extra value per block of height a fluid block sits above the stream that turns the
+	#wheel. 0.25 means water 4 blocks up is worth twice as much as water level with it.
+	# Default: 0.25
+	# Range: 0.0 ~ 4.0
+	heightBonus = 0.25
+
+	#Small Water Wheel
+	[water_wheels.small]
+		#Maximum total stress capacity (SU) a small water wheel can provide.
+		# Default: 1024
+		# Range: 1 ~ 1000000
+		maxCapacity = 1024
+		#Stress Units per full block of fluid fully captured (before sharing and efficiency).
+		# Default: 4.0
+		# Range: 0.0 ~ 10000.0
+		suPerBlock = 4.0
+
+	#Large Water Wheel
+	[water_wheels.large]
+		#Maximum total stress capacity (SU) a large water wheel can provide.
+		# Default: 2048
+		# Range: 1 ~ 1000000
+		maxCapacity = 2048
+		#Stress Units per full block of fluid fully captured (before sharing and efficiency).
+		# Default: 8.0
+		# Range: 0.0 ~ 10000.0
+		suPerBlock = 8.0
+
+#Windmill bearings spin at a fixed speed. Their capacity is the smaller of two terms:
+#  sail term = altitude * S * C
+#  air term  = F * sqrt(C)
+#  altitude  = ln(1 + (e - 1) * max(0, Y - yThreshold) / referenceHeight)
+#S = sail blocks (sails and wool), C = suPerSail, Y = bearing height,
+#F = air blocks inside the smallest cube around the sails (sails themselves excluded).
+[windmill]
+	#Fixed RPM at which all windmill bearings turn (replaces Create's sail-based speed).
+	#This does not change total capacity, only how it is split between speed and torque.
+	# Default: 8
+	# Range: 1 ~ 256
+	rpm = 8
+	#The 'C' factor: stress capacity per sail block at the reference height.
+	#It also scales the open-air term by sqrt(C).
+	# Default: 16
+	# Range: 1 ~ 10000
+	suPerSail = 16
+	#Sea level for windmills. A bearing at or below this Y produces nothing.
+	# Default: 63
+	# Range: -2048 ~ 2048
+	yThreshold = 63
+	#Blocks above yThreshold at which the altitude multiplier reaches exactly 1.0.
+	#Above that it keeps growing, but logarithmically (x2.0 at ~3.7 times this height).
+	# Default: 32
+	# Range: 1 ~ 4096
+	referenceHeight = 32

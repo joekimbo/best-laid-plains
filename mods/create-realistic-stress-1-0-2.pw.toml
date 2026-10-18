@@ -1,0 +1,8 @@
+name = "create_realistic_stress-1.0.2"
+filename = "create_realistic_stress-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/create_realistic_stress-1.0.2.jar"
+hash-format = "sha512"
+hash = "5cc814ed71ed2b32f667922149db7df7cb0667f37782731e652418830a8ecfa4c6f79ec6576a661b5bfe62d990a3636e6e9da4098024cfe085265204b1c36281"

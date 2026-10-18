@@ -1,0 +1,12 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "cobblemon" },
+    { "type": "neoforge:mod_loaded", "modid": "dtcobblemon" }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "cobblemon:red_apricorn_seed" }
+  ],
+  "result": { "id": "dtcobblemon:red_apricorn_seed", "count": 1 }
+}

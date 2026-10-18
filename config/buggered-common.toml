@@ -1,0 +1,62 @@
+[server]
+	#On a dedicated server: accept report uploads from players into logs/issues/outbox.
+	accept_reports = true
+	#Largest report (zip) accepted, in MiB.
+	# Default: 32
+	# Range: 1 ~ 256
+	max_report_mib = 32
+	#Most reports from one player kept in the outbox before new ones are refused.
+	# Default: 20
+	# Range: 1 ~ 1000
+	max_pending_per_player = 20
+	#Minimum seconds between one player's report uploads (and between their capture sessions).
+	# Default: 10
+	# Range: 1 ~ 3600
+	rate_limit_seconds = 10
+	#Largest radius of nearby entities a report may capture, in blocks.
+	# Default: 32
+	# Range: 1 ~ 128
+	max_entity_radius = 32
+	#Most entities one report may capture.
+	# Default: 200
+	# Range: 10 ~ 1000
+	max_entities = 200
+	#Largest structure-template box a report may capture, in blocks (the client's request is scaled down to fit).
+	# Default: 65536
+	# Range: 1000 ~ 1000000
+	structure_max_volume = 65536
+	#A report's target block is only used if it is within this many blocks of the player; otherwise the player's position is used.
+	# Default: 24
+	# Range: 4 ~ 128
+	max_target_distance = 24
+	#When the server starts and finds a crash report, a JVM crash log or an unclean stop from the previous run,
+	#file an automatic report (origin: auto) into logs/issues/outbox. A short summary only.
+	crash_reports_on_start = true
+	#Also attach the full crash report text, redacted (names, UUIDs, tokens, addresses and home paths removed). On by default since 0.10.0.
+	include_crash_text = false
+	#File an automatic performance report when a server tick runs far over budget (origin: auto, reporter auto:server).
+	#Off by default. Costs one idle watchdog thread.
+	auto_reports = false
+	#Tick duration that counts as a stutter, to start with.
+	# Default: 150.0
+	# Range: 50.0 ~ 5000.0
+	stutter_base_ms = 150.0
+	#A stutter this many times the current threshold is reported at once even inside the rate limit,
+	#and becomes the new threshold (150, 225, 337 ms ...).
+	# Default: 1.5
+	# Range: 1.1 ~ 10.0
+	stutter_escalation = 1.5
+	#Least minutes between automatic reports at the same threshold; after a quiet interval the threshold falls back.
+	# Default: 30
+	# Range: 1 ~ 1440
+	auto_report_interval_minutes = 30
+	#Most automatic stutter reports per day.
+	# Default: 12
+	# Range: 1 ~ 200
+	auto_report_daily_cap = 12
+
+[privacy]
+	#Put the world seed into world captures. Off by default.
+	include_world_seed = false
+	#Name other players in nearby-entity captures. Off: only their position and UUID.
+	include_other_player_names = false

@@ -1,0 +1,29 @@
+#Master switch for the whole mod.
+enabled = true
+#Fraction of incoming combat damage (after armour and effects) taken by shouldered Pokemon.
+#Split evenly when two Pokemon are shouldered; it does not stack.
+# Default: 0.2
+# Range: 0.0 ~ 1.0
+damageShare = 0.2
+#Shouldered Pokemon with a ranged move fire at the player's enemies.
+shoulderFire = true
+#Shoulder fire range in blocks; 0 uses Fight or Flight's attack radius.
+# Default: 0.0
+# Range: 0.0 ~ 64.0
+fireRangeBlocks = 0.0
+#How long after a fight starts a target stays valid.
+# Default: 3
+# Range: 1 ~ 30
+targetMemorySeconds = 3
+#Extra moves never used from the shoulder (move ids, e.g. "thunderbolt").
+excludedMoves = []
+fireWhileSneaking = true
+fireInPeaceful = false
+#Server veto for melee hop-off.
+allowMeleeHopOff = true
+#Used for players whose client sent no preference.
+meleeHopOffDefault = true
+#Seconds without combat before a hopped-off Pokemon returns.
+# Default: 8
+# Range: 1 ~ 120
+hopOffReturnSeconds = 8

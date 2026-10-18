@@ -1,0 +1,13 @@
+name = "Surface Samples"
+filename = "surfacesamples-1.21.1-0.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9ppAg1XD/versions/itSEik37/surfacesamples-1.21.1-0.1.2.jar"
+hash-format = "sha512"
+hash = "628dd46214056116418aedb3a17b6abdcb04b6aaccc901aa64bef8a7288ad5e760ca02cff0f1c779d61e2338c7e7211b81ec3386357c4883f589963074cf71af"
+
+[update]
+[update.modrinth]
+mod-id = "9ppAg1XD"
+version = "itSEik37"

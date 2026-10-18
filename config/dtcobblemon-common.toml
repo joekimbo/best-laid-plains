@@ -1,0 +1,7 @@
+#Chance that a Warped or Crimson Apricorn tree picked by Nether world generation is really placed.
+#The biome tables give the Apricorn species about 7% of the trees of a warped or crimson forest;
+#the default 0.2 brings that to about 1.4%, as rare as Apricorn trees in Overworld forests.
+#1.0 places every pick, 0.0 turns the natural spawns off. Saplings and seeds are not affected.
+# Default: 0.2
+# Range: 0.0 ~ 1.0
+netherApricornSpawnChance = 0.2

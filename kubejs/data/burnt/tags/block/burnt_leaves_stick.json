@@ -1,0 +1,1182 @@
+{
+  "replace": true,
+  "values": [
+    "burnt_additions:smoldering_soul_log",
+    "burnt_additions:smoldering_soul_crimson_stem",
+    "burnt_additions:smoldering_soul_warped_stem",
+    "burnt_additions:soul_tempered_crimson_stem",
+    "burnt_additions:soul_tempered_warped_stem",
+    "burnt_additions:smoldering_soul_planks",
+    "burnt_additions:smoldering_soul_wart",
+    "burnt_additions:smoldering_soul_warped_wart",
+    "burnt_additions:smoldering_soul_slab",
+    "burnt_additions:smoldering_soul_stairs",
+    "burnt_additions:smoldering_soul_fence",
+    "burnt_additions:smoldering_soul_fence_gate",
+    "burnt_additions:soul_tempered_log",
+    "burnt_additions:soul_tempered_planks",
+    "burnt_additions:soul_tempered_planks_slab",
+    "burnt_additions:soul_tempered_planks_stairs",
+    "burnt_additions:soul_tempered_fence",
+    "burnt_additions:soul_tempered_fence_gate",
+    "burnt_additions:soul_tempered_pressure_plate",
+    "burnt_additions:soul_tempered_button",
+    "minecraft:rooted_dirt",
+    "burnt:sooty_stripped_acacia_log",
+    "burnt:sooty_spruce_log",
+    "burnt:burnt_forest",
+    "burnt:sooty_oak_wood",
+    "burnt:sooty_cherry_log",
+    "burnt:burnt_grass",
+    "burnt:stripped_broken_burnt_log_2",
+    "burnt:sooty_stripped_cherry_log",
+    "burnt:sooty_acacia_log",
+    "burnt:small_smoldering_log",
+    "burnt:burnt_log",
+    "burnt:sooty_birch_wood",
+    "burnt:sooty_stripped_birch_log",
+    "burnt:sooty_stripped_oak_log",
+    "burnt:sooty_birch_log",
+    "burnt:sooty_jungle_wood",
+    "burnt:sooty_stripped_mangrove_log",
+    "burnt:sooty_mangrove_log",
+    "burnt:sooty_oak_log",
+    "burnt:blazing_log",
+    "burnt:sooty_spruce_wood",
+    "burnt:stripped_broken_burnt_log",
+    "burnt:burnt_dirt",
+    "burnt:sooty_stripped_jungle_log",
+    "burnt:sooty_mangrove_wood",
+    "burnt:sooty_dark_oak_log",
+    "burnt:broken_burnt_log",
+    "burnt:small_burnt_log",
+    "burnt:stripped_burnt_log",
+    "burnt:sooty_acacia_wood",
+    "burnt:smoldering_stripped_log",
+    "burnt:sooty_dark_oak_wood",
+    "burnt:ember_log",
+    "burnt:creeking_burnt_log",
+    "minecraft:podzol",
+    "minecraft:grass_block",
+    "burnt:broken_blazing_log",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "burnt:sooty_jungle_log",
+    "burnt:sooty_stripped_spruce_log",
+    "burnt:broken_blazing_log_2",
+    "burnt:burnt_forest_block",
+    "burnt:smoldering_log",
+    "burnt:smoldering_moss",
+    "burnt:sooty_cherry_wood",
+    "burnt:sooty_stripped_dark_oak_log",
+    "burnt:smoldering_hollow_log",
+    "burnt:ember_hollow_log",
+    "burnt:blazing_hollow_log",
+    "burnt:burnt_hollow_log",
+    "burnt:sooty_pale_oak_log",
+    "burnt:sooty_stripped_pale_oak_log",
+    "burnt:sooty_pale_oak_wood",
+    "burnt_dt:sooty_oak_branch",
+    "burnt_dt:sooty_birch_branch",
+    "burnt_dt:sooty_spruce_branch",
+    "burnt_dt:sooty_jungle_branch",
+    "burnt_dt:sooty_acacia_branch",
+    "burnt_dt:sooty_dark_oak_branch",
+    "burnt_dt:sooty_mangrove_branch",
+    "burnt_dt:sooty_cherry_branch",
+    "burnt_dt:smoldering_oak_branch",
+    "burnt_dt:smoldering_birch_branch",
+    "burnt_dt:smoldering_spruce_branch",
+    "burnt_dt:smoldering_jungle_branch",
+    "burnt_dt:smoldering_acacia_branch",
+    "burnt_dt:smoldering_dark_oak_branch",
+    "burnt_dt:smoldering_mangrove_branch",
+    "burnt_dt:smoldering_cherry_branch",
+    "burnt_dt:blazing_oak_branch",
+    "burnt_dt:blazing_birch_branch",
+    "burnt_dt:blazing_spruce_branch",
+    "burnt_dt:blazing_jungle_branch",
+    "burnt_dt:blazing_acacia_branch",
+    "burnt_dt:blazing_dark_oak_branch",
+    "burnt_dt:blazing_mangrove_branch",
+    "burnt_dt:blazing_cherry_branch",
+    "burnt_dt:ember_oak_branch",
+    "burnt_dt:ember_birch_branch",
+    "burnt_dt:ember_spruce_branch",
+    "burnt_dt:ember_jungle_branch",
+    "burnt_dt:ember_acacia_branch",
+    "burnt_dt:ember_dark_oak_branch",
+    "burnt_dt:ember_mangrove_branch",
+    "burnt_dt:ember_cherry_branch",
+    "burnt_dt:burnt_oak_branch",
+    "burnt_dt:burnt_birch_branch",
+    "burnt_dt:burnt_spruce_branch",
+    "burnt_dt:burnt_jungle_branch",
+    "burnt_dt:burnt_acacia_branch",
+    "burnt_dt:burnt_dark_oak_branch",
+    "burnt_dt:burnt_mangrove_branch",
+    "burnt_dt:burnt_cherry_branch",
+    "burnt_dt:sooty_dark_oak_thick_branch",
+    "burnt_dt:sooty_jungle_thick_branch",
+    "burnt_dt:sooty_spruce_thick_branch",
+    "burnt_dt:smoldering_dark_oak_thick_branch",
+    "burnt_dt:smoldering_jungle_thick_branch",
+    "burnt_dt:smoldering_spruce_thick_branch",
+    "burnt_dt:blazing_dark_oak_thick_branch",
+    "burnt_dt:blazing_jungle_thick_branch",
+    "burnt_dt:blazing_spruce_thick_branch",
+    "burnt_dt:ember_dark_oak_thick_branch",
+    "burnt_dt:ember_jungle_thick_branch",
+    "burnt_dt:ember_spruce_thick_branch",
+    "burnt_dt:burnt_dark_oak_thick_branch",
+    "burnt_dt:burnt_jungle_thick_branch",
+    "burnt_dt:burnt_spruce_thick_branch",
+    "burnt_dt:sooty_dark_oak_root",
+    "burnt_dt:sooty_jungle_root",
+    "burnt_dt:smoldering_dark_oak_root",
+    "burnt_dt:smoldering_jungle_root",
+    "burnt_dt:blazing_dark_oak_root",
+    "burnt_dt:blazing_jungle_root",
+    "burnt_dt:ember_dark_oak_root",
+    "burnt_dt:ember_jungle_root",
+    "burnt_dt:burnt_dark_oak_root",
+    "burnt_dt:burnt_jungle_root",
+    "burnt_dt:smoldering_dtbop_dead_branch",
+    "burnt_dt:smoldering_dtbop_jacaranda_branch",
+    {
+      "id": "burnt_dt:smoldering_dtbop_magic_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:smoldering_dtbop_mahogany_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtbop_maple_branch",
+    "burnt_dt:smoldering_dtbop_palm_branch",
+    "burnt_dt:smoldering_dtbop_fir_branch",
+    "burnt_dt:smoldering_dtbop_pine_branch",
+    "burnt_dt:smoldering_dtbop_redwood_branch",
+    "burnt_dt:smoldering_dtbop_umbran_branch",
+    "burnt_dt:smoldering_dtbop_willow_branch",
+    "burnt_dt:smoldering_dtbop_fir_thick_branch",
+    "burnt_dt:smoldering_dtbop_pine_thick_branch",
+    "burnt_dt:smoldering_dtbop_redwood_thick_branch",
+    "burnt_dt:smoldering_dtbop_umbran_thick_branch",
+    "burnt_dt:smoldering_dtbop_willow_thick_branch",
+    "burnt_dt:blazing_dtbop_dead_branch",
+    "burnt_dt:blazing_dtbop_jacaranda_branch",
+    {
+      "id": "burnt_dt:blazing_dtbop_magic_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtbop_mahogany_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtbop_maple_branch",
+    "burnt_dt:blazing_dtbop_palm_branch",
+    "burnt_dt:blazing_dtbop_fir_branch",
+    "burnt_dt:blazing_dtbop_pine_branch",
+    "burnt_dt:blazing_dtbop_redwood_branch",
+    "burnt_dt:blazing_dtbop_umbran_branch",
+    "burnt_dt:blazing_dtbop_willow_branch",
+    "burnt_dt:blazing_dtbop_fir_thick_branch",
+    "burnt_dt:blazing_dtbop_pine_thick_branch",
+    "burnt_dt:blazing_dtbop_redwood_thick_branch",
+    "burnt_dt:blazing_dtbop_umbran_thick_branch",
+    "burnt_dt:blazing_dtbop_willow_thick_branch",
+    "burnt_dt:ember_dtbop_dead_branch",
+    "burnt_dt:ember_dtbop_jacaranda_branch",
+    {
+      "id": "burnt_dt:ember_dtbop_magic_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtbop_mahogany_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtbop_maple_branch",
+    "burnt_dt:ember_dtbop_palm_branch",
+    "burnt_dt:ember_dtbop_fir_branch",
+    "burnt_dt:ember_dtbop_pine_branch",
+    "burnt_dt:ember_dtbop_redwood_branch",
+    "burnt_dt:ember_dtbop_umbran_branch",
+    "burnt_dt:ember_dtbop_willow_branch",
+    "burnt_dt:ember_dtbop_fir_thick_branch",
+    "burnt_dt:ember_dtbop_pine_thick_branch",
+    "burnt_dt:ember_dtbop_redwood_thick_branch",
+    "burnt_dt:ember_dtbop_umbran_thick_branch",
+    "burnt_dt:ember_dtbop_willow_thick_branch",
+    "burnt_dt:burnt_dtbop_dead_branch",
+    "burnt_dt:burnt_dtbop_jacaranda_branch",
+    {
+      "id": "burnt_dt:burnt_dtbop_magic_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtbop_mahogany_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtbop_maple_branch",
+    "burnt_dt:burnt_dtbop_palm_branch",
+    "burnt_dt:burnt_dtbop_fir_branch",
+    "burnt_dt:burnt_dtbop_pine_branch",
+    "burnt_dt:burnt_dtbop_redwood_branch",
+    "burnt_dt:burnt_dtbop_umbran_branch",
+    "burnt_dt:burnt_dtbop_willow_branch",
+    "burnt_dt:burnt_dtbop_fir_thick_branch",
+    "burnt_dt:burnt_dtbop_pine_thick_branch",
+    "burnt_dt:burnt_dtbop_redwood_thick_branch",
+    "burnt_dt:burnt_dtbop_umbran_thick_branch",
+    "burnt_dt:burnt_dtbop_willow_thick_branch",
+    {
+      "id": "burnt_dt:smoldering_dtarsnouveau_blue_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:smoldering_dtarsnouveau_blue_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:smoldering_dtarsnouveau_green_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:smoldering_dtarsnouveau_green_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:smoldering_dtarsnouveau_purple_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:smoldering_dtarsnouveau_purple_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:smoldering_dtarsnouveau_red_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:smoldering_dtarsnouveau_red_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:smoldering_dtarsnouveau_yellow_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:smoldering_dtarsnouveau_yellow_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtarsnouveau_blue_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtarsnouveau_blue_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtarsnouveau_green_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtarsnouveau_green_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtarsnouveau_purple_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtarsnouveau_purple_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtarsnouveau_red_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtarsnouveau_red_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtarsnouveau_yellow_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtarsnouveau_yellow_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtarsnouveau_blue_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtarsnouveau_blue_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtarsnouveau_green_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtarsnouveau_green_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtarsnouveau_purple_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtarsnouveau_purple_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtarsnouveau_red_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtarsnouveau_red_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtarsnouveau_yellow_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtarsnouveau_yellow_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtarsnouveau_blue_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtarsnouveau_blue_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtarsnouveau_green_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtarsnouveau_green_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtarsnouveau_purple_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtarsnouveau_purple_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtarsnouveau_red_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtarsnouveau_red_archwood_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtarsnouveau_yellow_archwood_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtarsnouveau_yellow_archwood_thick_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtcobblemon_apricorn_branch",
+    "burnt_dt:smoldering_dtcobblemon_saccharine_branch",
+    "burnt_dt:blazing_dtcobblemon_apricorn_branch",
+    "burnt_dt:blazing_dtcobblemon_saccharine_branch",
+    "burnt_dt:ember_dtcobblemon_apricorn_branch",
+    "burnt_dt:ember_dtcobblemon_saccharine_branch",
+    "burnt_dt:burnt_dtcobblemon_apricorn_branch",
+    "burnt_dt:burnt_dtcobblemon_saccharine_branch",
+    "burnt_dt:smoldering_dtcroptopia_palm_branch",
+    "burnt_dt:smoldering_dtcroptopia_dragon_fruit_branch",
+    "burnt_dt:smoldering_dtcroptopia_cinnamon_branch",
+    "burnt_dt:blazing_dtcroptopia_palm_branch",
+    "burnt_dt:blazing_dtcroptopia_dragon_fruit_branch",
+    "burnt_dt:blazing_dtcroptopia_cinnamon_branch",
+    "burnt_dt:ember_dtcroptopia_palm_branch",
+    "burnt_dt:ember_dtcroptopia_dragon_fruit_branch",
+    "burnt_dt:ember_dtcroptopia_cinnamon_branch",
+    "burnt_dt:burnt_dtcroptopia_palm_branch",
+    "burnt_dt:burnt_dtcroptopia_dragon_fruit_branch",
+    "burnt_dt:burnt_dtcroptopia_cinnamon_branch",
+    {
+      "id": "burnt_dt:smoldering_dtforbiddenarcanus_aurum_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtforbiddenarcanus_aurum_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtforbiddenarcanus_aurum_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtforbiddenarcanus_aurum_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtbwg_aspen_branch",
+    "burnt_dt:smoldering_dtbwg_giant_flower_branch",
+    "burnt_dt:smoldering_dtbwg_palo_verde_branch",
+    "burnt_dt:smoldering_dtbwg_spirit_branch",
+    "burnt_dt:smoldering_dtbwg_white_mangrove_branch",
+    "burnt_dt:smoldering_dtbwg_zelkova_branch",
+    "burnt_dt:smoldering_dtbwg_baobab_branch",
+    {
+      "id": "burnt_dt:smoldering_dtbwg_blue_enchanted_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:smoldering_dtbwg_brown_mushroom_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtbwg_cika_branch",
+    "burnt_dt:smoldering_dtbwg_cypress_branch",
+    "burnt_dt:smoldering_dtbwg_ebony_branch",
+    "burnt_dt:smoldering_dtbwg_fir_branch",
+    {
+      "id": "burnt_dt:smoldering_dtbwg_green_enchanted_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtbwg_holly_branch",
+    "burnt_dt:smoldering_dtbwg_ironwood_branch",
+    "burnt_dt:smoldering_dtbwg_jacaranda_branch",
+    {
+      "id": "burnt_dt:smoldering_dtbwg_mahogany_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtbwg_maple_branch",
+    "burnt_dt:smoldering_dtbwg_palm_branch",
+    "burnt_dt:smoldering_dtbwg_pine_branch",
+    "burnt_dt:smoldering_dtbwg_rainbow_eucalyptus_branch",
+    "burnt_dt:smoldering_dtbwg_redwood_branch",
+    "burnt_dt:smoldering_dtbwg_sakura_branch",
+    "burnt_dt:smoldering_dtbwg_skyris_branch",
+    {
+      "id": "burnt_dt:smoldering_dtbwg_white_mushroom_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtbwg_willow_branch",
+    "burnt_dt:smoldering_dtbwg_witch_hazel_branch",
+    "burnt_dt:smoldering_dtbwg_baobab_thick_branch",
+    {
+      "id": "burnt_dt:smoldering_dtbwg_blue_enchanted_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:smoldering_dtbwg_brown_mushroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtbwg_cika_thick_branch",
+    "burnt_dt:smoldering_dtbwg_cypress_thick_branch",
+    "burnt_dt:smoldering_dtbwg_ebony_thick_branch",
+    "burnt_dt:smoldering_dtbwg_fir_thick_branch",
+    {
+      "id": "burnt_dt:smoldering_dtbwg_green_enchanted_thick_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtbwg_holly_thick_branch",
+    "burnt_dt:smoldering_dtbwg_ironwood_thick_branch",
+    "burnt_dt:smoldering_dtbwg_jacaranda_thick_branch",
+    {
+      "id": "burnt_dt:smoldering_dtbwg_mahogany_thick_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtbwg_maple_thick_branch",
+    "burnt_dt:smoldering_dtbwg_palm_thick_branch",
+    "burnt_dt:smoldering_dtbwg_pine_thick_branch",
+    "burnt_dt:smoldering_dtbwg_rainbow_eucalyptus_thick_branch",
+    "burnt_dt:smoldering_dtbwg_redwood_thick_branch",
+    "burnt_dt:smoldering_dtbwg_sakura_thick_branch",
+    "burnt_dt:smoldering_dtbwg_skyris_thick_branch",
+    {
+      "id": "burnt_dt:smoldering_dtbwg_white_mushroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtbwg_willow_thick_branch",
+    "burnt_dt:smoldering_dtbwg_witch_hazel_thick_branch",
+    "burnt_dt:blazing_dtbwg_aspen_branch",
+    "burnt_dt:blazing_dtbwg_giant_flower_branch",
+    "burnt_dt:blazing_dtbwg_palo_verde_branch",
+    "burnt_dt:blazing_dtbwg_spirit_branch",
+    "burnt_dt:blazing_dtbwg_white_mangrove_branch",
+    "burnt_dt:blazing_dtbwg_zelkova_branch",
+    "burnt_dt:blazing_dtbwg_baobab_branch",
+    {
+      "id": "burnt_dt:blazing_dtbwg_blue_enchanted_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtbwg_brown_mushroom_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtbwg_cika_branch",
+    "burnt_dt:blazing_dtbwg_cypress_branch",
+    "burnt_dt:blazing_dtbwg_ebony_branch",
+    "burnt_dt:blazing_dtbwg_fir_branch",
+    {
+      "id": "burnt_dt:blazing_dtbwg_green_enchanted_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtbwg_holly_branch",
+    "burnt_dt:blazing_dtbwg_ironwood_branch",
+    "burnt_dt:blazing_dtbwg_jacaranda_branch",
+    {
+      "id": "burnt_dt:blazing_dtbwg_mahogany_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtbwg_maple_branch",
+    "burnt_dt:blazing_dtbwg_palm_branch",
+    "burnt_dt:blazing_dtbwg_pine_branch",
+    "burnt_dt:blazing_dtbwg_rainbow_eucalyptus_branch",
+    "burnt_dt:blazing_dtbwg_redwood_branch",
+    "burnt_dt:blazing_dtbwg_sakura_branch",
+    "burnt_dt:blazing_dtbwg_skyris_branch",
+    {
+      "id": "burnt_dt:blazing_dtbwg_white_mushroom_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtbwg_willow_branch",
+    "burnt_dt:blazing_dtbwg_witch_hazel_branch",
+    "burnt_dt:blazing_dtbwg_baobab_thick_branch",
+    {
+      "id": "burnt_dt:blazing_dtbwg_blue_enchanted_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtbwg_brown_mushroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtbwg_cika_thick_branch",
+    "burnt_dt:blazing_dtbwg_cypress_thick_branch",
+    "burnt_dt:blazing_dtbwg_ebony_thick_branch",
+    "burnt_dt:blazing_dtbwg_fir_thick_branch",
+    {
+      "id": "burnt_dt:blazing_dtbwg_green_enchanted_thick_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtbwg_holly_thick_branch",
+    "burnt_dt:blazing_dtbwg_ironwood_thick_branch",
+    "burnt_dt:blazing_dtbwg_jacaranda_thick_branch",
+    {
+      "id": "burnt_dt:blazing_dtbwg_mahogany_thick_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtbwg_maple_thick_branch",
+    "burnt_dt:blazing_dtbwg_palm_thick_branch",
+    "burnt_dt:blazing_dtbwg_pine_thick_branch",
+    "burnt_dt:blazing_dtbwg_rainbow_eucalyptus_thick_branch",
+    "burnt_dt:blazing_dtbwg_redwood_thick_branch",
+    "burnt_dt:blazing_dtbwg_sakura_thick_branch",
+    "burnt_dt:blazing_dtbwg_skyris_thick_branch",
+    {
+      "id": "burnt_dt:blazing_dtbwg_white_mushroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtbwg_willow_thick_branch",
+    "burnt_dt:blazing_dtbwg_witch_hazel_thick_branch",
+    "burnt_dt:ember_dtbwg_aspen_branch",
+    "burnt_dt:ember_dtbwg_giant_flower_branch",
+    "burnt_dt:ember_dtbwg_palo_verde_branch",
+    "burnt_dt:ember_dtbwg_spirit_branch",
+    "burnt_dt:ember_dtbwg_white_mangrove_branch",
+    "burnt_dt:ember_dtbwg_zelkova_branch",
+    "burnt_dt:ember_dtbwg_baobab_branch",
+    {
+      "id": "burnt_dt:ember_dtbwg_blue_enchanted_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtbwg_brown_mushroom_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtbwg_cika_branch",
+    "burnt_dt:ember_dtbwg_cypress_branch",
+    "burnt_dt:ember_dtbwg_ebony_branch",
+    "burnt_dt:ember_dtbwg_fir_branch",
+    {
+      "id": "burnt_dt:ember_dtbwg_green_enchanted_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtbwg_holly_branch",
+    "burnt_dt:ember_dtbwg_ironwood_branch",
+    "burnt_dt:ember_dtbwg_jacaranda_branch",
+    {
+      "id": "burnt_dt:ember_dtbwg_mahogany_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtbwg_maple_branch",
+    "burnt_dt:ember_dtbwg_palm_branch",
+    "burnt_dt:ember_dtbwg_pine_branch",
+    "burnt_dt:ember_dtbwg_rainbow_eucalyptus_branch",
+    "burnt_dt:ember_dtbwg_redwood_branch",
+    "burnt_dt:ember_dtbwg_sakura_branch",
+    "burnt_dt:ember_dtbwg_skyris_branch",
+    {
+      "id": "burnt_dt:ember_dtbwg_white_mushroom_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtbwg_willow_branch",
+    "burnt_dt:ember_dtbwg_witch_hazel_branch",
+    "burnt_dt:ember_dtbwg_baobab_thick_branch",
+    {
+      "id": "burnt_dt:ember_dtbwg_blue_enchanted_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtbwg_brown_mushroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtbwg_cika_thick_branch",
+    "burnt_dt:ember_dtbwg_cypress_thick_branch",
+    "burnt_dt:ember_dtbwg_ebony_thick_branch",
+    "burnt_dt:ember_dtbwg_fir_thick_branch",
+    {
+      "id": "burnt_dt:ember_dtbwg_green_enchanted_thick_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtbwg_holly_thick_branch",
+    "burnt_dt:ember_dtbwg_ironwood_thick_branch",
+    "burnt_dt:ember_dtbwg_jacaranda_thick_branch",
+    {
+      "id": "burnt_dt:ember_dtbwg_mahogany_thick_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtbwg_maple_thick_branch",
+    "burnt_dt:ember_dtbwg_palm_thick_branch",
+    "burnt_dt:ember_dtbwg_pine_thick_branch",
+    "burnt_dt:ember_dtbwg_rainbow_eucalyptus_thick_branch",
+    "burnt_dt:ember_dtbwg_redwood_thick_branch",
+    "burnt_dt:ember_dtbwg_sakura_thick_branch",
+    "burnt_dt:ember_dtbwg_skyris_thick_branch",
+    {
+      "id": "burnt_dt:ember_dtbwg_white_mushroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtbwg_willow_thick_branch",
+    "burnt_dt:ember_dtbwg_witch_hazel_thick_branch",
+    "burnt_dt:burnt_dtbwg_aspen_branch",
+    "burnt_dt:burnt_dtbwg_giant_flower_branch",
+    "burnt_dt:burnt_dtbwg_palo_verde_branch",
+    "burnt_dt:burnt_dtbwg_spirit_branch",
+    "burnt_dt:burnt_dtbwg_white_mangrove_branch",
+    "burnt_dt:burnt_dtbwg_zelkova_branch",
+    "burnt_dt:burnt_dtbwg_baobab_branch",
+    {
+      "id": "burnt_dt:burnt_dtbwg_blue_enchanted_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtbwg_brown_mushroom_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtbwg_cika_branch",
+    "burnt_dt:burnt_dtbwg_cypress_branch",
+    "burnt_dt:burnt_dtbwg_ebony_branch",
+    "burnt_dt:burnt_dtbwg_fir_branch",
+    {
+      "id": "burnt_dt:burnt_dtbwg_green_enchanted_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtbwg_holly_branch",
+    "burnt_dt:burnt_dtbwg_ironwood_branch",
+    "burnt_dt:burnt_dtbwg_jacaranda_branch",
+    {
+      "id": "burnt_dt:burnt_dtbwg_mahogany_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtbwg_maple_branch",
+    "burnt_dt:burnt_dtbwg_palm_branch",
+    "burnt_dt:burnt_dtbwg_pine_branch",
+    "burnt_dt:burnt_dtbwg_rainbow_eucalyptus_branch",
+    "burnt_dt:burnt_dtbwg_redwood_branch",
+    "burnt_dt:burnt_dtbwg_sakura_branch",
+    "burnt_dt:burnt_dtbwg_skyris_branch",
+    {
+      "id": "burnt_dt:burnt_dtbwg_white_mushroom_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtbwg_willow_branch",
+    "burnt_dt:burnt_dtbwg_witch_hazel_branch",
+    "burnt_dt:burnt_dtbwg_baobab_thick_branch",
+    {
+      "id": "burnt_dt:burnt_dtbwg_blue_enchanted_thick_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtbwg_brown_mushroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtbwg_cika_thick_branch",
+    "burnt_dt:burnt_dtbwg_cypress_thick_branch",
+    "burnt_dt:burnt_dtbwg_ebony_thick_branch",
+    "burnt_dt:burnt_dtbwg_fir_thick_branch",
+    {
+      "id": "burnt_dt:burnt_dtbwg_green_enchanted_thick_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtbwg_holly_thick_branch",
+    "burnt_dt:burnt_dtbwg_ironwood_thick_branch",
+    "burnt_dt:burnt_dtbwg_jacaranda_thick_branch",
+    {
+      "id": "burnt_dt:burnt_dtbwg_mahogany_thick_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtbwg_maple_thick_branch",
+    "burnt_dt:burnt_dtbwg_palm_thick_branch",
+    "burnt_dt:burnt_dtbwg_pine_thick_branch",
+    "burnt_dt:burnt_dtbwg_rainbow_eucalyptus_thick_branch",
+    "burnt_dt:burnt_dtbwg_redwood_thick_branch",
+    "burnt_dt:burnt_dtbwg_sakura_thick_branch",
+    "burnt_dt:burnt_dtbwg_skyris_thick_branch",
+    {
+      "id": "burnt_dt:burnt_dtbwg_white_mushroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtbwg_willow_thick_branch",
+    "burnt_dt:burnt_dtbwg_witch_hazel_thick_branch",
+    {
+      "id": "burnt_dt:smoldering_dtquark_ancient_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtquark_azalea_branch",
+    "burnt_dt:smoldering_dtquark_blossom_branch",
+    {
+      "id": "burnt_dt:smoldering_dtquark_glow_shroom_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:blazing_dtquark_ancient_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtquark_azalea_branch",
+    "burnt_dt:blazing_dtquark_blossom_branch",
+    {
+      "id": "burnt_dt:blazing_dtquark_glow_shroom_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:ember_dtquark_ancient_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtquark_azalea_branch",
+    "burnt_dt:ember_dtquark_blossom_branch",
+    {
+      "id": "burnt_dt:ember_dtquark_glow_shroom_branch",
+      "required": false
+    },
+    {
+      "id": "burnt_dt:burnt_dtquark_ancient_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtquark_azalea_branch",
+    "burnt_dt:burnt_dtquark_blossom_branch",
+    {
+      "id": "burnt_dt:burnt_dtquark_glow_shroom_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtru_ashen_branch",
+    "burnt_dt:smoldering_dtru_bamboo_branch",
+    "burnt_dt:smoldering_dtru_dead_branch",
+    "burnt_dt:smoldering_dtru_joshua_branch",
+    "burnt_dt:smoldering_dtru_silver_birch_branch",
+    "burnt_dt:smoldering_dtru_baobab_branch",
+    "burnt_dt:smoldering_dtru_blackwood_branch",
+    {
+      "id": "burnt_dt:smoldering_dtru_blue_bioshroom_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtru_cypress_branch",
+    "burnt_dt:smoldering_dtru_eucalyptus_branch",
+    {
+      "id": "burnt_dt:smoldering_dtru_green_bioshroom_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtru_kapok_branch",
+    "burnt_dt:smoldering_dtru_larch_branch",
+    "burnt_dt:smoldering_dtru_magnolia_branch",
+    "burnt_dt:smoldering_dtru_maple_branch",
+    "burnt_dt:smoldering_dtru_mauve_branch",
+    "burnt_dt:smoldering_dtru_palm_branch",
+    "burnt_dt:smoldering_dtru_pine_branch",
+    {
+      "id": "burnt_dt:smoldering_dtru_pink_bioshroom_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtru_redwood_branch",
+    "burnt_dt:smoldering_dtru_socotra_branch",
+    "burnt_dt:smoldering_dtru_willow_branch",
+    "burnt_dt:smoldering_dtru_baobab_thick_branch",
+    "burnt_dt:smoldering_dtru_blackwood_thick_branch",
+    {
+      "id": "burnt_dt:smoldering_dtru_blue_bioshroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtru_cypress_thick_branch",
+    "burnt_dt:smoldering_dtru_eucalyptus_thick_branch",
+    {
+      "id": "burnt_dt:smoldering_dtru_green_bioshroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtru_kapok_thick_branch",
+    "burnt_dt:smoldering_dtru_larch_thick_branch",
+    "burnt_dt:smoldering_dtru_magnolia_thick_branch",
+    "burnt_dt:smoldering_dtru_maple_thick_branch",
+    "burnt_dt:smoldering_dtru_mauve_thick_branch",
+    "burnt_dt:smoldering_dtru_palm_thick_branch",
+    "burnt_dt:smoldering_dtru_pine_thick_branch",
+    {
+      "id": "burnt_dt:smoldering_dtru_pink_bioshroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtru_redwood_thick_branch",
+    "burnt_dt:smoldering_dtru_socotra_thick_branch",
+    "burnt_dt:smoldering_dtru_willow_thick_branch",
+    "burnt_dt:blazing_dtru_ashen_branch",
+    "burnt_dt:blazing_dtru_bamboo_branch",
+    "burnt_dt:blazing_dtru_dead_branch",
+    "burnt_dt:blazing_dtru_joshua_branch",
+    "burnt_dt:blazing_dtru_silver_birch_branch",
+    "burnt_dt:blazing_dtru_baobab_branch",
+    "burnt_dt:blazing_dtru_blackwood_branch",
+    {
+      "id": "burnt_dt:blazing_dtru_blue_bioshroom_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtru_cypress_branch",
+    "burnt_dt:blazing_dtru_eucalyptus_branch",
+    {
+      "id": "burnt_dt:blazing_dtru_green_bioshroom_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtru_kapok_branch",
+    "burnt_dt:blazing_dtru_larch_branch",
+    "burnt_dt:blazing_dtru_magnolia_branch",
+    "burnt_dt:blazing_dtru_maple_branch",
+    "burnt_dt:blazing_dtru_mauve_branch",
+    "burnt_dt:blazing_dtru_palm_branch",
+    "burnt_dt:blazing_dtru_pine_branch",
+    {
+      "id": "burnt_dt:blazing_dtru_pink_bioshroom_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtru_redwood_branch",
+    "burnt_dt:blazing_dtru_socotra_branch",
+    "burnt_dt:blazing_dtru_willow_branch",
+    "burnt_dt:blazing_dtru_baobab_thick_branch",
+    "burnt_dt:blazing_dtru_blackwood_thick_branch",
+    {
+      "id": "burnt_dt:blazing_dtru_blue_bioshroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtru_cypress_thick_branch",
+    "burnt_dt:blazing_dtru_eucalyptus_thick_branch",
+    {
+      "id": "burnt_dt:blazing_dtru_green_bioshroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtru_kapok_thick_branch",
+    "burnt_dt:blazing_dtru_larch_thick_branch",
+    "burnt_dt:blazing_dtru_magnolia_thick_branch",
+    "burnt_dt:blazing_dtru_maple_thick_branch",
+    "burnt_dt:blazing_dtru_mauve_thick_branch",
+    "burnt_dt:blazing_dtru_palm_thick_branch",
+    "burnt_dt:blazing_dtru_pine_thick_branch",
+    {
+      "id": "burnt_dt:blazing_dtru_pink_bioshroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtru_redwood_thick_branch",
+    "burnt_dt:blazing_dtru_socotra_thick_branch",
+    "burnt_dt:blazing_dtru_willow_thick_branch",
+    "burnt_dt:ember_dtru_ashen_branch",
+    "burnt_dt:ember_dtru_bamboo_branch",
+    "burnt_dt:ember_dtru_dead_branch",
+    "burnt_dt:ember_dtru_joshua_branch",
+    "burnt_dt:ember_dtru_silver_birch_branch",
+    "burnt_dt:ember_dtru_baobab_branch",
+    "burnt_dt:ember_dtru_blackwood_branch",
+    {
+      "id": "burnt_dt:ember_dtru_blue_bioshroom_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtru_cypress_branch",
+    "burnt_dt:ember_dtru_eucalyptus_branch",
+    {
+      "id": "burnt_dt:ember_dtru_green_bioshroom_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtru_kapok_branch",
+    "burnt_dt:ember_dtru_larch_branch",
+    "burnt_dt:ember_dtru_magnolia_branch",
+    "burnt_dt:ember_dtru_maple_branch",
+    "burnt_dt:ember_dtru_mauve_branch",
+    "burnt_dt:ember_dtru_palm_branch",
+    "burnt_dt:ember_dtru_pine_branch",
+    {
+      "id": "burnt_dt:ember_dtru_pink_bioshroom_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtru_redwood_branch",
+    "burnt_dt:ember_dtru_socotra_branch",
+    "burnt_dt:ember_dtru_willow_branch",
+    "burnt_dt:ember_dtru_baobab_thick_branch",
+    "burnt_dt:ember_dtru_blackwood_thick_branch",
+    {
+      "id": "burnt_dt:ember_dtru_blue_bioshroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtru_cypress_thick_branch",
+    "burnt_dt:ember_dtru_eucalyptus_thick_branch",
+    {
+      "id": "burnt_dt:ember_dtru_green_bioshroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtru_kapok_thick_branch",
+    "burnt_dt:ember_dtru_larch_thick_branch",
+    "burnt_dt:ember_dtru_magnolia_thick_branch",
+    "burnt_dt:ember_dtru_maple_thick_branch",
+    "burnt_dt:ember_dtru_mauve_thick_branch",
+    "burnt_dt:ember_dtru_palm_thick_branch",
+    "burnt_dt:ember_dtru_pine_thick_branch",
+    {
+      "id": "burnt_dt:ember_dtru_pink_bioshroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtru_redwood_thick_branch",
+    "burnt_dt:ember_dtru_socotra_thick_branch",
+    "burnt_dt:ember_dtru_willow_thick_branch",
+    "burnt_dt:burnt_dtru_ashen_branch",
+    "burnt_dt:burnt_dtru_bamboo_branch",
+    "burnt_dt:burnt_dtru_dead_branch",
+    "burnt_dt:burnt_dtru_joshua_branch",
+    "burnt_dt:burnt_dtru_silver_birch_branch",
+    "burnt_dt:burnt_dtru_baobab_branch",
+    "burnt_dt:burnt_dtru_blackwood_branch",
+    {
+      "id": "burnt_dt:burnt_dtru_blue_bioshroom_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtru_cypress_branch",
+    "burnt_dt:burnt_dtru_eucalyptus_branch",
+    {
+      "id": "burnt_dt:burnt_dtru_green_bioshroom_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtru_kapok_branch",
+    "burnt_dt:burnt_dtru_larch_branch",
+    "burnt_dt:burnt_dtru_magnolia_branch",
+    "burnt_dt:burnt_dtru_maple_branch",
+    "burnt_dt:burnt_dtru_mauve_branch",
+    "burnt_dt:burnt_dtru_palm_branch",
+    "burnt_dt:burnt_dtru_pine_branch",
+    {
+      "id": "burnt_dt:burnt_dtru_pink_bioshroom_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtru_redwood_branch",
+    "burnt_dt:burnt_dtru_socotra_branch",
+    "burnt_dt:burnt_dtru_willow_branch",
+    "burnt_dt:burnt_dtru_baobab_thick_branch",
+    "burnt_dt:burnt_dtru_blackwood_thick_branch",
+    {
+      "id": "burnt_dt:burnt_dtru_blue_bioshroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtru_cypress_thick_branch",
+    "burnt_dt:burnt_dtru_eucalyptus_thick_branch",
+    {
+      "id": "burnt_dt:burnt_dtru_green_bioshroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtru_kapok_thick_branch",
+    "burnt_dt:burnt_dtru_larch_thick_branch",
+    "burnt_dt:burnt_dtru_magnolia_thick_branch",
+    "burnt_dt:burnt_dtru_maple_thick_branch",
+    "burnt_dt:burnt_dtru_mauve_thick_branch",
+    "burnt_dt:burnt_dtru_palm_thick_branch",
+    "burnt_dt:burnt_dtru_pine_thick_branch",
+    {
+      "id": "burnt_dt:burnt_dtru_pink_bioshroom_thick_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtru_redwood_thick_branch",
+    "burnt_dt:burnt_dtru_socotra_thick_branch",
+    "burnt_dt:burnt_dtru_willow_thick_branch",
+    "burnt_dt:sooty_oak_thick_branch",
+    "burnt_dt:sooty_acacia_thick_branch",
+    "burnt_dt:sooty_oak_root",
+    "burnt_dt:sooty_acacia_root",
+    "burnt_dt:sooty_spruce_root",
+    "burnt_dt:smoldering_oak_thick_branch",
+    "burnt_dt:smoldering_acacia_thick_branch",
+    "burnt_dt:smoldering_oak_root",
+    "burnt_dt:smoldering_acacia_root",
+    "burnt_dt:smoldering_spruce_root",
+    "burnt_dt:blazing_oak_thick_branch",
+    "burnt_dt:blazing_acacia_thick_branch",
+    "burnt_dt:blazing_oak_root",
+    "burnt_dt:blazing_acacia_root",
+    "burnt_dt:blazing_spruce_root",
+    "burnt_dt:ember_oak_thick_branch",
+    "burnt_dt:ember_acacia_thick_branch",
+    "burnt_dt:ember_oak_root",
+    "burnt_dt:ember_acacia_root",
+    "burnt_dt:ember_spruce_root",
+    "burnt_dt:burnt_oak_thick_branch",
+    "burnt_dt:burnt_acacia_thick_branch",
+    "burnt_dt:burnt_oak_root",
+    "burnt_dt:burnt_acacia_root",
+    "burnt_dt:burnt_spruce_root",
+    {
+      "id": "burnt_dt:smoldering_dtterralith_mirage_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtterralith_moonlight_branch",
+    {
+      "id": "burnt_dt:blazing_dtterralith_mirage_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtterralith_moonlight_branch",
+    {
+      "id": "burnt_dt:ember_dtterralith_mirage_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtterralith_moonlight_branch",
+    {
+      "id": "burnt_dt:burnt_dtterralith_mirage_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtterralith_moonlight_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_aspen_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_cedar_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_coconut_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_cypress_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_fir_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_ghaf_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_joshua_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_larch_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_maple_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_olive_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_palo_verde_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_saxaul_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_sugi_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_willow_branch",
+    "burnt_dt:smoldering_dtnatures_spirit_wisteria_branch",
+    {
+      "id": "burnt_dt:smoldering_dtnatures_spirit_mahogany_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtnatures_spirit_redwood_branch",
+    {
+      "id": "burnt_dt:smoldering_dtnatures_spirit_mahogany_thick_branch",
+      "required": false
+    },
+    "burnt_dt:smoldering_dtnatures_spirit_redwood_thick_branch",
+    "burnt_dt:blazing_dtnatures_spirit_aspen_branch",
+    "burnt_dt:blazing_dtnatures_spirit_cedar_branch",
+    "burnt_dt:blazing_dtnatures_spirit_coconut_branch",
+    "burnt_dt:blazing_dtnatures_spirit_cypress_branch",
+    "burnt_dt:blazing_dtnatures_spirit_fir_branch",
+    "burnt_dt:blazing_dtnatures_spirit_ghaf_branch",
+    "burnt_dt:blazing_dtnatures_spirit_joshua_branch",
+    "burnt_dt:blazing_dtnatures_spirit_larch_branch",
+    "burnt_dt:blazing_dtnatures_spirit_maple_branch",
+    "burnt_dt:blazing_dtnatures_spirit_olive_branch",
+    "burnt_dt:blazing_dtnatures_spirit_palo_verde_branch",
+    "burnt_dt:blazing_dtnatures_spirit_saxaul_branch",
+    "burnt_dt:blazing_dtnatures_spirit_sugi_branch",
+    "burnt_dt:blazing_dtnatures_spirit_willow_branch",
+    "burnt_dt:blazing_dtnatures_spirit_wisteria_branch",
+    {
+      "id": "burnt_dt:blazing_dtnatures_spirit_mahogany_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtnatures_spirit_redwood_branch",
+    {
+      "id": "burnt_dt:blazing_dtnatures_spirit_mahogany_thick_branch",
+      "required": false
+    },
+    "burnt_dt:blazing_dtnatures_spirit_redwood_thick_branch",
+    "burnt_dt:ember_dtnatures_spirit_aspen_branch",
+    "burnt_dt:ember_dtnatures_spirit_cedar_branch",
+    "burnt_dt:ember_dtnatures_spirit_coconut_branch",
+    "burnt_dt:ember_dtnatures_spirit_cypress_branch",
+    "burnt_dt:ember_dtnatures_spirit_fir_branch",
+    "burnt_dt:ember_dtnatures_spirit_ghaf_branch",
+    "burnt_dt:ember_dtnatures_spirit_joshua_branch",
+    "burnt_dt:ember_dtnatures_spirit_larch_branch",
+    "burnt_dt:ember_dtnatures_spirit_maple_branch",
+    "burnt_dt:ember_dtnatures_spirit_olive_branch",
+    "burnt_dt:ember_dtnatures_spirit_palo_verde_branch",
+    "burnt_dt:ember_dtnatures_spirit_saxaul_branch",
+    "burnt_dt:ember_dtnatures_spirit_sugi_branch",
+    "burnt_dt:ember_dtnatures_spirit_willow_branch",
+    "burnt_dt:ember_dtnatures_spirit_wisteria_branch",
+    {
+      "id": "burnt_dt:ember_dtnatures_spirit_mahogany_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtnatures_spirit_redwood_branch",
+    {
+      "id": "burnt_dt:ember_dtnatures_spirit_mahogany_thick_branch",
+      "required": false
+    },
+    "burnt_dt:ember_dtnatures_spirit_redwood_thick_branch",
+    "burnt_dt:burnt_dtnatures_spirit_aspen_branch",
+    "burnt_dt:burnt_dtnatures_spirit_cedar_branch",
+    "burnt_dt:burnt_dtnatures_spirit_coconut_branch",
+    "burnt_dt:burnt_dtnatures_spirit_cypress_branch",
+    "burnt_dt:burnt_dtnatures_spirit_fir_branch",
+    "burnt_dt:burnt_dtnatures_spirit_ghaf_branch",
+    "burnt_dt:burnt_dtnatures_spirit_joshua_branch",
+    "burnt_dt:burnt_dtnatures_spirit_larch_branch",
+    "burnt_dt:burnt_dtnatures_spirit_maple_branch",
+    "burnt_dt:burnt_dtnatures_spirit_olive_branch",
+    "burnt_dt:burnt_dtnatures_spirit_palo_verde_branch",
+    "burnt_dt:burnt_dtnatures_spirit_saxaul_branch",
+    "burnt_dt:burnt_dtnatures_spirit_sugi_branch",
+    "burnt_dt:burnt_dtnatures_spirit_willow_branch",
+    "burnt_dt:burnt_dtnatures_spirit_wisteria_branch",
+    {
+      "id": "burnt_dt:burnt_dtnatures_spirit_mahogany_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtnatures_spirit_redwood_branch",
+    {
+      "id": "burnt_dt:burnt_dtnatures_spirit_mahogany_thick_branch",
+      "required": false
+    },
+    "burnt_dt:burnt_dtnatures_spirit_redwood_thick_branch",
+    "burnt_dt:smoldering_dtphc2_cinnamon_branch",
+    "burnt_dt:smoldering_dtphc2_dragon_fruit_branch",
+    "burnt_dt:smoldering_dtphc2_maple_branch",
+    "burnt_dt:smoldering_dtphc2_palm_branch",
+    "burnt_dt:smoldering_dtphc2_paperbark_branch",
+    "burnt_dt:blazing_dtphc2_cinnamon_branch",
+    "burnt_dt:blazing_dtphc2_dragon_fruit_branch",
+    "burnt_dt:blazing_dtphc2_maple_branch",
+    "burnt_dt:blazing_dtphc2_palm_branch",
+    "burnt_dt:blazing_dtphc2_paperbark_branch",
+    "burnt_dt:ember_dtphc2_cinnamon_branch",
+    "burnt_dt:ember_dtphc2_dragon_fruit_branch",
+    "burnt_dt:ember_dtphc2_maple_branch",
+    "burnt_dt:ember_dtphc2_palm_branch",
+    "burnt_dt:ember_dtphc2_paperbark_branch",
+    "burnt_dt:burnt_dtphc2_cinnamon_branch",
+    "burnt_dt:burnt_dtphc2_dragon_fruit_branch",
+    "burnt_dt:burnt_dtphc2_maple_branch",
+    "burnt_dt:burnt_dtphc2_palm_branch",
+    "burnt_dt:burnt_dtphc2_paperbark_branch"
+  ]
+}

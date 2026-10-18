@@ -1,0 +1,13 @@
+name = "Colorful Depot"
+filename = "colorful_depot-1.4.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/s1I9GeSl/versions/vqkf94nw/colorful_depot-1.4.1-neoforge.jar"
+hash-format = "sha512"
+hash = "02a90a485d0e86937ffafc01dd39986cc38d1251473cb07a9fb4aaa739ac16e8dfa4a540a478579098177df7ceb8fb90595bdcc8362c7eb419e671fee77efb7f"
+
+[update]
+[update.modrinth]
+mod-id = "s1I9GeSl"
+version = "vqkf94nw"
