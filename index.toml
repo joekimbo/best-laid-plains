@@ -6198,11 +6198,6 @@ file = "kubejs/server_scripts/apricorn_replace.js"
 hash = "778d769b770f329c1fe6e7c0f526f08fa6c64f38755b9d7564b31accc1a0d35b"
 
 [[files]]
-file = "mods/2032-world-height.pw.toml"
-hash = "b617a01ee6459e9f47e27e8d705ca4bed7f58ea2afeb6a90641a80ad033b2b48"
-metafile = true
-
-[[files]]
 file = "mods/accessible-step.pw.toml"
 hash = "ef697204574c7fb659ac607fdfa70745c0c6c5f115fb27ab53ccd2e469cd4354"
 metafile = true
