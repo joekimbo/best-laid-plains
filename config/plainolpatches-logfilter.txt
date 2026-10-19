@@ -91,3 +91,7 @@ fml_create_addon_ordering | FMLConfig | adding explicit AFTER ordering against '
 # Added by a newer Plain Ol' Patches; delete or comment out a line to turn its rule off.
 # Simply Swords' shadowmist light source names an item that doesn't exist in this version.
 lambdyn_simplyswords | LambDynamicLights | Failed to load item light source "simplyswords:dynamiclights/item/
+
+# Added by a newer Plain Ol' Patches; delete or comment out a line to turn its rule off.
+# Sable's UDP channel logs a full stack trace for every legacy status ping (first byte 0xFE) a host's prober sends to the game port.
+sable_udp_status_ping | Sable | Server UDP channel caught exception | errors | Received an invalid packet ID

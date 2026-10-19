@@ -30,6 +30,68 @@
 	# Range: 0 ~ 64
 	worldgenThreads = 8
 
+	[freeterraforged.mountains]
+		#FreeTerraForged mountain chains: octaves of the ridge noise that draws the crests. FreeTerraForged's own value is 4.
+		#Fewer octaves = smoother, simpler crests. Applies to worlds generated after the change.
+		# Default: 4
+		# Range: 1 ~ 8
+		ridgeOctaves = 4
+		#FreeTerraForged mountain chains: how much smaller each ridge octave is (frequency multiplier). Its own value is 2.35.
+		#Closer to 1 = the octaves stay large (broad, vast crests); higher = busy fine detail.
+		# Default: 2.35
+		# Range: 1.2 ~ 4.0
+		ridgeLacunarity = 2.35
+		#FreeTerraForged mountain chains: how strongly the small ridge octaves count against the large one. Its own value is 1.15.
+		#Lower = smoother, rounder mountains.
+		# Default: 1.15
+		# Range: 0.4 ~ 2.5
+		ridgeGain = 1.15
+		#FreeTerraForged mountain chains: where the valley floors between the crests sit, as a fraction of crest height (0 = valleys
+		#reach the base ground, 1 = no valleys). FreeTerraForged's own value is about 0.25. Lower it for deeper, broader valleys.
+		# Default: 0.25
+		# Range: 0.0 ~ 0.9
+		valleyFloor = 0.25
+		#FreeTerraForged mountain chains: a soft floor under every valley, as a fraction of crest height, applied after valleyFloor (0 = off, FreeTerraForged's
+		#own behaviour). Lowering valleyFloor can clip valleys to the base ground, which is sea level (flat Y63 pockets); this keeps them above it:
+		#each 0.01 is about 5.6 blocks at the pack's vertical scale (0.04 is roughly Y85). Needed for high-altitude lakes.
+		# Default: 0.0
+		# Range: 0.0 ~ 0.5
+		valleyMin = 0.0
+		#FreeTerraForged 'fancy mountains' (general.fancyMountains): size in blocks of the grid its drainage ridges are built on,
+		#before the preset's global horizontal scale. Its own value is 128 (about 380 blocks at the pack's scale). Larger = fewer, wider spurs.
+		# Default: 128.0
+		# Range: 16.0 ~ 1024.0
+		fancyGridSize = 128.0
+		#FreeTerraForged 'fancy mountains': how much of the height comes from the drainage ridge pattern instead of the plain ridge
+		#noise. Its own value is 0.65.
+		# Default: 0.65
+		# Range: 0.0 ~ 1.0
+		fancyStrength = 0.65
+		#FreeTerraForged general.mountainVariety: width of the blend between a region's own mountain field and the neutral one at
+		#the region borders, as a multiple of FreeTerraForged's own (1 = unchanged). Larger hides the patchwork seams between regions.
+		# Default: 1.0
+		# Range: 1.0 ~ 4.0
+		varietyBlendWidth = 1.0
+
+		[freeterraforged.mountains.bowls]
+			#Alpine bowls (high-altitude lakes): chance that a grid cell of the mountain chains has a bowl: a dish in a valley with a lip round it and a notch
+			#on the downhill side, so Streams Reflowing fills it with a lake at the notch level and connects inlets and an outlet. 0 = off (default).
+			# Default: 0.0
+			# Range: 0.0 ~ 1.0
+			chance = 0.0
+			#Alpine bowls: grid cell size, in noise units (before the preset's global horizontal scale: about 3 blocks each at the pack's scale).
+			# Default: 700.0
+			# Range: 150.0 ~ 3000.0
+			cellSize = 700.0
+			#Alpine bowls: dish radius, in noise units (40 is about 120 blocks across at the pack's scale, well above Streams Reflowing's lakeMinArea).
+			# Default: 40.0
+			# Range: 10.0 ~ 300.0
+			radius = 40.0
+			#Alpine bowls: dish depth as a fraction of crest height (0.04 is about 22 blocks at the pack's vertical scale).
+			# Default: 0.04
+			# Range: 0.005 ~ 0.3
+			depth = 0.04
+
 [structures]
 	#Structures that never generate. Ids ("minecraft:shipwreck") or structure tags ("#minecraft:village").
 	#Applies to newly generated chunks only.
