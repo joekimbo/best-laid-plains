@@ -1651,7 +1651,7 @@ preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "582db1c25fe799f3bcee4fea8c50d38cf195812c52e0d3878c3d8660e9724605"
+hash = "daf18578b1497b98ae95fea70f3e5f59a312187202cc8e6d7db4f135b416edf3"
 
 [[files]]
 file = "config/fakename-server.toml"
@@ -1913,7 +1913,7 @@ preserve = true
 
 [[files]]
 file = "config/iris.properties"
-hash = "65060234c65fcb0240ab0c1eac8ea710e66d75a3fe7a0023095d62a2cd078ff4"
+hash = "10a21591db1bdf70aec8200046825fc8dc5b2d701d065657a1aa1b8efa18ab07"
 preserve = true
 
 [[files]]
@@ -2412,7 +2412,7 @@ preserve = true
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "1398a23d9a3a336b4727974543854d1e3dab0ff71c0ebc3150150518ba23ea38"
+hash = "4660311ee219973aaad7d729e8d5136908b79b43618e750e23616b99b766cee7"
 
 [[files]]
 file = "config/packtactics-common.toml"
@@ -2494,11 +2494,11 @@ hash = "26aad2c73a95400390c50c59011713433e5d8ebb128ece7e45c9600157b26ecf"
 
 [[files]]
 file = "config/plainolpatches/colorwheel-keys.txt"
-hash = "27c11f6279d34ca1bb06a83474a83b6e36e76705110c705334c49749befe9934"
+hash = "8755918e2acc36884fd66d9deb39ef11568b69a1f28283b70baeb588d532ff40"
 
 [[files]]
 file = "config/plainolpatches/toasts-seen.txt"
-hash = "1cf2f0bafa3369d854826fd01448e9d41b1e926c41e46b84a53dd40353e60392"
+hash = "0e2118a2807c3ab473b5bda5ac9f23a370094826f46c8e90564e0fd6794ac805"
 
 [[files]]
 file = "config/plainsight-common.toml"
@@ -2623,7 +2623,7 @@ hash = "1074917688c3de81859d78f317fcf2770483c9df6355c5898ef71609fa94dc40"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "6326c4ab455f70e63a25ef079fd89c11e14cb4d9766966ec3a4a86bc4aa25e10"
+hash = "77e6ef7b408920c797a985868e96848a81910cf7bfe2c869e0293528f11ca052"
 preserve = true
 
 [[files]]
@@ -6435,11 +6435,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-battle-tower.pw.toml"
 hash = "04f8f20f824614f92a765fbe3781ee89db4cbdc4399f47009fd9f1062909e48b"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-comes-alive-1-11-3.pw.toml"
-hash = "9b44ee4a8400d349dfb8bb80961c3a58181b9e7d4a9b0a838e598c92f4163b75"
 metafile = true
 
 [[files]]
