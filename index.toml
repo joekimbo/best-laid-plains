@@ -685,7 +685,7 @@ hash = "e8d78d504fe43535bb49837a445d6acf06fe7c1b208d763b9023e3fa6e25d34a"
 
 [[files]]
 file = "config/cobblemonraidrevolution/common.json5"
-hash = "d0384b74dd67abeea19563c011d2f4e61769bf4bddeb3e0beae77bc8d9bab88b"
+hash = "3f8a24d40206dac7cb26a370a9386a93dcc24135d758e9a6ba2ed6dee1b8c0da"
 
 [[files]]
 file = "config/cobblemonraidrevolution/conditions.json5"
@@ -1727,7 +1727,7 @@ preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "52a5b1058b08f72d8c79db3838dfd61b5d012c2325140ef86651aa8d2da5106e"
+hash = "d04f727fefede8b4b926ace742f70e7e3cc7e2db362256d837a9af818fbc8c53"
 
 [[files]]
 file = "config/fakename-server.toml"
@@ -1998,7 +1998,7 @@ preserve = true
 
 [[files]]
 file = "config/iris.properties"
-hash = "f037e085f92c80afd43d1ac40b129fdad6f03745bbe7315c60dbc03d762dca0f"
+hash = "cd2a6e9cc3eba0e6d10132c97fa1612904d94ffc754311bc3e6ceb2b39c4d341"
 preserve = true
 
 [[files]]
@@ -2518,7 +2518,7 @@ preserve = true
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "a3daf2df39adee06c6d7287fcafd09a3082fd13ca6a93dabb02983682a93efaf"
+hash = "ff2b180dc95b8d88dd607c3bad1d58462e3a9bc1b2313d61ba8a5526db547114"
 
 [[files]]
 file = "config/packtactics-common.toml"
@@ -2621,7 +2621,7 @@ hash = "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2"
 
 [[files]]
 file = "config/plainolpatches/toasts-seen.txt"
-hash = "2b45d12eaebacb82ce8dd456d48cffa4ccd9640316ff9c7c23a05398da7b154f"
+hash = "46c6084a0ff05f013801e141a839de0728c9a58d55bd22a316a4cf8d469f62dd"
 
 [[files]]
 file = "config/plainsandpeaks-common.toml"
@@ -2760,7 +2760,7 @@ hash = "1074917688c3de81859d78f317fcf2770483c9df6355c5898ef71609fa94dc40"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "c09a7569bff8953ac53c066fdefb82abd0796187f71e9e7a39db7526f85ccdb4"
+hash = "efd52558f419e7019e50deaeb8d3bf2f5304b931fb4a48265e952005dc34e62c"
 preserve = true
 
 [[files]]
@@ -3029,7 +3029,7 @@ preserve = true
 
 [[files]]
 file = "config/submarine_hull.json"
-hash = "619ee0640ed4822ca44eff538eb0df923ee6489c3d62f2d085f495da92151cd7"
+hash = "9e049aaf9b5095639a0954231eae2febe8ad83f1b859458e81b0af30778e9afe"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -7381,7 +7381,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-tweaks-refoxed.pw.toml"
-hash = "23a6d125c91c8f4257c4e73fe320ce81f0b2a0c1d6316664296edca6b41acb70"
+hash = "4fbe04bd9f15b5c0f861472a9be7d95ca743c7ed820119cfb7e3caed12e071fb"
 metafile = true
 
 [[files]]

@@ -37637,6 +37637,46 @@
     "maxWaterDepth": 81,
     "implosionChance": 0.28040898
   },
+  "linearbearing:andesite_lamp": {
+    "maxWaterDepth": 24,
+    "implosionChance": 0.57546896
+  },
+  "linearbearing:bubble_gum_block": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "linearbearing:gyroscopic_gearbox": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "linearbearing:linear_bearing": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "linearbearing:linear_casing": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "linearbearing:linear_moving": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "linearbearing:magnetic_port": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "linearbearing:redstone_converter": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "linearbearing:slippery_copycat": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
+  "linearbearing:torsional_anchor": {
+    "maxWaterDepth": 72,
+    "implosionChance": 0.30540898
+  },
   "livingwind:bird_wind_vane": {
     "maxWaterDepth": 46,
     "implosionChance": 0.50122136

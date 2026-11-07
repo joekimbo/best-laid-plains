@@ -33,6 +33,8 @@
 	"reward_distribution": "random",
 	// Raid boss Defense and Special Defense multiplier, in battle only. Default: 2.0
 	"boss_defense_multiplier": 2.0,
+	// Debug: a shared raid whose raider has owed a choice for 45 s gets the request sent again, and at 75 s a random legal action is chosen for them. Off by default: players have the turn timer (/crd timer). Default: false
+	"debug_stall_watchdog": false,
 	// Seconds a committed player can give the others before they get a random legal action (/crd timer). Default: 10
 	"turn_timer_seconds": 10,
 	// Revives of the boss per star from ★1 to ★5: at 0 HP it is restored in full and a phase effect fires. Default: [1, 2, 2, 2, 3]
@@ -69,17 +71,10 @@
 	"segments_replace_worldgen": true,
 	// Segments own one crystal each (SPEC 3.2): the size in blocks of a grid square. Default: 2048
 	"segment_size": 2048,
-	// Land chunks a segment needs to host a crystal (25 % of the 8192 target); smaller ones join their richest neighbour. Default: 2048
-	"segment_min_land_chunks": 2048,
 	// Durability of a crystal; clearing a raid of quality q costs q. At 0 the crystal breaks. Default: 10
 	"crystal_durability": 10,
-	// Respawn delay of a broken crystal, in hours: normal distribution, truncated. Default: mean 90, sd 30, 12 to 168
-	"respawn_mean_hours": 90.0,
-	"respawn_sd_hours": 30.0,
-	"respawn_min_hours": 12.0,
-	"respawn_max_hours": 168.0,
-	// The clock of respawns (Options: GAME_TIME, SYSTEM_TIME). Default: GAME_TIME
-	"respawn_clock": "GAME_TIME",
+	// A card dealt on a chunk that has not generated is dropped when the chunk is still ungenerated after this many ticks of game time (SPEC 3.2). A balance knob. Default: 3000000 (about 42 real hours, 125 in-game days)
+	"ungenerated_card_hold_ticks": 3000000,
 	// The fall of a new crystal, in seconds per phase: glint, approach, fireball, descent, awaken. Default: 2, 14, 8, 4, 2
 	"fall_seconds": [
 		2.0,
@@ -115,5 +110,11 @@
 	/* Whether players are invulnerable to damage in the raid dimension.
 	   WARNING: Player deaths in the raid dimension is not directly supported. Disable at your own risk.
 	*/
-	"player_invulnerability": true
+	"player_invulnerability": true,
+	// Whether entering a raid arena joins the lobby automatically (otherwise players press Join). Default: true
+	"lobby_auto_join": true,
+	// Seconds the lobby waits, once everyone in it is ready, before the raid starts (0 = at once). Resets when someone joins or un-readies. Default: 10
+	"lobby_countdown_seconds": 10,
+	// Seconds someone must have been ready before the lobby leader may start without the others (0 = at once). Default: 60
+	"lobby_force_start_after_seconds": 60
 }
