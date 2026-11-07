@@ -1,0 +1,3 @@
+#Durable items stay in the inventory at 0 durability, unusable until repaired.
+#False restores vanilla breakage (items at 0 durability work normally until their next use).
+keepBrokenItems = true

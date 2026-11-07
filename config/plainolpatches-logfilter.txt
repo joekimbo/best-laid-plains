@@ -73,7 +73,6 @@ lamb_simplyswords | LambDynLights | Failed to load item light source "simplyswor
 burnt_example_mappings | burnt | burn_mapping 'burnt:example': unknown source block
 burnt_tfc_mappings | burnt | burn_mapping 'burnt:tfc': unknown source block
 # Cobblemon reports a missing ".old" backup as data loss when a player's file is created for the first time (nothing was lost).
-cobblemon_old_file | com.cobblemon.mod.common.Cobblemon | is corrupt or missing. Data is lost | errors
 # MCA Quests says its own 'relative' targets are allowed.
 mcaquests_relative_targets |  | relative. That is allowed
 

@@ -8,7 +8,3 @@
 	# Default: 2
 	# Range: 0 ~ 16
 	restocksPerDay = 2
-	#MCA clothing pool Bankers wear, as a profession id (e.g. minecraft:librarian, minecraft:cartographer).
-	#Empty = MCA's default (jobless) clothes. An entry for mca_banker:banker in MCA's own
-	#professionConversionsMap (config/mca.json) takes priority over this setting.
-	clothingProfession = "minecraft:librarian"

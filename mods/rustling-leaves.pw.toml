@@ -1,0 +1,13 @@
+name = "Rustling Leaves"
+filename = "rustling_leaves-neoforge-1.21.1-2.8.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3264130fce2723e4c62f47aa7e13dffce9645c9a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9359402
+project-id = 1729578

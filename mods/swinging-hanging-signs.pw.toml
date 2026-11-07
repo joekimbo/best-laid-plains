@@ -1,0 +1,13 @@
+name = "Swinging Hanging Signs"
+filename = "swingingsigns-neoforge-1.0.1-mc1.21.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "c554104a4145d0ac2687101940257dcb9db7b15e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9421286
+project-id = 1747756

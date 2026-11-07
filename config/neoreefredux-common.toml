@@ -1,0 +1,3 @@
+[worldgen]
+	#If true, vanilla corals will not generate in the world.
+	disableVanillaCorals = false

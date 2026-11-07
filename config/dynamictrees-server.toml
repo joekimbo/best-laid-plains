@@ -35,18 +35,14 @@
 
 #Tree Settings
 [trees]
-	#The chance of a tree on depleted soil to die. 1/256(~0.004) averages to about 1 death every 16 minecraft days
-	# Default: 0.0
-	# Range: 0.0 ~ 1.0
-	diseaseChance = 0.0
+	#Factor that multiplies the wood returned from harvesting a tree.  You cheat.
+	# Default: 1.0
+	# Range: 0.0 ~ 128.0
+	treeHarvestMultiplier = 0.75
 	#Factor that multiplies the rate at which trees grow. Use at own risk
 	# Default: 0.5
 	# Range: 0.0 ~ 16.0
 	treeGrowthMultiplier = 0.5
-	#Factor that multiplies the wood returned from harvesting a tree.  You cheat.
-	# Default: 1.0
-	# Range: 0.0 ~ 128.0
-	treeHarvestMultiplier = 1.0
 	#Maximum harvesting hardness that can be calculated. Regardless of tree thickness.
 	# Default: 20.0
 	# Range: 1.0 ~ 200.0
@@ -61,10 +57,14 @@
 	# Default: 0.5
 	# Range: 0.0 ~ 1.0
 	scaleBiomeGrowthRate = 0.5
+	#The chance of a tree on depleted soil to die. 1/256(~0.004) averages to about 1 death every 16 minecraft days
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	diseaseChance = 0.0
 	#The maximum radius of a branch that is allowed to postRot away. 8 = Full block size. 24 = Full 3x3 thick size. Set to 0 to prevent rotting
 	# Default: 7
 	# Range: 0 ~ 24
-	maxBranchRotRadius = 3
+	maxBranchRotRadius = 7
 	#How much harder it is to destroy a rooty block compared to its non-rooty state
 	# Default: 40.0
 	# Range: 0.0 ~ 128.0

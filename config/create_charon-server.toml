@@ -21,10 +21,6 @@
 	# Default: 500.0
 	# Range: 0.0 ~ 1.0E9
 	freeRadius = 500.0
-	#Distance per surcharge step.
-	# Default: 100.0
-	# Range: 0.001 ~ 1.0E9
-	distanceStep = 100.0
 	#Multiplier added per full step beyond freeRadius.
 	# Default: 0.05
 	# Range: 0.0 ~ 1000000.0
@@ -36,9 +32,6 @@
 
 #Coordinate scales applied before measuring distance to Overworld spawn.
 [dimensions]
-	# Default: 1.0
-	# Range: 0.0 ~ 1000000.0
-	overworldScale = 1.0
 	#Deliberately above vanilla's 8:1 travel ratio; the extra is an intentional Nether surcharge.
 	# Default: 10.0
 	# Range: 0.0 ~ 1000000.0
@@ -54,27 +47,7 @@
 [recovery]
 	#If true, recoveries must be confirmed at a Charon's Toll. If false, no Toll is needed and there is no surcharge.
 	tollRequired = true
-	#Seconds a quote remains valid.
-	# Default: 30
-	# Range: 1 ~ 3600
-	confirmationTimeoutSeconds = 30
-	#Per-player cooldown on /charon recover and /charon confirm.
-	# Default: 2
-	# Range: 0 ~ 3600
-	commandCooldownSeconds = 2
-	#Remove the GraveStone obituary for the recovered death from the player's inventory.
-	removeObituary = true
-	#Maximum distance (blocks) from the quoted Toll when confirming. Toll prices only change every distanceStep blocks, so a few blocks of reach never changes a price; the limit just keeps a quote tied to the Toll it came from.
-	# Default: 16.0
-	# Range: 0.5 ~ 64.0
-	tollReach = 16.0
 
 [display]
-	#Show grave coordinates in the chat list.
+	#Show grave coordinates in the Toll screen and the chat list.
 	showCoordinates = true
-	#Show effective distance in the chat list.
-	showDistance = true
-	#Graves shown per /charon list page.
-	# Default: 10
-	# Range: 1 ~ 100
-	gravesPerPage = 10

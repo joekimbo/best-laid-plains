@@ -1,0 +1,22 @@
+[erosion]
+	#Valleys are eroded into the terrain before rivers are solved on it (the look of Plains and Peaks). Off: the terrain as FreeTerraForged makes it.
+	#Only chunks generated after a change are affected, so keep one setting for the life of a world.
+	#Overridden by the system property -Dplainsandpeaks.erosion=true|false.
+	enabled = true
+
+[performance]
+	#Continents solved at the same time while the world generates (each needs about 0.5-1 GB of working memory). 0 = automatic: min(8, half the cores, max heap / 3 GB), at least 1.
+	#Overridden by -Dplainsandpeaks.solveThreads=N.
+	# Default: 0
+	# Range: 0 ~ 16
+	solveThreads = 0
+	#Threads the erosion stage of one continent uses. 0 = automatic: half the cores, at least 2 and at most 6 (the result is bit-identical at any thread count).
+	#Overridden by -Dplainsandpeaks.erosionThreads=N.
+	# Default: 0
+	# Range: 0 ~ 16
+	erosionThreads = 0
+	#Memory (MB) the plate world keeps (solved landmasses and their rivers; the least recently used are dropped and solved again from the disk cache when needed; a typical landmass is 70-130 MB, a giant 0.3-0.5 GB). 0 = automatic: max(256, max heap / 8).
+	#Overridden by -Dplainsandpeaks.cacheMb=N.
+	# Default: 0
+	# Range: 0 ~ 8192
+	cacheMb = 0

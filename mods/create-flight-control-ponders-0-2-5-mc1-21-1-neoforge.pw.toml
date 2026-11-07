@@ -1,0 +1,8 @@
+name = "create_flight_control_ponders-0.2.5-mc1.21.1-neoforge"
+filename = "create_flight_control_ponders-0.2.5-mc1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/create_flight_control_ponders-0.2.5-mc1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "c6eed3dd311a38375aada6c15a5d3a903b922f64a44dbd6fdf701eb12c79b745e57a2d510cf49531d2749a5a0667747be0a271f610cf804a9dc2532733fb0689"

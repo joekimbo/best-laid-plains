@@ -1,0 +1,8 @@
+name = "dtcobblemon-1.3.1"
+filename = "dtcobblemon-1.3.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/dtcobblemon-1.3.1.jar"
+hash-format = "sha512"
+hash = "5af8415165b56f7a5b249320127aa8a365fe47584c050390b6c0de93f1bac7ccabdc52bfb71f5423b1450151a97f463513c2f213ee145a249da2e8305c40805e"

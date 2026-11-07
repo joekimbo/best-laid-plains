@@ -1,0 +1,119 @@
+{
+	// Enable natural spawning of raid dens. Default: true
+	"enable_spawning": true,
+	// Weighted probability of each raid quality from ★1 to ★5 per dimension. Leave empty to use overworld/default. Default: {"minecraft:overworld": [20.0, 20.0, 20.0, 20.0, 20.0]}
+	"dimension_tier_weights": {
+		"minecraft:overworld": [
+			20.0,
+			20.0,
+			20.0,
+			20.0,
+			20.0
+		]
+	},
+	// The chance of a raid den spawning per dimension as 1 in X. Leave empty to use overworld/default. Default: {"minecraft:overworld": 4096} (the pack's tuned value; upstream's was 256)
+	"dimension_spawn_rate": {
+		"minecraft:overworld": 4096
+	},
+	// The timer system raid dens use for resets (Options: GAME_TIME, SYSTEM_TIME, GLOBAL_GAME_TIME, GLOBAL_SYSTEM_TIME). Default: GAME_TIME
+	"reset_mode": "GAME_TIME",
+	// How long in seconds until raid dens reset (Set to -1 for no resets). Default: 7200
+	"reset_time": 7200,
+	// Whether the raid boss and raid tier changes between resets (Options: NONE, LOCK_BOTH, LOCK_TIER, LOCK_TYPE, BUCKET, ALL). Default: ALL
+	"cycle_mode": "ALL",
+	// Whether failed raids count towards the max clears. Default: false
+	"max_clears_include_fails": false,
+	// Whether players can retry failed raids
+	"retry_failed_raids": true,
+	// Whether the reward Pokemon attributes (IVs/Shiny/etc.) are synced between all players or rolled individually. Default: true
+	"sync_rewards": true,
+	// Whether raid crystals can be broken. Default: true
+	"can_break": true,
+	// The reward distribution algorithm (Options: random, damage, survivor). Default: random
+	"reward_distribution": "random",
+	// Raid boss Defense and Special Defense multiplier, in battle only. Default: 2.0
+	"boss_defense_multiplier": 2.0,
+	// Seconds a committed player can give the others before they get a random legal action (/crd timer). Default: 10
+	"turn_timer_seconds": 10,
+	// Revives of the boss per star from ★1 to ★5: at 0 HP it is restored in full and a phase effect fires. Default: [1, 2, 2, 2, 3]
+	"revives": [
+		1,
+		2,
+		2,
+		2,
+		3
+	],
+	// Draw weight of each phase effect (0 removes it). Default: 10 each
+	"phase_weight_weather": 10,
+	"phase_weight_reset": 10,
+	"phase_weight_status": 10,
+	"phase_weight_surge": 10,
+	"phase_weight_shields": 10,
+	// Only used with Mega Showdown installed
+	"phase_weight_gimmick": 10,
+	// Shields a shield phase gives, shared by all battles. Default: 3
+	"phase_shields": 3,
+	// Chance of the status wave landing on a target when no boss move inflicts it. Default: 0.5
+	"phase_status_default_chance": 0.5,
+	// Rounds a phase Dynamax lasts. Default: 3
+	"phase_dynamax_rounds": 3,
+	// Chance a boss holds an item, by star from ★1 to ★5 (SPEC 6.1). Default: [0.0, 0.2, 0.4, 0.6, 1.0]
+	"held_item_chance": [
+		0.0,
+		0.2,
+		0.4,
+		0.6,
+		1.0
+	],
+	// Segments and falling crystals replace the upstream worldgen feature (SPEC 3.3). Default: true
+	"segments_replace_worldgen": true,
+	// Segments own one crystal each (SPEC 3.2): the size in blocks of a grid square. Default: 2048
+	"segment_size": 2048,
+	// Land chunks a segment needs to host a crystal (25 % of the 8192 target); smaller ones join their richest neighbour. Default: 2048
+	"segment_min_land_chunks": 2048,
+	// Durability of a crystal; clearing a raid of quality q costs q. At 0 the crystal breaks. Default: 10
+	"crystal_durability": 10,
+	// Respawn delay of a broken crystal, in hours: normal distribution, truncated. Default: mean 90, sd 30, 12 to 168
+	"respawn_mean_hours": 90.0,
+	"respawn_sd_hours": 30.0,
+	"respawn_min_hours": 12.0,
+	"respawn_max_hours": 168.0,
+	// The clock of respawns (Options: GAME_TIME, SYSTEM_TIME). Default: GAME_TIME
+	"respawn_clock": "GAME_TIME",
+	// The fall of a new crystal, in seconds per phase: glint, approach, fireball, descent, awaken. Default: 2, 14, 8, 4, 2
+	"fall_seconds": [
+		2.0,
+		14.0,
+		8.0,
+		4.0,
+		2.0
+	],
+	// Scales every phase of the fall at once. Default: 1.0
+	"fall_factor": 1.0,
+	// Distance in blocks a player must be within for the fall to play; otherwise the crystal appears quietly. Default: 128
+	"fall_view_distance": 128,
+	// How far a crystal's beam is seen, in blocks, for ★1 to ★5. The ambient hum carries a quarter as far. Default: [64, 96, 128, 192, 256]
+	"beacon_range": [
+		64,
+		96,
+		128,
+		192,
+		256
+	],
+	// Biome weight halving per this many blocks below the surface for the boss pool, for biomes whose spawns need no free space. Default: 64
+	"pool_depth_halving": 64,
+	// The maximum number of players in a raid before shared supporting moves are disabled. Default: 4
+	"max_players_for_support": 4,
+	// The amount of raid energy required to convert a raid shard. Default: 100
+	"required_energy": 100,
+	// How many raids can occur simultaneously. Determines raid coordinate allocation. Default: 10000
+	"raid_cap": 10000,
+	// How raid coordinate allocation is determined (Options: SPIRAL, RANDOM). Default: SPIRAL
+	"raid_allocation": "SPIRAL",
+	// Whether IVs from raids affect the Pokemon's natural IVs or hyper trained IVs. Default: true
+	"use_natural_ivs": true,
+	/* Whether players are invulnerable to damage in the raid dimension.
+	   WARNING: Player deaths in the raid dimension is not directly supported. Disable at your own risk.
+	*/
+	"player_invulnerability": true
+}

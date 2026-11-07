@@ -1,0 +1,8 @@
+name = "mca-banker-2.0.0"
+filename = "mca-banker-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/mca-banker-2.0.0.jar"
+hash-format = "sha512"
+hash = "82eacf6978bc28a0700eaf600a7e521b5d1a950481c0445b94ff4bfcb855809f12942c4b63fb0a532b42c686a80fb4127b0a3b33064fcaa45c266eb533540b60"

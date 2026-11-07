@@ -1,0 +1,13 @@
+name = "NeoReefRedux"
+filename = "neoreefredux-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5bMVdkpO/versions/PVzfioBU/neoreefredux-1.0.jar"
+hash-format = "sha512"
+hash = "a63786d43907ed1d97939e7bed28458c1c08939951289fccca09e1dd42d3fa0722802e3d609406daf084c41b45bce93bc54c4c58b1c1bb06fb0ac043bcb8fb8b"
+
+[update]
+[update.modrinth]
+mod-id = "5bMVdkpO"
+version = "PVzfioBU"

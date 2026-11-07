@@ -1,0 +1,58 @@
+{
+	// Raids require key items to interact with. Default: false
+	"requires_key": false,
+	// Whether all players require the unique key or just the host. Default: true
+	"all_require_unique": true,
+	// Maximum number of players in a raid (Set to -1 for no limit). Default: 4
+	"max_players": 4,
+	// Number of clears until the raid den deactivates (Set to -1 for no limit). Default: 3
+	"max_clears": 3,
+	// The max number of cheers a player can use per phase of a raid. Default: 1
+	"max_cheers": 1,
+	// The chance for raid bosses to have their hidden ability. Default: 0.20
+	"ha_rate": 0.2,
+	// The max number of Pokemon a player can use in a raid. Default: 6
+	"raid_party_size": 6,
+	// Raid boss HP multiplier. Default: 2
+	"health_multiplier": 2,
+	// Bonus raid boss HP multiplier for each extra player that joins the raid battle. Default: 1.0
+	"multiplayer_health_multiplier": 1.0,
+	// Raid boss level. Default: 100
+	"boss_level": 100,
+	// Reward Pokemon level. Default: 100, the star's boss level
+	"reward_level": 100,
+	// Reward Pokemon number of max IVs. Default: 4
+	"ivs": 4,
+	// The default shiny chance for raid bosses as 1 in X (Set to -1 to use the Cobblemon rate). Default: -1.0
+	"shiny_rate": -1.0,
+	// How much currency is rewarded for clearing a raid boss (Requires CobbleDollars). Default: 20000
+	"currency": 20000,
+	// The max number of Pokemon that can be caught from a raid battle. Default: -1.
+	"max_catches": -1,
+	// The default script to add to raid bosses without a script. Default: {}
+	"default_scripts": { },
+	// The battle AI used by the raid boss (Options: raid, random, strong, rct). Default: raid, which rolls random/normal/hard each decision by the three weights below
+	"raid_ai": "raid",
+	// Weight of the random-move AI for each boss decision. Default: 0
+	"ai_random_weight": 0.0,
+	// Weight of the normal AI (RCT API) for each boss decision. Default: 0
+	"ai_normal_weight": 0.0,
+	// Weight of the hard AI (Run and Bun) for each boss decision. Default: 100
+	"ai_hard_weight": 100.0,
+	// How many moves the boss knows (it uses up to 4 at a time in Showdown, choosing among all). Default: 8
+	"move_count": 8,
+	// The list of marks the reward Pokemon will have. Default: [].
+	"marks": [],
+	// The number of times a player can be knocked out per raid attempt. Default: 3
+	"lives": 3,
+	// Whether all players share lives in raids. Default: false
+	"players_share_lives": false,
+	// How much raid energy is given from a cleared raid. Default: 10
+	"energy": 10,
+	// The required damage percentage contribution a player needs to do to get rewards. Default: 0.0
+	"required_damage": 0.0,
+	// Share of the boss's EV budget (510 total, 252 per stat) it gets, in percent; filled into its two best base stats first, then spread over the rest. Default: 100
+	"ev_percent": 100,
+	// The base catch rate of the raid boss. Default: 1.0
+	"catch_rate": 1.0
+}

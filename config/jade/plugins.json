@@ -62,6 +62,9 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "cobblemon_comes_alive": {
+    "villager_trainer": true
+  },
   "cobblemonintegrations": {
     "healer": true,
     "campfire_pot": true,
@@ -88,6 +91,9 @@
     "lamp_jar.glowstone_dust": true,
     "trellis.pot_plant": true,
     "hanging_pot.pot_flower": true
+  },
+  "cobblemonraidrevolution": {
+    "raid_crystal": true
   },
   "ae2": {
     "part_icon": true,
@@ -143,17 +149,11 @@
     "entity": true,
     "entity_variant": true
   },
-  "cobblemonraiddens": {
-    "raid_crystal": true
-  },
   "fluidlogistics": {
     "blaze_cooler_icon": true
   },
   "create_electro_energetics": {
     "create_electro_energetics_tooltip": true
-  },
-  "mca_cobblemon": {
-    "villager_trainer": true
   },
   "balm": {
     "jade": true

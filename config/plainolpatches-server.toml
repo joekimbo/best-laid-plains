@@ -1,0 +1,14 @@
+[cobbreeding]
+	#Cobbreeding: its Pokemon eggs (326 items, one per type pair) count as ordinary eggs in recipes, as ONE entry: only
+	#cobbreeding:pokemon_egg is in the c:eggs / forge:eggs tags, every other egg item matches an ingredient that takes it,
+	#and the extra egg items are hidden from creative tabs and EMI's index. Hatching is unchanged (the Pokemon lives in the
+	#egg's data). Off = the variants no longer match egg ingredients (the tag stays at one entry; it is data) and show again.
+	#The recipe matching follows this value at once; the creative tab follows it when the tabs are rebuilt (joining a world).
+	eggsAsEggs = true
+
+	[thirst.canteens]
+		#Thirst Was Taken: servings each metal canteen added by this mod holds, as "metal=servings" (waterskin 4, copper canteen 4,
+		#iron flask 6; Thirst's own limit 64). Read when an item is used.
+		capacities = ["tin=4", "zinc=5", "bronze=5", "brass=6"]
+		#Seconds one serving takes to boil in hand (Thirst's boil-in-hand setting), as "metal=seconds" (copper canteen 2, iron flask 3).
+		boilSeconds = ["tin=2", "zinc=2", "bronze=3", "brass=3"]

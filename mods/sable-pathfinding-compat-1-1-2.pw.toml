@@ -1,0 +1,8 @@
+name = "sable_pathfinding_compat-1.1.2"
+filename = "sable_pathfinding_compat-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/sable_pathfinding_compat-1.1.2.jar"
+hash-format = "sha512"
+hash = "d0217d447351833a1878f1e7782c562b015d7755f5d2d617f55990a160746897a21c832bfead4a60e00abe19b2a54ab4ba7e61b893adca32a7c7d59969e79126"

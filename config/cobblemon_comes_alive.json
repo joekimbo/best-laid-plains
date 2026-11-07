@@ -1,0 +1,14 @@
+{
+  "trainerChance": 50,
+  "childrenBecomeTrainers": false,
+  "levelScalingDistanceBlocks": 5000.0,
+  "sendOutEnabled": true,
+  "catchWildShinies": true,
+  "enableVillagerBattles": true,
+  "maxConcurrentWildBattles": 5,
+  "maxConcurrentSparringBattles": 1,
+  "sparringFormat": "doubles",
+  "announceShinies": true,
+  "announceLegendaries": true,
+  "deathDrops": true
+}
