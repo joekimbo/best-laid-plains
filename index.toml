@@ -7480,6 +7480,16 @@ hash = "70af40f764c5bb98af330f91d0004f1bb958f099e239dcfb7121e526b189420b"
 metafile = true
 
 [[files]]
+file = "mods/linear-bearing.pw.toml"
+hash = "e92248ff7e47d94175ee315550946858967e9f1076653468a1d10a6aa53a4d82"
+metafile = true
+
+[[files]]
+file = "mods/linear-bearings-fix.pw.toml"
+hash = "210e07b6cd9ef4bbd7bb6327f5c1903f2075a684240cc4f7a629d4afe73fa4e6"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
 metafile = true
@@ -7785,8 +7795,8 @@ hash = "21f258f05a34fdaef73f0909cf3af73b71ed726dc5d66fa4761eb77b5aa469c7"
 metafile = true
 
 [[files]]
-file = "mods/plainsandpeaks-1-23-4.pw.toml"
-hash = "1addcb30781c3a0913fce13add73ec2d35a79448622c098a0cb6d5dd7e6d8d03"
+file = "mods/plainsandpeaks-1-23-5.pw.toml"
+hash = "106e47c070304f49ad9db359c4ae4c9386aacac83593dab7b2c2a6d934a9cdd7"
 metafile = true
 
 [[files]]
