@@ -6645,8 +6645,8 @@ hash = "2cb849c31c6c51e394b254850243112c6a1a93a3b3534de1ebb9add05a90dd2d"
 metafile = true
 
 [[files]]
-file = "mods/cobblemonraidrevolution-neoforge-0-8-1.pw.toml"
-hash = "f04a7ae503ca0bad57452190a8385fecff47e5084476f6b2bde58b7024a31828"
+file = "mods/cobblemonraidrevolution-neoforge-0-9-0.pw.toml"
+hash = "71543608c3d1bcf304b56a5590d375eec8ed802803f650c95c43ef70e4679219"
 metafile = true
 
 [[files]]
