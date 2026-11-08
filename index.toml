@@ -2621,7 +2621,7 @@ hash = "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2"
 
 [[files]]
 file = "config/plainolpatches/toasts-seen.txt"
-hash = "46c6084a0ff05f013801e141a839de0728c9a58d55bd22a316a4cf8d469f62dd"
+hash = "fa4f8c48464f25478ce212f6db02ef60e7aa6547779b02dfaf5ca23d1bef646f"
 
 [[files]]
 file = "config/plainsandpeaks-common.toml"
@@ -7785,8 +7785,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-1-61-1-1-21-1.pw.toml"
-hash = "9b7f8eed4932cf8d9995c728de051bc4e71673f1c695b0578a72259be184c5be"
+file = "mods/plainolpatches-2-15-1-1-21-1.pw.toml"
+hash = "130905698679512dc050161a4e9721f15f89b929a2b5a2ae477dee4f31e869a5"
 metafile = true
 
 [[files]]
