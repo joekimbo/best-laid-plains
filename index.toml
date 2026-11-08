@@ -560,7 +560,7 @@ hash = "6e3f0ed5aa64ae9843c1bb36c63f2122b726dc884d98f78d70dbbbde38c219f9"
 
 [[files]]
 file = "config/cobblemon-battle-extras.json"
-hash = "c1885306598f76ba3ebcb8f3075b0454f7302fcaec3e292dc2d7873f9e3c1a14"
+hash = "58c0d2df21f4b036cc23c6f66645dd6915adea0ab1a568b809674220671194b9"
 
 [[files]]
 file = "config/cobblemon-secret-base-trainer/saved_teams.json"
@@ -6430,8 +6430,8 @@ hash = "ba3b9990bc44bedb8eacbe11b2beffb7457cc6ddd854e78fcaf8d73d8f2578db"
 metafile = true
 
 [[files]]
-file = "mods/buggered-0-21-0.pw.toml"
-hash = "81a41b09c5b6ee8f6f713a406ff6fc4d1fc8d390d62594f2fde2a8ac6e6b26a0"
+file = "mods/buggered-0-22-0.pw.toml"
+hash = "65993240ed5433981651e692b9139d4900822b49fb70aca2b17955b969883048"
 metafile = true
 
 [[files]]
@@ -7775,8 +7775,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-15-1-1-21-1.pw.toml"
-hash = "130905698679512dc050161a4e9721f15f89b929a2b5a2ae477dee4f31e869a5"
+file = "mods/plainolpatches-2-15-2-1-21-1.pw.toml"
+hash = "aef5dcdcd4cfd5d5122772d1fbc73aeb06eaa011f1f783df015ffd053b1e8a55"
 metafile = true
 
 [[files]]
