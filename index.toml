@@ -7095,8 +7095,8 @@ hash = "46b7d908b379ba6bafa386dd1f4794fee673390d675f73d4b2b159780fcfc0d1"
 metafile = true
 
 [[files]]
-file = "mods/dynamicroots-0-49-4.pw.toml"
-hash = "bc8e3d3f5bb3063ce064b546e24e65469bda2a4c366d8bc1ba2e63b55031a75c"
+file = "mods/dynamicroots-0-49-5.pw.toml"
+hash = "2c6cae93f629f09fc367413c1152c6f0e2b072482a5bc8e7bb40ee210623de52"
 metafile = true
 
 [[files]]
