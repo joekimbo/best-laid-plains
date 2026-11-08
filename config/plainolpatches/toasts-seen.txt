@@ -4,3 +4,4 @@ category=cobblemon.wallpaper_unlocked | mod=cobblemon | class=com.cobblemon.mod.
 category=cobblemon.ui.starter.choose_starter_title | mod=cobblemon | class=com.cobblemon.mod.common.client.gui.toast.CobblemonToast | shown
 category=cobblemon.tms.new_tms_learned | mod=cobblemon | class=com.cobblemon.mod.common.client.gui.toast.CobblemonToast | shown
 category=(none) | mod=minecraft | class=net.minecraft.client.gui.components.toasts.AdvancementToast | blocked
+category=(none) | mod=minecraft | class=net.minecraft.client.gui.components.toasts.RecipeToast | blocked

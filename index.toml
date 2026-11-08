@@ -6,7 +6,7 @@ hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "93917d766580fe55a49019b6ca15cda5451994f5ef08dea67b6f7c20734e4293"
+hash = "96c197e7abfd02b6f6b6f280c5e6e9d4694795ee81c24d66b376f5a107c88c2a"
 
 [[files]]
 file = "config/EndRemastered-NeoForge/Eyes/black_eye.json"
@@ -1998,7 +1998,7 @@ preserve = true
 
 [[files]]
 file = "config/iris.properties"
-hash = "cd2a6e9cc3eba0e6d10132c97fa1612904d94ffc754311bc3e6ceb2b39c4d341"
+hash = "e4f9b5e9dda4e6b233447e768e68f26078df8174662266ba0df009b93243a536"
 preserve = true
 
 [[files]]
@@ -2042,11 +2042,6 @@ preserve = true
 [[files]]
 file = "config/jei-server.toml"
 hash = "702acd04d99445bce659d04fcc488e1a98c8a803983c31ae262b0f3a47fdc8d3"
-
-[[files]]
-file = "config/jei/blacklist.cfg"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-preserve = true
 
 [[files]]
 file = "config/jei/blacklist.json"
@@ -2393,11 +2388,6 @@ file = "config/moonlight-common.toml"
 hash = "1158386cf2ffb1460ac7f7414dd0bf49431b2f5682e6227ea8ed2c40dffdf79d"
 
 [[files]]
-file = "config/more_cobblemon_tweaks.json"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-preserve = true
-
-[[files]]
 file = "config/movabletracks-common.toml"
 hash = "b7fe34c21cc88628b8fc36ab62ecf2cc60779b8ce1fb8ea55555f16dc6ce4482"
 
@@ -2613,7 +2603,7 @@ hash = "4e049601f61846acbb910e8a02f852b3e9c1a70ad8b3e1a4675e3b99b9f4ede5"
 
 [[files]]
 file = "config/plainolpatches/colorwheel-keys.txt"
-hash = "3445cffacecdc32dbb6f9af8454353bdb0d579b9c027e9af09fd9b5a7e4720e1"
+hash = "135b03ede76702bc057ec9b365776c0b107f325f256fc5e120b7086ad692b18a"
 
 [[files]]
 file = "config/plainolpatches/migrated-loading-budget-1.63.0"
@@ -2621,7 +2611,7 @@ hash = "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2"
 
 [[files]]
 file = "config/plainolpatches/toasts-seen.txt"
-hash = "fa4f8c48464f25478ce212f6db02ef60e7aa6547779b02dfaf5ca23d1bef646f"
+hash = "837e49853ff747adf8aa18aaa7f66105b02b151a60dd5627a3bdaa5f885c3839"
 
 [[files]]
 file = "config/plainsandpeaks-common.toml"

@@ -33,7 +33,7 @@ _version = 5
 				# 
 				# Higher settings will increase the distance between drops 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "MEDIUM"
+				horizontalQuality = "HIGH"
 				#
 				# What is the maximum detail LODs can render at? 
 				# Higher settings will increase memory and GPU usage. 
@@ -54,7 +54,7 @@ _version = 5
 				# 
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: PIXEL_ART
-				verticalQuality = "MEDIUM"
+				verticalQuality = "HIGH"
 				#
 				# If true DH will try to use the camera position when 
 				# determining LOD quality drop-off. 
@@ -384,7 +384,7 @@ _version = 5
 				#  overhangs or walls for floating objects. 
 				#  Tweaking the caveCullingHeight, can resolve some 
 				#  of those issues.
-				enableCaveCulling = true
+				enableCaveCulling = false
 				#
 				# At what Y value should cave culling start? 
 				# Lower this value if you get walls for areas with 0 light.
@@ -514,7 +514,7 @@ _version = 5
 			# DEFAULT: Default lod renderer 
 			# DEBUG_TRIANGLE: Debug testing renderer 
 			# DISABLED: Disable rendering
-			rendererMode = "DISABLED"
+			rendererMode = "DEFAULT"
 			#
 			# Should specialized colors/rendering modes be used? 
 			# 
