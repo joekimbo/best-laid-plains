@@ -2254,7 +2254,7 @@ hash = "ca60e984772e7d1d39396f24931589782a0b1456e28b7deb7187f805bf2a09f2"
 
 [[files]]
 file = "config/mca.json"
-hash = "dd8c2d430223037a61fb8b70ee046e1a2e0faec243a5b213a78057ae954ff4bc"
+hash = "08245f2af7fcd08611e835e6ff6f255aab4dd1d70d71294755da2b18c76b4b72"
 
 [[files]]
 file = "config/mca_banker-server.toml"
