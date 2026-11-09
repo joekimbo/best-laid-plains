@@ -1,0 +1,8 @@
+name = "plainsandpeaks-1.23.6"
+filename = "plainsandpeaks-1.23.6.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/plainsandpeaks-1.23.6.jar"
+hash-format = "sha512"
+hash = "22b07bdf462862324e1d75a1d3588a354748a56736f3294f2cf5ba8fb42b2cb4047a474f3f31cd9ff436ffe8a619c816b6f178d0b5719ad8742d8b92a400085d"

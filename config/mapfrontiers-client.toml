@@ -303,7 +303,7 @@ configVersion = 4
 		afterCreation = "InfoScreen"
 		#Shape preset used when creating a new vertex frontier.
 		#Range: 0 ~ 11
-		vertexShape = 7
+		vertexShape = 6
 		#Number of vertices used by the selected vertex shape preset.
 		#Range: 3 ~ 999
 		vertexCount = 16
@@ -472,7 +472,7 @@ configVersion = 4
 
 	[gui.confirmation]
 		#Show a confirmation dialog before deleting a frontier.
-		frontierDelete = true
+		frontierDelete = false
 		#Show a confirmation dialog before deleting a collection.
 		collectionDelete = true
 		#Show a confirmation dialog before deleting a group.

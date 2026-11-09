@@ -6,7 +6,8 @@ hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "96c197e7abfd02b6f6b6f280c5e6e9d4694795ee81c24d66b376f5a107c88c2a"
+hash = "547f840bce6a84b46d1eaeb740671724fc25f42a5ccb1e6f00be4fb7b573cf02"
+preserve = true
 
 [[files]]
 file = "config/EndRemastered-NeoForge/Eyes/black_eye.json"
@@ -487,7 +488,7 @@ hash = "5add284df177d6008b06fea8ae89be1d2b736dfddc5132255129d58897bfb42d"
 
 [[files]]
 file = "config/catchrate-display.json"
-hash = "ae370277dc6f0d0f067d432cde6eed0d959bb1ad8b770c09c3381f3a92aa349d"
+hash = "3f690790429ea3deaa76f800b51bfe621f3984ee8ab66ea0d1778bd4425051a4"
 
 [[files]]
 file = "config/cbc_at-server.toml"
@@ -560,7 +561,8 @@ hash = "6e3f0ed5aa64ae9843c1bb36c63f2122b726dc884d98f78d70dbbbde38c219f9"
 
 [[files]]
 file = "config/cobblemon-battle-extras.json"
-hash = "58c0d2df21f4b036cc23c6f66645dd6915adea0ab1a568b809674220671194b9"
+hash = "5a811d1c07be5fb4fea425c3e786c37b494fdd2dad4525704e69266a8f61a7f8"
+preserve = true
 
 [[files]]
 file = "config/cobblemon-secret-base-trainer/saved_teams.json"
@@ -1727,7 +1729,8 @@ preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "d04f727fefede8b4b926ace742f70e7e3cc7e2db362256d837a9af818fbc8c53"
+hash = "4dd05161484e36583be4c09fdfcf215e3958f3732afa93af7be8b73000de34ef"
+preserve = true
 
 [[files]]
 file = "config/fakename-server.toml"
@@ -1998,7 +2001,7 @@ preserve = true
 
 [[files]]
 file = "config/iris.properties"
-hash = "e4f9b5e9dda4e6b233447e768e68f26078df8174662266ba0df009b93243a536"
+hash = "358370696794913d16fd499157fb161b9238b5e249aff570a8f17236775e28b3"
 preserve = true
 
 [[files]]
@@ -2024,7 +2027,8 @@ hash = "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "1b9faa0637ce35640b258cb9a6ede6d7fbe23f3138e1f3e04167caef4f204ecc"
+hash = "dcdc0f2d3d7eb5d3835f72047e55da34c7a4f46d2ce298f8df18a883c6fb4af1"
+preserve = true
 
 [[files]]
 file = "config/jade/plugins.json"
@@ -2241,7 +2245,7 @@ preserve = true
 
 [[files]]
 file = "config/mapfrontiers-client.toml"
-hash = "b1ef797fedde61f480430191a0cc1048d49c7eb8fcda66b2d545c60a1a40971b"
+hash = "fad43e84da55b4d9dfb8a41a1a62d652853b4bd9e94bca2d96ba8eee2fdacae7"
 preserve = true
 
 [[files]]
@@ -2508,7 +2512,8 @@ preserve = true
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "ff2b180dc95b8d88dd607c3bad1d58462e3a9bc1b2313d61ba8a5526db547114"
+hash = "efc928680ee4c50def8e353cb7164d964f6cec96bb55efa26ba21902c952df22"
+preserve = true
 
 [[files]]
 file = "config/packtactics-common.toml"
@@ -2602,16 +2607,8 @@ file = "config/plainolpatches-server.toml"
 hash = "4e049601f61846acbb910e8a02f852b3e9c1a70ad8b3e1a4675e3b99b9f4ede5"
 
 [[files]]
-file = "config/plainolpatches/colorwheel-keys.txt"
-hash = "135b03ede76702bc057ec9b365776c0b107f325f256fc5e120b7086ad692b18a"
-
-[[files]]
 file = "config/plainolpatches/migrated-loading-budget-1.63.0"
 hash = "d117fa006ba9208500b2930ce69cbde436c647afa917cb7396a9bc9111a46dd2"
-
-[[files]]
-file = "config/plainolpatches/toasts-seen.txt"
-hash = "837e49853ff747adf8aa18aaa7f66105b02b151a60dd5627a3bdaa5f885c3839"
 
 [[files]]
 file = "config/plainsandpeaks-common.toml"
@@ -2750,7 +2747,7 @@ hash = "1074917688c3de81859d78f317fcf2770483c9df6355c5898ef71609fa94dc40"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "efd52558f419e7019e50deaeb8d3bf2f5304b931fb4a48265e952005dc34e62c"
+hash = "325c7a1421e80c3bc386d4a564d6904406d1cea8049c48a4b1088dcb3e7f44dc"
 preserve = true
 
 [[files]]
@@ -7775,8 +7772,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-15-2-1-21-1.pw.toml"
-hash = "aef5dcdcd4cfd5d5122772d1fbc73aeb06eaa011f1f783df015ffd053b1e8a55"
+file = "mods/plainolpatches-2-15-4-1-21-1.pw.toml"
+hash = "24892431ae50d4dd279b4c5ba15dda9499da7c9545518459fe4c82900eb45422"
 metafile = true
 
 [[files]]
@@ -7785,8 +7782,8 @@ hash = "21f258f05a34fdaef73f0909cf3af73b71ed726dc5d66fa4761eb77b5aa469c7"
 metafile = true
 
 [[files]]
-file = "mods/plainsandpeaks-1-23-5.pw.toml"
-hash = "106e47c070304f49ad9db359c4ae4c9386aacac83593dab7b2c2a6d934a9cdd7"
+file = "mods/plainsandpeaks-1-23-6.pw.toml"
+hash = "aaa82ae5c869a4c5cde1c9c9aa59519667ac458ef9365cc03b8330a4ccd2c006"
 metafile = true
 
 [[files]]
