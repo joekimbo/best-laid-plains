@@ -3175,7 +3175,7 @@ preserve = true
 
 [[files]]
 file = "config/trmt.json"
-hash = "dc616de5844f627b0196f517f4ba92a9a4866a9c2d84a9ca97f4291aa90ac731"
+hash = "30f702e9ed3630796d05f0721d97537f8fa14710128101fd15023069186a3ddc"
 
 [[files]]
 file = "config/unionlib-client.toml"
@@ -6517,8 +6517,8 @@ hash = "fd3cf502094e8e33136397d3141c93d8732f6d3a306bb7cbc1a7c720832206e1"
 metafile = true
 
 [[files]]
-file = "mods/cobblecare-0-55-0.pw.toml"
-hash = "6a5af75140a2f8696db2d4a791740f1138ee0fa8dcff49a3a399c009f61f634f"
+file = "mods/cobblecare-0-56-1.pw.toml"
+hash = "ab69cec71d0c5612c6c8d9d3408b278cdcbfe4a6a4c2c6b7dcea9e3aec46345b"
 metafile = true
 
 [[files]]
@@ -7092,8 +7092,8 @@ hash = "46b7d908b379ba6bafa386dd1f4794fee673390d675f73d4b2b159780fcfc0d1"
 metafile = true
 
 [[files]]
-file = "mods/dynamicroots-0-49-5.pw.toml"
-hash = "2c6cae93f629f09fc367413c1152c6f0e2b072482a5bc8e7bb40ee210623de52"
+file = "mods/dynamicroots-0-50-0.pw.toml"
+hash = "a170d59269e3199379086204b920c2cc78eda1ece71285c803c7111729577a40"
 metafile = true
 
 [[files]]
@@ -7772,8 +7772,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-15-4-1-21-1.pw.toml"
-hash = "24892431ae50d4dd279b4c5ba15dda9499da7c9545518459fe4c82900eb45422"
+file = "mods/plainolpatches-2-15-7-1-21-1.pw.toml"
+hash = "9a7345bc13d712252efe25d2dae7fe83c713074c296cb469891fbba51c34ef46"
 metafile = true
 
 [[files]]
