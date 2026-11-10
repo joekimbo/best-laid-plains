@@ -94,3 +94,7 @@ lambdyn_simplyswords | LambDynamicLights | Failed to load item light source "sim
 # Added by a newer Plain Ol' Patches; delete or comment out a line to turn its rule off.
 # Sable's UDP channel logs a full stack trace for every legacy status ping (first byte 0xFE) a host's prober sends to the game port.
 sable_udp_status_ping | Sable | Server UDP channel caught exception | errors | Received an invalid packet ID
+
+# Added by a newer Plain Ol' Patches; delete or comment out a line to turn its rule off.
+# Distant Horizons 3.3.3 closes a pooled array twice when a server rate-limits its LOD requests (GEN-184); harmless, DH carries on.
+dh_phantom_double_close | PhantomArrayListPool | Unable to close Phantom Array | errors

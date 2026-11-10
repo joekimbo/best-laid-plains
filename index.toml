@@ -1529,7 +1529,7 @@ hash = "7d38121136311ab3482d5696267255194c30d1afdae991c872e81aefaf1e41a1"
 
 [[files]]
 file = "config/dynamicroots-common.toml"
-hash = "2929c5db2045284754f6c2ecdd97096ea3046866a52ca4a924c516db7fb5efa6"
+hash = "55a6ae78ec749d0631db48192affe34e83cb10090b7336ee8532d2140cfcf849"
 
 [[files]]
 file = "config/dynamictrees-common.toml"
@@ -1729,7 +1729,7 @@ preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "4dd05161484e36583be4c09fdfcf215e3958f3732afa93af7be8b73000de34ef"
+hash = "43b3f783e172a011f9d03e21b92e318829d62c1e8bfc41ce07a3f3dd72c3f9c2"
 preserve = true
 
 [[files]]
@@ -2001,7 +2001,7 @@ preserve = true
 
 [[files]]
 file = "config/iris.properties"
-hash = "358370696794913d16fd499157fb161b9238b5e249aff570a8f17236775e28b3"
+hash = "355f334cf168f24c603f796064735abf847bb71a95a0f1271a3a1dc2b7729d53"
 preserve = true
 
 [[files]]
@@ -2512,7 +2512,7 @@ preserve = true
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "efc928680ee4c50def8e353cb7164d964f6cec96bb55efa26ba21902c952df22"
+hash = "7a62921efd798309d58c5633c5067684f277fb3221337b335927476ac4544325"
 preserve = true
 
 [[files]]
@@ -2600,7 +2600,7 @@ hash = "0847b165be06fdfae6252c8eee2858085a4cc7a924524c4811b5e27cc4fbfa19"
 
 [[files]]
 file = "config/plainolpatches-logfilter.txt"
-hash = "e6786067256d6a4e6c1492a39e020d95b96a9522d42583cb57afc04ec9e21153"
+hash = "1c201616926b521f410268497e6e1dab394197124b27e27097ef5bf1fab14e56"
 
 [[files]]
 file = "config/plainolpatches-server.toml"
@@ -2747,7 +2747,7 @@ hash = "1074917688c3de81859d78f317fcf2770483c9df6355c5898ef71609fa94dc40"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "325c7a1421e80c3bc386d4a564d6904406d1cea8049c48a4b1088dcb3e7f44dc"
+hash = "ae902a5e0ac3b441a30caab548a79092c94b1c3eb89dd8e60574809e2a04f453"
 preserve = true
 
 [[files]]
@@ -6427,8 +6427,8 @@ hash = "ba3b9990bc44bedb8eacbe11b2beffb7457cc6ddd854e78fcaf8d73d8f2578db"
 metafile = true
 
 [[files]]
-file = "mods/buggered-0-22-0.pw.toml"
-hash = "65993240ed5433981651e692b9139d4900822b49fb70aca2b17955b969883048"
+file = "mods/buggered-0-23-0.pw.toml"
+hash = "5c111cf8b46a04e933d9dacd1f3e3ab77a06ea502a5248d5a1fbd4feeb7423f6"
 metafile = true
 
 [[files]]
@@ -6547,8 +6547,8 @@ hash = "29cd0e4cf061cfe2624e1802ddf950fd7aafa61bb1c8fbdd0458d92deac406b0"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-20-2.pw.toml"
-hash = "d7112045240c86249068edf815128040618ad6978bebbc892c669dd588607200"
+file = "mods/cobblemon-conveniences-0-21-0.pw.toml"
+hash = "350d2608a24529d74276a719b4ff51e95a6efe0b387b1626f6f87fbe5e747206"
 metafile = true
 
 [[files]]
@@ -7092,8 +7092,8 @@ hash = "46b7d908b379ba6bafa386dd1f4794fee673390d675f73d4b2b159780fcfc0d1"
 metafile = true
 
 [[files]]
-file = "mods/dynamicroots-0-50-0.pw.toml"
-hash = "a170d59269e3199379086204b920c2cc78eda1ece71285c803c7111729577a40"
+file = "mods/dynamicroots-0-51-0.pw.toml"
+hash = "cc50f7b43d8a911f49cfe897621abdbee45e16ab1ed67e4eec80609481856985"
 metafile = true
 
 [[files]]
@@ -7742,8 +7742,8 @@ hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
 metafile = true
 
 [[files]]
-file = "mods/packtactics-0-11-1.pw.toml"
-hash = "fa1e6c464725705d5a366b7ff6b8fbfec0dc9aa14d802464e7a8aa43f22ecb02"
+file = "mods/packtactics-0-11-4.pw.toml"
+hash = "24c0d8f68084dbb5750edcc8e04cdef2ace407bbd6eed359b6ed0d3b1970483b"
 metafile = true
 
 [[files]]
@@ -7772,8 +7772,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-15-7-1-21-1.pw.toml"
-hash = "9a7345bc13d712252efe25d2dae7fe83c713074c296cb469891fbba51c34ef46"
+file = "mods/plainolpatches-2-15-8-1-21-1.pw.toml"
+hash = "d3a0614b4a2a59db93224d4da0195090efcc5d077bb945f5a5065a75f0c5a51f"
 metafile = true
 
 [[files]]

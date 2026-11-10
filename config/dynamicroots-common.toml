@@ -6,3 +6,13 @@ schedulerBudgetMs = 0.75
 # Default: 1.0
 # Range: 0.25 ~ 4.0
 sizeFactor = 1.0
+
+[beeNests]
+	#Most bee nests of trees within one area: the nest slots of a 48 x 48 block cell at world generation, and the nests counted in the cell before a grown tree gets one.
+	# Default: 2
+	# Range: 0 ~ 9
+	perArea = 2
+	#Share of the trees Dynamic Trees would give a nest at world generation that really get one (inside the slots).
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	worldgenFactor = 0.25

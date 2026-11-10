@@ -1,5 +1,97 @@
 # Best Laid Plains: changelog
 
+## 0.7.0 (2026-11-10)
+
+- added buggered-0.23.0.jar
+- added cobblemon-conveniences-0.21.0.jar
+- added dynamicroots-0.51.0.jar
+- added packtactics-0.11.4.jar
+- added plainolpatches-2.15.8+1.21.1.jar
+- removed buggered-0.22.0.jar
+- removed cobblemon-conveniences-0.20.2.jar
+- removed dynamicroots-0.50.0.jar
+- removed packtactics-0.11.1.jar
+- removed plainolpatches-2.15.7+1.21.1.jar
+- 2 config, script or data files changed
+
+Tickets closed since the last release:
+- BUG-12: A while back, I launched the game and Buggered said there'd been a crash. The...
+- BUG-13: Discarding a Buggered draft should close and clear the menu. Right now, it st...
+- BUG-14: If you open Buggered while the world is generating, it doesn't save and close...
+- BUG-15: I can't take screenshots while zoomed-in using Distant Horizons. I need this...
+- BUG-16: Some reports don't record the player's position
+- BUG-17: The report form doesn't re-lay itself out when the window is resized
+- BUG-18: Buggered fine print should only be 2 lines at most. Slightly shrink the text...
+- BUG-19: Filing a Buggered report during world creation unexpectedly closes the report...
+- BUG-24: Every Buggered report records the world seed
+- BUG-26: Treat a mod-loading failure on the previous launch as a load failure, not a crash
+- CCV-58: Beedrill uses beehives; bee lines don't share hives
+- CRR-01: Soft-locked shared raid battle: all raider slots dead, no request
+- DR-07: Distant Horizon LODs don't include trees anymore. There should be SOME trees,...
+- DR-10: Mangrove roots growing up into the air in erratic patterns. Roots don't attac...
+- DR-11: Mangrove roots growing in the air around their actual wood blocks. We don't n...
+- DR-12: Tapering for jungle trees is incorrect.
+- DR-13: Odd gaps in the ground around mangroves. I understand that they can spawn mud...
+- DR-14: More roots breaking with no player action.
+- DR-15: Mangrove jungles are unplayably dense. This should be partly fixed by making...
+- DR-17: A mangrove tree failed to spawn here, leaving behind orphaned entities, float...
+- DR-19: Spanish moss texture isn't transparent.
+- DR-20: Cypress knee blocks aren't connected to the cypress tree. Knee blocks should...
+- DR-22: More floating leaves.
+- DR-23: What the heck happened to this tree?
+- DR-25: Mangrove roots are still spawning in the air; wasn't this supposed to be fixed?
+- DR-26: More spontaneously broken roots, ALSO something that was supposed to be fixed...
+- DR-27: Spruce generated without leaves + floating snow.
+- DR-28: Square clearings. Clearings are OK, but they need an irregular shape.
+- DR-30: Apricorn and Saccharine trees get crowded out in dense forests (sometimes a single leaf block)
+- DR-31: Leaves growing out of mangrove roots
+- DR-32: These mega spruce trees seem to lose their top leaves.
+- DR-46: collapsesFollowTheSoftCap depends on the order and load of the run
+- DR-47: Root records stay behind when a tree is removed without Dynamic Roots
+- ENG-16: End a server job that crashed and hangs at exit
+- ENG-18: Live view of Venus client runs on the phone (LAN), ENG-17 extension
+- ENG-33: Pack CI/CD: gated, batched release of the pack and the Venus survival server
+- GEN-102: Villager trapped on large Dynamic Tree.
+- GEN-125: A couple seconds after selecting an FTF preset, the game freezes for a solid...
+- GEN-134: Where does this frostmaw thing come from? In any case, the UI for its health...
+- GEN-135: Cactus in the snow? Come on, now.
+- GEN-136: Village path cuts off here. The village in general is messed up because struc...
+- GEN-137: An incredibly, impossibly deep mineshaft starting from y=300 to y=-10.
+- GEN-138: Lagspike as I was returning to the surface from a very deep mineshaft.
+- GEN-145: Freeze after selecting a FTF preset for ~10 seconds.
+- GEN-149: Where does this stalagmite-like generation come from? It's ugly.
+- GEN-155: Frames got very stuttery here.
+- GEN-156: Loot chest starts as double chest but then splits into 2 single chests when r...
+- GEN-157: Remove the action bar text added by the RPG balloon mod which procs when a ba...
+- GEN-158: We should prefer to clear leaves that aren't in the player's line of sight.
+- GEN-159: rctapi + Run and Bun AI: ConcurrentModificationException in JTO.registerParser at mod load
+- GEN-160: Client crash: Ecliptic Seasons DH refresh NPE (clientWorld null)
+- GEN-181: Game froze for 4s.
+- GEN-186: "ptted hit the ground too hard while trying to escape ptted" --> doesn't make...
+- GEN-187: Skeletons are able to shoot arrows before they finish their spawn animation.
+- GEN-188: "Large cast mould" needs a different recipe, since it conflicts with the stri...
+- ORCH-01: "Best Laid Plains Alpha" instance (bleeding edge for the user's playtests)
+- ORCH-02: `tools/new_ticket.py`: create a ticket with the next free number for a prefix
+- ORCH-03: Move closed tickets' attachments to trash automatically
+- PACK-02: 2-week survival test: Alpha to main, Winternode, packwiz for friends
+- PNP-102: Tree layout differs between identical runs (decoration determinism)
+- PNP-103: Rock/boulder features generate across planned river channels
+- PNP-109: Tree origin in a planned channel (next patch; links PNP-102, PNP-103)
+- PNP-113: Banks are one block too deep in many places. On flat beds like this, banks sh...
+- PNP-114: Weird, out-of-place pillars near rivers. They don't look terrible but I think...
+- PNP-41: Different view of the blank clearing from earlier.
+- PNP-55: First spawn point differs between runs of the same seed
+- PNP-70: Continent shapes: a mask-only study
+- PNP-71: Replace FTF (future, post-MVP)
+- PNP-72: Enclosed basins: connectivity decides sea, water balance decides lakes
+- PNP-73: Staged world preview (one seed, five stages, offline)
+- PNP-83: I waited 90 seconds and spawned on an iceberg! D:
+- PNP-84: Seams on the ocean floor. Likely line up with chunk boundaries. Seas should b...
+- PNP-86: I can't find land anywhere!
+- PNP-91: Banks on this river could use some smoothing; many of the walls are 2-3 high...
+- VENUS-05: client parity check, Mercury vs Venus (VENUS-04 done-when)
+- VENUS-06: sync whole branch servers to Venus, so host auto can use it
+
 ## 0.6.0 (2026-11-09)
 
 - added Cobblecare-0.56.1.jar
