@@ -11,5 +11,13 @@
 [advanced]
 	#Log why a witch did not throw. Throws are always logged at INFO as witch support: <potion> -> <ally>.
 	witch_debug_log = false
-	#Write hunt events to packtactics/telemetry/<date>.jsonl in the server directory.
-	telemetry = false
+	#Write hunt events (rolls, hunts, deaths, kills, call-offs) to packtactics/telemetry/<UTC date>.jsonl in the server directory. Finished days are gzipped.
+	telemetry = true
+	#Telemetry files older than this many days are deleted.
+	# Default: 365
+	# Range: 1 ~ 36500
+	telemetry_retention_days = 365
+	#When the telemetry folder is larger than this, the oldest days are deleted first (today's file never is).
+	# Default: 100
+	# Range: 1 ~ 1000000
+	telemetry_max_total_mb = 100

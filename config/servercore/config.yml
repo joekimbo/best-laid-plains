@@ -139,7 +139,7 @@ mob-spawning:
   # ► despawn-distance = The distance in blocks from players where non-persistent mobs of this category will immediately despawn.
   categories:
     - category: 'MONSTER'
-      mobcap: 70
+      mobcap: 500
       spawn-interval: 1
       despawn-distance: 128
 

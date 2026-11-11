@@ -1,5 +1,23 @@
 # Best Laid Plains: changelog
 
+## 0.8.0 (2026-11-10)
+
+- gaboulibs-neoforge-1.9.jar -> gaboulibs-neoforge-1.9.jar
+- added packtactics-0.14.4.jar
+- added plainolpatches-2.18.1+1.21.1.jar
+- removed packtactics-0.11.4.jar
+- removed plainolpatches-2.15.8+1.21.1.jar
+- 5 config, script or data files changed
+
+Tickets closed since the last release:
+- GEN-150: Limit this structure to 1 per 1000 chunks; seriously, they're freaking everyw...
+- GEN-153: Getting a number of "failed to save chunk" errors.
+- GEN-189: Disconnect screen shows a raw HTML error page with no Back button or ESC
+- GEN-193: A creeper blew me up, and I went into the death countdown despite still appea...
+- PT-15: Pillagers don't slow down when rearming their crossbow.
+- PT-16: Pack Tactics owns illager patrols
+- PT-17: Muffle ambient sound when a pack spawns
+
 ## 0.7.0 (2026-11-10)
 
 - added buggered-0.23.0.jar

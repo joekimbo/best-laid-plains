@@ -3,11 +3,11 @@ filename = "gaboulibs-neoforge-1.9.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "aa39c5645c0479dbd7a485432e9694c78ad6082a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/N8aGZtvj/versions/wnGOTFh4/gaboulibs-neoforge-1.9.jar"
+hash-format = "sha512"
+hash = "e18e4c4afa44be12a1a59d7c0f10d75ccfd34e5b69de9b63ca10ae38e64a063fdd9527ebe87f8ce822dfbb971778839bf55a2baccdc1629cf5660860560c4e02"
 
 [update]
-[update.curseforge]
-file-id = 8774265
-project-id = 1367332
+[update.modrinth]
+mod-id = "N8aGZtvj"
+version = "wnGOTFh4"

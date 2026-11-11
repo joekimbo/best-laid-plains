@@ -92,8 +92,7 @@
 	enabled = true
 
 [patrols]
-	#Illager Invasion: chance that each pillager in a pillager patrol is replaced by a mob from patrols.replacements. 0 = off.
-	#Illager Invasion itself already turns half of all patrol members (leaders too) into marauders; this applies to the rest.
+	#Moved to Pack Tactics (PT-16): illager patrols are now Pack Tactics parties; this key has no effect and will be removed in the next major release.
 	# Default: 0.3
 	# Range: 0.0 ~ 1.0
 	replacementChance = 0.3
