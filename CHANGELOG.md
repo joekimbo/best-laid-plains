@@ -6,6 +6,7 @@
 - added plainolpatches-2.19.2+1.21.1.jar
 - removed packtactics-0.14.4.jar
 - removed plainolpatches-2.18.1+1.21.1.jar
+- server updated IC2Classic 2.2.2-neo.1 -> 2.3.0-neo.1 (export-only: not in the pack index; replace the IC2Classic jar from the private zip with the 2.3.0-neo.1 one)
 
 Tickets closed since the last release:
 - GEN-180: We need to use the config to lower the rate at which ground erodes in Roads M...
