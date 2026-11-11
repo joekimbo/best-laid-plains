@@ -1,5 +1,19 @@
 # Best Laid Plains: changelog
 
+## 0.9.0 (2026-11-11)
+
+- added packtactics-0.15.0.jar
+- added plainolpatches-2.19.2+1.21.1.jar
+- removed packtactics-0.14.4.jar
+- removed plainolpatches-2.18.1+1.21.1.jar
+
+Tickets closed since the last release:
+- GEN-180: We need to use the config to lower the rate at which ground erodes in Roads M...
+- GEN-191: I was in a cave and a large number of mobs spawned all at once, 8+ or so, aft...
+- GEN-198: Stickbun Central difficulty Hard to Normal
+- GEN-206: Crash: Petrichor reads 'lit' on Cobblemon's campfire pot
+- GEN-213: Cobblemon I captured suddenly leveled up to 55
+
 ## 0.8.0 (2026-11-10)
 
 - gaboulibs-neoforge-1.9.jar -> gaboulibs-neoforge-1.9.jar

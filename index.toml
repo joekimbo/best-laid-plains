@@ -1729,7 +1729,7 @@ preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "7ac894a9464d4eea24185e1dbbb6321143c47bea51f22c8164c408f2b3c98221"
+hash = "a6f8339d113bea93e7d2b436568929cbd9a7d5bdde7f6b9519b2a44f3324b305"
 preserve = true
 
 [[files]]
@@ -2001,7 +2001,7 @@ preserve = true
 
 [[files]]
 file = "config/iris.properties"
-hash = "acc62a36bec9e495b8a08bc47a02d44b4e4f110bc37bc657397e5ce95b7683bb"
+hash = "4f14d022d2775f4d450d90ece01b908ea239dcad4cbac8763c205a8ae8f4bc59"
 preserve = true
 
 [[files]]
@@ -2512,7 +2512,7 @@ preserve = true
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "4192b3dc0ccea1e24368321ca7f8d4956bdaaecb8e9ae75b3abfa51ec7714d90"
+hash = "c55de1affa6b2ef8e8a78c6f6211a0b281318c608c1a421a72d0c723179a7438"
 preserve = true
 
 [[files]]
@@ -2747,7 +2747,7 @@ hash = "1074917688c3de81859d78f317fcf2770483c9df6355c5898ef71609fa94dc40"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "851a9b946abe6ba541ccf3835b1b7fd39a712756f24cf60269fbe0a2cd256c57"
+hash = "31e2a491a9c83232c038e2b9bebeb25f5a0e10f7e101672d55f1836eb597c273"
 preserve = true
 
 [[files]]
@@ -7742,8 +7742,8 @@ hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
 metafile = true
 
 [[files]]
-file = "mods/packtactics-0-14-4.pw.toml"
-hash = "e20209c45ba252bf515bd1aa306cad7a777e3cea75fd26ca5008844794e9bcad"
+file = "mods/packtactics-0-15-0.pw.toml"
+hash = "ca397fd07798aeae93dcc60ed47b9e659b4367a114af0f4ceb7de82a4eeac65b"
 metafile = true
 
 [[files]]
@@ -7772,8 +7772,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-18-1-1-21-1.pw.toml"
-hash = "7c26bb475b229ac8c8b55bbaecbb0e23a0deff1cd5fb1426c6e89875232b28be"
+file = "mods/plainolpatches-2-19-2-1-21-1.pw.toml"
+hash = "0f320120a080f04e1dd0cd5db274b56cdd7e7f98164d19ade023a06db34847f2"
 metafile = true
 
 [[files]]
