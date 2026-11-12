@@ -33,18 +33,16 @@
 	"reward_distribution": "random",
 	// Raid boss Defense and Special Defense multiplier, in battle only. Default: 2.0
 	"boss_defense_multiplier": 2.0,
+	// Record boss AI decisions, their outcomes and the raid roster as JSON lines under cobblemonraidrevolution/telemetry (UTC day files, gzipped when finished; no player names, ids are hashed). Default: true
+	"telemetry": true,
+	// Days telemetry files are kept. Default: 365
+	"telemetry_retention_days": 365,
+	// Telemetry folder size cap in MB; the oldest days go first. Default: 100
+	"telemetry_max_total_mb": 100,
 	// Debug: a shared raid whose raider has owed a choice for 45 s gets the request sent again, and at 75 s a random legal action is chosen for them. Off by default: players have the turn timer (/crd timer). Default: false
 	"debug_stall_watchdog": false,
 	// Seconds a committed player can give the others before they get a random legal action (/crd timer). Default: 10
 	"turn_timer_seconds": 10,
-	// Revives of the boss per star from ★1 to ★5: at 0 HP it is restored in full and a phase effect fires. Default: [1, 2, 2, 2, 3]
-	"revives": [
-		1,
-		2,
-		2,
-		2,
-		3
-	],
 	// Draw weight of each phase effect (0 removes it). Default: 10 each
 	"phase_weight_weather": 10,
 	"phase_weight_reset": 10,
@@ -97,7 +95,7 @@
 	],
 	// Biome weight halving per this many blocks below the surface for the boss pool, for biomes whose spawns need no free space. Default: 64
 	"pool_depth_halving": 64,
-	// The maximum number of players in a raid before shared supporting moves are disabled. Default: 4
+	// The maximum number of players in a raid before shared supporting moves are disabled. Default: 3
 	"max_players_for_support": 4,
 	// The amount of raid energy required to convert a raid shard. Default: 100
 	"required_energy": 100,

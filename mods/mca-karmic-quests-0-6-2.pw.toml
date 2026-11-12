@@ -1,0 +1,8 @@
+name = "mca-karmic-quests-0.6.2"
+filename = "mca-karmic-quests-0.6.2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/mca-karmic-quests-0.6.2.jar"
+hash-format = "sha512"
+hash = "bcb1211c98a174d4dbb418a61342e62ff90e7327a6453028d434b15c66a92e97a741c177c40f6b5e764d8d6eb4dab36b4cece97b2cbef4cf3ae1f8192e3bd4ff"

@@ -468,7 +468,7 @@ hash = "a3a77072902cec139d8becf68441517a07324027e8e134432f0019fd9032e4fb"
 
 [[files]]
 file = "config/burnt_basic.json"
-hash = "ea04b7e0ba44b59810a4d59dba420806b267a02e2f874a3e85c46164b7379ada"
+hash = "a2f69d4f68cdb8c31abbd02e409114191648dc1a47029335a8e3c4e013029048"
 
 [[files]]
 file = "config/bwncr-common.toml"
@@ -687,7 +687,7 @@ hash = "e8d78d504fe43535bb49837a445d6acf06fe7c1b208d763b9023e3fa6e25d34a"
 
 [[files]]
 file = "config/cobblemonraidrevolution/common.json5"
-hash = "3f8a24d40206dac7cb26a370a9386a93dcc24135d758e9a6ba2ed6dee1b8c0da"
+hash = "0ead1cdc2ac7aff1ebd4258a30900a846502db16639803581c34905b93a989d5"
 
 [[files]]
 file = "config/cobblemonraidrevolution/conditions.json5"
@@ -695,23 +695,23 @@ hash = "ddc73b1a539e1f78e8daed69e4795734a19dc5fc511d5309e8b34b4585baed49"
 
 [[files]]
 file = "config/cobblemonraidrevolution/tier_five.json5"
-hash = "2e55143c3362c259a69640c9d6eb23bfde22a9e6ea551574946663c1e33a0031"
+hash = "1f001cd100e1983d845f92a64d5999c2aeafd89955614795dd37b891a61cbdc7"
 
 [[files]]
 file = "config/cobblemonraidrevolution/tier_four.json5"
-hash = "76c4bee94be1fb0bbb827c6edd5808990f753a6e1fe8c6a0fcfab25f7e845af8"
+hash = "98d1cce313458241b85d8150506d8753926e4f4e9314569bdc71de20dabed57f"
 
 [[files]]
 file = "config/cobblemonraidrevolution/tier_one.json5"
-hash = "ebe234e7e886a3d33d9f06fc6ecea55353d6356dbf5f0978607fc1ce8ba1f5c7"
+hash = "e195ba603d398a10e83eafd5eecd7c89e18142a6e3da7dbc931c2cbc9d370b1c"
 
 [[files]]
 file = "config/cobblemonraidrevolution/tier_three.json5"
-hash = "c023ac00c4161e41259045d1f0506d88b4cb78322c75beb0a528cd9b2fe4795d"
+hash = "32f565e6a7e381b48ae3baf9d82530f28e13b01af326f3ff5e6c9adbbeaaa2fa"
 
 [[files]]
 file = "config/cobblemonraidrevolution/tier_two.json5"
-hash = "78ba58962132a64944398d0eb558f6997ed0506877d7c359173054720f0245a6"
+hash = "8dc86135baff417217b1fc8a6709c92a78a56f1682279e84964c69b651441344"
 
 [[files]]
 file = "config/cobblemonsizevariation/config.json"
@@ -1729,7 +1729,7 @@ preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "a6f8339d113bea93e7d2b436568929cbd9a7d5bdde7f6b9519b2a44f3324b305"
+hash = "e5ba2937460c164bfbcc7866bc5a58416fb38484002a93f04ba677abb62f2383"
 preserve = true
 
 [[files]]
@@ -2001,7 +2001,7 @@ preserve = true
 
 [[files]]
 file = "config/iris.properties"
-hash = "4f14d022d2775f4d450d90ece01b908ea239dcad4cbac8763c205a8ae8f4bc59"
+hash = "a7dda463680fa8f831fcbbeb23d961cabc5080ce8428e35f0f83c67d0c07ddaf"
 preserve = true
 
 [[files]]
@@ -2512,7 +2512,7 @@ preserve = true
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "c55de1affa6b2ef8e8a78c6f6211a0b281318c608c1a421a72d0c723179a7438"
+hash = "e13d97797f3e5d349996ed84c31e1bfe6edae59a0bd777215ffa82b87e6dfde2"
 preserve = true
 
 [[files]]
@@ -2557,6 +2557,11 @@ hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
+
+[[files]]
+file = "config/paxromana-client.toml"
+hash = "1bd3c5b1d8d099703047c41690e54584f37fcbfd49fc32abf26c613f9a67a32d"
+preserve = true
 
 [[files]]
 file = "config/petrichor-client.toml"
@@ -2747,7 +2752,7 @@ hash = "1074917688c3de81859d78f317fcf2770483c9df6355c5898ef71609fa94dc40"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "31e2a491a9c83232c038e2b9bebeb25f5a0e10f7e101672d55f1836eb597c273"
+hash = "b0070fa7bf4690230cddf240e9e94ff8f4fc14f688ba384384fe288453d81921"
 preserve = true
 
 [[files]]
@@ -6427,8 +6432,8 @@ hash = "ba3b9990bc44bedb8eacbe11b2beffb7457cc6ddd854e78fcaf8d73d8f2578db"
 metafile = true
 
 [[files]]
-file = "mods/buggered-0-23-0.pw.toml"
-hash = "5c111cf8b46a04e933d9dacd1f3e3ab77a06ea502a5248d5a1fbd4feeb7423f6"
+file = "mods/buggered-0-25-0.pw.toml"
+hash = "745a27e353f38cf52363ce97d4400d0fbd283f2256a4f8d66d77f9e3ccd8d35a"
 metafile = true
 
 [[files]]
@@ -6517,8 +6522,8 @@ hash = "fd3cf502094e8e33136397d3141c93d8732f6d3a306bb7cbc1a7c720832206e1"
 metafile = true
 
 [[files]]
-file = "mods/cobblecare-0-56-1.pw.toml"
-hash = "ab69cec71d0c5612c6c8d9d3408b278cdcbfe4a6a4c2c6b7dcea9e3aec46345b"
+file = "mods/cobblecare-0-57-0.pw.toml"
+hash = "3fc74a118eb809d20cd4ea775d62200c1823ee48e2802026d09e21470fd57388"
 metafile = true
 
 [[files]]
@@ -6542,8 +6547,8 @@ hash = "ddb5d3aa8646191294ab31745bc77f5d2ad7d9143c6920a90ee479365b6c525c"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-comes-alive-3-0-0.pw.toml"
-hash = "29cd0e4cf061cfe2624e1802ddf950fd7aafa61bb1c8fbdd0458d92deac406b0"
+file = "mods/cobblemon-comes-alive-3-1-1.pw.toml"
+hash = "9ec106c0af5104dc856d6456718c535180b67eb5d2d76b6f0d6c9624fe035e17"
 metafile = true
 
 [[files]]
@@ -6632,8 +6637,8 @@ hash = "2cb849c31c6c51e394b254850243112c6a1a93a3b3534de1ebb9add05a90dd2d"
 metafile = true
 
 [[files]]
-file = "mods/cobblemonraidrevolution-neoforge-0-9-0.pw.toml"
-hash = "71543608c3d1bcf304b56a5590d375eec8ed802803f650c95c43ef70e4679219"
+file = "mods/cobblemonraidrevolution-neoforge-0-11-0.pw.toml"
+hash = "8f8dc43f05cb6838069501495219f627734d8444e52450a5a0d8e0f524537f64"
 metafile = true
 
 [[files]]
@@ -7582,8 +7587,8 @@ hash = "d51d9c17a1d4112b3ccf070217d68eb039a97efdde25277f074d653bf7edb3f1"
 metafile = true
 
 [[files]]
-file = "mods/materially-mended-0-4-2.pw.toml"
-hash = "c8d73201850035bc011cf6176fc5c27feb0b957fa44d5ab1937bd18c7676331f"
+file = "mods/materially-mended-0-4-4.pw.toml"
+hash = "ffcda97fd87c45384de74be80846b1756221f85b17e00411aa9b87ba8799a5b4"
 metafile = true
 
 [[files]]
@@ -7602,8 +7607,8 @@ hash = "bdff2f080920d2d3f24c6d204b5867adb932297b52450184c1bcbf1fd09506ea"
 metafile = true
 
 [[files]]
-file = "mods/mca-karmic-quests-0-6-1.pw.toml"
-hash = "47c2b4bffae13ecae33ddf7aed3d79915989f5bf11d70897ea20c86f3871afea"
+file = "mods/mca-karmic-quests-0-6-2.pw.toml"
+hash = "079919bfe39c23d5eb86697519eef7931909b9773d99439f86d7beeabbf9da97"
 metafile = true
 
 [[files]]
@@ -7742,13 +7747,18 @@ hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
 metafile = true
 
 [[files]]
-file = "mods/packtactics-0-15-0.pw.toml"
-hash = "ca397fd07798aeae93dcc60ed47b9e659b4367a114af0f4ceb7de82a4eeac65b"
+file = "mods/packtactics-0-16-0.pw.toml"
+hash = "8773cdb3c04f919bb6c648ccfb04d8f53e75e4a7224835f48e477570842cdc27"
 metafile = true
 
 [[files]]
 file = "mods/paxi.pw.toml"
 hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
+metafile = true
+
+[[files]]
+file = "mods/paxromana-0-3-4.pw.toml"
+hash = "cb584296333e62b9f341c9431be83c749015cff82266bd18f83d5c6fc2363949"
 metafile = true
 
 [[files]]
@@ -7772,8 +7782,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-19-2-1-21-1.pw.toml"
-hash = "0f320120a080f04e1dd0cd5db274b56cdd7e7f98164d19ade023a06db34847f2"
+file = "mods/plainolpatches-2-21-0-1-21-1.pw.toml"
+hash = "c7518b2bb8d75bfa1ae0d40d5977cf24ac428e2c9abec41719f854a20a347e15"
 metafile = true
 
 [[files]]

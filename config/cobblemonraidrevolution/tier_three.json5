@@ -3,7 +3,7 @@
 	"requires_key": false,
 	// Whether all players require the unique key or just the host. Default: true
 	"all_require_unique": true,
-	// Maximum number of players in a raid (Set to -1 for no limit). Default: 4
+	// Maximum number of players in a raid, at most 3 (Set to -1 for the limit of 3). Default: 3
 	"max_players": 4,
 	// Number of clears until the raid den deactivates (Set to -1 for no limit). Default: 3
 	"max_clears": 3,

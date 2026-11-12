@@ -1,0 +1,8 @@
+name = "packtactics-0.16.0"
+filename = "packtactics-0.16.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/packtactics-0.16.0.jar"
+hash-format = "sha512"
+hash = "050be0000b7615065655de780d406921901300b523fb5be993c338bc88b1411fa36692adbccc3f74e9c4664c06ec2f6b2259fa05318e1817188afccf490b693d"

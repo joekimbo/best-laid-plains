@@ -1,5 +1,31 @@
 # Best Laid Plains: changelog
 
+## 0.10.0 (2026-11-11)
+
+- added buggered-0.25.0.jar
+- added Cobblecare-0.57.0.jar
+- added cobblemon-comes-alive-3.1.1.jar
+- added cobblemonraidrevolution-neoforge-0.11.0.jar
+- added materially-mended-0.4.4.jar
+- added mca-karmic-quests-0.6.2.jar
+- added packtactics-0.16.0.jar
+- added paxromana-0.3.4.jar
+- added plainolpatches-2.21.0+1.21.1.jar
+- removed buggered-0.23.0.jar
+- removed Cobblecare-0.56.1.jar
+- removed cobblemon-comes-alive-3.0.0.jar
+- removed cobblemonraidrevolution-neoforge-0.9.0.jar
+- removed materially-mended-0.4.2.jar
+- removed mca-karmic-quests-0.6.1.jar
+- removed packtactics-0.15.0.jar
+- removed plainolpatches-2.19.2+1.21.1.jar
+- 7 config, script or data files changed
+
+Tickets closed since the last release:
+- BUG-29: Closing cooking pot
+- BUG-30: Reports record Effortless Building's build mode
+- GEN-202: Cobblemon experience tracker TO THE MOON!
+
 ## 0.9.0 (2026-11-11)
 
 - added packtactics-0.15.0.jar

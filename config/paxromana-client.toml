@@ -1,0 +1,8 @@
+#How tall the aurora at a zone's edge is, in blocks.
+# Default: 8
+# Range: 1 ~ 32
+auroraHeight = 8
+#Opacity of the aurora where it meets the ground (0 to 1).
+# Default: 0.4
+# Range: 0.0 ~ 1.0
+auroraOpacity = 0.4
