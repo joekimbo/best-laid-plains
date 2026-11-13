@@ -58,7 +58,6 @@ disableConfigWatcher = false
 	create_connected = ["+create"]
 	create_power_loader = ["+create"]
 	createaddition = ["+create"]
-	createbigcannons = ["+create"]
 	createdieselgenerators = ["+create"]
 	createrailgrinding = ["+create"]
 	createreautomated = ["+create"]

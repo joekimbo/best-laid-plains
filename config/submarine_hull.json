@@ -11529,7 +11529,7 @@
     "maxWaterDepth": 25,
     "implosionChance": 0.6
   },
-  "cobblemonmechanicalhealingmachine:mechanical_healing_machine": {
+  "create_i_choose_you:mechanical_healing_machine": {
     "maxWaterDepth": 64,
     "implosionChance": 0.39013878
   },

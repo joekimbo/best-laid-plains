@@ -1,5 +1,48 @@
 # Best Laid Plains: changelog
 
+## 0.11.0 (2026-11-13)
+
+- added Cobblecare-0.57.2.jar
+- added cobblemon-comes-alive-3.2.0.jar
+- added cobblemon-conveniences-0.21.1.jar
+- added cobblemonraidrevolution-neoforge-0.13.1.jar
+- added create_i_choose_you-0.1.2.jar
+- added create_renewables-2.2.0.jar
+- added dynamicroots-0.52.0.jar
+- added plainolpatches-2.22.1+1.21.1.jar
+- removed Cobblecare-0.57.0.jar
+- removed cobblemon-comes-alive-3.1.1.jar
+- removed cobblemon-conveniences-0.21.0.jar
+- removed cobblemonraidrevolution-neoforge-0.11.0.jar
+- removed create_aero_radar-0.1.1-1.21.1.jar
+- removed cbc_equally_opposite-0.1.3.jar
+- removed cbc_going_ballistic-0.3.1.jar
+- removed cbcscope-2.2.1.jar
+- removed createbigcannons-5.11.7+mc.1.21.1.jar
+- removed create_radar-0.4.9.4-1.21.1.jar
+- removed create_renewables-2.0.2.jar
+- removed dynamicroots-0.51.0.jar
+- removed plainolpatches-2.21.0+1.21.1.jar
+- removed ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar
+- 2 config, script or data files changed
+- The private zip has an update (Mechanical Healing Machine no longer needed). Your current zip still works.
+
+Tickets closed since the last release:
+- CC-41: Scavenging shouldn't send text to the action bar. Also, the SFX should be sou...
+- CC-43: Healing out of battle should also grant friendship, if it doesn't already. Do...
+- CCA-13: I gave a villager a Pikachu but it didn't get added to their team!
+- CCV-59: Lodge recipe: healing machine via I Choose You tag
+- CR-04: Windmills stress capacity AND their RPM need to scale with wind speed with Li...
+- CR-07: This tooltip should be organized similar to the Steam boiler (height / free a...
+- CRR-13 legwork: progression materials by stage, and a draft per-star loot table
+- CRR-14: Boss movesets: sequential drafting with coverage and synergy
+- CRR-15: The raid boss re-picks a weather move whose weather is already up
+- DR-48: You take fall damage when descending trees even if you're going slowly.
+- GEN-203: Wack ass absol exp
+- GEN-210: I'm still getting cast moulds from the woodcutter. Please audit all Create Bi...
+- KQ-10: Boot crash: ClientScreens writes McaQuests config before load
+- MM-03: Mending tooltip is inaccurate.
+
 ## 0.10.0 (2026-11-11)
 
 - added buggered-0.25.0.jar
