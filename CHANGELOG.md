@@ -1,5 +1,10 @@
 # Best Laid Plains: changelog
 
+## 0.12.0 (2026-11-13)
+
+- added plainolpatches-2.22.2+1.21.1.jar
+- removed plainolpatches-2.22.1+1.21.1.jar
+
 ## 0.11.0 (2026-11-13)
 
 - added Cobblecare-0.57.2.jar
