@@ -4,6 +4,7 @@
 
 - added plainolpatches-2.22.2+1.21.1.jar
 - removed plainolpatches-2.22.1+1.21.1.jar
+- Snowy areas render faster: snow cover rebuilds are spread out (Hoarfrost).
 
 ## 0.11.0 (2026-11-13)
 
@@ -29,6 +30,11 @@
 - removed dynamicroots-0.51.0.jar
 - removed plainolpatches-2.21.0+1.21.1.jar
 - removed ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar
+- Big Cannons and its add-ons, Create Radar and Create Aero Radar are removed (placed cannon blocks vanish).
+- The Mechanical Healing Machine is replaced by the machine from Create: I Choose You! (placed machines convert automatically, it runs at any speed, Pokémon in it are locked while healing).
+- Raid Revolution 0.13.1: special bosses.
+- Windmill bearings show their speed, capacity and wind in Jade.
+- Fixed a client crash from snowfall sound muffling (Hoarfrost with Remove Sound Lag Stutter).
 - 2 config, script or data files changed
 - The private zip has an update (Mechanical Healing Machine no longer needed). Your current zip still works.
 
