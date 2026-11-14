@@ -6189,10 +6189,6 @@ file = "kubejs/data/railways/loot_table/blocks/track_twilightforest_twilight_oak
 hash = "f2ef2d7bc8fa2d343b0a7dd834f0eb550f84937bc0ce41f37b2cbae81c945496"
 
 [[files]]
-file = "kubejs/data/redstone_wire/recipe/redstone_detector.json"
-hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
-
-[[files]]
 file = "kubejs/data/spawnanimations/function/internal/entity/ehs/pehkui/check_installed.mcfunction"
 hash = "b0fdf3b3de4c1c7adbb251f6065074958c1ad1865ef5c5614f4347086a9ed1d3"
 
@@ -7786,6 +7782,11 @@ metafile = true
 [[files]]
 file = "mods/rechiseled.pw.toml"
 hash = "6bee7be8af8f9247fbf84dcd1ec9af2adaa42e55d52ab8a5bfe9b6ff7c94da46"
+metafile = true
+
+[[files]]
+file = "mods/redstone-quill.pw.toml"
+hash = "030f157af25654f2f4f05b2fb27d13ce4e2922c1e4c86e3112d936f648eacce3"
 metafile = true
 
 [[files]]

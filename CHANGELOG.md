@@ -1,5 +1,9 @@
 # Best Laid Plains: changelog
 
+## 0.18.0 (2026-11-14)
+
+- added redstonequill-1.0.2.jar
+
 ## 0.17.0 (2026-11-14)
 
 - added materially-mended-0.5.1.jar
