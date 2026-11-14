@@ -7504,8 +7504,8 @@ hash = "d51d9c17a1d4112b3ccf070217d68eb039a97efdde25277f074d653bf7edb3f1"
 metafile = true
 
 [[files]]
-file = "mods/materially-mended-0-5-0.pw.toml"
-hash = "8b1194439ebb6aaf1c33804e4cf77063fe42cd6f38e6abd0de24741a0ab843b5"
+file = "mods/materially-mended-0-5-1.pw.toml"
+hash = "f89c97ada3bd5bf468e646493b7a1e139b8746a9e7679669a1f408fdf0c68ae4"
 metafile = true
 
 [[files]]
@@ -7786,11 +7786,6 @@ metafile = true
 [[files]]
 file = "mods/rechiseled.pw.toml"
 hash = "6bee7be8af8f9247fbf84dcd1ec9af2adaa42e55d52ab8a5bfe9b6ff7c94da46"
-metafile = true
-
-[[files]]
-file = "mods/redstone-wire.pw.toml"
-hash = "c5bdaa9801af946fd97b9f9cf22ee62cac96b0b8c6ca0bd639bf49c50a917e64"
 metafile = true
 
 [[files]]

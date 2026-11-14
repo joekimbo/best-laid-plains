@@ -1,5 +1,15 @@
 # Best Laid Plains: changelog
 
+## 0.17.0 (2026-11-14)
+
+- added materially-mended-0.5.1.jar
+- removed materially-mended-0.5.0.jar
+- removed redstone_wire-1.0.8.jar
+
+Tickets closed since the last release:
+- CCA-14: I can't interact with this villager by right-clicking.
+- MM-05: Overrepair should add a yellow tint over the green bar, not add a second bar.
+
 ## 0.16.0 (2026-11-14)
 
 - added plainolpatches-2.24.0+1.21.1.jar
