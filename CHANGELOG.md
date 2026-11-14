@@ -1,5 +1,13 @@
 # Best Laid Plains: changelog
 
+## 0.19.0 (2026-11-14)
+
+- added cobblemon-conveniences-0.22.0.jar
+- removed cobblemon-conveniences-0.21.1.jar
+
+Tickets closed since the last release:
+- GEN-221: Redstone Wire's recipes aren't craftable. Is the mod even usable?
+
 ## 0.18.0 (2026-11-14)
 
 - added redstonequill-1.0.2.jar
