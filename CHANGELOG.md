@@ -1,5 +1,12 @@
 # Best Laid Plains: changelog
 
+## 0.14.0 (2026-11-14)
+
+- added Cobblecare-0.58.3.jar
+- added create_renewables-2.5.0.jar
+- removed Cobblecare-0.57.2.jar
+- removed create_renewables-2.4.2.jar
+
 ## 0.13.0 (2026-11-13)
 
 - added cobblemon-ride-or-die-0.4.2.jar

@@ -6,7 +6,7 @@ hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "547f840bce6a84b46d1eaeb740671724fc25f42a5ccb1e6f00be4fb7b573cf02"
+hash = "33ae1ace266948fcf43cbd835256ecb0ee4bb415b8c7bccb38904b17be2de7e5"
 preserve = true
 
 [[files]]
@@ -6464,8 +6464,8 @@ hash = "fd3cf502094e8e33136397d3141c93d8732f6d3a306bb7cbc1a7c720832206e1"
 metafile = true
 
 [[files]]
-file = "mods/cobblecare-0-57-2.pw.toml"
-hash = "d2285e2bf661d35b90f2f104692c6e14e99d265a1067566b4cc8e124e07a5d7d"
+file = "mods/cobblecare-0-58-3.pw.toml"
+hash = "9663b11634807c675d6ad093bdc1b4b97a15bfb411c41fee52a872898ecdd353"
 metafile = true
 
 [[files]]
@@ -6869,8 +6869,8 @@ hash = "5a9dc544f4dc3e4d865cb6b55fce8e7248b5d829ae69f6a6434a964284bbcf12"
 metafile = true
 
 [[files]]
-file = "mods/create-renewables-2-4-2.pw.toml"
-hash = "c4146450a35400675ec47b73a5baa396607c8fadffdbb025e0cb653cb829f1cc"
+file = "mods/create-renewables-2-5-0.pw.toml"
+hash = "ad8ee0ef549c403ae8aac7347d5bdb6fe93ed6c6b0fee7e3b0cac3d40a93149b"
 metafile = true
 
 [[files]]
