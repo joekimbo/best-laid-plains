@@ -1,5 +1,14 @@
 # Best Laid Plains: changelog
 
+## 0.16.0 (2026-11-14)
+
+- added plainolpatches-2.24.0+1.21.1.jar
+- removed plainolpatches-2.23.1+1.21.1.jar
+
+Tickets closed since the last release:
+- GEN-227: Hoarfrost SnowClient.onPlaySound uses a ThreadLocalRandom from the RSLS sound thread (C2ME check throws, event bus catches)
+- GEN-236: HUGE seconds-long lagspike here.
+
 ## 0.15.0 (2026-11-14)
 
 - added materially-mended-0.5.0.jar

@@ -1,12 +1,12 @@
 name = "Best Laid Plains"
 author = "nucipersica"
-version = "0.15.0"
+version = "0.16.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "9deb13d89a5601da6cb6089cff7681277037966cebf4e2fca933134fbcba6513"
+hash = "e4664ef9471a74151b2ed5a62c5e2a3c63853389b4e59023e7767a6bf80ce8c9"
 
 [versions]
 minecraft = "1.21.1"
