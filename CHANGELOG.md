@@ -1,5 +1,33 @@
 # Best Laid Plains: changelog
 
+## 0.13.0 (2026-11-13)
+
+- added cobblemon-ride-or-die-0.4.2.jar
+- added create_renewables-2.4.2.jar
+- added dynamicroots-0.55.0.jar
+- added materially-mended-0.4.5.jar
+- added mca-banker-2.0.1.jar
+- added plainolpatches-2.22.4+1.21.1.jar
+- removed cobblemon-ride-or-die-0.4.0.jar
+- removed create_renewables-2.2.0.jar
+- removed dynamicroots-0.52.0.jar
+- removed materially-mended-0.4.4.jar
+- removed mca-banker-2.0.0.jar
+- removed plainolpatches-2.22.2+1.21.1.jar
+- The private zip has an update (IndustrialCraft 2 Classic). Your current zip still works.
+
+Tickets closed since the last release:
+- CC-42: Feeding a Pokémon via the shift-right-click feed menu resets their animation,...
+- DR-21: Floating leaves at this chunk border, like the tree got half-deleted.
+- DR-24: Another clearing where tree generation just *ends*, seemingly at chunk borders.
+- ENG-38: Venus Alpha client renders 3-10 fps in a fresh flat world (harness check 26)
+- MM-04: Broken cursed armor can't be removed
+- PH-10: Selftest check 37 fails on Alpha: Petrichor cinematic and subtitle layers vary between frames
+- PNP-122: Forests should thin more evenly between biomes.
+- PNP-93: This river gets cut off by what appears to be the shore of a lake.
+- PNP-96: Seagrass makes water step up here.
+- PNP-98: Blocks of air underwater near this tower.
+
 ## 0.12.0 (2026-11-13)
 
 - added plainolpatches-2.22.2+1.21.1.jar
