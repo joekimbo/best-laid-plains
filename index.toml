@@ -7504,8 +7504,8 @@ hash = "d51d9c17a1d4112b3ccf070217d68eb039a97efdde25277f074d653bf7edb3f1"
 metafile = true
 
 [[files]]
-file = "mods/materially-mended-0-4-5.pw.toml"
-hash = "7c1ac652d8afaf806ff16bebc03e7311ecfeff37848e137016ce606e063f9736"
+file = "mods/materially-mended-0-5-0.pw.toml"
+hash = "8b1194439ebb6aaf1c33804e4cf77063fe42cd6f38e6abd0de24741a0ab843b5"
 metafile = true
 
 [[files]]
@@ -7699,8 +7699,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-22-4-1-21-1.pw.toml"
-hash = "c017251f2b9adcc8a4dcd781cefe28b6ba06453873b462ef4a1dc7bf115eb299"
+file = "mods/plainolpatches-2-23-1-1-21-1.pw.toml"
+hash = "1af7f0e6b9d0a45cfa7899776b2026ec77a2c633171132bd7f1befc9b4ec2cf8"
 metafile = true
 
 [[files]]

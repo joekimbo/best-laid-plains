@@ -1,5 +1,15 @@
 # Best Laid Plains: changelog
 
+## 0.15.0 (2026-11-14)
+
+- added materially-mended-0.5.0.jar
+- added plainolpatches-2.23.1+1.21.1.jar
+- removed materially-mended-0.4.5.jar
+- removed plainolpatches-2.22.4+1.21.1.jar
+
+Tickets closed since the last release:
+- GEN-229: Single-player: second world crashes (C2ME CheckedThreadLocalRandom in Cobblemon spawn)
+
 ## 0.14.0 (2026-11-14)
 
 - added Cobblecare-0.58.3.jar
