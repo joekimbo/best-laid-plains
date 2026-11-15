@@ -3,11 +3,11 @@ filename = "rustling_leaves-neoforge-1.21.1-2.8.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3264130fce2723e4c62f47aa7e13dffce9645c9a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Iawrz1d2/versions/n2IiPx1M/rustling_leaves-neoforge-1.21.1-2.8.0.jar"
+hash-format = "sha512"
+hash = "b9b43c7ce550b14b03e92f62a1c0ba272d1e35f2288abd78a7f3d1cc624678fb24456f0c4e9084732f89c5c76f854770bd4ebff14a8ee34ddbbc46b69630dd6d"
 
 [update]
-[update.curseforge]
-file-id = 9359402
-project-id = 1729578
+[update.modrinth]
+mod-id = "Iawrz1d2"
+version = "n2IiPx1M"

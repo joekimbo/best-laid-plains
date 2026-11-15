@@ -1,5 +1,14 @@
 # Best Laid Plains: changelog
 
+## 0.20.0 (2026-11-15)
+
+- rustling_leaves-neoforge-1.21.1-2.8.0.jar -> rustling_leaves-neoforge-1.21.1-2.8.0.jar
+- added create_i_choose_you-0.1.3.jar
+- removed create_i_choose_you-0.1.2.jar
+
+Tickets closed since the last release:
+- GEN-243: Client crash: Hoarfrost reads its client config on a client tick before the config is loaded
+
 ## 0.19.1 (2026-11-14)
 
 - 2 config, script or data files changed

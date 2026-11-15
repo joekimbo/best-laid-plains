@@ -6805,8 +6805,8 @@ hash = "0d2d58e20e30b902f330256259839ec32d97f9854ea9c7982508cf926137a6e2"
 metafile = true
 
 [[files]]
-file = "mods/create-i-choose-you-0-1-2.pw.toml"
-hash = "7e0bae10faae652e83dc76156e9813cb864657bc6bb0f1f2e4af5ab0fb213745"
+file = "mods/create-i-choose-you-0-1-3.pw.toml"
+hash = "b764469e7e2723108c94132e30660f29b678e1fe6f196484767324348aa49011"
 metafile = true
 
 [[files]]
@@ -7831,7 +7831,7 @@ metafile = true
 
 [[files]]
 file = "mods/rustling-leaves.pw.toml"
-hash = "102c9a9ae1f587ffd04a45344042d74e2426676cdfa21ec164679fdf53b782fd"
+hash = "850a1b00d0b9621e316712acf72cf8c25adca4efce79a89a656287f4c0353942"
 metafile = true
 
 [[files]]
