@@ -1,5 +1,9 @@
 # Best Laid Plains: changelog
 
+## 0.19.1 (2026-11-14)
+
+- 2 config, script or data files changed
+
 ## 0.19.0 (2026-11-14)
 
 - added cobblemon-conveniences-0.22.0.jar

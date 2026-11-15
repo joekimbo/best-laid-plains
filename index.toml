@@ -108,12 +108,12 @@ hash = "0192815cf591f7b02dc81c6b0de90f7cbe9df6c2902daadae1d0bd39611f4556"
 
 [[files]]
 file = "config/ae2-client.toml"
-hash = "c003fb3ac64c789cea15fd44a8f19d1f4f0c925758d376406472294f16a5b52d"
+hash = "9c9fa0dd4dbbf2180719d536a6fd3f3a491ceeb57895d8b222f4f366c22afc8b"
 preserve = true
 
 [[files]]
 file = "config/ae2-common.toml"
-hash = "d5bb325da6d3dbaf0015cf02fbd2d708c22fe761232d2b9bb2112e1f187458d2"
+hash = "bb20724f25be60161fa73c7f1e5cedd80c83d99cd0a1b8e8a6e5a96773b99dc5"
 
 [[files]]
 file = "config/aero_cam_sync-client.toml"
@@ -1060,7 +1060,7 @@ hash = "c9d5c5e46c22a14853607500bb368d6cf189f6184ceec856e4e3e1716eff96ef"
 
 [[files]]
 file = "config/createburnerfuel-common.toml"
-hash = "74425287fb7fce08f474b35fc7ced40caa840b7707761e066a1063bfce5e2cd1"
+hash = "e7ae63949407145e3477b86f935e84de596109c499ed839da83d114c7e3533ee"
 
 [[files]]
 file = "config/createdieselgenerators-client.toml"

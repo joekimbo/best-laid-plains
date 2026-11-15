@@ -87,7 +87,7 @@
 	wirelessBoosterRangeMultiplier = 1.0
 	# Default: 1.5
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
-	wirelessBoosterExp = 1.5
+	wirelessBoosterExp = 2.5
 	# Default: 64.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
 	wirelessHighWirelessCount = 64.0
