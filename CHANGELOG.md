@@ -1,5 +1,21 @@
 # Best Laid Plains: changelog
 
+## 0.21.0 (2026-11-16)
+
+- added Cobblecare-0.61.0.jar
+- added create_i_choose_you-0.2.0.jar
+- added plainolpatches-2.27.0+1.21.1.jar
+- removed Cobblecare-0.58.3.jar
+- removed create_i_choose_you-0.1.3.jar
+- removed plainolpatches-2.24.0+1.21.1.jar
+
+Tickets closed since the last release:
+- CC-47: Water types forage from water
+- CCV-61: Campfire cooking, and other forms of cooking, doesn't work for Pokémon eggs e...
+- GEN-194: You get "bleeding out, may need your help" messages for yourself.
+- GEN-197: Cobblemon Trials Edition leaves trial-spawner block-entity data on plain spawner blocks
+- GEN-201: Thirst: bigger containers by tier, fatigue instead of damage
+
 ## 0.20.0 (2026-11-15)
 
 - rustling_leaves-neoforge-1.21.1-2.8.0.jar -> rustling_leaves-neoforge-1.21.1-2.8.0.jar

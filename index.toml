@@ -6460,8 +6460,8 @@ hash = "fd3cf502094e8e33136397d3141c93d8732f6d3a306bb7cbc1a7c720832206e1"
 metafile = true
 
 [[files]]
-file = "mods/cobblecare-0-58-3.pw.toml"
-hash = "9663b11634807c675d6ad093bdc1b4b97a15bfb411c41fee52a872898ecdd353"
+file = "mods/cobblecare-0-61-0.pw.toml"
+hash = "84907a4962bbc105258d6514810b87dacb74603984b987acfb0e898bf05591c9"
 metafile = true
 
 [[files]]
@@ -6805,8 +6805,8 @@ hash = "0d2d58e20e30b902f330256259839ec32d97f9854ea9c7982508cf926137a6e2"
 metafile = true
 
 [[files]]
-file = "mods/create-i-choose-you-0-1-3.pw.toml"
-hash = "b764469e7e2723108c94132e30660f29b678e1fe6f196484767324348aa49011"
+file = "mods/create-i-choose-you-0-2-0.pw.toml"
+hash = "71fa8f67ae64229902c770ae5fda9a5ebc36edc531c1e8493553ddcc4d29e6e7"
 metafile = true
 
 [[files]]
@@ -7695,8 +7695,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-24-0-1-21-1.pw.toml"
-hash = "b2eefbfb5c44e5b04ebc638e23bdbb28483e9b619ccf8035c6748a1992be7f1e"
+file = "mods/plainolpatches-2-27-0-1-21-1.pw.toml"
+hash = "46b523817daecaa9075e8d74d02c12204d7ddba1ecb1c9a4e055b2358c1af253"
 metafile = true
 
 [[files]]
