@@ -1,8 +1,0 @@
-name = "create_i_choose_you-0.2.0"
-filename = "create_i_choose_you-0.2.0.jar"
-side = "both"
-
-[download]
-url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/create_i_choose_you-0.2.0.jar"
-hash-format = "sha512"
-hash = "796515fd7a78a9b3b0e4e9ba77fc20581d995166e7f7950ec74b0cdba43d9331a91c2d88b750683e9d7c288e805ccfd9294f39531e5cb6426651f4b237a30046"

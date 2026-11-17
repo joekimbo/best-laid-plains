@@ -1,0 +1,8 @@
+name = "trainers-delight-0.2.0"
+filename = "trainers-delight-0.2.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/trainers-delight-0.2.0.jar"
+hash-format = "sha512"
+hash = "4d14f64965cb085c1274e989fc45ad5a060d7b089d11d9b9c00e2ce6a7b13b64dd76956b0edce0be2e18f973c9f9e1ad68e928a403cf516fa0fb76ab77cbb31c"

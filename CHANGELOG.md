@@ -1,5 +1,32 @@
 # Best Laid Plains: changelog
 
+## 0.22.0 (2026-11-17)
+
+- added Cobblecare-0.63.0.jar
+- added cobblemon-conveniences-0.23.0.jar
+- added create_i_choose_you-0.2.1.jar
+- added paxromana-0.4.0.jar
+- added plainolpatches-2.29.1+1.21.1.jar
+- added trainers-delight-0.2.0.jar
+- removed Cobblecare-0.61.0.jar
+- removed cobblemon-conveniences-0.22.0.jar
+- removed create_i_choose_you-0.2.0.jar
+- removed paxromana-0.3.4.jar
+- removed plainolpatches-2.27.0+1.21.1.jar
+- 1 config, script or data files changed
+- The private zip has an update (IndustrialCraft 2 Classic; No More Craters 1.21.1). Your current zip still works.
+
+Tickets closed since the last release:
+- CC-46: Rock types should be able to eat raw ore blocks, but as these are difficult t...
+- CICY-01: You can send out Pokémon while they're in the healing machine. There don't se...
+- CICY-03: The healing machine is missing a tooltip for the Create goggles displaying ho...
+- CICY-04: There's no warning when the healing machine is inactive and not healing.
+- GEN-241: Pokemon are refusing to eat items in their diets.
+- GEN-244: Getting mid-20s FPS here for no apparent reason.
+- GEN-245: Friendship loss due to low fullness should be reduced by 30%
+- GEN-248: When my defense harshly falls twice in this battle, I should see -4 pips on t...
+- TD-01: Crafted Pokemon foods: bouquet, trail mix, egg carton, eggnog; sugar-cube teas
+
 ## 0.21.0 (2026-11-16)
 
 - added Cobblecare-0.61.0.jar

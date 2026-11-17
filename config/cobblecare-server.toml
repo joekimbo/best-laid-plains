@@ -1,9 +1,9 @@
 #Starting fullness, walking and move costs. Fullness uses a 0-100 scale.
 [fullness]
 	#Fullness per 100 blocks walked, sprinted or sneaked. Default: 0.5 per 30 seconds of walking. Zero disables walking costs.
-	# Default: 0.38607057370087255
+	# Default: 0.2702494015906108
 	# Range: 0.0 ~ 100.0
-	walkingPer100Blocks = 0.38607057370087255
+	walkingPer100Blocks = 0.2702494015906108
 	#Only released or shoulder-mounted party Pokemon pay walking and upkeep costs.
 	releasedOnly = false
 	#Apply move costs and hunger penalties in battles with players on both sides.

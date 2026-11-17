@@ -541,7 +541,7 @@ preserve = true
 
 [[files]]
 file = "config/cobblecare-server.toml"
-hash = "2b9d26aedb52f35d003776b37da052142cefde671dc0d0b912c27fe0e48c4146"
+hash = "5e23fb6347cec22618ef1d7b05cb5237bb5be1809b842b72dae7c85bc94b9173"
 
 [[files]]
 file = "config/cobblemon-battle-extras-server.json"
@@ -6460,8 +6460,8 @@ hash = "fd3cf502094e8e33136397d3141c93d8732f6d3a306bb7cbc1a7c720832206e1"
 metafile = true
 
 [[files]]
-file = "mods/cobblecare-0-61-0.pw.toml"
-hash = "84907a4962bbc105258d6514810b87dacb74603984b987acfb0e898bf05591c9"
+file = "mods/cobblecare-0-63-0.pw.toml"
+hash = "5a928f695a4e87d69e0cd98d17dd96ab432d8d85b98992f8f87e21334ee3cf95"
 metafile = true
 
 [[files]]
@@ -6490,8 +6490,8 @@ hash = "e81a5188aeadbd14003926ec4f00df9343be5ded61406f4338871b7667725403"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-22-0.pw.toml"
-hash = "3ce7d824cdf2daee54b125db1c14bd0c213c715afb731c298c6760b55b7ce201"
+file = "mods/cobblemon-conveniences-0-23-0.pw.toml"
+hash = "a292bd719945a81f30e99ec6dfc95ad8822f6debf3a316204679255cb3b507e5"
 metafile = true
 
 [[files]]
@@ -6805,8 +6805,8 @@ hash = "0d2d58e20e30b902f330256259839ec32d97f9854ea9c7982508cf926137a6e2"
 metafile = true
 
 [[files]]
-file = "mods/create-i-choose-you-0-2-0.pw.toml"
-hash = "71fa8f67ae64229902c770ae5fda9a5ebc36edc531c1e8493553ddcc4d29e6e7"
+file = "mods/create-i-choose-you-0-2-1.pw.toml"
+hash = "233c97e70c1b520ab9b18c2189972179e709df4f72954456f50be212615becba"
 metafile = true
 
 [[files]]
@@ -7670,8 +7670,8 @@ hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]
-file = "mods/paxromana-0-3-4.pw.toml"
-hash = "cb584296333e62b9f341c9431be83c749015cff82266bd18f83d5c6fc2363949"
+file = "mods/paxromana-0-4-0.pw.toml"
+hash = "d4eb860a6b3a9532a0507ff3db431352878aababc3a5b8bb75549c629ac7f4cc"
 metafile = true
 
 [[files]]
@@ -7695,8 +7695,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-27-0-1-21-1.pw.toml"
-hash = "46b523817daecaa9075e8d74d02c12204d7ddba1ecb1c9a4e055b2358c1af253"
+file = "mods/plainolpatches-2-29-1-1-21-1.pw.toml"
+hash = "49408402a55b291effa877be2721c257a557a6ed5f42025e3ff38b3b0199ebc0"
 metafile = true
 
 [[files]]
@@ -8062,6 +8062,11 @@ metafile = true
 [[files]]
 file = "mods/touch-and-motion.pw.toml"
 hash = "28748229b2ef0c7a69c1f52aa8b1581d8d444ca6e6a30955064775da7dc81390"
+metafile = true
+
+[[files]]
+file = "mods/trainers-delight-0-2-0.pw.toml"
+hash = "5d7dcd75d1ae4823da51be884967294d6bdee2e094d462bb69d608ba8b37e22f"
 metafile = true
 
 [[files]]
