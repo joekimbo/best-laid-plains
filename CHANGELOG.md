@@ -1,5 +1,80 @@
 # Best Laid Plains: changelog
 
+## 0.23.0 (2026-11-18)
+
+- added buggered-0.26.0.jar
+- added Cobblecare-1.0.2.jar
+- added cobblemon-conveniences-0.25.0.jar
+- added cobblemon-ride-or-die-0.5.0.jar
+- added cobblemonraidrevolution-neoforge-0.13.3.jar
+- added create_renewables-2.5.3.jar
+- added dynamicroots-0.55.1.jar
+- added materially-mended-0.5.2.jar
+- added paxromana-0.4.2.jar
+- added plainolpatches-2.29.4+1.21.1.jar
+- removed buggered-0.25.0.jar
+- removed Cobblecare-0.63.0.jar
+- removed cobblemon-conveniences-0.23.0.jar
+- removed cobblemon-ride-or-die-0.4.2.jar
+- removed cobblemonraidrevolution-neoforge-0.13.1.jar
+- removed create_renewables-2.5.0.jar
+- removed dynamicroots-0.55.0.jar
+- removed materially-mended-0.5.1.jar
+- removed paxromana-0.4.0.jar
+- removed plainolpatches-2.29.1+1.21.1.jar
+- 1 config, script or data files changed
+- The private zip has an update (IndustrialCraft 2 Classic). Your current zip still works.
+
+Tickets closed since the last release:
+- BUG-20: Buggered cannot screencap EMI menu.
+- BUG-21: Buggered captures Journeymap even with the UI disabled.
+- BUG-25: I don't see the recent features that were supposed to be added to Buggered.
+- BUG-31: Saved draft's screenshot replaced by a later capture
+- BUG-33: Optional hardware-specs attachment in reports
+- CC-49: Remove "none of your Pokémon eat this" from the action bar.
+- CC-50: Hunger/Starvation friendship decay is insanely fast
+- CC-53: Ghost types can forage foods that Ghosts can't normally eat.
+- CC-54: Friendship loss due to low hunger should be reduced by 30%
+- CCV-64: Pichu attributed to wrong owner. Jade says it belongs to "ptted" but it actua...
+- CCV-65: I can attack others' Pokémon, even when friendly fire is off.
+- CCV-66: Radius patrol: Lodge territory nodes, implicit networks (0.24.0)
+- CCV-68: Owned Pokemon move faster on roads (20% off-road penalty, road-weighted pathing)
+- CCV-69: Allow Pokémon eggs to be fried on a frying pan.
+- CCV-71: Zoroark should be disguised in the wild.
+- CICY-05: Remove the "healing" / "healing stopped" action bar text from healing machine...
+- CR-02: Wind-driven rotation speed from Living Wind (instead of a static 8 RPM)
+- CR-03: This ponder is inaccurate when Living Wind is installed
+- CR-06: Windmills with Living Wind should interpolate between speeds so that the spee...
+- CRR-02: Re-home the per-player raid features onto the shared battle
+- CRR-10: Spiritomb is 36% of the star 3 bosses
+- CRR-18: Raid boss special cases: Shedinja, switch/skip abilities, weather forms, type changers
+- CRR-19: Transformed Ditto: duplicate transform line and gender symbol in its tile
+- DR-16: Mangrove roots have a color tint that the other rooty blocks should share, no?
+- DR-55: Apricorn trees are too stringy and sprawling. They should be more compact, re...
+- ENG-04: per-job working copies of a server on Venus (more than one job per server folder)
+- ENG-08: crash diagnostics: find out why JVMs crash on Venus, instead of only testing
+- ENG-09: scripted client smoke/stress tests (ticket kind `client_scenario`)
+- ENG-41: Venus client runs: --client-mod-jar
+- ENG-42: UI gallery: animated fixtures to frame PNGs, GIF and strip
+- ENG-44: Close tickets on promote (Fixes: trailer) and a weekly sweep of shipped-but-open tickets
+- GEN-185: Spiders are invisible until they're about 4 blocks away.
+- GEN-212: "Filling" mode applies to the "raised edge" option in the build menu, but it'...
+- GEN-218: Picking a white mint yielded cyan mint seeds.
+- GEN-219: Smoldering leaves aren't decaying.
+- GEN-220: Turn off knockback from smoke inhalation damage, there's no warning before it...
+- GEN-226: Client crash: Hoarfrost snow hush iterates the sound map while RSLS changes it
+- GEN-237: Log spam in the user's play session
+- GEN-246: Hearty Grains seems to be either absent or particularly uncommon in-world.
+- GEN-263: This recipe for mechanical belts appears twice.
+- GEN-266: Standing in an inch of water underground kills me
+- IC2-10: Unshaped copper cable recipe overrides brass recipe when copper ingots are pu...
+- IC2-11: Opening the IC2 guide book item causes the game to freeze, the ui to become m...
+- MM-06: This tooltip, "broken: unusable until repaired" shouldn't show up on non-ench...
+- MM-07: Change this tooltip so that Overrepair is shown as Durability, with the numer...
+- PAX-01: The border isn't continuous.
+- PAX-02: Drawing the border is heavy on performance. I go from 50FPS to 30FPS when the...
+- PH-08: Read-only state endpoints and probe registry for scenario assertions
+
 ## 0.22.0 (2026-11-17)
 
 - added Cobblecare-0.63.0.jar

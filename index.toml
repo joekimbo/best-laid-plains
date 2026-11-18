@@ -541,7 +541,7 @@ preserve = true
 
 [[files]]
 file = "config/cobblecare-server.toml"
-hash = "5e23fb6347cec22618ef1d7b05cb5237bb5be1809b842b72dae7c85bc94b9173"
+hash = "61c50d9cfc1f15b520043c33f4f4848b7852fa6a5689831857c3e6e9bff339eb"
 
 [[files]]
 file = "config/cobblemon-battle-extras-server.json"
@@ -6370,8 +6370,8 @@ hash = "ba3b9990bc44bedb8eacbe11b2beffb7457cc6ddd854e78fcaf8d73d8f2578db"
 metafile = true
 
 [[files]]
-file = "mods/buggered-0-25-0.pw.toml"
-hash = "745a27e353f38cf52363ce97d4400d0fbd283f2256a4f8d66d77f9e3ccd8d35a"
+file = "mods/buggered-0-26-0.pw.toml"
+hash = "622bd767df4c479bd9dd022017ded54255bdf1aeed22ada6b8746a30bd784d55"
 metafile = true
 
 [[files]]
@@ -6460,8 +6460,8 @@ hash = "fd3cf502094e8e33136397d3141c93d8732f6d3a306bb7cbc1a7c720832206e1"
 metafile = true
 
 [[files]]
-file = "mods/cobblecare-0-63-0.pw.toml"
-hash = "5a928f695a4e87d69e0cd98d17dd96ab432d8d85b98992f8f87e21334ee3cf95"
+file = "mods/cobblecare-1-0-2.pw.toml"
+hash = "cf403a5f728a9eebf4389bb8afc94eca1dacb1e491d96233f6fd8f8dabe327d6"
 metafile = true
 
 [[files]]
@@ -6490,8 +6490,8 @@ hash = "e81a5188aeadbd14003926ec4f00df9343be5ded61406f4338871b7667725403"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-23-0.pw.toml"
-hash = "a292bd719945a81f30e99ec6dfc95ad8822f6debf3a316204679255cb3b507e5"
+file = "mods/cobblemon-conveniences-0-25-0.pw.toml"
+hash = "2939af5f8ff29c2f09072a3d83243cd0c368fde79218466083ff9a41d16273f9"
 metafile = true
 
 [[files]]
@@ -6545,8 +6545,8 @@ hash = "24e3e458afc4e17111a1fea49b66b11c47ff82bd5d9d21ce6f8ed5b97f302f01"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-ride-or-die-0-4-2.pw.toml"
-hash = "4e810d274a48a2ec4c6b960b48948a56d41144bd0b3ef8b00a9534f4d905b6be"
+file = "mods/cobblemon-ride-or-die-0-5-0.pw.toml"
+hash = "6267917e60005f0c25940c82b9a51e20083d079433e006e266ad5b45028b2533"
 metafile = true
 
 [[files]]
@@ -6575,8 +6575,8 @@ hash = "2cb849c31c6c51e394b254850243112c6a1a93a3b3534de1ebb9add05a90dd2d"
 metafile = true
 
 [[files]]
-file = "mods/cobblemonraidrevolution-neoforge-0-13-1.pw.toml"
-hash = "bc30b60c3b35e3315c2cfd4b2d63fd54880df72b274a69cf91605ae6d16a05f6"
+file = "mods/cobblemonraidrevolution-neoforge-0-13-3.pw.toml"
+hash = "4bc668f9fa6b73a1f4692f305c9ee20f6ce40a533e7c7736b18a670a8b71c964"
 metafile = true
 
 [[files]]
@@ -6865,8 +6865,8 @@ hash = "5a9dc544f4dc3e4d865cb6b55fce8e7248b5d829ae69f6a6434a964284bbcf12"
 metafile = true
 
 [[files]]
-file = "mods/create-renewables-2-5-0.pw.toml"
-hash = "ad8ee0ef549c403ae8aac7347d5bdb6fe93ed6c6b0fee7e3b0cac3d40a93149b"
+file = "mods/create-renewables-2-5-3.pw.toml"
+hash = "f43f185291b0029ec27aef4d2ef870bb34d800bc8be0e58f74e281df07c21dca"
 metafile = true
 
 [[files]]
@@ -7010,8 +7010,8 @@ hash = "46b7d908b379ba6bafa386dd1f4794fee673390d675f73d4b2b159780fcfc0d1"
 metafile = true
 
 [[files]]
-file = "mods/dynamicroots-0-55-0.pw.toml"
-hash = "fc1ba119ba8648fbb522e2e7dacad47ee20cdd5d4ad0de1cd4d9d16d0e1bd085"
+file = "mods/dynamicroots-0-55-1.pw.toml"
+hash = "6ed9c790aee72a9756a64b3543e813f9fe80c10ee344b4d1f70025a03e6af16c"
 metafile = true
 
 [[files]]
@@ -7500,8 +7500,8 @@ hash = "d51d9c17a1d4112b3ccf070217d68eb039a97efdde25277f074d653bf7edb3f1"
 metafile = true
 
 [[files]]
-file = "mods/materially-mended-0-5-1.pw.toml"
-hash = "f89c97ada3bd5bf468e646493b7a1e139b8746a9e7679669a1f408fdf0c68ae4"
+file = "mods/materially-mended-0-5-2.pw.toml"
+hash = "ac27b22e054ca30eac46a3e3a5729d6e729f2adddb32dfd1c9d47ad0ceb7b320"
 metafile = true
 
 [[files]]
@@ -7670,8 +7670,8 @@ hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]
-file = "mods/paxromana-0-4-0.pw.toml"
-hash = "d4eb860a6b3a9532a0507ff3db431352878aababc3a5b8bb75549c629ac7f4cc"
+file = "mods/paxromana-0-4-2.pw.toml"
+hash = "57bb06e244f81675b45cf7e895c94c3517ac91d850dce62a841b411ade07130c"
 metafile = true
 
 [[files]]
@@ -7695,8 +7695,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-29-1-1-21-1.pw.toml"
-hash = "49408402a55b291effa877be2721c257a557a6ed5f42025e3ff38b3b0199ebc0"
+file = "mods/plainolpatches-2-29-4-1-21-1.pw.toml"
+hash = "3f1ccaaf819df01078778bcbdd23b94214c419a74a71da282b00727632be7225"
 metafile = true
 
 [[files]]

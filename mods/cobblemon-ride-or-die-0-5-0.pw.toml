@@ -1,0 +1,8 @@
+name = "cobblemon-ride-or-die-0.5.0"
+filename = "cobblemon-ride-or-die-0.5.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/cobblemon-ride-or-die-0.5.0.jar"
+hash-format = "sha512"
+hash = "9ad1010cca985bc7023fea63e82e44b6dad87b13fff1ea88875432e2751051140a3767e35e0e9049a2304f3fa7710ff8d19420ba854f5e7732c6b33c10a85db3"
