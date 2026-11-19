@@ -6486,8 +6486,8 @@ hash = "e81a5188aeadbd14003926ec4f00df9343be5ded61406f4338871b7667725403"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-26-0.pw.toml"
-hash = "27c39aaf4975fc513d27d82fcce969e34c2c5a1c20e84e4d8484b0a1cdca4d38"
+file = "mods/cobblemon-conveniences-0-27-2.pw.toml"
+hash = "e86941ca200b80c0bbed64fbdc5e273291e8037150b2436112121d97f751637a"
 metafile = true
 
 [[files]]

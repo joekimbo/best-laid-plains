@@ -1,5 +1,13 @@
 # Best Laid Plains: changelog
 
+## 0.29.0 (2026-11-19)
+
+- added cobblemon-conveniences-0.27.2.jar
+- removed cobblemon-conveniences-0.26.0.jar
+
+Tickets closed since the last release:
+- CCV-76: I shouldn't be able to mark a Pokémon through a wall.
+
 ## 0.28.0 (2026-11-19)
 
 - music_disc_maker-3.1.0+neoforge-1.21.1.jar -> music_disc_maker-3.1.0+neoforge-1.21.1.jar
