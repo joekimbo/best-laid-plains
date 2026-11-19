@@ -1,5 +1,21 @@
 # Best Laid Plains: changelog
 
+## 0.24.0 (2026-11-19)
+
+- added cobblemon-conveniences-0.26.0.jar
+- added plainolpatches-2.32.7+1.21.1.jar
+- removed cobblemon-conveniences-0.25.0.jar
+- removed plainolpatches-2.29.4+1.21.1.jar
+
+Tickets closed since the last release:
+- GEN-217: I can't compare the canteens because in EMI their total capacity isn't listed...
+- GEN-262: Rainbow is highly pixelated.
+- GEN-264: My AE2 settings keep geting overwritten. I think it happens when I recharge m...
+- GEN-268: The Rain Stick item has no durability rating.
+- GEN-270: Make the "not interested" mod work with red merchants from supplementaries
+- GEN-273: Zoroark Illusion leaks: Jade EV yield (Cobblemon Integrations) and Cobblenav search use the real species
+- PH-09: UI layout recorder: element bounding boxes, layers and overlap report
+
 ## 0.23.0 (2026-11-18)
 
 - added buggered-0.26.0.jar

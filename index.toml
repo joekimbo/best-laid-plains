@@ -2227,10 +2227,6 @@ file = "config/mca_banker-server.toml"
 hash = "ef184479e4db8ed6dc45ea6ebabce1a4d3ee6534520c9a9d8e78ce5294864249"
 
 [[files]]
-file = "config/mca_cobblemon.json"
-hash = "dbcba3d6ee4c33ec0820c0a059972703302d830e783c6a609002052ce9e94e46"
-
-[[files]]
 file = "config/mca_karma-server.toml"
 hash = "c68fed8f50946ff2fe357f58d783e147a68cf65b19a138ea287d0766b337edd6"
 
@@ -6490,8 +6486,8 @@ hash = "e81a5188aeadbd14003926ec4f00df9343be5ded61406f4338871b7667725403"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-25-0.pw.toml"
-hash = "2939af5f8ff29c2f09072a3d83243cd0c368fde79218466083ff9a41d16273f9"
+file = "mods/cobblemon-conveniences-0-26-0.pw.toml"
+hash = "27c39aaf4975fc513d27d82fcce969e34c2c5a1c20e84e4d8484b0a1cdca4d38"
 metafile = true
 
 [[files]]
@@ -7695,8 +7691,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-29-4-1-21-1.pw.toml"
-hash = "3f1ccaaf819df01078778bcbdd23b94214c419a74a71da282b00727632be7225"
+file = "mods/plainolpatches-2-32-7-1-21-1.pw.toml"
+hash = "045731f14ee25272c527ab4005864b3c168f68baa4cff50ed2b588c479b00388"
 metafile = true
 
 [[files]]
