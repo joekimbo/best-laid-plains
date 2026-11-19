@@ -6456,8 +6456,8 @@ hash = "fd3cf502094e8e33136397d3141c93d8732f6d3a306bb7cbc1a7c720832206e1"
 metafile = true
 
 [[files]]
-file = "mods/cobblecare-1-0-2.pw.toml"
-hash = "cf403a5f728a9eebf4389bb8afc94eca1dacb1e491d96233f6fd8f8dabe327d6"
+file = "mods/cobblecare-1-0-3.pw.toml"
+hash = "d2fa9b0266d5d57fe788ebb5d2c34f8c3863397a588aee3c5aad72b98883d053"
 metafile = true
 
 [[files]]
@@ -6541,8 +6541,8 @@ hash = "24e3e458afc4e17111a1fea49b66b11c47ff82bd5d9d21ce6f8ed5b97f302f01"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-ride-or-die-0-5-0.pw.toml"
-hash = "6267917e60005f0c25940c82b9a51e20083d079433e006e266ad5b45028b2533"
+file = "mods/cobblemon-ride-or-die-0-6-0.pw.toml"
+hash = "9d7871aa8dd1025ac018a7f6136dbbba116b239431cdacf457fd9f94e81bd8e0"
 metafile = true
 
 [[files]]
@@ -6571,8 +6571,8 @@ hash = "2cb849c31c6c51e394b254850243112c6a1a93a3b3534de1ebb9add05a90dd2d"
 metafile = true
 
 [[files]]
-file = "mods/cobblemonraidrevolution-neoforge-0-13-3.pw.toml"
-hash = "4bc668f9fa6b73a1f4692f305c9ee20f6ce40a533e7c7736b18a670a8b71c964"
+file = "mods/cobblemonraidrevolution-neoforge-0-13-4.pw.toml"
+hash = "72c3892cf409144d5296ea0dbce483f4baf253063824aaf0632d9c83e9b9d2c9"
 metafile = true
 
 [[files]]
@@ -7496,8 +7496,8 @@ hash = "d51d9c17a1d4112b3ccf070217d68eb039a97efdde25277f074d653bf7edb3f1"
 metafile = true
 
 [[files]]
-file = "mods/materially-mended-0-5-2.pw.toml"
-hash = "ac27b22e054ca30eac46a3e3a5729d6e729f2adddb32dfd1c9d47ad0ceb7b320"
+file = "mods/materially-mended-0-5-4.pw.toml"
+hash = "3f96e1fa754ee9b9838617ca1a56ab964df5e93e5d457dddb78a8e4879192fdf"
 metafile = true
 
 [[files]]
@@ -8204,3 +8204,8 @@ metafile = true
 file = "mods/yungs-menu-tweaks.pw.toml"
 hash = "2c48422aa6fa3cbba28c3ce9a2f1009500f3e8e31db70bdd786ffa7cabf5c79a"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "d06390c45fdda96b96e6ba5a0b9a3f00101aacb9c23d438c578ac0be45b5a85f"
+preserve = true

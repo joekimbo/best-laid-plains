@@ -1,0 +1,8 @@
+name = "Cobblecare-1.0.3"
+filename = "Cobblecare-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/Cobblecare-1.0.3.jar"
+hash-format = "sha512"
+hash = "d22391de1dd5efd058ed4d92545803531dc025fa960f9a8e9edbbc0ec227592d0ce2ec31da82dca7bb17ec1d4d05a61a335dfc820ee422e67c3f9c67ab45ab14"

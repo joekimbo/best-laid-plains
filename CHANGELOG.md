@@ -1,5 +1,30 @@
 # Best Laid Plains: changelog
 
+## 0.26.0 (2026-11-19)
+
+- added Cobblecare-1.0.3.jar
+- added cobblemon-ride-or-die-0.6.0.jar
+- added cobblemonraidrevolution-neoforge-0.13.4.jar
+- added materially-mended-0.5.4.jar
+- removed Cobblecare-1.0.2.jar
+- removed cobblemon-ride-or-die-0.5.0.jar
+- removed cobblemonraidrevolution-neoforge-0.13.3.jar
+- removed materially-mended-0.5.2.jar
+- default key bindings changed for new installs (existing players keep their own)
+- The private zip has an update (IndustrialCraft 2 Classic). Your current zip still works.
+
+Tickets closed since the last release:
+- CC-56: The hunger meter is cut off for Pokémon whose cards are shifted to the left i...
+- CC-57: Fullness arc shouldn't be rendered here in the party summary; we can use the...
+- CC-58: Remove "X of 16 segments" from tooltip, it's noise.
+- CC-60: Poison Pokémon shouldn't want to eat soap.
+- CC-61: Should be 100% at 252.
+- GEN-266: Standing in an inch of water underground kills me
+- IC2-12: IC2 adds a durability tooltip line to every damageable item
+- IC2-13: Remove the Recycler tab from EMI, it's just clutter since it applies to every...
+- MM-08: Overrepair seems not to apply when using one tool to repair another.
+- ROD-01: Poké Chow (Dog Food) gives its benefits to Pokémon
+
 ## 0.25.0 (2026-11-19)
 
 - added plainolpatches-2.32.8+1.21.1.jar
