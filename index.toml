@@ -7516,8 +7516,8 @@ hash = "02ba8e044a69d1113eadc58eca92f959ef77bed50cdccd558d9d2b79d54589cb"
 metafile = true
 
 [[files]]
-file = "mods/mca-karma-4-0-0.pw.toml"
-hash = "bdff2f080920d2d3f24c6d204b5867adb932297b52450184c1bcbf1fd09506ea"
+file = "mods/mca-karma-4-2-0.pw.toml"
+hash = "3aa2b128ea52e7ec7ed6e9ca5b65193e86ab5fb546161219d57c64ca47bae402"
 metafile = true
 
 [[files]]
@@ -7592,7 +7592,7 @@ metafile = true
 
 [[files]]
 file = "mods/music-disc-maker.pw.toml"
-hash = "509c1cfed5b246cb0d4f8b30a21e9a6f65998bd0d33cf67c63d4eb282f85481b"
+hash = "3bfe3e1b8bc5d6767786f9a88a394d6f8c5649c1b727c2f1a12ce1dee51d2e92"
 metafile = true
 
 [[files]]
@@ -7696,8 +7696,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-33-0-1-21-1.pw.toml"
-hash = "39d005df9f6ebfc50c7ddbcb684188d42ea783204a5f2724d00703ff64c78a4c"
+file = "mods/plainolpatches-2-34-0-1-21-1.pw.toml"
+hash = "242d08bbbc08b2af39b90a478a488ea147b7ce0a686a7bb457fa332a6e541ffe"
 metafile = true
 
 [[files]]

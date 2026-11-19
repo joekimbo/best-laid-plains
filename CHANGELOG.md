@@ -1,5 +1,18 @@
 # Best Laid Plains: changelog
 
+## 0.28.0 (2026-11-19)
+
+- music_disc_maker-3.1.0+neoforge-1.21.1.jar -> music_disc_maker-3.1.0+neoforge-1.21.1.jar
+- added mca-karma-4.2.0.jar
+- added plainolpatches-2.34.0+1.21.1.jar
+- removed mca-karma-4.0.0.jar
+- removed plainolpatches-2.33.0+1.21.1.jar
+
+Tickets closed since the last release:
+- GEN-269: Allow the randomizer tool to place blocks into copycats.
+- KAR-34: Villagers should request jewelry from Iron's Gems n' Jewelry, because current...
+- KAR-35: Villagers drop their inventory on death although drops are off (INV-011)
+
 ## 0.27.0 (2026-11-19)
 
 - added create_tracks_ponders-0.1.0-mc1.21.1-neoforge.jar
