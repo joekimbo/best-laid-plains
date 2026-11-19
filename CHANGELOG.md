@@ -1,5 +1,18 @@
 # Best Laid Plains: changelog
 
+## 0.25.0 (2026-11-19)
+
+- added plainolpatches-2.32.8+1.21.1.jar
+- removed plainolpatches-2.32.7+1.21.1.jar
+
+Tickets closed since the last release:
+- CC-59: Dog Food should apply the benefits given to Pokémon. Not sure where this shou...
+- CCV-62: Can't mark a Pokémon if I have an item in my offhand.
+- GEN-267: Living Wind + Cobblemon compat mod where the wind speed applies smooth kineti...
+- GEN-274: Myths and Legends key items crash the survival server (NoSuchMethodError getBuckets)
+- GEN-280: Crashed while opening a chest?
+- KQ-11: Villagers should request jewelry from Iron's Gems n' Jewelry, because current...
+
 ## 0.24.0 (2026-11-19)
 
 - added cobblemon-conveniences-0.26.0.jar
