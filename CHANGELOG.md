@@ -1,5 +1,29 @@
 # Best Laid Plains: changelog
 
+## 0.27.0 (2026-11-19)
+
+- added create_tracks_ponders-0.1.0-mc1.21.1-neoforge.jar
+- added dynamicroots-0.57.1.jar
+- added plainolpatches-2.33.0+1.21.1.jar
+- added trainers-delight-0.3.2.jar
+- removed dynamicroots-0.55.1.jar
+- removed plainolpatches-2.32.8+1.21.1.jar
+- removed trainers-delight-0.2.0.jar
+
+Tickets closed since the last release:
+- DR-52: This mega spruce is too tall and bulky for how few leaves it has.
+- DR-54: I'm stuck on this bush!
+- DR-56: Mushroom groves like this should decay on their own in the winter and summer....
+- GEN-276: This Farmer's Delight recipe can't be made in the Farmer's Delight pot.
+- GEN-277: How come this Farmer's Delight recipe can only be made in the Create mixer? I...
+- GEN-278: Need to fix the new player experience re:settings. There's too many conflicts...
+- GEN-281: Turning syrup back into sugar is a sugar dupe. It should only provide 1 sugar.
+- GEN-282: Pressing "b" in this search menu while querying closes the backpack.
+- GEN-283: Allow measuring tape to be put on the Traveler's Tool Belt.
+- TD-02: I get "this can't be cooked" action bar text if I try to add an egg to a fryp...
+- TD-03: This Farmer's Delight recipe can't be made in the Cobblemon campfire pot.
+- TD-04: Make honey interchangeable with syrup for food recipes (but not XP / IV candi...
+
 ## 0.26.0 (2026-11-19)
 
 - added Cobblecare-1.0.3.jar

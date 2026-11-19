@@ -6891,6 +6891,11 @@ hash = "b5d7bf5c707e49e0ad5f266fc440ad6bdfeb86c2774e9b3574ea17c35d33082d"
 metafile = true
 
 [[files]]
+file = "mods/create-tracks-ponders-0-1-0-mc1-21-1-neoforge.pw.toml"
+hash = "cc5f0f7b01930c687200b4a900ab089e2d2212d35047d7c10f0c859fc989e9e4"
+metafile = true
+
+[[files]]
 file = "mods/create-vibrant-vaults.pw.toml"
 hash = "960645d7f385081b108208e58bbbdfc6b93288b7bd7da90e6f229a57b237234a"
 metafile = true
@@ -7006,8 +7011,8 @@ hash = "46b7d908b379ba6bafa386dd1f4794fee673390d675f73d4b2b159780fcfc0d1"
 metafile = true
 
 [[files]]
-file = "mods/dynamicroots-0-55-1.pw.toml"
-hash = "6ed9c790aee72a9756a64b3543e813f9fe80c10ee344b4d1f70025a03e6af16c"
+file = "mods/dynamicroots-0-57-1.pw.toml"
+hash = "11919fadab387719263c9d8c3d5a32e46b8e092f022c2884be511c2400faf98a"
 metafile = true
 
 [[files]]
@@ -7691,8 +7696,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-32-8-1-21-1.pw.toml"
-hash = "d62222e39e793a5362f37e5a2485b7aa48d36056e9ff69004b098bebbc20e125"
+file = "mods/plainolpatches-2-33-0-1-21-1.pw.toml"
+hash = "39d005df9f6ebfc50c7ddbcb684188d42ea783204a5f2724d00703ff64c78a4c"
 metafile = true
 
 [[files]]
@@ -8061,8 +8066,8 @@ hash = "28748229b2ef0c7a69c1f52aa8b1581d8d444ca6e6a30955064775da7dc81390"
 metafile = true
 
 [[files]]
-file = "mods/trainers-delight-0-2-0.pw.toml"
-hash = "5d7dcd75d1ae4823da51be884967294d6bdee2e094d462bb69d608ba8b37e22f"
+file = "mods/trainers-delight-0-3-2.pw.toml"
+hash = "6a28c8bd0c4a19e2f95008ec584d4e4dc86e9454a45c9ce36b3e7d003521bc86"
 metafile = true
 
 [[files]]
