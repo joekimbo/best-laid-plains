@@ -6481,8 +6481,8 @@ hash = "ddb5d3aa8646191294ab31745bc77f5d2ad7d9143c6920a90ee479365b6c525c"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-comes-alive-3-2-0.pw.toml"
-hash = "e81a5188aeadbd14003926ec4f00df9343be5ded61406f4338871b7667725403"
+file = "mods/cobblemon-comes-alive-3-3-1.pw.toml"
+hash = "4976ce4e548b06956ffe30d05db5555cc70d2b432b361b0c2887871857786cb8"
 metafile = true
 
 [[files]]
@@ -7516,8 +7516,8 @@ hash = "02ba8e044a69d1113eadc58eca92f959ef77bed50cdccd558d9d2b79d54589cb"
 metafile = true
 
 [[files]]
-file = "mods/mca-karma-4-2-0.pw.toml"
-hash = "3aa2b128ea52e7ec7ed6e9ca5b65193e86ab5fb546161219d57c64ca47bae402"
+file = "mods/mca-karma-4-2-2.pw.toml"
+hash = "f0347df250ed07d85d27d01e30a29054be3792582631c0f60500a28e457f0dff"
 metafile = true
 
 [[files]]

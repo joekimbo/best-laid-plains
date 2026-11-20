@@ -1,5 +1,15 @@
 # Best Laid Plains: changelog
 
+## 0.31.0 (2026-11-20)
+
+- added cobblemon-comes-alive-3.3.1.jar
+- added mca-karma-4.2.2.jar
+- removed cobblemon-comes-alive-3.2.0.jar
+- removed mca-karma-4.2.0.jar
+
+Tickets closed since the last release:
+- CC-62: Cobblemon are refusing to eat because they're full but their fullnes meter is...
+
 ## 0.30.0 (2026-11-19)
 
 - added cobblemon-conveniences-0.28.0.jar
