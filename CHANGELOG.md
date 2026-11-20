@@ -1,5 +1,13 @@
 # Best Laid Plains: changelog
 
+## 0.30.0 (2026-11-19)
+
+- added cobblemon-conveniences-0.28.0.jar
+- removed cobblemon-conveniences-0.27.2.jar
+
+Tickets closed since the last release:
+- CCV-75: Allow female Gogoat, Mareep, Wooloo, etc. to be milked as Miltank can, but le...
+
 ## 0.29.0 (2026-11-19)
 
 - added cobblemon-conveniences-0.27.2.jar
