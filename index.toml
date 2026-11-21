@@ -2172,7 +2172,7 @@ hash = "43e35f01fceb40ba4689584c447ae842edf22fe86131f30f5108aae55b1b5ca6"
 
 [[files]]
 file = "config/livingwind-client.toml"
-hash = "71ac18bdf677aeb355d38f7dec7f2a16d0d214e2d0cf6f9ad8ed267302b13a60"
+hash = "2080e56083123fbcf99a987bb97c1ccf5dda7d5f687bdcad4b38aac01c6ad8a0"
 preserve = true
 
 [[files]]
@@ -7683,8 +7683,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-36-1-1-21-1.pw.toml"
-hash = "b4c9853153efc2cd3845becd5aa83a82004a208fb5dbd444e1394409248a670c"
+file = "mods/plainolpatches-2-36-2-1-21-1.pw.toml"
+hash = "e543e7ef27ff9c37d148ab86041e5917cb5f728612906fe11c0a23f41ab30c8a"
 metafile = true
 
 [[files]]

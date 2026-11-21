@@ -1,5 +1,14 @@
 # Best Laid Plains: changelog
 
+## 0.34.0 (2026-11-21)
+
+- added plainolpatches-2.36.2+1.21.1.jar
+- removed plainolpatches-2.36.1+1.21.1.jar
+
+Tickets closed since the last release:
+- GEN-312: Server tick-loop crash: NPE in ChunkMap.removeEntity entity-map iterator when a player disconnects (Stickbun 2026-11-21 08:24:46 UTC)
+- GEN-313: After a tick-loop crash, Stickbun's crash stop hangs after the per-level saves until the watchdog kills it (11-19, 11-21)
+
 ## 0.33.0 (2026-11-21)
 
 - added buggered-0.27.3.jar

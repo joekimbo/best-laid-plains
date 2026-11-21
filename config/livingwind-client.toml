@@ -1,7 +1,7 @@
 #How synchronized wind pushes existing vanilla and modded particles.
 [particleWind]
 	#Allow Living Wind to push eligible existing particles.
-	affectExistingParticles = true
+	affectExistingParticles = false
 	#Horizontal drift added to eligible particles. High wind is intentionally amplified
 	#more strongly than light wind so storms and gusts are visually distinct.
 	# Default: 0.12
