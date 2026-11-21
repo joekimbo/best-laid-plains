@@ -1,5 +1,24 @@
 # Best Laid Plains: changelog
 
+## 0.33.0 (2026-11-21)
+
+- added buggered-0.27.3.jar
+- added cobblemon-conveniences-0.33.1.jar
+- added dynamicroots-0.58.2.jar
+- added plainolpatches-2.36.1+1.21.1.jar
+- removed buggered-0.26.0.jar
+- removed cobblemon-conveniences-0.33.0.jar
+- removed dynamicroots-0.58.0.jar
+- removed plainolpatches-2.36.0+1.21.1.jar
+
+Tickets closed since the last release:
+- BUG-34: "Surroundings (structure)" should also capture what's in the player's view, a...
+- BUG-35: When the crash occurred, I was trying to hold left alt to keep an open toolbe...
+- CCV-86: Following Pokemon force synchronous chunk loads on the server thread (FollowAheadTask/PostQuery -> getBlockState), stalls of up to 42 s
+- DR-58: BoneMeal.pulse -> Dynamic Trees ageVolume takes up to 44% of server tick, 13.4 s stall (Stickbun 2026-11-21 01:46 UTC)
+- DR-59: Giant Dynamic Trees spruce lose a flat slice of trunk at worldgen (setBlock in a far chunk refused), everywhere new terrain generates
+- GEN-311: 'data modify ... from entity @s Pos' in a tick function serializes the whole player every tick (Spawn Animations; POP positionOnly misses it)
+
 ## 0.32.0 (2026-11-21)
 
 - added Cobblecare-1.1.0.jar

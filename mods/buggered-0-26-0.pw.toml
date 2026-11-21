@@ -1,8 +1,0 @@
-name = "buggered-0.26.0"
-filename = "buggered-0.26.0.jar"
-side = "both"
-
-[download]
-url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/buggered-0.26.0.jar"
-hash-format = "sha512"
-hash = "d0e48f8f67c5aaa51eda44dfc893641a1171c3d2110953da45a31378ba4a7c3a50a831d0744e835b986821e864e4cc9bc5b0aa9412d5d4b3e4177f607d5d5f79"

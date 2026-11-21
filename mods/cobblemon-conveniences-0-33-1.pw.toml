@@ -1,0 +1,8 @@
+name = "cobblemon-conveniences-0.33.1"
+filename = "cobblemon-conveniences-0.33.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/cobblemon-conveniences-0.33.1.jar"
+hash-format = "sha512"
+hash = "32659bbc2e8479d766e9447d5e35e353f2190c12db66c1e772a7f52b76b2e6b3b42286152021ff900f79dab18b2a42abad50223ac3e90316e7f6be566bdf6cf4"

@@ -6358,8 +6358,8 @@ hash = "ba3b9990bc44bedb8eacbe11b2beffb7457cc6ddd854e78fcaf8d73d8f2578db"
 metafile = true
 
 [[files]]
-file = "mods/buggered-0-26-0.pw.toml"
-hash = "622bd767df4c479bd9dd022017ded54255bdf1aeed22ada6b8746a30bd784d55"
+file = "mods/buggered-0-27-3.pw.toml"
+hash = "ecb5e7edb0d946b4587f3b594146ded65cfa4a70fe84709f976cd0fe1a519bf1"
 metafile = true
 
 [[files]]
@@ -6478,8 +6478,8 @@ hash = "4976ce4e548b06956ffe30d05db5555cc70d2b432b361b0c2887871857786cb8"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-33-0.pw.toml"
-hash = "d17e092680d1ac44c34cae39aba35ddad7f601c4fe90e98de81c3bb8d748f7c8"
+file = "mods/cobblemon-conveniences-0-33-1.pw.toml"
+hash = "5698e86de31dcbfe713f3ea37fabf8ce5f8e7765d1aa6f6a9980837009e95cb0"
 metafile = true
 
 [[files]]
@@ -7003,8 +7003,8 @@ hash = "46b7d908b379ba6bafa386dd1f4794fee673390d675f73d4b2b159780fcfc0d1"
 metafile = true
 
 [[files]]
-file = "mods/dynamicroots-0-58-0.pw.toml"
-hash = "b9083fa0b517a750057d106ad02dbca2b4d3e89800647d22578cdf1be8aa5151"
+file = "mods/dynamicroots-0-58-2.pw.toml"
+hash = "6d1da05d061ca9af733d923b2c28ae1efafd89e70a48b8d0e0852013fa2ece4e"
 metafile = true
 
 [[files]]
@@ -7683,8 +7683,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-36-0-1-21-1.pw.toml"
-hash = "4505edfaaaf233b03e57401dd6e004ef698acf94c5c9bf2d960c94ba9640cf8c"
+file = "mods/plainolpatches-2-36-1-1-21-1.pw.toml"
+hash = "b4c9853153efc2cd3845becd5aa83a82004a208fb5dbd444e1394409248a670c"
 metafile = true
 
 [[files]]
