@@ -1605,14 +1605,6 @@ hash = "2a142816c58a75278aaf6fa283dc5e3b8e7fbaf8887d04fe29b200414d1aaa42"
 preserve = true
 
 [[files]]
-file = "config/emotecraft.json"
-hash = "8cfb42df2afa3b8aed623ab5ad0310181693831f55f092ebcef87b299ccc03e6"
-
-[[files]]
-file = "config/emotecraft_emote_map.json"
-hash = "0ce5a209870e0673c14f68d4581de2cefc67a3c37aa7071c943b711a69835775"
-
-[[files]]
 file = "config/enchantinginfuser-server.toml"
 hash = "c579f8c07ec8b65c9f58607a717a52a4674403f3b207693f0fb9ed9c3e9ff1f0"
 
@@ -6456,8 +6448,8 @@ hash = "fd3cf502094e8e33136397d3141c93d8732f6d3a306bb7cbc1a7c720832206e1"
 metafile = true
 
 [[files]]
-file = "mods/cobblecare-1-0-3.pw.toml"
-hash = "d2fa9b0266d5d57fe788ebb5d2c34f8c3863397a588aee3c5aad72b98883d053"
+file = "mods/cobblecare-1-1-0.pw.toml"
+hash = "79a952a16e660a2c23b5323405264c999a5c108c01332d921fe2d4e172da495e"
 metafile = true
 
 [[files]]
@@ -6486,8 +6478,8 @@ hash = "4976ce4e548b06956ffe30d05db5555cc70d2b432b361b0c2887871857786cb8"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-28-0.pw.toml"
-hash = "9c7d2335e08c38703383967f1cce44cd4b2cb0ea2d2fe9600e11cc395df34938"
+file = "mods/cobblemon-conveniences-0-33-0.pw.toml"
+hash = "d17e092680d1ac44c34cae39aba35ddad7f601c4fe90e98de81c3bb8d748f7c8"
 metafile = true
 
 [[files]]
@@ -7011,8 +7003,8 @@ hash = "46b7d908b379ba6bafa386dd1f4794fee673390d675f73d4b2b159780fcfc0d1"
 metafile = true
 
 [[files]]
-file = "mods/dynamicroots-0-57-1.pw.toml"
-hash = "11919fadab387719263c9d8c3d5a32e46b8e092f022c2884be511c2400faf98a"
+file = "mods/dynamicroots-0-58-0.pw.toml"
+hash = "b9083fa0b517a750057d106ad02dbca2b4d3e89800647d22578cdf1be8aa5151"
 metafile = true
 
 [[files]]
@@ -7073,11 +7065,6 @@ metafile = true
 [[files]]
 file = "mods/emi.pw.toml"
 hash = "4603c93edafe22ced6578fd08ca44f8c7e4c7f4e0a59c853e7552c6b8dc99388"
-metafile = true
-
-[[files]]
-file = "mods/emotecraft.pw.toml"
-hash = "ee66efb9eae03c2f060086e26c9d9e4a9fbece4cd1f8fc92dfbf2771f3bad296"
 metafile = true
 
 [[files]]
@@ -7696,8 +7683,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-34-0-1-21-1.pw.toml"
-hash = "242d08bbbc08b2af39b90a478a488ea147b7ce0a686a7bb457fa332a6e541ffe"
+file = "mods/plainolpatches-2-36-0-1-21-1.pw.toml"
+hash = "4505edfaaaf233b03e57401dd6e004ef698acf94c5c9bf2d960c94ba9640cf8c"
 metafile = true
 
 [[files]]
@@ -8066,8 +8053,8 @@ hash = "28748229b2ef0c7a69c1f52aa8b1581d8d444ca6e6a30955064775da7dc81390"
 metafile = true
 
 [[files]]
-file = "mods/trainers-delight-0-3-2.pw.toml"
-hash = "6a28c8bd0c4a19e2f95008ec584d4e4dc86e9454a45c9ce36b3e7d003521bc86"
+file = "mods/trainers-delight-0-7-0.pw.toml"
+hash = "5dc5af05d67156f60ec045d5fb87523439c9cf5ffd6e37d05781b467f3956b7b"
 metafile = true
 
 [[files]]

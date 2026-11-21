@@ -1,5 +1,31 @@
 # Best Laid Plains: changelog
 
+## 0.32.0 (2026-11-21)
+
+- added Cobblecare-1.1.0.jar
+- added cobblemon-conveniences-0.33.0.jar
+- added dynamicroots-0.58.0.jar
+- added plainolpatches-2.36.0+1.21.1.jar
+- added trainers-delight-0.7.0.jar
+- removed Cobblecare-1.0.3.jar
+- removed cobblemon-conveniences-0.28.0.jar
+- removed dynamicroots-0.57.1.jar
+- removed emotecraft-for-MC1.21.1-2.4.12-neoforge.jar
+- removed plainolpatches-2.34.0+1.21.1.jar
+- removed trainers-delight-0.3.2.jar
+
+Tickets closed since the last release:
+- CC-63: Friendship XP bonus reaches +100% at 255, not 252
+- CC-64: Water and Psychic favourites count hydration: larger of food or drink value, the other as saturation
+- CCV-80: Lodge test onlyLodgeHuntersAreSlowedOffRoad timed out once (600 ticks)
+- CCV-81: A follower that has arrived at a requeried post stands while the owner walks into it (sharp-turn test flake)
+- CCV-82: A post chosen after a sharp turn can lie inside the personal space of the owner's new way (CCV-81 residual)
+- GEN-231: Some Farmer's Delight recipes need ported to Cobblemon like how we (I believe...
+- GEN-285: GameTests with Cobblemon on the classpath: mock players fail Cobblemon's script_registry_sync
+- GEN-287: Boot crash: AIOOBE in EntityRenderers.register (parallel client setup race, seen with Mowzie's Mobs)
+- GEN-295: Allow rubber trees to grow larger than 3-5 blocks of harvestable wood. Boneme...
+- GEN-306: Effortless Building replace modes duplicate stacking blocks (mint litter +3 per spot per click)
+
 ## 0.31.0 (2026-11-20)
 
 - added cobblemon-comes-alive-3.3.1.jar
