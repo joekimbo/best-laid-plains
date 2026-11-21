@@ -1,5 +1,15 @@
 # Best Laid Plains: changelog
 
+## 0.35.0 (2026-11-21)
+
+- added dynamicroots-0.58.3.jar
+- removed dynamicroots-0.58.2.jar
+- 1 config, script or data files changed
+
+Tickets closed since the last release:
+- DR-60: Bone meal is refused on short rubber trees (0.58.2 starts their record as fully grown)
+- GEN-316: Bone meal no longer causes rubber trees to grow.
+
 ## 0.34.0 (2026-11-21)
 
 - added plainolpatches-2.36.2+1.21.1.jar

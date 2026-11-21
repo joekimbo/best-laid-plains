@@ -165,7 +165,7 @@
 	EnableSeasonalBee = true
 	#List of seasons where bees are allowed to pollinate plants.
 	#Default: [SPRING]
-	BeePollinateSeasons = ["SPRING"]
+	BeePollinateSeasons = ["SPRING", "SUMMER", "AUTUMN"]
 	#List of seasons where bees will leave the hive to fly around.
 	#Default: [SPRING, SUMMER, AUTUMN]
 	BeeActiveSeasons = ["SPRING", "SUMMER", "AUTUMN"]

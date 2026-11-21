@@ -1549,7 +1549,7 @@ preserve = true
 
 [[files]]
 file = "config/eclipticseasons-common.toml"
-hash = "5d63d4ab8bb739c7db579e34cc4314c25cf71b6d87d73c89a01d924c766caaba"
+hash = "73bc47d3c877f07b2d43e0680d7cc59357fc5247322d284fa5c6281c7f8cd1e6"
 
 [[files]]
 file = "config/eclipticseasons-mixins.toml"
@@ -2173,7 +2173,6 @@ hash = "43e35f01fceb40ba4689584c447ae842edf22fe86131f30f5108aae55b1b5ca6"
 [[files]]
 file = "config/livingwind-client.toml"
 hash = "2080e56083123fbcf99a987bb97c1ccf5dda7d5f687bdcad4b38aac01c6ad8a0"
-preserve = true
 
 [[files]]
 file = "config/livingwind-common.toml"
@@ -7003,8 +7002,8 @@ hash = "46b7d908b379ba6bafa386dd1f4794fee673390d675f73d4b2b159780fcfc0d1"
 metafile = true
 
 [[files]]
-file = "mods/dynamicroots-0-58-2.pw.toml"
-hash = "6d1da05d061ca9af733d923b2c28ae1efafd89e70a48b8d0e0852013fa2ece4e"
+file = "mods/dynamicroots-0-58-3.pw.toml"
+hash = "cb8b504b10c1280a1ecd8c48f602289c86c260470dbcafde4e3e7c1afb4b52a9"
 metafile = true
 
 [[files]]
