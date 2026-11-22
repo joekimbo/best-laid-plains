@@ -1,8 +1,0 @@
-name = "cobblemon-comes-alive-3.3.1"
-filename = "cobblemon-comes-alive-3.3.1.jar"
-side = "both"
-
-[download]
-url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/cobblemon-comes-alive-3.3.1.jar"
-hash-format = "sha512"
-hash = "af2761af98a3d41864c85a3e906adcd8744a9ba6dbc5986260811031128502c2540c00bfd1137c403b81223fb2363d665bf904081e60422db95aa4554555bb45"

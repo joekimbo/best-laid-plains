@@ -1,5 +1,41 @@
 # Best Laid Plains: changelog
 
+## 0.36.0 (2026-11-22)
+
+- added cobblemon-comes-alive-3.3.3.jar
+- added create_i_choose_you-0.3.1.jar
+- added dynamicroots-0.59.0.jar
+- added mca-karma-4.3.1.jar
+- added paxromana-0.5.0.jar
+- added plainolpatches-2.36.5+1.21.1.jar
+- removed cobblemon-comes-alive-3.3.1.jar
+- removed create_i_choose_you-0.2.1.jar
+- removed dynamicroots-0.58.3.jar
+- removed mca-karma-4.2.2.jar
+- removed paxromana-0.4.2.jar
+- removed plainolpatches-2.36.2+1.21.1.jar
+
+Tickets closed since the last release:
+- BUG-37: Crashed upon restoring and entering a Ruined Portal in the Nether.
+- BUG-38: I sent the character "?" to chat and got disconnected
+- CCA-16: Villager hangs during battle with wild Pokémon.
+- CCA-17: Missing strings in the Pokémon center.
+- CCA-18: Villager says "No problem, here's my team" but doesn't have a team, or show i...
+- CICY-06: Bulk washing should turn Cobblemon eggs into vanilla eggs, so they can stack...
+- CRR-27: Census of raid tiers on Stickbun Central vs the configured weights
+- DR-61: Author full_height (measured plateau per soil) for the species players bone-meal, so a full tree of any species refuses bone meal
+- GEN-309: Investigate client render cost of Cobblemon, Bendylib, Living Wind and Hoarfrost (health reports 2026-11-20)
+- GEN-315: Hoarfrost never had season integration: the Serene Seasons stub lacks getPrecipitationAtSeasonal
+- GEN-325: Client crash: Create ContinuousOBBCollider mf.axis null (from BUG-38)
+- GEN-326: Petrichor ignores the season: Serene Seasons call fails on the Ecliptic bridge
+- KAR-36: Church description is a string we have not yet filled out.
+- KAR-38: Karma restored from a food item as valuable as ratatoullie should be worth at...
+- KAR-39: Villager complains about poison/paralysis but requests a burn heal.
+- KAR-40: Karma displays exclamation point for prayer the player has already viewed.
+- KAR-43: Bookshelves aren't included in building even though it should absolutely qual...
+- KAR-44: A library (32+ shelves) should count as a reading room
+- PAX-03: Pax Romana safe zones scale too rapidly; we need to switch to ln() scaling.
+
 ## 0.35.0 (2026-11-21)
 
 - added dynamicroots-0.58.3.jar

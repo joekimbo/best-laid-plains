@@ -2173,6 +2173,7 @@ hash = "43e35f01fceb40ba4689584c447ae842edf22fe86131f30f5108aae55b1b5ca6"
 [[files]]
 file = "config/livingwind-client.toml"
 hash = "2080e56083123fbcf99a987bb97c1ccf5dda7d5f687bdcad4b38aac01c6ad8a0"
+preserve = true
 
 [[files]]
 file = "config/livingwind-common.toml"
@@ -6472,8 +6473,8 @@ hash = "ddb5d3aa8646191294ab31745bc77f5d2ad7d9143c6920a90ee479365b6c525c"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-comes-alive-3-3-1.pw.toml"
-hash = "4976ce4e548b06956ffe30d05db5555cc70d2b432b361b0c2887871857786cb8"
+file = "mods/cobblemon-comes-alive-3-3-3.pw.toml"
+hash = "fa1792cd4bc126a975c165f940b7904dfcefcb04b2b02e87b5ebd07d7dc33e93"
 metafile = true
 
 [[files]]
@@ -6792,8 +6793,8 @@ hash = "0d2d58e20e30b902f330256259839ec32d97f9854ea9c7982508cf926137a6e2"
 metafile = true
 
 [[files]]
-file = "mods/create-i-choose-you-0-2-1.pw.toml"
-hash = "233c97e70c1b520ab9b18c2189972179e709df4f72954456f50be212615becba"
+file = "mods/create-i-choose-you-0-3-1.pw.toml"
+hash = "731fc1de607fb03c1adec86716a41baa5ac8f5a130992818d782a052bdc1fe83"
 metafile = true
 
 [[files]]
@@ -7002,8 +7003,8 @@ hash = "46b7d908b379ba6bafa386dd1f4794fee673390d675f73d4b2b159780fcfc0d1"
 metafile = true
 
 [[files]]
-file = "mods/dynamicroots-0-58-3.pw.toml"
-hash = "cb8b504b10c1280a1ecd8c48f602289c86c260470dbcafde4e3e7c1afb4b52a9"
+file = "mods/dynamicroots-0-59-0.pw.toml"
+hash = "2b073771e6fe96587c4124cf331594996803cfb5f80ac0f663129eeb925dce69"
 metafile = true
 
 [[files]]
@@ -7502,8 +7503,8 @@ hash = "02ba8e044a69d1113eadc58eca92f959ef77bed50cdccd558d9d2b79d54589cb"
 metafile = true
 
 [[files]]
-file = "mods/mca-karma-4-2-2.pw.toml"
-hash = "f0347df250ed07d85d27d01e30a29054be3792582631c0f60500a28e457f0dff"
+file = "mods/mca-karma-4-3-1.pw.toml"
+hash = "a46178f52d9fc6e2c5d98533778562f9d0a6cc3ea4488d2d0d13b672f594d195"
 metafile = true
 
 [[files]]
@@ -7657,8 +7658,8 @@ hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]
-file = "mods/paxromana-0-4-2.pw.toml"
-hash = "57bb06e244f81675b45cf7e895c94c3517ac91d850dce62a841b411ade07130c"
+file = "mods/paxromana-0-5-0.pw.toml"
+hash = "808f770045362b26b94b83f2b7b5d271b85fc35ba4999c8774ca956b17745b48"
 metafile = true
 
 [[files]]
@@ -7682,8 +7683,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-36-2-1-21-1.pw.toml"
-hash = "e543e7ef27ff9c37d148ab86041e5917cb5f728612906fe11c0a23f41ab30c8a"
+file = "mods/plainolpatches-2-36-5-1-21-1.pw.toml"
+hash = "241e02181039c001efbbc09c974bb4ee8298e659d83549c52451850c788ab27e"
 metafile = true
 
 [[files]]

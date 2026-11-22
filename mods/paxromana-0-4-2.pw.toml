@@ -1,8 +1,0 @@
-name = "paxromana-0.4.2"
-filename = "paxromana-0.4.2.jar"
-side = "both"
-
-[download]
-url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/paxromana-0.4.2.jar"
-hash-format = "sha512"
-hash = "81b28e2e04621efdc7408aaa31394ac6ff4007924aca34c119a55d14f2b7f8cb313959f4357370679abbfa4fc3b3bf8664a5ccdf2ae79fc5a395d35ba7ed970b"
