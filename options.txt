@@ -100,7 +100,7 @@ key_key.curios.open.desc:key.keyboard.unknown
 key_key.fieldemitters.tuner:key.keyboard.unknown
 key_key.ic2.alt:key.keyboard.unknown
 key_key.ic2.boost:key.keyboard.left.control
-key_key.ic2.mode:key.keyboard.unknown
+key_key.ic2.mode:key.keyboard.period
 key_key.ic2.inv:key.keyboard.unknown
 key_key.ic2.hud:key.keyboard.unknown
 key_key.ic2.toggle:key.keyboard.unknown

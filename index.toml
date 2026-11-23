@@ -541,7 +541,7 @@ preserve = true
 
 [[files]]
 file = "config/cobblecare-server.toml"
-hash = "61c50d9cfc1f15b520043c33f4f4848b7852fa6a5689831857c3e6e9bff339eb"
+hash = "9f08bd07c6830adedcd3544e671d4088978c42390ac120e9c3a38f262fe3f051"
 
 [[files]]
 file = "config/cobblemon-battle-extras-server.json"
@@ -1882,7 +1882,7 @@ hash = "2169765e7649f892245ab22d3be3200572972b277f7f66594756b5fbfc783468"
 
 [[files]]
 file = "config/ic2c/ic2.cfg"
-hash = "81fe99181965a10f4523b62d9e3ae777ee74699ecf1db36d6737806244ffe82b"
+hash = "6724d92c6fa6b3baeeb1963b66e6835851927122419178eaa2ebdb9a154f7900"
 
 [[files]]
 file = "config/illagerinvasion-server.toml"
@@ -6448,8 +6448,8 @@ hash = "fd3cf502094e8e33136397d3141c93d8732f6d3a306bb7cbc1a7c720832206e1"
 metafile = true
 
 [[files]]
-file = "mods/cobblecare-1-1-0.pw.toml"
-hash = "79a952a16e660a2c23b5323405264c999a5c108c01332d921fe2d4e172da495e"
+file = "mods/cobblecare-1-2-0.pw.toml"
+hash = "7409fb78157466f3ac67e8f1ada9f29a0b514127490b21a7a30dadb963b42d30"
 metafile = true
 
 [[files]]
@@ -6478,8 +6478,8 @@ hash = "fa1792cd4bc126a975c165f940b7904dfcefcb04b2b02e87b5ebd07d7dc33e93"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-33-1.pw.toml"
-hash = "5698e86de31dcbfe713f3ea37fabf8ce5f8e7765d1aa6f6a9980837009e95cb0"
+file = "mods/cobblemon-conveniences-0-36-4.pw.toml"
+hash = "0226254bd5bb5c98023d91240a8685fbeee6146ce46590821795121dd365b65e"
 metafile = true
 
 [[files]]
@@ -6533,8 +6533,8 @@ hash = "24e3e458afc4e17111a1fea49b66b11c47ff82bd5d9d21ce6f8ed5b97f302f01"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-ride-or-die-0-6-0.pw.toml"
-hash = "9d7871aa8dd1025ac018a7f6136dbbba116b239431cdacf457fd9f94e81bd8e0"
+file = "mods/cobblemon-ride-or-die-0-6-1.pw.toml"
+hash = "1f44fd48cab11488718b912c723fa4c58237c287d0260783b969b1ac2a339882"
 metafile = true
 
 [[files]]
@@ -6563,8 +6563,8 @@ hash = "2cb849c31c6c51e394b254850243112c6a1a93a3b3534de1ebb9add05a90dd2d"
 metafile = true
 
 [[files]]
-file = "mods/cobblemonraidrevolution-neoforge-0-13-4.pw.toml"
-hash = "72c3892cf409144d5296ea0dbce483f4baf253063824aaf0632d9c83e9b9d2c9"
+file = "mods/cobblemonraidrevolution-neoforge-0-14-3.pw.toml"
+hash = "308c221cca9426af96127e4030e7550625619f36743c0956ebf774506ef80c87"
 metafile = true
 
 [[files]]
@@ -6793,8 +6793,8 @@ hash = "0d2d58e20e30b902f330256259839ec32d97f9854ea9c7982508cf926137a6e2"
 metafile = true
 
 [[files]]
-file = "mods/create-i-choose-you-0-3-1.pw.toml"
-hash = "731fc1de607fb03c1adec86716a41baa5ac8f5a130992818d782a052bdc1fe83"
+file = "mods/create-i-choose-you-0-4-0.pw.toml"
+hash = "c47acf990083d9191e6dbb8004a6a931ff3c278e71d5d31b73fc85299e936e39"
 metafile = true
 
 [[files]]
@@ -7003,8 +7003,8 @@ hash = "46b7d908b379ba6bafa386dd1f4794fee673390d675f73d4b2b159780fcfc0d1"
 metafile = true
 
 [[files]]
-file = "mods/dynamicroots-0-59-0.pw.toml"
-hash = "2b073771e6fe96587c4124cf331594996803cfb5f80ac0f663129eeb925dce69"
+file = "mods/dynamicroots-0-59-2.pw.toml"
+hash = "65d0fc556ac027cc4f6195fc2b2fac1f6461d7d5b24fc1b265a4edbec34a80c0"
 metafile = true
 
 [[files]]
@@ -7503,8 +7503,8 @@ hash = "02ba8e044a69d1113eadc58eca92f959ef77bed50cdccd558d9d2b79d54589cb"
 metafile = true
 
 [[files]]
-file = "mods/mca-karma-4-3-1.pw.toml"
-hash = "a46178f52d9fc6e2c5d98533778562f9d0a6cc3ea4488d2d0d13b672f594d195"
+file = "mods/mca-karma-4-4-0.pw.toml"
+hash = "5494b0780b4959d47210bfff6e6e56a2790d8e940b5fb0556f38bcc3ab05c5e7"
 metafile = true
 
 [[files]]
@@ -7648,8 +7648,8 @@ hash = "84cb0dcad9ac46d22adba4fb7924951affa6ac5e46027a3b25fa9a0db8d91b2b"
 metafile = true
 
 [[files]]
-file = "mods/packtactics-0-16-0.pw.toml"
-hash = "8773cdb3c04f919bb6c648ccfb04d8f53e75e4a7224835f48e477570842cdc27"
+file = "mods/packtactics-0-16-1.pw.toml"
+hash = "1d6f88c72978284291e21db7d1f2d078db42b02d0d37add1b7313705846cbe99"
 metafile = true
 
 [[files]]
@@ -7683,8 +7683,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-36-5-1-21-1.pw.toml"
-hash = "241e02181039c001efbbc09c974bb4ee8298e659d83549c52451850c788ab27e"
+file = "mods/plainolpatches-2-38-0-1-21-1.pw.toml"
+hash = "14b73eaa0af30a99189b37d1647557d2f111eff61886fbb4f12e03c6035ed4af"
 metafile = true
 
 [[files]]
@@ -8053,8 +8053,8 @@ hash = "28748229b2ef0c7a69c1f52aa8b1581d8d444ca6e6a30955064775da7dc81390"
 metafile = true
 
 [[files]]
-file = "mods/trainers-delight-0-7-0.pw.toml"
-hash = "5dc5af05d67156f60ec045d5fb87523439c9cf5ffd6e37d05781b467f3956b7b"
+file = "mods/trainers-delight-0-7-2.pw.toml"
+hash = "07fe298cbc67e04d71351cb2cdd248d3432ae277f40c88f6319d25ecc2fc7b6f"
 metafile = true
 
 [[files]]
@@ -8199,5 +8199,5 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "d06390c45fdda96b96e6ba5a0b9a3f00101aacb9c23d438c578ac0be45b5a85f"
+hash = "af5237fbeadd8c40dac095f807b270f16d29ddc93549a1a66031da2205196485"
 preserve = true

@@ -1,5 +1,107 @@
 # Best Laid Plains: changelog
 
+## 0.37.0 (2026-11-23)
+
+- added Cobblecare-1.2.0.jar
+- added cobblemon-conveniences-0.36.4.jar
+- added cobblemon-ride-or-die-0.6.1.jar
+- added cobblemonraidrevolution-neoforge-0.14.3.jar
+- added create_i_choose_you-0.4.0.jar
+- added dynamicroots-0.59.2.jar
+- added mca-karma-4.4.0.jar
+- added packtactics-0.16.1.jar
+- added plainolpatches-2.38.0+1.21.1.jar
+- added trainers-delight-0.7.2.jar
+- removed Cobblecare-1.1.0.jar
+- removed cobblemon-conveniences-0.33.1.jar
+- removed cobblemon-ride-or-die-0.6.0.jar
+- removed cobblemonraidrevolution-neoforge-0.13.4.jar
+- removed create_i_choose_you-0.3.1.jar
+- removed dynamicroots-0.59.0.jar
+- removed mca-karma-4.3.1.jar
+- removed packtactics-0.16.0.jar
+- removed plainolpatches-2.36.5+1.21.1.jar
+- removed trainers-delight-0.7.0.jar
+- 2 config, script or data files changed
+- default key bindings changed for new installs (existing players keep their own)
+- The private zip has an update (IndustrialCraft 2 Classic). Your current zip still works.
+
+Tickets closed since the last release:
+- BUG-40: Intake leaves the client JFR and telemetry packed in original.zip
+- CC-37: I can't figure out how to see the Cobblecare diets in EMI (usability/access i...
+- CC-51: Fighting types should like dishes that involve prepared proteins like Cooked...
+- CC-52: Fire Pokémon should melt nearby snow as a friendship benefit (50% of their li...
+- CC-65: Hunger bars in sidebar overlap with "released" icon.
+- CC-66: Rotten tomatoes are missing from the Poison type preferred diet.
+- CC-67: Duplication in tooltip.
+- CC-68: Using a Pokémon in battle should grant 1 friendship, once per battle, if it d...
+- CCV-57: Bugs with marking Pokémon:
+- CCV-83: Following behavior cannot path Pokémon onto unsafe surfaces like magma.
+- CCV-87: Three intermittent GameTest failures on ccv-ender loop 1 (cause unknown)
+- CCV-88: The Showdown warm-up battle is visible at the world spawn (a Rattata and a Pidgey fight beside a new single-player player)
+- CCV-89: Pride Ball tiers should be Cobblemon's Level Ball tiers inverted (2x, 3x, 4x), not 2/4/8
+- CCV-90: Lodge Pokémon crowd together and jam; spread them out
+- CCV-91: Follower's walk to its post crosses the owner's personal space at turns
+- CICY-02: Compared to Mechanical Healing Machine, the I Choose You! machine is lacking...
+- CRR-03: Per-raider damage attribution for required_damage in the shared battle
+- CRR-21: Raid den has a timer even though it doesn't reset. It's OK that it doesn't re...
+- CRR-22: Raid lobby persists outside the raid dimension.
+- CRR-23: Forefeiting faints my Pokémon. It should just end the battle.
+- CRR-24: Being in the raid dimension puts a weird tint on my screen. Where does it com...
+- CRR-25: The raid Y/N quick options do not do anything. You have to use the mouse mode...
+- CRR-26: After forfeiting a raid, I get the action text "you are already hosting anoth...
+- CRR-28: Exploration: shift a crystal's initial star toward what the approaching player's team can handle
+- DR-29: Vanilla mangrove roots generate above ground next to Dynamic Roots mangroves
+- DR-39: Root-threaded dirt on the surface. Intended?
+- DR-41: Dynamic Trees saplings should be compostable.
+- DR-44: These Cherry trees are growing way too tall, it looks unnatural.
+- DR-50: Weird shading after cutting down a mega spruce.
+- DR-51: This blue apricorn tree seems to have propagated 3 times, but the others have...
+- DR-62: Seasonal foliage: leaves die off in autumn/winter and regrow in spring, so dormancy is visible
+- DR-64: Allow tilling/pathing of root-threaded dirt, and any other properties dirt no...
+- DR-65: Increase the droprate of rubber wood from rubber trees. The droprate of wood...
+- ENG-52: server_probe: supplied world folder, unrestricted RCON script, timed sampling
+- ENG-54: deploy_mods --ref: build and promote a tagged release without touching the repo
+- GEN-123: Giant Dynamic Trees (logarithmic growth past the initial stage) - research
+- GEN-140: Party battles should stay in step with the world
+- GEN-170: We need to replace Peaceful Surface with a stricter anti-surface-monster mod,...
+- GEN-182: The previews for placing cogs aren't showing up like they're supposed to. Pro...
+- GEN-215: Gentler Burnt fire spread
+- GEN-228: World join: first minute stutters from CPU contention; defer and deprioritise background work
+- GEN-254: Give Cobblemon berries the "fruit" tag for Farmer's Delight and make them int...
+- GEN-255: Merge flour from IC2 and Farmer's Delight/Create as a single tag
+- GEN-256: Unify Ic2 coffee beans and Rustic Delight coffee beans and hunt for other uni...
+- GEN-257: Add sweet berries and Cobblemon berries to syrup ingredients
+- GEN-258: A recipe for compatibility between Applied Energistics and Create: New Age to...
+- GEN-259: Despite having narrowed down the column the mysterious cube is in and digging...
+- GEN-260: DH LODs drawn over loaded caves under Complementary (curtains)
+- GEN-265: Polymorph doesn't work in AE2's crafting terminal.
+- GEN-289: Smoke particles are influenced by wind even when surrounded by walls. More di...
+- GEN-291: Drying dirt and rehydrating it to make clay isn't showing up in EMI (A friend...
+- GEN-296: Rapidly switching from generator ui to batbox causes network protocol error
+- GEN-297: Nuke recipe only shows shapeless crafting, not crafting table option
+- GEN-299: Item dupe glitch when placing placeables in Cobblemon using Effortless Building.
+- GEN-301: Pressing "b" still closes the backpack when searching the stonecutter menu.
+- GEN-317: New Age connectors with C&A accumulators: GameTest
+- GEN-319: Smoldering grass not decaying.
+- GEN-323: Mespirit plume seems to be in the wrong loot tables.
+- GEN-327: Client crash: YeetusNarratus TOGGLE_NARRATOR keybind null at first tick (intermittent)
+- GEN-329: Raid bosses end the encounter before meeting a loss condition.
+- GEN-334: Traders still offer dye. Didn't we fix this?
+- GEN-336: Burnt is way too aggressive. Even putting out a fire started with flint and s...
+- GEN-339: Still getting the issue where placing many blocks with Effortless Building pl...
+- GEN-345: Evening disconnection crash log.
+- GEN-346: Non-Distant-Horizons crash log
+- IC2-09: No IC2 machine output recipes in EMI
+- IC2-17: Empty washing recipe.
+- KAR-37: Need a way to un-register and reposition a site.
+- KAR-41: Villagers should be able to eat from feasts, if they can't already.
+- PACK-01: player pack must not redistribute third-party files
+- PT-14: Log direct fallback spawns as fallback
+- ROD-02: Party-battle GameTests: intermittent Graal 'Multi threaded access' on the Server thread
+- TD-05: The egg stacking seems to add two egg sprites per egg added rather than just 1.
+- VENUS-07: Venus as the multiplayer server (replace Winternode)
+
 ## 0.36.0 (2026-11-22)
 
 - added cobblemon-comes-alive-3.3.3.jar
