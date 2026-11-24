@@ -1,5 +1,12 @@
 # Best Laid Plains: changelog
 
+## 0.38.1 (2026-11-24)
+
+- The private zip has an update (IndustrialCraft 2 Classic). Your current zip still works.
+
+Tickets closed since the last release:
+- CCV-92: server load of Lodge Pokémon
+
 ## 0.38.0 (2026-11-24)
 
 - added buggered-0.28.0.jar
