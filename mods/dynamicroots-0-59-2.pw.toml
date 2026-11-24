@@ -1,8 +1,0 @@
-name = "dynamicroots-0.59.2"
-filename = "dynamicroots-0.59.2.jar"
-side = "both"
-
-[download]
-url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/dynamicroots-0.59.2.jar"
-hash-format = "sha512"
-hash = "ae4e4f0375749de9d3d9a31d770996866d278e56a3f260ba22d3124e3da36ddf31b7f28b269cbdcdcc8d4d01cffd20326216b8da37096275059296184e7bdeae"

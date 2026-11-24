@@ -1,0 +1,8 @@
+name = "create_charon-0.7.1"
+filename = "create_charon-0.7.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/create_charon-0.7.1.jar"
+hash-format = "sha512"
+hash = "15f2b45b67cefad3b0eef174c421d50b649dbdc1d4d78e11b106b120d4600164a3447b9296894e627da5b402b4afc3ce4d0c8bf733d813ac7a18e7609a78e9c3"

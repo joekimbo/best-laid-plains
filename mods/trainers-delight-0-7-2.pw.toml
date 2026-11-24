@@ -1,8 +1,0 @@
-name = "trainers-delight-0.7.2"
-filename = "trainers-delight-0.7.2.jar"
-side = "both"
-
-[download]
-url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/trainers-delight-0.7.2.jar"
-hash-format = "sha512"
-hash = "ea6a765487ef2cbf00791eca5f8d4d2b0e8243ccd36313e226b5c297b007323aa3a59aa46a2f5450e61da61d1d4fe4a4cc6ab043d5c0d840aa03e3f0f49bda0f"

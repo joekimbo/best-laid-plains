@@ -711,7 +711,7 @@ hash = "ac23f299e2dbf56a9b3c3791052c93d4d1c2a8bc0683a5025b8738275df3f060"
 
 [[files]]
 file = "config/cobblemontrialsedition-common.toml"
-hash = "fd06d79c9a235a34ec934008bd35d1f28ec37ce7729a3981d30eb304a0a07e67"
+hash = "8b23842166af79a8ff64e498789199d4a8082981a8596b871596422584377602"
 
 [[files]]
 file = "config/cobblenav/client-config.json"
@@ -6358,8 +6358,8 @@ hash = "ba3b9990bc44bedb8eacbe11b2beffb7457cc6ddd854e78fcaf8d73d8f2578db"
 metafile = true
 
 [[files]]
-file = "mods/buggered-0-27-3.pw.toml"
-hash = "ecb5e7edb0d946b4587f3b594146ded65cfa4a70fe84709f976cd0fe1a519bf1"
+file = "mods/buggered-0-28-0.pw.toml"
+hash = "0052b39b347de1fe2504716b51a64409214c1f80a876492f0b93bc7c33320b50"
 metafile = true
 
 [[files]]
@@ -6473,13 +6473,13 @@ hash = "ddb5d3aa8646191294ab31745bc77f5d2ad7d9143c6920a90ee479365b6c525c"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-comes-alive-3-3-3.pw.toml"
-hash = "fa1792cd4bc126a975c165f940b7904dfcefcb04b2b02e87b5ebd07d7dc33e93"
+file = "mods/cobblemon-comes-alive-3-4-0.pw.toml"
+hash = "487b95f6c5138cbe93521f570f13c5a8b4bf10f7e85dfbe0975a8c800c9eb958"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-36-4.pw.toml"
-hash = "0226254bd5bb5c98023d91240a8685fbeee6146ce46590821795121dd365b65e"
+file = "mods/cobblemon-conveniences-0-36-8.pw.toml"
+hash = "e8950a8f76ecdbffa6f6d94a6ac6c8cb9af872080bf46481095922373a598907"
 metafile = true
 
 [[files]]
@@ -6563,8 +6563,8 @@ hash = "2cb849c31c6c51e394b254850243112c6a1a93a3b3534de1ebb9add05a90dd2d"
 metafile = true
 
 [[files]]
-file = "mods/cobblemonraidrevolution-neoforge-0-14-3.pw.toml"
-hash = "308c221cca9426af96127e4030e7550625619f36743c0956ebf774506ef80c87"
+file = "mods/cobblemonraidrevolution-neoforge-0-14-4.pw.toml"
+hash = "fd737fef8df32fcbb53ad2d44f46ca781a3686a122b172ec1d3867b476ee74a3"
 metafile = true
 
 [[files]]
@@ -6713,8 +6713,8 @@ hash = "3752b1dcdfebbb1e79c97c847095153155d64636576a9c0ac11ffa6506c62922"
 metafile = true
 
 [[files]]
-file = "mods/create-charon-0-6-0.pw.toml"
-hash = "f0ab8a21cd4ef0b759507541f043ae26fe520911cbf4dc4731b83f81fe070c66"
+file = "mods/create-charon-0-7-1.pw.toml"
+hash = "f148fe89b3a5e3ab87fbd0bbab4b4ebaaeb82cc1c3d4ff68ec4964910bd6782f"
 metafile = true
 
 [[files]]
@@ -7003,8 +7003,8 @@ hash = "46b7d908b379ba6bafa386dd1f4794fee673390d675f73d4b2b159780fcfc0d1"
 metafile = true
 
 [[files]]
-file = "mods/dynamicroots-0-59-2.pw.toml"
-hash = "65d0fc556ac027cc4f6195fc2b2fac1f6461d7d5b24fc1b265a4edbec34a80c0"
+file = "mods/dynamicroots-0-60-0.pw.toml"
+hash = "527ea0dc17a53062699163d7d2351daaf3935a5547905ad5941483446c6b72d0"
 metafile = true
 
 [[files]]
@@ -7503,8 +7503,8 @@ hash = "02ba8e044a69d1113eadc58eca92f959ef77bed50cdccd558d9d2b79d54589cb"
 metafile = true
 
 [[files]]
-file = "mods/mca-karma-4-4-0.pw.toml"
-hash = "5494b0780b4959d47210bfff6e6e56a2790d8e940b5fb0556f38bcc3ab05c5e7"
+file = "mods/mca-karma-4-5-1.pw.toml"
+hash = "2f23d06e9b6d6e0faa96e78f668b0ea518877dafcab3b46c6ba3b23edda0dfaa"
 metafile = true
 
 [[files]]
@@ -7683,8 +7683,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-38-0-1-21-1.pw.toml"
-hash = "14b73eaa0af30a99189b37d1647557d2f111eff61886fbb4f12e03c6035ed4af"
+file = "mods/plainolpatches-2-40-0-1-21-1.pw.toml"
+hash = "3142580df007b1d2e9e316d9597be902cb798666febd2298cc0b29ebd4e6a39e"
 metafile = true
 
 [[files]]
@@ -8018,11 +8018,6 @@ hash = "38adf4d5137b7937f0d8b01d4dd61c9bd8a4f4a7f2149e867c17b53311d21c47"
 metafile = true
 
 [[files]]
-file = "mods/the-roads-more-travelled.pw.toml"
-hash = "2cd56626d6ec1c6b366a273043a05fbf7c8cc9d3577513e29ab804bd70ff7cd8"
-metafile = true
-
-[[files]]
 file = "mods/thirst-was-taken-2.pw.toml"
 hash = "025d5e4bf9c0ba1ada43826271cd72687f029c89ebe7850d666fe16f3b5b8669"
 metafile = true
@@ -8053,8 +8048,8 @@ hash = "28748229b2ef0c7a69c1f52aa8b1581d8d444ca6e6a30955064775da7dc81390"
 metafile = true
 
 [[files]]
-file = "mods/trainers-delight-0-7-2.pw.toml"
-hash = "07fe298cbc67e04d71351cb2cdd248d3432ae277f40c88f6319d25ecc2fc7b6f"
+file = "mods/trainers-delight-0-8-0.pw.toml"
+hash = "51e3ff55a003bf601f7b5a37184ace9060fe8ac788e485153617b2ba02be265e"
 metafile = true
 
 [[files]]
@@ -8110,11 +8105,6 @@ metafile = true
 [[files]]
 file = "mods/worldgenfeaturefix.pw.toml"
 hash = "ae20a99243ee4fdf165521727d0798732610755795133b111dcb0cd26c631536"
-metafile = true
-
-[[files]]
-file = "mods/xks-decoration.pw.toml"
-hash = "eb0f6391857a93112df9d8f6863f7157bba8f848970f410ddf755e06e055aecf"
 metafile = true
 
 [[files]]

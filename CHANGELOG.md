@@ -1,5 +1,132 @@
 # Best Laid Plains: changelog
 
+## 0.38.0 (2026-11-24)
+
+- added buggered-0.28.0.jar
+- added cobblemon-comes-alive-3.4.0.jar
+- added cobblemon-conveniences-0.36.8.jar
+- added cobblemonraidrevolution-neoforge-0.14.4.jar
+- added create_charon-0.7.1.jar
+- added dynamicroots-0.60.0.jar
+- added mca-karma-4.5.1.jar
+- added plainolpatches-2.40.0+1.21.1.jar
+- added trainers-delight-0.8.0.jar
+- removed buggered-0.27.3.jar
+- removed cobblemon-comes-alive-3.3.3.jar
+- removed cobblemon-conveniences-0.36.4.jar
+- removed cobblemonraidrevolution-neoforge-0.14.3.jar
+- removed create_charon-0.6.0.jar
+- removed dynamicroots-0.59.2.jar
+- removed mca-karma-4.4.0.jar
+- removed plainolpatches-2.38.0+1.21.1.jar
+- removed trmt-0.5.1-1.21.1-neoforge.jar
+- removed trainers-delight-0.7.2.jar
+- removed XeKr's Decoration-1.21.1-NeoForge-1.1.10.jar
+- 1 config, script or data files changed
+- The private zip has an update (IndustrialCraft 2 Classic). Your current zip still works.
+
+Tickets closed since the last release:
+- BUG-32: Optional keypress telemetry in Buggered reports
+- BUG-36: Submitting a bug to the server doesn't clear data from the previous report.
+- BUG-39: Going to submit a report before the previous one is submitted pulls up the re...
+- CC-48: Redesign: split the hunger bar into 8 slices; big meals over-satiate
+- CC-70: Player party and lodge are in conflict
+- CCA-19: CCA battle should let you lead with the Pokémon you have selected. I wanted t...
+- CCOR-02: First battle waits ~10 s: Showdown cold start (from GEN-307)
+- CCV-52: "Random of type" button should be an option that uses Cobblemon's design lang...
+- CCV-55: Not a bug, but something worth checking: All random-of-type starters should b...
+- CCV-56: "Random of type" button should be moved to an area of free space and match Co...
+- CCV-63: Pichu stuck in lodge block.
+- CCV-67: Routing goods and supplies between Lodges from a central point (design TBD)
+- CCV-72: Flying Lodge hunter may hover at its Lodge in a 'no progress, recalled' loop
+- CCV-78: Lodge Pokémon need to roam and take leisurely breaks while resting so they do...
+- CCV-85: Lodge 11 patrol: 'path failed three times' recall loop repeats in the server log
+- CCV-93: Follow: react to the owner's raw step, not the smoothed speed
+- CP-12: Review Create: Prospecting against the Geology of Minecraft videos
+- DR-66: Trees grow under glowstone/block light (soft phototropism underground)
+- ENG-11: RMA the bad 16 GB stick ("Y"; Samsung dies per SPD 10-31, filed as "SK Hynix" until then)
+- ENG-25: Upgrade Venus from Ubuntu 20.04 to the current LTS (26.04)
+- ENG-26: Client scenario runner (headless-Selenium style) + slim dev clients
+- ENG-32: Survival server: 13 s freeze at 20:18 UTC on 2026-11-08 dropped a player
+- ENG-50: Automate session health reports: extract on game exit, delete JFRs, weekly digest + Orchestrator notice
+- GEN-105: A bunch of these villagers are bunched up like their pathfinding is broken.
+- GEN-113: Feature request: Warped dynamic Apricorn trees that grow multiple different t...
+- GEN-127: Very narrow biome strip; biomes should be larger than this. Areas with biomes...
+- GEN-130: Very chunky LODs here, moreso than usual.
+- GEN-131: Substrate selections seem to follow a grid pattern. What's determining what b...
+- GEN-132: Mountains should be painted with more dirt, with stone primarily at the upper...
+- GEN-133: Where does this structure come from? It's not natural oregen. I thought we go...
+- GEN-146: The forest abruptly ends here instead of thinning out, and all that's left be...
+- GEN-148: Strange diorite walls in worldgen in this swamp. They look intentional. Where...
+- GEN-171: Thirst was Taken 2 addon to allow you to melt snow into water.
+- GEN-172: Add recipes for purifying water in canteens/waterskins/terracotta bowls to th...
+- GEN-184: Distant Horizons error (I think)
+- GEN-196: When I destroyed a beehive that had bees in it, nothing popped out.
+- GEN-205: Weird screen tearing
+- GEN-209: Forest fire burn follows chunk borders (Burnt?)
+- GEN-222: Missing string on redstone connector
+- GEN-224: My frames are really bad right now, probably snow-related.
+- GEN-225: Snow! Snow! SNOW! It gets in the way, you can't place stuff on it, and if you...
+- GEN-234: Party menu overlaps with animation speed setting (left bar).
+- GEN-242: There are two recipes for beetroot soup, making the same item, but one costs...
+- GEN-293: Hot Air Burners
+- GEN-298: Some sord of weird visual blob in the middle of my screen that fucks with my...
+- GEN-300: How difficult would it be to make it so that all blocks you placed using Effo...
+- GEN-302: Add stairs/slabs/etc variants of Tuff to the Chisel menu.
+- GEN-307: The Showdown battle never started! AAAA! Okay it actually did it just took li...
+- GEN-308: Make terracotta bowls from ThirstWasTaken2 compatible with Farmer's Delight c...
+- GEN-310: Offer eased joins to players who keep timing out (3 involuntary disconnects in an hour), with a confirmation prompt
+- GEN-311: 'data modify ... from entity @s Pos' in a tick function serializes the whole player every tick (Spawn Animations; POP positionOnly misses it)
+- GEN-318: Any item tagged #stone that doesn't already have a crushing recipe should get...
+- GEN-328: Using revival items in raid dens does not impact the ongonig raid session but...
+- GEN-330: lag-sensitive throttling of wild Pokémon spawns
+- GEN-331: Some cobblemon keep distance out of interaction range
+- GEN-333: Add a zone of safety around and below underwater structures like the elder gu...
+- GEN-335: Recipe to grind burnt blocks (burnt logs, fences, doors, etc.) into ash with...
+- GEN-341: Incrteased yields on expensive cosmetic blocks
+- GEN-342: Allow any chest in this recipe, for compat with Sophisticated Storage.
+- GEN-343: Allow any kind of plank in this recipe.
+- GEN-344: Add the Dye Depot dyes to this recipe.
+- GEN-348: Alphas and Pride Ball catches join at most at your highest party level
+- GEN-357: Rare Candies don't seem to work. Could be a food item and thus only works whe...
+- GEN-96: Entered the Nether for the first time, pretty laggy. Worth analyzing the prof...
+- IC2-16: Unable to enable/disable lossless mode on ic2 powered wrenches
+- IC2-18: Blasting recipe conflict
+- KAR-42: Allow us to lay stacks of food on the altar at a time.
+- KAR-45: Lower bevels offered for trade by wandering traders by half (half as many tra...
+- KAR-46: Jewelry's Karma value should be scaled by the tier of the materials.
+- KAR-47: Jewelry offerings are listed as "air" in the action bar.
+- KAR-48: Villager stuck in pit. Should try and dig his way out if stuck long enough.
+- PNP-101: Very large square clearing.
+- PNP-107: Retire outline straightness v1 in the surface check
+- PNP-108: Tile puddle rule: prove it or drop SeaPuddleFill
+- PNP-111: Cobblemon berries and herbs are placed differently between runs of one seed
+- PNP-124: Lake interrupted by a structure.
+- PNP-20: Dam response (spec only, post-MVP)
+- PNP-23: river level and valley model (design)
+- PNP-26: Dirt splotches at the base of the river are too regular.
+- PNP-29: Regular Tuff/Diorite pattern along this wall.
+- PNP-30: Unusually circular bank painting. It doesn't look terrible, but I wonder if i...
+- PNP-31: High wall next to this river. Why?
+- PNP-32: Odd ridge beside this river.
+- PNP-33: Structure boundary cuts into the riverbank.
+- PNP-38: Large wall along this riverbank.
+- PNP-39: Structure in water, covered in gravel for some reason.
+- PNP-43: Structure on a river.
+- PNP-47: Idea w.r.t. river depth: A linear regression on a mean depth walk across the...
+- PNP-48: Ridge of land where the river meets the sea.
+- PNP-50: The beach seems to disagree about where the beach begins. And shouldn't the c...
+- PNP-53: Another set of strange, terrace-like patterns in the land.
+- PNP-61: Vertical exaggeration inside the erosion stage
+- PNP-65: Lake-19 chute: lake water falls to the river in one-block stairs, not declared (post-MVP)
+- PNP-77: The coast is too evenly rounded.
+- PNP-79: Floating snow.
+- PNP-80: Extremely small swamp biome.
+- PNP-90: Progress bars during worldgen disappear partway through instead of being repl...
+- PNP-92: The water in these rivers doesn't always clear all the way down to the next l...
+- PNP-95: This river starts off too round instead of from tiny tributaries like it should
+- PNP-97: The basin on this mini-lake could be smoother.
+
 ## 0.37.0 (2026-11-23)
 
 - added Cobblecare-1.2.0.jar
