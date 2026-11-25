@@ -1,5 +1,13 @@
 # Best Laid Plains: changelog
 
+## 0.39.0 (2026-11-24)
+
+- added Cobblecare-1.4.0.jar
+- removed Cobblecare-1.2.0.jar
+
+Tickets closed since the last release:
+- CC-71: Rare Candies don't seem to work
+
 ## 0.38.1 (2026-11-24)
 
 - The private zip has an update (IndustrialCraft 2 Classic). Your current zip still works.

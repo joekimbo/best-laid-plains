@@ -6448,8 +6448,8 @@ hash = "fd3cf502094e8e33136397d3141c93d8732f6d3a306bb7cbc1a7c720832206e1"
 metafile = true
 
 [[files]]
-file = "mods/cobblecare-1-2-0.pw.toml"
-hash = "7409fb78157466f3ac67e8f1ada9f29a0b514127490b21a7a30dadb963b42d30"
+file = "mods/cobblecare-1-4-0.pw.toml"
+hash = "9b73703e497ab4e1bddfc3275ae44d3bd854386122b31d4e34f1de44cb85ac04"
 metafile = true
 
 [[files]]
