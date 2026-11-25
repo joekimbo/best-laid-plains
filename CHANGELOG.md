@@ -1,5 +1,28 @@
 # Best Laid Plains: changelog
 
+## 0.41.0 (2026-11-25)
+
+- added bits_n_tracks-3.0.4.jar
+- added buggered-0.28.1.jar
+- removed buggered-0.28.0.jar
+- removed tracks_plus-1.0.6b7.jar
+- removed create_tracks_ponders-0.1.0-mc1.21.1-neoforge.jar
+
+Tickets closed since the last release:
+- BUG-28: Freeze false positive on launch
+- CCV-102: Recipes still not showing up.
+- CCV-79: Pokémon following is better, but it needs some refinements.
+- CCV-95: New Poke Balls missing from the EMI index
+- CCV-97: The crafting recipes for the new balls aren't coming up in EMI, save for the...
+- CTP-01: These ponders need review, they're all wacked out.
+- ENG-35: Spike: Minecraft clients on Mercury in WSL2 with GPU paravirtualization (no active desktop needed)
+- ENG-48: deploy_mods: --add for a new mod's first promote
+- GEN-143: Illager Invasion illusioner tower placed in a river
+- GEN-147: Structure in water.
+- GEN-272: Got kicked after trying to use Effortless Building.
+- GEN-275: A Ruined Portal in the Nether transported me to the ocean floor very near bas...
+- GEN-284: No ponders for Create: Tracks+
+
 ## 0.40.0 (2026-11-24)
 
 - added cobblemon-conveniences-0.36.14.jar

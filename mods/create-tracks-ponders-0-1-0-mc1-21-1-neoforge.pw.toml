@@ -1,8 +1,0 @@
-name = "create_tracks_ponders-0.1.0-mc1.21.1-neoforge"
-filename = "create_tracks_ponders-0.1.0-mc1.21.1-neoforge.jar"
-side = "client"
-
-[download]
-url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/create_tracks_ponders-0.1.0-mc1.21.1-neoforge.jar"
-hash-format = "sha512"
-hash = "e3ae34e0845e7944caff8258862f23553207333f52d300283840a9cdcceb5083e1a12adf67d28243751b8aacb9c9ce740e29ce9e0b977cd49d601af2f89213a3"

@@ -6348,6 +6348,11 @@ hash = "5e6b92aeaa2ca2dab799c563faac0e2cb0c95a1be5440f67177b7ad35776cfa3"
 metafile = true
 
 [[files]]
+file = "mods/bits-n-tracks-ce.pw.toml"
+hash = "7e0d875058e27536ffb0928f4c6b93fc569febf5f270290b625bc8cb64d95bfb"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
@@ -6358,8 +6363,8 @@ hash = "ba3b9990bc44bedb8eacbe11b2beffb7457cc6ddd854e78fcaf8d73d8f2578db"
 metafile = true
 
 [[files]]
-file = "mods/buggered-0-28-0.pw.toml"
-hash = "0052b39b347de1fe2504716b51a64409214c1f80a876492f0b93bc7c33320b50"
+file = "mods/buggered-0-28-1.pw.toml"
+hash = "88a38c403c65aff051f0e4e53f20cad7e8b6370534431a2f0a74bb83e40ac8b3"
 metafile = true
 
 [[files]]
@@ -6875,16 +6880,6 @@ metafile = true
 [[files]]
 file = "mods/create-stock-bridge.pw.toml"
 hash = "e04ae91b53c33f6a4dea9ebc82be4255a56460a9e095a3a1fd748434e5dfb3bb"
-metafile = true
-
-[[files]]
-file = "mods/create-tracks-plus.pw.toml"
-hash = "b5d7bf5c707e49e0ad5f266fc440ad6bdfeb86c2774e9b3574ea17c35d33082d"
-metafile = true
-
-[[files]]
-file = "mods/create-tracks-ponders-0-1-0-mc1-21-1-neoforge.pw.toml"
-hash = "cc5f0f7b01930c687200b4a900ab089e2d2212d35047d7c10f0c859fc989e9e4"
 metafile = true
 
 [[files]]
