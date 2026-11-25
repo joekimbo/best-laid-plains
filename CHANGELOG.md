@@ -1,5 +1,28 @@
 # Best Laid Plains: changelog
 
+## 0.40.0 (2026-11-24)
+
+- added cobblemon-conveniences-0.36.14.jar
+- removed cobblemon-conveniences-0.36.8.jar
+
+Tickets closed since the last release:
+- CC-38: Allow us to feed other trainers' Pokémon.
+- CC-55: Telemetry: how often battle-affection effects fire (crit, status shrug, endure)
+- CC-69: Pokémon should not use the villager refusal sound effect when they refuse foo...
+- CCV-100: Player party and lodge are in conflict
+- CCV-73: This hive has 3 bees but no honey.
+- CCV-74: This log isn't rendered properly.
+- CCV-84: Followers don't seem to be aware on if they're on the same level as you, so t...
+- CCV-96: Zoroark Illusion battles stall on Cobblemon 1.8.4 (Showdown build 19 removed >eval)
+- CCV-99: Skeleton horse shouldn't spawn.
+- ENG-28: UI gallery: render client screens from sample data to PNG, no world
+- ENG-46: Venus: client tests while players are online, gated on MSPT
+- ENG-55: Status board: ticket states, generator and the user's board page
+- ENG-59: Pack changelog app
+- GEN-162: The Roads More Travelled breaks flowers when it transitions blocks, even for...
+- GEN-349: Remove XeKr's Decoration (census, replacement map, sweep)
+- ORCH-04: Disk: C:\MC is 359 GB (35 % of C:), ~40 GB must be kept
+
 ## 0.39.0 (2026-11-24)
 
 - added Cobblecare-1.4.0.jar

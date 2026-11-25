@@ -6478,8 +6478,8 @@ hash = "487b95f6c5138cbe93521f570f13c5a8b4bf10f7e85dfbe0975a8c800c9eb958"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-36-8.pw.toml"
-hash = "e8950a8f76ecdbffa6f6d94a6ac6c8cb9af872080bf46481095922373a598907"
+file = "mods/cobblemon-conveniences-0-36-14.pw.toml"
+hash = "1dfdf974b685a9c20d407048008753e12aa1687d346cb641475347aa5f3f1ccb"
 metafile = true
 
 [[files]]
