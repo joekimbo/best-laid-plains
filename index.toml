@@ -6483,8 +6483,8 @@ hash = "487b95f6c5138cbe93521f570f13c5a8b4bf10f7e85dfbe0975a8c800c9eb958"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-36-14.pw.toml"
-hash = "1dfdf974b685a9c20d407048008753e12aa1687d346cb641475347aa5f3f1ccb"
+file = "mods/cobblemon-conveniences-0-38-1.pw.toml"
+hash = "434922e1077a290191b86712f3111c36b5b0940e03ccddb187d17fc993e7b79b"
 metafile = true
 
 [[files]]
@@ -6998,8 +6998,8 @@ hash = "46b7d908b379ba6bafa386dd1f4794fee673390d675f73d4b2b159780fcfc0d1"
 metafile = true
 
 [[files]]
-file = "mods/dynamicroots-0-60-0.pw.toml"
-hash = "527ea0dc17a53062699163d7d2351daaf3935a5547905ad5941483446c6b72d0"
+file = "mods/dynamicroots-0-60-2.pw.toml"
+hash = "bd65ed6c1ee4765dbf5f8cb4eeb8373dc95c11f78962ce696662d7621200fa80"
 metafile = true
 
 [[files]]

@@ -1,5 +1,16 @@
 # Best Laid Plains: changelog
 
+## 0.42.0 (2026-11-25)
+
+- added cobblemon-conveniences-0.38.1.jar
+- added dynamicroots-0.60.2.jar
+- removed cobblemon-conveniences-0.36.14.jar
+- removed dynamicroots-0.60.0.jar
+
+Tickets closed since the last release:
+- CRR-05: CRR works without Battle Extras
+- DR-57: Root-threaded podzol on the surface.
+
 ## 0.41.0 (2026-11-25)
 
 - added bits_n_tracks-3.0.4.jar
