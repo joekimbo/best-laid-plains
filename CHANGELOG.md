@@ -1,5 +1,26 @@
 # Best Laid Plains: changelog
 
+## 0.44.0 (2026-11-25)
+
+- rustling_leaves-neoforge-1.21.1-2.8.0.jar -> rustling_leaves-neoforge-1.21.1-2.8.3.jar
+- added Cobblecare-1.5.1.jar
+- added cobblemon_seasons-0.2.0.jar
+- added plainolpatches-2.46.1+1.21.1.jar
+- added plainsandpeaks-1.23.8.jar
+- removed Cobblecare-1.4.0.jar
+- removed plainolpatches-2.45.1+1.21.1.jar
+- removed plainsandpeaks-1.23.6.jar
+- 2 config, script or data files changed
+
+Tickets closed since the last release:
+- GEN-168: This menu button has a string error. I can't even tell where it comes from.
+- GEN-239: This enchantment lacks a description
+- GEN-240: Another enchantment missing its description
+- GEN-370: Roof blocks don't seem to obey the rules of shaders.
+- GEN-374: Save and Quit should wait for the save (show the full saving screen)
+- SRS-03: Can't break blocks with Effortless Building.
+- SRS-04: I placed all of these wall blocks; why are only two breakable???
+
 ## 0.43.0 (2026-11-25)
 
 - added cobblemon-conveniences-0.39.0.jar

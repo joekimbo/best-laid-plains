@@ -476,7 +476,7 @@ hash = "a8d9256245e6a4a9ef9cd19db22432e7dccf447fa7ba803a70ebd23624e7d21b"
 
 [[files]]
 file = "config/c2me.toml"
-hash = "c798f6506794562fe811c8bd77efb30da7058fe9ab66b261f0d8a83fb330e438"
+hash = "9112e766159c9d782836ade4c5958d102a387c3107be6a42b2e5cc27ecbb9322"
 
 [[files]]
 file = "config/capture_xp.json"
@@ -2177,7 +2177,7 @@ preserve = true
 
 [[files]]
 file = "config/livingwind-common.toml"
-hash = "fc62811d2590a4f42ea287ad24e2549f570d8b838e00fc09a642167571054219"
+hash = "e086acdb441376d193ce007e682581d0e9fb77fe7fd524565b9857034de89cfd"
 
 [[files]]
 file = "config/lmft.json"
@@ -6453,8 +6453,8 @@ hash = "fd3cf502094e8e33136397d3141c93d8732f6d3a306bb7cbc1a7c720832206e1"
 metafile = true
 
 [[files]]
-file = "mods/cobblecare-1-4-0.pw.toml"
-hash = "9b73703e497ab4e1bddfc3275ae44d3bd854386122b31d4e34f1de44cb85ac04"
+file = "mods/cobblecare-1-5-1.pw.toml"
+hash = "4f05ece046f90f022f7b7428a38400262f68fe97a3436ce3d78149affcf2f7a2"
 metafile = true
 
 [[files]]
@@ -6540,6 +6540,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-ride-or-die-0-6-1.pw.toml"
 hash = "1f44fd48cab11488718b912c723fa4c58237c287d0260783b969b1ac2a339882"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-seasons-0-2-0.pw.toml"
+hash = "8dafc9a2ffd99aba424dbf9f5f14db2ddbde4a513120457864c1b1f5a5707c8c"
 metafile = true
 
 [[files]]
@@ -7673,8 +7678,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-45-1-1-21-1.pw.toml"
-hash = "82f5e0e016140b4f63deac8cdc99cdc22c36f1237ddb41f8c774433ea515b0e4"
+file = "mods/plainolpatches-2-46-1-1-21-1.pw.toml"
+hash = "8d43e227b7325e183d5ae198d8d8a14529e907122a2cf6874a206e6fe3d5d023"
 metafile = true
 
 [[files]]
@@ -7683,8 +7688,8 @@ hash = "21f258f05a34fdaef73f0909cf3af73b71ed726dc5d66fa4761eb77b5aa469c7"
 metafile = true
 
 [[files]]
-file = "mods/plainsandpeaks-1-23-6.pw.toml"
-hash = "aaa82ae5c869a4c5cde1c9c9aa59519667ac458ef9365cc03b8330a4ccd2c006"
+file = "mods/plainsandpeaks-1-23-8.pw.toml"
+hash = "ff0043301428da166b7cc04aec43f6f7a1b2afaa5e259d718db8cc05d8dd3bc7"
 metafile = true
 
 [[files]]
@@ -7809,7 +7814,7 @@ metafile = true
 
 [[files]]
 file = "mods/rustling-leaves.pw.toml"
-hash = "850a1b00d0b9621e316712acf72cf8c25adca4efce79a89a656287f4c0353942"
+hash = "45ff542790e18f23be9e2881b5425a5237cd029e716e83f8c336320c18f52549"
 metafile = true
 
 [[files]]

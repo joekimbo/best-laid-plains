@@ -19,7 +19,7 @@ version = 3
 defaultGlobalExecutorParallelismExpression = "default"
 # ================================================================
 # (Default: 7) Configures the parallelism of global executor
-globalExecutorParallelism = 4
+globalExecutorParallelism = 3
 # ================================================================
 # (Default: LOW) Sets the thread priority preset for worker threads
 # 

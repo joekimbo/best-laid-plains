@@ -193,7 +193,7 @@
 	#Wind force multiplier on eligible airships/sail-bearing contraptions. 1.0x is the balanced, playtested baseline (formerly 0.30x); 0 disables the force.
 	# Default: 1.0
 	# Range: 0.0 ~ 5.0
-	forceMultiplier = 1.0
+	forceMultiplier = 0.2
 	#Drive Transmission & Linkage Kinetic Conversion Bearings with Living Wind. Only assembled Sable rotors with Create windmill sails generate torque. NeoForge 1.21.1 only.
 	kineticConversionBearingEnabled = true
 	#Transmission & Linkage windmill power multiplier. 1.0 uses the stronger v1.3.7 wind-drive balance; higher values provide more power under load. 0 disables wind drive (drag remains).
