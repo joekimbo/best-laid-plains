@@ -1,0 +1,8 @@
+name = "plainolpatches-2.45.1+1.21.1"
+filename = "plainolpatches-2.45.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/plainolpatches-2.45.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "42ba2bb49440bd26a5887eb72461b68d134e46a7400549e6533a99129d957bd9582e6b86ba52e491cd571969a426c06a2267bcf5ac2f02bff52556fb68458d36"

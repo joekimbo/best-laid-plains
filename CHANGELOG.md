@@ -1,5 +1,37 @@
 # Best Laid Plains: changelog
 
+## 0.43.0 (2026-11-25)
+
+- added cobblemon-conveniences-0.39.0.jar
+- added dynamicroots-0.61.0.jar
+- added plainolpatches-2.45.1+1.21.1.jar
+- removed cobblemon-conveniences-0.38.1.jar
+- removed CobblemonTrialsEdition-neoforge-2.2.0.jar
+- removed dynamicroots-0.60.2.jar
+- removed plainolpatches-2.40.0+1.21.1.jar
+
+Tickets closed since the last release:
+- DEF-04: Begging (future, only if non-intrusive)
+- DR-37: Mangrove stilt roots: design revision for water
+- DR-63: Fire: roots survive, resprout, ash flush (SPEC 2.8)
+- GEN-249: Can't make a hopper with sophisticated storage chests
+- GEN-250: Tooltip is drawn below the hunger bar.
+- GEN-253: Remove dyes from the traders' menu. They're incredibly low-value and just deg...
+- GEN-288: Can't copy banners.
+- GEN-292: Tombstones no longer spawn at the top of a lava pool.
+- GEN-305: Batter recipe should accept flour in lieu of wheat but not fried eggs in lieu...
+- GEN-314: Filter Dynamic Trees' harmless 'Detected setBlock in a far chunk' log lines (thousands per night during pregeneration)
+- GEN-338: Axes shouldn't swing at nonhostile mobs not directly under the crosshair. It...
+- GEN-356: Bring Cobblemon 1.8.4 and the Alpha update round to the main pack
+- GEN-360: Halve the bevels wandering traders offer
+- GEN-361: Cobblemon Trials Edition: update only if 3.0.1 fixes our problems, else remove it
+- GEN-362: Intermittent boot failure: Catnip StitchedSprite list race (null sprite at atlas stitch)
+- GEN-363: Blazes do not appear to naturally spawn.
+- GEN-366: Add Create: Wooden Sails, Escalated, SubElevators
+- GEN-369: Sliding glass door animation is overridden.
+- GEN-372: Can we get a recipe to crush/macerate burnt logs into charcoal dust or someth...
+- SRS-02: Walls aren't removed by Effortless Building undo feature properly.
+
 ## 0.42.0 (2026-11-25)
 
 - added cobblemon-conveniences-0.38.1.jar

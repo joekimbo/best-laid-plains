@@ -6483,8 +6483,8 @@ hash = "487b95f6c5138cbe93521f570f13c5a8b4bf10f7e85dfbe0975a8c800c9eb958"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-38-1.pw.toml"
-hash = "434922e1077a290191b86712f3111c36b5b0940e03ccddb187d17fc993e7b79b"
+file = "mods/cobblemon-conveniences-0-39-0.pw.toml"
+hash = "3cde6e3c99abc00e485bbd53a3d81747afab1e57472ef70bd589f5c5331b8b31"
 metafile = true
 
 [[files]]
@@ -6550,11 +6550,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
 hash = "f9c0771d423eb1cea0398e0fe70989cafe1d084528a3232d374cfc0e1e941196"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-trials-edition.pw.toml"
-hash = "53f8192e5dcda2c102cafd9699f0b04c6afd430c85985f239614f9f794a485cb"
 metafile = true
 
 [[files]]
@@ -6998,8 +6993,8 @@ hash = "46b7d908b379ba6bafa386dd1f4794fee673390d675f73d4b2b159780fcfc0d1"
 metafile = true
 
 [[files]]
-file = "mods/dynamicroots-0-60-2.pw.toml"
-hash = "bd65ed6c1ee4765dbf5f8cb4eeb8373dc95c11f78962ce696662d7621200fa80"
+file = "mods/dynamicroots-0-61-0.pw.toml"
+hash = "214ea104e9e2c077aed4818d190b13d5d3724e5815f78fbe075f9d34f3e037b8"
 metafile = true
 
 [[files]]
@@ -7678,8 +7673,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-40-0-1-21-1.pw.toml"
-hash = "3142580df007b1d2e9e316d9597be902cb798666febd2298cc0b29ebd4e6a39e"
+file = "mods/plainolpatches-2-45-1-1-21-1.pw.toml"
+hash = "82f5e0e016140b4f63deac8cdc99cdc22c36f1237ddb41f8c774433ea515b0e4"
 metafile = true
 
 [[files]]
