@@ -1,5 +1,9 @@
 # Best Laid Plains: changelog
 
+## 0.48.1 (2026-11-26)
+
+- The private zip has an update (IndustrialCraft 2 Classic). Your current zip still works.
+
 ## 0.48.0 (2026-11-26)
 
 - added plainolpatches-2.48.1+1.21.1.jar
