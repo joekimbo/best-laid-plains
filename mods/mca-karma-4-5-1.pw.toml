@@ -1,8 +1,0 @@
-name = "mca-karma-4.5.1"
-filename = "mca-karma-4.5.1.jar"
-side = "both"
-
-[download]
-url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/mca-karma-4.5.1.jar"
-hash-format = "sha512"
-hash = "177df8a62abeb848aae7bbd5ce3f9fd58afbd453c4b78eab94f86dafc7b9ef19ee82be341ad0cc51ee7c3f407fb19b7470741f977534bcc3c1a6685bf94b5693"

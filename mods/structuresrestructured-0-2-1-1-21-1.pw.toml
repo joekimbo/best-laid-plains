@@ -1,0 +1,8 @@
+name = "structuresrestructured-0.2.1+1.21.1"
+filename = "structuresrestructured-0.2.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/structuresrestructured-0.2.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "00b89acbba7fa660e9e84711d6432e0cc1cc52f4d5010e933884ff9b14741c7775e0b31016bf73559ea068ca7f3a0cff165bc254c9a4a47312408f1594ae34b0"

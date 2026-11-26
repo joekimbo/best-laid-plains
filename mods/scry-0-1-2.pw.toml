@@ -1,8 +1,0 @@
-name = "scry-0.1.2"
-filename = "scry-0.1.2.jar"
-side = "client"
-
-[download]
-url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/scry-0.1.2.jar"
-hash-format = "sha512"
-hash = "9068334ef9888347638e2e12e6cc7126fbf56465d5be6567f08ccbecc78fb86e6ed1a28cccdf1675776ff8a1049d4e9f899129af3e20d6ab242830d28c4b4d7a"

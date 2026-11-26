@@ -1,5 +1,31 @@
 # Best Laid Plains: changelog
 
+## 0.46.0 (2026-11-26)
+
+- added mca-karma-4.5.2.jar
+- added mca-karmic-quests-0.6.4.jar
+- added plainolpatches-2.47.3+1.21.1.jar
+- added scry-0.1.4.jar
+- added structuresrestructured-0.2.1+1.21.1.jar
+- added whenitrains-0.1.4+1.21.1.jar
+- removed mca-karma-4.5.1.jar
+- removed mca-karmic-quests-0.6.2.jar
+- removed plainolpatches-2.46.5+1.21.1.jar
+- removed scry-0.1.2.jar
+- removed structuresrestructured-0.2.0+1.21.1.jar
+- removed whenitrains-0.1.2+1.21.1.jar
+
+Tickets closed since the last release:
+- CC-72: Bonus meter (in this case, the purple Poison part) is a pixel smaller than th...
+- CCA-20: Server stalls up to 23 s: MCA's spawn queue loads unloaded chunks on the server thread (since pack 0.31.0)
+- GEN-290: This toast in the top right about Ursaluna is covered by Journeymap.
+- GEN-377: Mod listed twice in these tooltips ("Create" "Create").
+- GEN-378: Restore works, but puts blocks back in the wrong state.
+- KAR-49: Villager accepted an offering through a wall.
+- KAR-50: Tithe token displayed even though none is available.
+- KQ-12: Missing string.
+- SRS-05: Placing a single connector with Effortless Building doesn't choose the correc...
+
 ## 0.45.0 (2026-11-25)
 
 - added buggered-0.28.2.jar
