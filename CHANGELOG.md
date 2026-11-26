@@ -1,5 +1,42 @@
 # Best Laid Plains: changelog
 
+## 0.45.0 (2026-11-25)
+
+- added buggered-0.28.2.jar
+- added create_flight_control_ponders-0.2.6-mc1.21.1-neoforge.jar
+- added electrolyteboogaloo-0.1.0+1.21.1.jar
+- added framedoctor-0.2.1+1.21.1.jar
+- added plainolpatches-2.46.5+1.21.1.jar
+- added scry-0.1.2.jar
+- added silverformonsters-0.1.1+1.21.1.jar
+- added structuresrestructured-0.2.0+1.21.1.jar
+- added whenitrains-0.1.2+1.21.1.jar
+- removed buggered-0.28.1.jar
+- removed create_flight_control_ponders-0.2.5-mc1.21.1-neoforge.jar
+- removed plainolpatches-2.46.1+1.21.1.jar
+
+Tickets closed since the last release:
+- BUG-41: Report saving: show the full saving animation; on quit, finish the save for up to 3 s, then stop
+- BUG-42: SOMETHING WEIRD HAPPENED
+- CCV-02: Patrol map for linked Lodges (feature request, deferred)
+- ENG-53: Venus: cap kills from CPU oversubscription (crr28b-gate)
+- GEN-144: "Detected setBlock in a far chunk ... dynamictrees:dynamic_tree" log flood (client only)
+- GEN-167: Double rainbows with shaders are pretty aliased.
+- GEN-173: Small QOL mod that makes Dark Oak signs have light text (beige perhaps?) inst...
+- GEN-178: Survival server crash: Myths and Legends getLogger ClassCastException (log4j SimpleLoggerContext) on Pokemon spawn
+- GEN-190: Report: Skulk Shriekers don't spawn consistently. There are large segments of...
+- GEN-216: Right-clicking on a plant that's above a paveable block with a shovel should...
+- GEN-235: This wire and others like it from Electro Energistics should be removed, beca...
+- GEN-286: Weekly session health reports from JFR (frame, render, tick, GC breakdown; JFR not retained)
+- GEN-347: Ursaluna pathfinding stuck on composters.
+- GEN-352: create-tracks-ponders: add CHANGELOG.md
+- GEN-355: Transform Trials Edition spawners outside trial chambers in the existing world
+- GEN-370: Roof blocks don't seem to obey the rules of shaders.
+- PNP-94: This river got chopped up.
+- PNP-99: This river was carved poorly, and looks awful.
+- SRS-03: Can't break blocks with Effortless Building.
+- SRS-04: I placed all of these wall blocks; why are only two breakable???
+
 ## 0.44.0 (2026-11-25)
 
 - rustling_leaves-neoforge-1.21.1-2.8.0.jar -> rustling_leaves-neoforge-1.21.1-2.8.3.jar

@@ -1,0 +1,8 @@
+name = "silverformonsters-0.1.1+1.21.1"
+filename = "silverformonsters-0.1.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/silverformonsters-0.1.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "1218d9f42c299583a170cf93584a0303b53381f7e0855628625b9a9dbb8a0684fc29aea7b9a1de920df6bba576f7663c1ff981f3186961ffda44ed16cd36120e"

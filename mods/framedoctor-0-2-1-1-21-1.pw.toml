@@ -1,0 +1,8 @@
+name = "framedoctor-0.2.1+1.21.1"
+filename = "framedoctor-0.2.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/framedoctor-0.2.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "1c1131b0f0a2ac5782e3098728717f1c8c4d87c539861b2bb8ceadac1302ca2f15d60e9a15c933bbdc15cffb2ac7265d47e72bb5ad0e1e3484b4cf89406951bd"

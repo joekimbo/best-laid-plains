@@ -1,0 +1,8 @@
+name = "electrolyteboogaloo-0.1.0+1.21.1"
+filename = "electrolyteboogaloo-0.1.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/electrolyteboogaloo-0.1.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "6986f8f2338d7ae6d18a611b77d28eb98684bde846a3b6cc7fd21558a23ad05568f31efa762277cc3b458a50a1ba2750b750247f2b0312ebcd88a4b382f2eb57"
