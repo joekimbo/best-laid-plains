@@ -1,5 +1,14 @@
 # Best Laid Plains: changelog
 
+## 0.48.0 (2026-11-26)
+
+- added plainolpatches-2.48.1+1.21.1.jar
+- removed plainolpatches-2.48.0+1.21.1.jar
+
+Tickets closed since the last release:
+- GEN-367: Server serialises whole players for NBT predicates (data get / @s[nbt=])
+- GEN-375: Stickbun stalls of up to 8 s inside Sable's physics step (Rapier3D)
+
 ## 0.47.0 (2026-11-26)
 
 - added cobblemon_seasons-0.3.0.jar
