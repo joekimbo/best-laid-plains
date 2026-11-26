@@ -1,0 +1,8 @@
+name = "cobblemon_seasons-0.3.0"
+filename = "cobblemon_seasons-0.3.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/cobblemon_seasons-0.3.0.jar"
+hash-format = "sha512"
+hash = "706ceba71d5a634b075bce7b9f5b17cd14750ff28cd20fa67a3fadfc9850a646203ef5b0f7072b2542e8bbf9e55d62d38a9ef0cd6557d0b31c4d26a3a6c0662a"

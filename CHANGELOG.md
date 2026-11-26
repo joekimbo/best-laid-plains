@@ -1,5 +1,16 @@
 # Best Laid Plains: changelog
 
+## 0.47.0 (2026-11-26)
+
+- added cobblemon_seasons-0.3.0.jar
+- added cobblemoncorrections-0.3.2+1.21.1.jar
+- added plainolpatches-2.48.0+1.21.1.jar
+- removed cobblemon_seasons-0.2.0.jar
+- removed plainolpatches-2.47.3+1.21.1.jar
+
+Tickets closed since the last release:
+- PNP-131: Biome borders follow the 32-block plate-world cell grid (straight snow edges)
+
 ## 0.46.0 (2026-11-26)
 
 - added mca-karma-4.5.2.jar

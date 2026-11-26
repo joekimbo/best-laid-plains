@@ -6543,8 +6543,8 @@ hash = "1f44fd48cab11488718b912c723fa4c58237c287d0260783b969b1ac2a339882"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-seasons-0-2-0.pw.toml"
-hash = "8dafc9a2ffd99aba424dbf9f5f14db2ddbde4a513120457864c1b1f5a5707c8c"
+file = "mods/cobblemon-seasons-0-3-0.pw.toml"
+hash = "959e1a3a27acfc292d0ae8910e1aab7cdeadb55fef3f24996faecb2fc51976a3"
 metafile = true
 
 [[files]]
@@ -6565,6 +6565,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon_tp_pastures.pw.toml"
 hash = "2cb849c31c6c51e394b254850243112c6a1a93a3b3534de1ebb9add05a90dd2d"
+metafile = true
+
+[[files]]
+file = "mods/cobblemoncorrections-0-3-2-1-21-1.pw.toml"
+hash = "13a49c4ea38297311622b178e08beefbd0974520105be028f1f3213d39ba3744"
 metafile = true
 
 [[files]]
@@ -7688,8 +7693,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-47-3-1-21-1.pw.toml"
-hash = "22e4c930b7030e96c9a5da50d5d7615abc3483ca7116a6df247f3c0b417ef25c"
+file = "mods/plainolpatches-2-48-0-1-21-1.pw.toml"
+hash = "3896bcd9af0699ad7f2f78b31580caf22b1466fdad017d1b7de40399c72c76d5"
 metafile = true
 
 [[files]]

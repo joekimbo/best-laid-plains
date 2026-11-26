@@ -1,0 +1,8 @@
+name = "cobblemoncorrections-0.3.2+1.21.1"
+filename = "cobblemoncorrections-0.3.2+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/cobblemoncorrections-0.3.2%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "e6fb1ce0e43e5c062c0e973e0b40c8510297ebf7cd74478690a8a30a91783d2124d9ed3674a02194b841e93fe195d361006c66a9a6db1297afb6ac8700f45708"
