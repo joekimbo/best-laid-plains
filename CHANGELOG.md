@@ -1,5 +1,25 @@
 # Best Laid Plains: changelog
 
+## 0.49.0 (2026-11-26)
+
+- added cobblemon-conveniences-0.40.0.jar
+- added plainolpatches-2.49.0+1.21.1.jar
+- removed cobblemon-conveniences-0.39.0.jar
+- removed cobblemon_industries-neoforge-1.5.0.jar
+- removed cobblemore_lib-neoforge-1.2.10.jar
+- removed magic_vibe_decorations-1.0.7-neoforge-1.21.1.jar
+- removed plainolpatches-2.48.1+1.21.1.jar
+- 1 config, script or data files changed
+
+Tickets closed since the last release:
+- CCV-101: Water Pokémon are classified as walkers (moverOf)
+- CCV-104: Pokémon newly released will still avoid you if you run right at them for a sh...
+- CCV-105: Magnemite gets in the way of me when I'm trying to build. Maybe we could use...
+- CCV-107: Rethinking this: We should make this require Organic Compost or Rich Soil wit...
+- CCV-99: Skeleton horse shouldn't spawn.
+- GEN-261: Rain ambience is killing my poor computer
+- GEN-368: Gap in the fence—rendering issue, since it appears when I zoom in or approach.
+
 ## 0.48.1 (2026-11-26)
 
 - The private zip has an update (IndustrialCraft 2 Classic). Your current zip still works.

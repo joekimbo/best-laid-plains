@@ -184,7 +184,7 @@ hash = "7a6a216bd7d8aafffa04a45eafe45ae68a7bfbe77b4644ef9ec577b4d236c4d3"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
-hash = "40cff1947aa79cfaf5a91ab8a7dff7e51f17173771c5bae8ac5e2d1f954d3762"
+hash = "5f44ee4e67fcf02ccaefc331f534ad3d916bdc28a17383f53821e85d048ba143"
 
 [[files]]
 file = "config/almostunified/unify.json"
@@ -6483,13 +6483,8 @@ hash = "487b95f6c5138cbe93521f570f13c5a8b4bf10f7e85dfbe0975a8c800c9eb958"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-39-0.pw.toml"
-hash = "3cde6e3c99abc00e485bbd53a3d81747afab1e57472ef70bd589f5c5331b8b31"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-create-industries.pw.toml"
-hash = "f920f707995d836b8d0629910557b08520d07d38bf16076098c90a99ac714d24"
+file = "mods/cobblemon-conveniences-0-40-0.pw.toml"
+hash = "767e93c36e713f689f89605bb5c59daf6efbbbd7deebe410f959561a37a74c05"
 metafile = true
 
 [[files]]
@@ -6575,11 +6570,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemonraidrevolution-neoforge-0-14-4.pw.toml"
 hash = "fd737fef8df32fcbb53ad2d44f46ca781a3686a122b172ec1d3867b476ee74a3"
-metafile = true
-
-[[files]]
-file = "mods/cobblemore-library.pw.toml"
-hash = "b65f2b09d07b8db21de571c3353a8a2d3386aa0ee8b3f5abb00d736c3286910b"
 metafile = true
 
 [[files]]
@@ -7483,11 +7473,6 @@ hash = "450ed5663bf1d12ffddc78eda5aa56cb7808cbdac6db8102d18461361aaa555f"
 metafile = true
 
 [[files]]
-file = "mods/magic-vibe-decorations.pw.toml"
-hash = "696e82c332bd91687bfc41ec34d4ba9603eae71e6ed21eea9eee53af20a7d4f4"
-metafile = true
-
-[[files]]
 file = "mods/map-without-stopping.pw.toml"
 hash = "efa936e853c9c3133b34dadbc8855bcd6d2a595e77f49c8a9b357c0f28debc4e"
 metafile = true
@@ -7693,8 +7678,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-48-1-1-21-1.pw.toml"
-hash = "068bf01ae3ce77ae8adda69ee41ed940c4a6f8bcd8620c1ff4f5e044c9926cdf"
+file = "mods/plainolpatches-2-49-0-1-21-1.pw.toml"
+hash = "808408aa3f406d8659413c9d593b25b9f20ec55144a1c095cb4e5eceedfff3fd"
 metafile = true
 
 [[files]]

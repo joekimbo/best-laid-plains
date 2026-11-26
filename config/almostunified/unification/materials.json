@@ -33,7 +33,23 @@
   "ignored_recipe_types": [
     "cucumber:shaped_tag"
   ],
-  "ignored_recipe_ids": [],
+  "ignored_recipe_ids": [
+    "create:crushing/zinc_ore",
+    "create:crushing/deepslate_zinc_ore",
+    "create:crushing/copper_ore",
+    "create:crushing/deepslate_copper_ore",
+    "create:crushing/iron_ore",
+    "create:crushing/deepslate_iron_ore",
+    "create:crushing/gold_ore",
+    "create:crushing/deepslate_gold_ore",
+    "create:crushing/lapis_ore",
+    "create:crushing/deepslate_lapis_ore",
+    "create:crushing/emerald_ore",
+    "create:crushing/deepslate_emerald_ore",
+    "create:crushing/diamond_ore",
+    "create:crushing/deepslate_diamond_ore",
+    "create:crushing/nether_gold_ore"
+  ],
   "recipe_viewer_hiding": true,
   "loot_unification": false,
   "ignored_loot_tables": []
