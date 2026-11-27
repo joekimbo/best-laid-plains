@@ -1,5 +1,29 @@
 # Best Laid Plains: changelog
 
+## 0.51.0 (2026-11-27)
+
+- added framedoctor-0.2.2+1.21.1.jar
+- added mca-karma-4.6.0.jar
+- added plainolpatches-2.52.2+1.21.1.jar
+- added whenitrains-0.1.6+1.21.1.jar
+- removed framedoctor-0.2.1+1.21.1.jar
+- removed mca-karma-4.5.2.jar
+- removed plainolpatches-2.51.0+1.21.1.jar
+- removed whenitrains-0.1.5+1.21.1.jar
+- 1 config, script or data files changed
+
+Tickets closed since the last release:
+- CCV-110: These combees are all hovering in place like their AI is frozen.
+- CR-09: Display Link sources: windmill bearing stats and Living Wind's wind vanes
+- GEN-251: It's the middle of summer and not all the snow has melted even now.
+- GEN-358: I'm not seeing any hostile mobs spawning here. Seems like they should.
+- GEN-381: Decrease the speed at which players die due to fire asphyxiation by 50% to ma...
+- GEN-387: Big client lag spike here.
+- GEN-388: Docking connector not acceptiung liquids
+- GEN-391: Party audit log: party snapshots at login/logout/save, slot changes with reasons, VANISHED check
+- GEN-392: Worldgen 'setBlock in a far chunk' log flood near Dynamic Trees spruce
+- KAR-51: A villager should request to move to a new village (either a specific one, if...
+
 ## 0.50.0 (2026-11-27)
 
 - MoreCobblemonTweaks-neoforge-1.3.5.jar -> MoreCobblemonTweaks-neoforge-1.3.6.jar

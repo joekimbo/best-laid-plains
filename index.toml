@@ -468,7 +468,7 @@ hash = "a3a77072902cec139d8becf68441517a07324027e8e134432f0019fd9032e4fb"
 
 [[files]]
 file = "config/burnt_basic.json"
-hash = "a2f69d4f68cdb8c31abbd02e409114191648dc1a47029335a8e3c4e013029048"
+hash = "4ea32273796568d8461e207b0cbd2c89d1f21bee5063fa103c6bf4ca116ed9c5"
 
 [[files]]
 file = "config/bwncr-common.toml"
@@ -7169,8 +7169,8 @@ hash = "c490f7b680875f034af39a1556911d6edb1dcdd76a114ee6a4eca0f158cd92b2"
 metafile = true
 
 [[files]]
-file = "mods/framedoctor-0-2-1-1-21-1.pw.toml"
-hash = "a3b84517fc051e6ebf931bf5175c23e9075e6dcee84dfe2593f519ce868afbb7"
+file = "mods/framedoctor-0-2-2-1-21-1.pw.toml"
+hash = "a63d183b3e6e646a707b2ced148aeddab22d03013ddcc94d2ab5fe33ba050a49"
 metafile = true
 
 [[files]]
@@ -7494,8 +7494,8 @@ hash = "02ba8e044a69d1113eadc58eca92f959ef77bed50cdccd558d9d2b79d54589cb"
 metafile = true
 
 [[files]]
-file = "mods/mca-karma-4-5-2.pw.toml"
-hash = "2f84c12e7a463d818ecad9196e7c8fc107bc9892cf45f2a3dc4575aa45ce4621"
+file = "mods/mca-karma-4-6-0.pw.toml"
+hash = "b7909775ed59a279a409c1dad4bd38e2c2b0817c18029bd9e089267b88d515ee"
 metafile = true
 
 [[files]]
@@ -7674,8 +7674,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-51-0-1-21-1.pw.toml"
-hash = "ca60eb8b3b1c8d62e49dff97d7ef6906fe719371dd46318526c82d3177e3c312"
+file = "mods/plainolpatches-2-52-2-1-21-1.pw.toml"
+hash = "e99e7de4dbcf22c79360d11f67cbf54a9916c31456aca21e00fe49bdc82a1c20"
 metafile = true
 
 [[files]]
@@ -8099,8 +8099,8 @@ hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
 metafile = true
 
 [[files]]
-file = "mods/whenitrains-0-1-5-1-21-1.pw.toml"
-hash = "a493e6c1368799356891b10fb99666e4c8a5bbbf03bd0344bff3c3e5d7ffda7a"
+file = "mods/whenitrains-0-1-6-1-21-1.pw.toml"
+hash = "7f8618fd000eae75d81674e0652321337863bcab5e72376cbaafeae4d052c34e"
 metafile = true
 
 [[files]]

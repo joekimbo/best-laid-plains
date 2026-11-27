@@ -13,7 +13,7 @@
   "flame_arrows_ignite_creepers": true,
   "enable_flags": true,
   "enable_fire_extinguisher": true,
-  "burn_spread": 35.0,
+  "burn_spread": 30.0,
   "wood_spread": 20.0,
   "dark_oak_spread": 50.0,
   "wood_downward_spread": 15.0,
