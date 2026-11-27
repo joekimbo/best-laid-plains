@@ -1,0 +1,8 @@
+name = "whenitrains-0.1.5+1.21.1"
+filename = "whenitrains-0.1.5+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/whenitrains-0.1.5%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "79104bcfc0acbc07566746fb5acd16e9e149c485cc99c4061b87a140161173bf60ce9539b0b8d285afd31d140555a334bd0a69dd2c97880f20951f8288447a2c"

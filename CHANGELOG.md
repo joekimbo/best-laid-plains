@@ -1,5 +1,25 @@
 # Best Laid Plains: changelog
 
+## 0.50.0 (2026-11-27)
+
+- MoreCobblemonTweaks-neoforge-1.3.5.jar -> MoreCobblemonTweaks-neoforge-1.3.6.jar
+- added cobblemon-conveniences-0.42.1.jar
+- added create_renewables-2.7.1.jar
+- added plainolpatches-2.51.0+1.21.1.jar
+- added whenitrains-0.1.5+1.21.1.jar
+- removed cobblemon-conveniences-0.40.0.jar
+- removed create_renewables-2.5.3.jar
+- removed plainolpatches-2.49.0+1.21.1.jar
+- removed whenitrains-0.1.4+1.21.1.jar
+
+Tickets closed since the last release:
+- CCV-103: Conveniences balls: Cobblemon-style tooltips and ball tags
+- CCV-106: FollowMoverGameTests.aFlyerHoversNearItsOwner is not deterministic (median 3.91 vs limit 3.6 once)
+- CR-09: Display Link sources: windmill bearing stats and Living Wind's wind vanes
+- GEN-251: It's the middle of summer and not all the snow has melted even now.
+- GEN-358: I'm not seeing any hostile mobs spawning here. Seems like they should.
+- GEN-386: IC2 Rubber trees grow taller than 4 blocks now but still only drop 4 when cho...
+
 ## 0.49.0 (2026-11-26)
 
 - added cobblemon-conveniences-0.40.0.jar

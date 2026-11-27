@@ -5065,10 +5065,6 @@ file = "kubejs/data/kubejs/recipe/kjs/dtcobblemon_yellow_apricorn_seed.json"
 hash = "3f53ed848fb3f89ba60e9a2c791394001121413845412fe31e418b1c492208ee"
 
 [[files]]
-file = "kubejs/data/magic_vibe_decorations/recipe/spider_1rec_2.json"
-hash = "289f58dde6a5df193a2ad62b8d18f076ef5a76e3e906c2b88f3fc700a3a9f33f"
-
-[[files]]
 file = "kubejs/data/neoforge/data_maps/item/compostables.json"
 hash = "185d953d08e052569ccabeea58970a19d99c12c42319c8a65e95fb1eaae5b7d8"
 
@@ -6483,8 +6479,8 @@ hash = "487b95f6c5138cbe93521f570f13c5a8b4bf10f7e85dfbe0975a8c800c9eb958"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-40-0.pw.toml"
-hash = "767e93c36e713f689f89605bb5c59daf6efbbbd7deebe410f959561a37a74c05"
+file = "mods/cobblemon-conveniences-0-42-1.pw.toml"
+hash = "9df7a75d455b358b163337b0aa8178539d6e5c2682b68088cc68d65bae90f6f2"
 metafile = true
 
 [[files]]
@@ -6853,8 +6849,8 @@ hash = "5a9dc544f4dc3e4d865cb6b55fce8e7248b5d829ae69f6a6434a964284bbcf12"
 metafile = true
 
 [[files]]
-file = "mods/create-renewables-2-5-3.pw.toml"
-hash = "f43f185291b0029ec27aef4d2ef870bb34d800bc8be0e58f74e281df07c21dca"
+file = "mods/create-renewables-2-7-1.pw.toml"
+hash = "946d3eb56493c00405217b6beafd740fea08c015108d5b8321c9f69bf7f0d709"
 metafile = true
 
 [[files]]
@@ -7549,7 +7545,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-cobblemon-tweaks.pw.toml"
-hash = "27b2dff5f26087fb6d2672449ffe67301b283df851db2247550d43ffbcba3d5c"
+hash = "43ae00dbd444da61f5846fd96c9da0a715b7244652e26a20a268c78dd046fd16"
 metafile = true
 
 [[files]]
@@ -7678,8 +7674,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-49-0-1-21-1.pw.toml"
-hash = "808408aa3f406d8659413c9d593b25b9f20ec55144a1c095cb4e5eceedfff3fd"
+file = "mods/plainolpatches-2-51-0-1-21-1.pw.toml"
+hash = "ca60eb8b3b1c8d62e49dff97d7ef6906fe719371dd46318526c82d3177e3c312"
 metafile = true
 
 [[files]]
@@ -8103,8 +8099,8 @@ hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
 metafile = true
 
 [[files]]
-file = "mods/whenitrains-0-1-4-1-21-1.pw.toml"
-hash = "40b0b35682186800c9c64511c4605dadca0f5dbc03b30cf388c45ac1711b290f"
+file = "mods/whenitrains-0-1-5-1-21-1.pw.toml"
+hash = "a493e6c1368799356891b10fb99666e4c8a5bbbf03bd0344bff3c3e5d7ffda7a"
 metafile = true
 
 [[files]]
