@@ -6449,8 +6449,8 @@ hash = "fd3cf502094e8e33136397d3141c93d8732f6d3a306bb7cbc1a7c720832206e1"
 metafile = true
 
 [[files]]
-file = "mods/cobblecare-1-5-1.pw.toml"
-hash = "4f05ece046f90f022f7b7428a38400262f68fe97a3436ce3d78149affcf2f7a2"
+file = "mods/cobblecare-1-5-2.pw.toml"
+hash = "0a62c1fea5ff02131d89c63b23f4cd3daa9f7bdc9e3a1bb6f815709113ada86c"
 metafile = true
 
 [[files]]
@@ -6479,8 +6479,8 @@ hash = "487b95f6c5138cbe93521f570f13c5a8b4bf10f7e85dfbe0975a8c800c9eb958"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-conveniences-0-42-1.pw.toml"
-hash = "9df7a75d455b358b163337b0aa8178539d6e5c2682b68088cc68d65bae90f6f2"
+file = "mods/cobblemon-conveniences-0-42-3.pw.toml"
+hash = "9be15819fa4625ec7447418b395e363a7f0ffff3018e020930b20d55d80f68e6"
 metafile = true
 
 [[files]]
@@ -6559,13 +6559,13 @@ hash = "2cb849c31c6c51e394b254850243112c6a1a93a3b3534de1ebb9add05a90dd2d"
 metafile = true
 
 [[files]]
-file = "mods/cobblemoncorrections-0-3-2-1-21-1.pw.toml"
-hash = "13a49c4ea38297311622b178e08beefbd0974520105be028f1f3213d39ba3744"
+file = "mods/cobblemoncorrections-0-6-0-1-21-1.pw.toml"
+hash = "07516d0faea79dd03f0113a23f3478bf9550bf0f75c1852fe726e1b07082eab1"
 metafile = true
 
 [[files]]
-file = "mods/cobblemonraidrevolution-neoforge-0-14-4.pw.toml"
-hash = "fd737fef8df32fcbb53ad2d44f46ca781a3686a122b172ec1d3867b476ee74a3"
+file = "mods/cobblemonraidrevolution-neoforge-0-15-0.pw.toml"
+hash = "84b19a5a9254551fec63333ceeea1f81cd1bf74ce54f56e2a658bee58881c537"
 metafile = true
 
 [[files]]
@@ -7674,8 +7674,8 @@ hash = "d94791108548d174758d587440c656f1a56884083fa3151bf90b515126482435"
 metafile = true
 
 [[files]]
-file = "mods/plainolpatches-2-52-2-1-21-1.pw.toml"
-hash = "e99e7de4dbcf22c79360d11f67cbf54a9916c31456aca21e00fe49bdc82a1c20"
+file = "mods/plainolpatches-2-53-0-1-21-1.pw.toml"
+hash = "d0cbe136ec3c6ab5d417558263e504702f352b3bb02cbd438855c78e6854d71d"
 metafile = true
 
 [[files]]
@@ -7689,8 +7689,8 @@ hash = "ff0043301428da166b7cc04aec43f6f7a1b2afaa5e259d718db8cc05d8dd3bc7"
 metafile = true
 
 [[files]]
-file = "mods/plainsight-0-2-0.pw.toml"
-hash = "a023368cf311c36e481cefc7ddbd91c75c9d222cd4a2d4e44fb0794a7a3a5bc1"
+file = "mods/plainsight-0-3-0.pw.toml"
+hash = "d03ebc196945c1bcc8dd6f6bf1f90d3b102060f2d00e9dfc54e7b1641c8169fd"
 metafile = true
 
 [[files]]

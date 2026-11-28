@@ -1,5 +1,124 @@
 # Best Laid Plains: changelog
 
+## 0.52.0 (2026-11-28)
+
+- added Cobblecare-1.5.2.jar
+- added cobblemon-conveniences-0.42.3.jar
+- added cobblemoncorrections-0.6.0+1.21.1.jar
+- added cobblemonraidrevolution-neoforge-0.15.0.jar
+- added plainolpatches-2.53.0+1.21.1.jar
+- added plainsight-0.3.0.jar
+- removed Cobblecare-1.5.1.jar
+- removed cobblemon-conveniences-0.42.1.jar
+- removed cobblemoncorrections-0.3.2+1.21.1.jar
+- removed cobblemonraidrevolution-neoforge-0.14.4.jar
+- removed plainolpatches-2.52.2+1.21.1.jar
+- removed plainsight-0.2.0.jar
+
+Tickets closed since the last release:
+- BUG-28: Freeze false positive on launch
+- BUG-32: Optional keypress telemetry in Buggered reports
+- BUG-36: Submitting a bug to the server doesn't clear data from the previous report.
+- BUG-39: Going to submit a report before the previous one is submitted pulls up the re...
+- BUG-41: Report saving: show the full saving animation; on quit, finish the save for up to 3 s, then stop
+- CC-65: Hunger bars in sidebar overlap with "released" icon.
+- CC-66: Rotten tomatoes are missing from the Poison type preferred diet.
+- CC-67: Duplication in tooltip.
+- CC-68: Using a Pokémon in battle should grant 1 friendship, once per battle, if it d...
+- CCA-19: CCA battle should let you lead with the Pokémon you have selected. I wanted t...
+- CCA-20: Server stalls up to 23 s: MCA's spawn queue loads unloaded chunks on the server thread (since pack 0.31.0)
+- CCV-100: Player party and lodge are in conflict
+- CCV-101: Water Pokémon are classified as walkers (moverOf)
+- CCV-103: Conveniences balls: Cobblemon-style tooltips and ball tags
+- CCV-104: Pokémon newly released will still avoid you if you run right at them for a sh...
+- CCV-105: Magnemite gets in the way of me when I'm trying to build. Maybe we could use...
+- CCV-106: FollowMoverGameTests.aFlyerHoversNearItsOwner is not deterministic (median 3.91 vs limit 3.6 once)
+- CCV-107: Rethinking this: We should make this require Organic Compost or Rich Soil wit...
+- CCV-55: Not a bug, but something worth checking: All random-of-type starters should b...
+- CCV-74: This log isn't rendered properly.
+- CCV-84: Followers don't seem to be aware on if they're on the same level as you, so t...
+- CCV-85: Lodge 11 patrol: 'path failed three times' recall loop repeats in the server log
+- CCV-91: Follower's walk to its post crosses the owner's personal space at turns
+- CCV-96: Zoroark Illusion battles stall on Cobblemon 1.8.4 (Showdown build 19 removed >eval)
+- CCV-99: Skeleton horse shouldn't spawn.
+- CICY-02: Compared to Mechanical Healing Machine, the I Choose You! machine is lacking...
+- CICY-10: Egg tooltip in recipe unnecessarily big.
+- CRR-29: Keep shared raid battle logs (state at disconnects)
+- DR-37: Mangrove stilt roots: design revision for water
+- DR-39: Root-threaded dirt on the surface. Intended?
+- DR-41: Dynamic Trees saplings should be compostable.
+- DR-57: Root-threaded podzol on the surface.
+- DR-63: Fire: roots survive, resprout, ash flush (SPEC 2.8)
+- DR-64: Allow tilling/pathing of root-threaded dirt, and any other properties dirt no...
+- DR-66: Trees grow under glowstone/block light (soft phototropism underground)
+- ENG-62: Harness: entity-targeted use step
+- GEN-103: Cobblemon trapped on a structure spin in place.
+- GEN-166: Pokéball entity in the middle of catching a Pokémon is referred to by Jade as...
+- GEN-168: This menu button has a string error. I can't even tell where it comes from.
+- GEN-171: Thirst was Taken 2 addon to allow you to melt snow into water.
+- GEN-172: Add recipes for purifying water in canteens/waterskins/terracotta bowls to th...
+- GEN-173: Small QOL mod that makes Dark Oak signs have light text (beige perhaps?) inst...
+- GEN-178: Survival server crash: Myths and Legends getLogger ClassCastException (log4j SimpleLoggerContext) on Pokemon spawn
+- GEN-216: Right-clicking on a plant that's above a paveable block with a shovel should...
+- GEN-239: This enchantment lacks a description
+- GEN-240: Another enchantment missing its description
+- GEN-242: There are two recipes for beetroot soup, making the same item, but one costs...
+- GEN-249: Can't make a hopper with sophisticated storage chests
+- GEN-253: Remove dyes from the traders' menu. They're incredibly low-value and just deg...
+- GEN-290: This toast in the top right about Ursaluna is covered by Journeymap.
+- GEN-292: Tombstones no longer spawn at the top of a lava pool.
+- GEN-293: Hot Air Burners
+- GEN-300: How difficult would it be to make it so that all blocks you placed using Effo...
+- GEN-301: Pressing "b" still closes the backpack when searching the stonecutter menu.
+- GEN-302: Add stairs/slabs/etc variants of Tuff to the Chisel menu.
+- GEN-305: Batter recipe should accept flour in lieu of wheat but not fried eggs in lieu...
+- GEN-308: Make terracotta bowls from ThirstWasTaken2 compatible with Farmer's Delight c...
+- GEN-311: 'data modify ... from entity @s Pos' in a tick function serializes the whole player every tick (Spawn Animations; POP positionOnly misses it)
+- GEN-314: Filter Dynamic Trees' harmless 'Detected setBlock in a far chunk' log lines (thousands per night during pregeneration)
+- GEN-318: Any item tagged #stone that doesn't already have a crushing recipe should get...
+- GEN-327: Client crash: YeetusNarratus TOGGLE_NARRATOR keybind null at first tick (intermittent)
+- GEN-328: Using revival items in raid dens does not impact the ongonig raid session but...
+- GEN-329: Raid bosses end the encounter before meeting a loss condition.
+- GEN-331: Some cobblemon keep distance out of interaction range
+- GEN-335: Recipe to grind burnt blocks (burnt logs, fences, doors, etc.) into ash with...
+- GEN-336: Burnt is way too aggressive. Even putting out a fire started with flint and s...
+- GEN-338: Axes shouldn't swing at nonhostile mobs not directly under the crosshair. It...
+- GEN-341: Incrteased yields on expensive cosmetic blocks
+- GEN-342: Allow any chest in this recipe, for compat with Sophisticated Storage.
+- GEN-343: Allow any kind of plank in this recipe.
+- GEN-344: Add the Dye Depot dyes to this recipe.
+- GEN-345: Evening disconnection crash log.
+- GEN-348: Alphas and Pride Ball catches join at most at your highest party level
+- GEN-353: Remove Magic Vibe Decorations (census, replacement map, sweep)
+- GEN-356: Bring Cobblemon 1.8.4 and the Alpha update round to the main pack
+- GEN-360: Halve the bevels wandering traders offer
+- GEN-361: Cobblemon Trials Edition: update only if 3.0.1 fixes our problems, else remove it
+- GEN-362: Intermittent boot failure: Catnip StitchedSprite list race (null sprite at atlas stitch)
+- GEN-363: Blazes do not appear to naturally spawn.
+- GEN-367: Server serialises whole players for NBT predicates (data get / @s[nbt=])
+- GEN-369: Sliding glass door animation is overridden.
+- GEN-375: Stickbun stalls of up to 8 s inside Sable's physics step (Rapier3D)
+- GEN-377: Mod listed twice in these tooltips ("Create" "Create").
+- GEN-378: Restore works, but puts blocks back in the wrong state.
+- GEN-380: Pressing Y in solo raid den puts you in spectator and cannot be undone. Promp...
+- GEN-381: Decrease the speed at which players die due to fire asphyxiation by 50% to ma...
+- GEN-387: Big client lag spike here.
+- GEN-389: MCA zombie villagers pile up near a player in a dark sealed hall (~100 in 6 min)
+- GEN-391: Party audit log: party snapshots at login/logout/save, slot changes with reasons, VANISHED check
+- IC2-16: Unable to enable/disable lossless mode on ic2 powered wrenches
+- IC2-18: Blasting recipe conflict
+- KAR-37: Need a way to un-register and reposition a site.
+- KAR-41: Villagers should be able to eat from feasts, if they can't already.
+- KAR-46: Jewelry's Karma value should be scaled by the tier of the materials.
+- KAR-47: Jewelry offerings are listed as "air" in the action bar.
+- KAR-48: Villager stuck in pit. Should try and dig his way out if stuck long enough.
+- KAR-49: Villager accepted an offering through a wall.
+- KAR-50: Tithe token displayed even though none is available.
+- KAR-51: A villager should request to move to a new village (either a specific one, if...
+- KQ-12: Missing string.
+- SRS-02: Walls aren't removed by Effortless Building undo feature properly.
+- SRS-05: Placing a single connector with Effortless Building doesn't choose the correc...
+
 ## 0.51.0 (2026-11-27)
 
 - added framedoctor-0.2.2+1.21.1.jar

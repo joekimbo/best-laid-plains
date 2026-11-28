@@ -1,8 +1,0 @@
-name = "cobblemonraidrevolution-neoforge-0.14.4"
-filename = "cobblemonraidrevolution-neoforge-0.14.4.jar"
-side = "both"
-
-[download]
-url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/cobblemonraidrevolution-neoforge-0.14.4.jar"
-hash-format = "sha512"
-hash = "ec05d0ddb5545b42fb7bc699252bb32b79de2159b09892e793b77a5e2f6cc3a5072a6ae65a37ffa25aa4ddbec70798464a297d420dd798227debc75ff21a4457"

@@ -1,0 +1,8 @@
+name = "plainsight-0.3.0"
+filename = "plainsight-0.3.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/joekimbo/best-laid-plains/releases/download/jars/plainsight-0.3.0.jar"
+hash-format = "sha512"
+hash = "51f2f7a6c23baf38531b4d9ec77fe81d61281f8ecdcd374ab0c4a1576226cd4112590e60c84407bfb0308d1b58030f9541bb6a25c720b332f9226aa64e7696b1"
